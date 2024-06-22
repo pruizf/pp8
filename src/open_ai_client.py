@@ -13,7 +13,8 @@ import prompts as pr
 import utils as ut
 
 if __name__ == "__main__":
-    reload(cf)
+    for modu in cf, pr, ut:
+        reload(modu)
     oa_client = OpenAI()
     active_models = cf.oai_models
 
@@ -35,7 +36,8 @@ if __name__ == "__main__":
             poem_text = ut.get_poem_text_by_fn(os.path.join(cf.corpus_dir, fn))
             # humor response
             print("  - Humor response", fn)
-            humor_prompt = pr.general_prompt + pr.gsep + poem_text
+            #humor_prompt = pr.general_prompt + pr.gsep + poem_text
+            humor_prompt = pr.general_prompt_json + pr.gsep + poem_text
             t1 = time.time()
             humor_completion = oa_client.chat.completions.create(
                 model=model,
@@ -50,7 +52,7 @@ if __name__ == "__main__":
             resp_time_row = pd.DataFrame({"poem_id": fn, model: td, "call_type": "humor"}, index=[0])
             resp_time_df = pd.concat([resp_time_df, resp_time_row], ignore_index=True)
             # figure out output file name
-            resp_fn = cf.response_filename_tpl.format(poem_id=fn.replace(".txt", ""), model=model.replace(".", ""))
+            resp_fn = "js2_"+cf.response_filename_tpl.format(poem_id=fn.replace(".txt", ""), model=model.replace(".", ""))
             techo_dir = os.path.join(cf.response_dir, re.sub(r"-.*", "", model))
             out_dir = os.path.join(techo_dir, model.replace(".", ""))
             out_fn = os.path.join(out_dir, resp_fn)

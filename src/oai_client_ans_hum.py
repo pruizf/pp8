@@ -1,7 +1,13 @@
 from openai import OpenAI
 client = OpenAI()
 
-all_prompt = """¿Es cómico el poeta siguiente? ¿Por qué?
+all_prompt_json = """¿Es cómico el poeta siguiente? ¿Por qué?.
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
 
 Llamarla mía y nada todo es uno
 aunque naciera en ella y siga a oscuras
@@ -41,7 +47,8 @@ completion = client.chat.completions.create(
   model="gpt-3.5-turbo",
   messages=[
     #{"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
-    {"role": "user", "content": campuzano}
+    #{"role": "user", "content": campuzano}
+    {"role": "user", "content": all_prompt_json, "response_format": "json_object"}
   ]
 )
 

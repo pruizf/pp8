@@ -5,6 +5,7 @@ import os
 # IO
 corpus_dir = "../corpus"
 metadata_file = os.path.join(corpus_dir, "metadata.tsv")
+log_dir = "../logs"
 
 response_dir = "../outputs/model_responses"
 response_filename_tpl = "humor_{poem_id}_{model}.txt"

@@ -48,7 +48,7 @@ completion = client.chat.completions.create(
   messages=[
     # {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
     # {"role": "user", "content": campuzano}
-    {"role": "user", "content": all_prompt_json, "response_format": "json_object"}
+    {"role": "user", "content": all_prompt_json}
   ]
 )
 

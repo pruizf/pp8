@@ -11,5 +11,21 @@ Da una respuesta en JSON con la siguiente estructura:
   "reason": "razón de la respuesta"
 }
 """
-complete_poem_prompt = """¿Sabes cómo continúa el poema siguiente?"""
+poem_comletion_prompt = """¿Sabes cómo continúa el poema siguiente?"""
+poem_comletion_prompt_json = """¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+"""
+
 poem_author_prompt = """¿Sabes quién es el autor o autora del poema siguiente?"""
+poem_author_prompt_json = """¿Sabes quién es el autor o autora del poema siguiente?
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "author": "nombre y apellidos del autor o autora"
+  "century": "siglo en el que vivió, en números arábigos"
+}
+"""

@@ -1,3 +1,5 @@
+"""Open AI client to see humor judgments, poem completions, and author knowledge"""
+
 from importlib import reload
 import os
 import re
@@ -201,7 +203,6 @@ if __name__ == "__main__":
   # main loop
   for model in active_models:
     print(f"# Model: {model}")
-
 
     #reuse_df = False if active_models.index(model) == 0 else True
     reuse_df = True

@@ -1,0 +1,29 @@
+¿Es cómico el poema siguiente? ¿Por qué?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
+
+
+
+A la toma de Larache
+
+¿De do, sobrino Juan, con pedorreras?
+-Señora tía, de Cagalarache
+-Sobrino, ¿y cuántos fuisteis a Alfalarache?
+-Treinta soldados en tres mil galeras.
+
+-¿Tanta gente? - Tomásmolo de veras
+-¿Desembarcasteis, Juan? -Tarde piache;
+que en dando un Santiago de azabache,
+dio la playa más moros que veneras
+
+-Luego ¿es de moros? -Sí, señora tía;
+mucha algazara, pero poca ropa
+-¿Hicieron - os los perros algún daño?
+
+No, que en ladrando con su artillería,
+a todos nos dio cámaras de popa
+Salud serían para todo el año.

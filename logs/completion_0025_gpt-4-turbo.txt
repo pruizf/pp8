@@ -1,0 +1,29 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+TAL PARA CUAL
+
+Tú de farol, yo manco de una sota,
+tú rica en vitaminas, yo desnudo,
+tú carne de gallina, yo de jota,
+tú huérfana de novio, yo viudo.
+
+Tú cuento de calleja, yo en la inopia,
+tú con queso, yo hueso de ciruela,
+tú retrato robot, yo fotocopia,
+tal para cual, yo virus, tú viruela.
+
+Yo marino mercante en tierra firme
+con ganas de matarte y de morirme,
+tú anillo de brillantes, yo Juan lanas.
+
+Tú lagrimón estilo cocodrilo,
+yo agonizando, tú tensando el hilo,
+dos pinchauvas, dos cantamañanas.

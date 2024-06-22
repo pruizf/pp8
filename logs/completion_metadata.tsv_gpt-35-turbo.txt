@@ -1,0 +1,61 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+id	title	author	centuryBirth	comic	comicElements	comment	source
+1	Soneto chino	Augusto E. Madan	19	1	1		disco
+2	A la toma de Larache	Juan de Arguijo	19	1	1		disco
+3	Patria mía	Jon Juaristi	20	1	1		original
+4	A un valentón	Miguel de Cervantes	19	1	1		disco
+5	Ripios ratoniles	Augusto E. Madan	19	1	1		disco
+6	A una nariz	Francisco de Quevedo	16	1	1		adso
+7	Maestro era de esgrima Campuzano	Miguel de Cervantes	16	1	1	commonly attributed to Cervantes	https://cvc.cervantes.es/literatura/cervantistas/coloquios/cl_VII/cl_VII_08.pdf
+8	Carta en Noviembre	Jon Juaristi	20	0	1	comic elements ‘modorra otoñal’, ‘chicharra'	original
+9	LASTICO-SEXUAL	Manuel Bernabé	19	1	1		disco
+10	SONETO	Melchor Jufré del Águila	19	1	1	comic elements repetition of sounds in last line	disco
+11	A Vinogrado, avinagrado	Jon Juaristi	20	1	1	comic elements sound play, lexical ambiguity	original
+12	A la muerte del doctor Juan Pérez de Montalbán	Matías Frigola y Picón	17	0	0		disco
+13	Soneto	Blas Sirvent	19	1	1	comic elements absurd vocabulary use (forced rhyme shared task hosted by a publication	disco
+14	Soneto	Blas Sirvent	19	1	1	comic elements absurd vocabulary use (forced rhyme shared task hosted by a publication	disco
+15	Soneto	Mariano Álvarez Robles	19	1	1	comic elements absurd vocabulary use (forced rhyme shared task hosted by a publication	disco
+16	A varios amigos tronados	Manuel Bretón de los Herreros	19	1	1		https://www.cervantesvirtual.com/obra/poesias-jocosas-humoristicas-y-festivas-del-siglo-xix--0/
+17	Al señor MAS - Soneto MASónico.	Wenceslao Ayguals de Izco	19	1	1		https://www.cervantesvirtual.com/obra/poesias-jocosas-humoristicas-y-festivas-del-siglo-xix--0/
+18	Una mañana fresca, paseando	Miguel Agustín Príncipe	19	1	1		https://www.cervantesvirtual.com/obra/poesias-jocosas-humoristicas-y-festivas-del-siglo-xix--0/
+19	¿Quieres ser liberal? Ten entendido	Anónimo	19	1	1		https://www.cervantesvirtual.com/obra/poesias-jocosas-humoristicas-y-festivas-del-siglo-xix--0/
+20	Brindó Brabo, no el padre, sino el hijo	Juan Martínez Villergas	19	1	1		https://www.cervantesvirtual.com/obra/poesias-jocosas-humoristicas-y-festivas-del-siglo-xix--0/
+21	Soneto filosófico	Manuel del Palacio	19	1	1		https://www.cervantesvirtual.com/obra/poesias-jocosas-humoristicas-y-festivas-del-siglo-xix--0/
+22	A un vate huero	Enrique Sierra Valenzuela	19	1	1		https://www.cervantesvirtual.com/obra/poesias-jocosas-humoristicas-y-festivas-del-siglo-xix--0/
+23	El botijo	Miguel Ramos Carrión	19	1	1		https://www.cervantesvirtual.com/obra/poesias-jocosas-humoristicas-y-festivas-del-siglo-xix--0/
+24	Receta para hacer sonetos	José Campo Moreno	19	1	1		https://www.cervantesvirtual.com/obra/poesias-jocosas-humoristicas-y-festivas-del-siglo-xix--0/
+25	Tal para cual	Joaquín Sabina	20	1	1		https://d2fahduf2624mg.cloudfront.net/pre_purchase_docs/BK_CUAN_000061/2020-06-23-08-49-04/bk_cuan_000061.pdf
+26	Al peregrino	Camila Lucinda	16	0	0		disco
+27	No hay otro Fray Gerundio, ni le ha habido	José Francisco de Isla, «Padre Isla»	18	1	0	comic elements referring to some major classic authors as incompetent compared to the poem’s protagonist	disco
+28	Tempestades	Emilio Mora	19	0	0		disco
+29	Sin esperanza	Manuel del Palacio	19	0	0		disco
+30	Las armas del amor	Juan Meléndez Valdés	18	0	0		disco
+31	Soneto	Juan Meléndez Valdés	18	0	0		disco
+32	Medieval	Julián del Casal	19	0	0		disco
+33	De su comedia Celos, amor y venganza	Luis Vélez de Guevara	16	0	0		disco
+34	Soneto	Francisco de Figueroa	16	0	0		disco
+35	Soneto	Carlos de la Coba Machicao	16	0	0		disco
+36	Soñé que una piedra me arrojaba	Francisco de Terrazas	16	0	0		disco
+37	Soneto	Arturo Reyes	19	0	0		disco
+38	A Julio	Nicolás Arnao	19	0	0		disco
+39	Soneto	Juan Bautista de Mesa	17	0	0		disco
+40	Tu mirada	Francisco Javier Ugarte y Pages	19	0	0		disco
+41	Anhelos	Mercedes Matamoros	19	0	0		disco
+42	El granjero	Julio Herrera y Reissig	19	0	1	comic elements some of the vocabulary, very prosaic (vegetables), and vegetables get personified with human properties	disco
+43	Al doctor Juan Pérez Montalbán	Simón Villalobos Benavides y Calatayud	17	0	0		disco
+44	Idilio salvaje – IV	Manuel José Othón	19	0	0		disco
+45	Retrato	Manuel José Othón	19	0	0		disco
+46	Revolución	José Selgas y Carrasco	19	0	0		disco
+47	Ladrar a la luna	Jacinto Verdaguer	19	0	0		disco
+48	Soñar y amar	José Gonzalo Roldán	19	0	0		disco
+49	MELANCOLÍA	Rubén Darío	19	0	0		disco
+50	SONETO AUTUMNAL AL MARQUÉS DE BRADOMÍN	Rubén Darío	19	0	0		disco

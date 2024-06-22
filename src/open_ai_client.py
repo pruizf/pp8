@@ -34,7 +34,7 @@ def get_openai_response(oa_client, model, prompt, cf):
     ],
     temperature=cf.oai_config["temperature"],
     top_p=cf.oai_config["top_p"],
-    response_format={"type": "json_object"}
+    #response_format={"type": "json_object"}
   )
   td = 1000 * (time.time() - t1)
   resp = completion.choices[0].message.content
@@ -54,6 +54,7 @@ def log_response_time(resp_time_df, fn, model, td, call_type):
   """
   resp_time_row = pd.DataFrame({"poem_id": fn.replace(".txt", ""),
                                 model: td, "call_type": call_type}, index=[0])
+  #TODO this should be a merge but when the dataframe is empty
   resp_time_df = pd.concat([resp_time_df, resp_time_row],
                            ignore_index=True)
   return resp_time_df
@@ -141,6 +142,7 @@ def process_openai_response(oa_client, model, cf, fn, poem_text, call_type):
     prompt = pr.general_prompt_json + pr.gsep + poem_text
     tpl = cf.response_filename_tpl_js
   elif call_type == "completion":
+    #TODO for completion give only the first stanza
     prompt = pr.poem_comletion_prompt_json + pr.gsep + poem_text
     tpl = cf.completion_filename_tpl_js
   else:
@@ -176,20 +178,24 @@ if __name__ == "__main__":
   for model in active_models:
     print(f"# Model: {model}")
 
-    resp_time_df = pd.DataFrame(resp_times)
 
-    reuse_df = False if active_models.index(model) == 0 else True
+    #reuse_df = False if active_models.index(model) == 0 else True
+    reuse_df = True
     if reuse_df:
       resp_time_df = pd.read_csv(cf.resp_time_df, sep="\t")
     else:
+      resp_time_df = pd.DataFrame(resp_times)
       resp_time_df = resp_time_df.astype(
         {"poem_id": "int64", "gpt-3.5-turbo": "float64", "gpt-4": "float64",
          "gpt-4-turbo": "float64", "gpt-4o": "float64", "call_type": "category"})
 
     for fn in sorted(os.listdir(cf.corpus_dir)):
+      if fn == "metadata.tsv":
+        continue
       print("- Start poem:", fn)
       poem_text = ut.get_poem_text_by_fn(os.path.join(cf.corpus_dir, fn))
-      for call_type in cf.call_types:
+      #for call_type in cf.call_types:
+      for call_type in ['humor', 'author']:
         resp_time_df = process_openai_response(
           oa_client, model, cf, fn, poem_text, call_type)
 

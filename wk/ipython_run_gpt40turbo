@@ -1,0 +1,203 @@
+In [4]: %run open_ai_client.py
+# Model: gpt-4-turbo
+- Start poem: 0001.txt
+  - Humor response 0001.txt
+  - Completion response 0001.txt
+  - Author response 0001.txt
+- Start poem: 0002.txt
+  - Humor response 0002.txt
+  - Completion response 0002.txt
+  - Author response 0002.txt
+- Start poem: 0003.txt
+  - Humor response 0003.txt
+  - Completion response 0003.txt
+  - Author response 0003.txt
+- Start poem: 0004.txt
+  - Humor response 0004.txt
+  - Completion response 0004.txt
+  - Author response 0004.txt
+- Start poem: 0005.txt
+  - Humor response 0005.txt
+  - Completion response 0005.txt
+  - Author response 0005.txt
+- Start poem: 0006.txt
+  - Humor response 0006.txt
+  - Completion response 0006.txt
+  - Author response 0006.txt
+- Start poem: 0007.txt
+  - Humor response 0007.txt
+  - Completion response 0007.txt
+  - Author response 0007.txt
+- Start poem: 0008.txt
+  - Humor response 0008.txt
+  - Completion response 0008.txt
+  - Author response 0008.txt
+- Start poem: 0009.txt
+  - Humor response 0009.txt
+  - Completion response 0009.txt
+  - Author response 0009.txt
+- Start poem: 0010.txt
+  - Humor response 0010.txt
+  - Completion response 0010.txt
+  - Author response 0010.txt
+- Start poem: 0011.txt
+  - Humor response 0011.txt
+  - Completion response 0011.txt
+  - Author response 0011.txt
+- Start poem: 0012.txt
+  - Humor response 0012.txt
+  - Completion response 0012.txt
+  - Author response 0012.txt
+- Start poem: 0013.txt
+  - Humor response 0013.txt
+  - Completion response 0013.txt
+  - Author response 0013.txt
+- Start poem: 0014.txt
+  - Humor response 0014.txt
+  - Completion response 0014.txt
+  - Author response 0014.txt
+- Start poem: 0015.txt
+  - Humor response 0015.txt
+  - Completion response 0015.txt
+  - Author response 0015.txt
+- Start poem: 0016.txt
+  - Humor response 0016.txt
+  - Completion response 0016.txt
+  - Author response 0016.txt
+- Start poem: 0017.txt
+  - Humor response 0017.txt
+  - Completion response 0017.txt
+  - Author response 0017.txt
+- Start poem: 0018.txt
+  - Humor response 0018.txt
+  - Completion response 0018.txt
+  - Author response 0018.txt
+- Start poem: 0019.txt
+  - Humor response 0019.txt
+  - Completion response 0019.txt
+  - Author response 0019.txt
+- Start poem: 0020.txt
+  - Humor response 0020.txt
+  - Completion response 0020.txt
+  - Author response 0020.txt
+- Start poem: 0021.txt
+  - Humor response 0021.txt
+  - Completion response 0021.txt
+  - Author response 0021.txt
+- Start poem: 0022.txt
+  - Humor response 0022.txt
+  - Completion response 0022.txt
+  - Author response 0022.txt
+- Start poem: 0023.txt
+  - Humor response 0023.txt
+  - Completion response 0023.txt
+  - Author response 0023.txt
+- Start poem: 0024.txt
+  - Humor response 0024.txt
+  - Completion response 0024.txt
+  - Author response 0024.txt
+- Start poem: 0025.txt
+  - Humor response 0025.txt
+  - Completion response 0025.txt
+  - Author response 0025.txt
+- Start poem: 0026.txt
+  - Humor response 0026.txt
+  - Completion response 0026.txt
+  - Author response 0026.txt
+- Start poem: 0027.txt
+  - Humor response 0027.txt
+  - Completion response 0027.txt
+  - Author response 0027.txt
+- Start poem: 0028.txt
+  - Humor response 0028.txt
+  - Completion response 0028.txt
+  - Author response 0028.txt
+- Start poem: 0029.txt
+  - Humor response 0029.txt
+  - Completion response 0029.txt
+  - Author response 0029.txt
+- Start poem: 0030.txt
+  - Humor response 0030.txt
+  - Completion response 0030.txt
+  - Author response 0030.txt
+- Start poem: 0031.txt
+  - Humor response 0031.txt
+  - Completion response 0031.txt
+  - Author response 0031.txt
+- Start poem: 0032.txt
+  - Humor response 0032.txt
+  - Completion response 0032.txt
+  - Author response 0032.txt
+- Start poem: 0033.txt
+  - Humor response 0033.txt
+  - Completion response 0033.txt
+  - Author response 0033.txt
+- Start poem: 0034.txt
+  - Humor response 0034.txt
+  - Completion response 0034.txt
+  - Author response 0034.txt
+- Start poem: 0035.txt
+  - Humor response 0035.txt
+  - Completion response 0035.txt
+  - Author response 0035.txt
+- Start poem: 0036.txt
+  - Humor response 0036.txt
+  - Completion response 0036.txt
+  - Author response 0036.txt
+- Start poem: 0037.txt
+  - Humor response 0037.txt
+  - Completion response 0037.txt
+  - Author response 0037.txt
+- Start poem: 0038.txt
+  - Humor response 0038.txt
+  - Completion response 0038.txt
+  - Author response 0038.txt
+- Start poem: 0039.txt
+  - Humor response 0039.txt
+  - Completion response 0039.txt
+  - Author response 0039.txt
+- Start poem: 0040.txt
+  - Humor response 0040.txt
+  - Completion response 0040.txt
+  - Author response 0040.txt
+- Start poem: 0041.txt
+  - Humor response 0041.txt
+  - Completion response 0041.txt
+  - Author response 0041.txt
+- Start poem: 0042.txt
+  - Humor response 0042.txt
+  - Completion response 0042.txt
+  - Author response 0042.txt
+- Start poem: 0043.txt
+  - Humor response 0043.txt
+  - Completion response 0043.txt
+  - Author response 0043.txt
+- Start poem: 0044.txt
+  - Humor response 0044.txt
+  - Completion response 0044.txt
+  - Author response 0044.txt
+- Start poem: 0045.txt
+  - Humor response 0045.txt
+  - Completion response 0045.txt
+  - Author response 0045.txt
+- Start poem: 0046.txt
+  - Humor response 0046.txt
+  - Completion response 0046.txt
+  - Author response 0046.txt
+- Start poem: 0047.txt
+  - Humor response 0047.txt
+  - Completion response 0047.txt
+  - Author response 0047.txt
+- Start poem: 0048.txt
+  - Humor response 0048.txt
+  - Completion response 0048.txt
+  - Author response 0048.txt
+- Start poem: 0049.txt
+  - Humor response 0049.txt
+  - Completion response 0049.txt
+  - Author response 0049.txt
+- Start poem: 0050.txt
+  - Humor response 0050.txt
+  - Completion response 0050.txt
+  - Author response 0050.txt
+

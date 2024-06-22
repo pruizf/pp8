@@ -117,6 +117,27 @@ def log_prompt_to_file(cf, fn, tpl, model, prompt):
     f.write(prompt)
 
 
+def prepare_poem_for_completion_prompt(poem_text, n=4):
+  """
+  Prepare the poem for the completion prompt by returning only the first stanza
+  or the first lines after the title.
+
+  Args:
+      poem_text (str): The text of the poem.
+      n (int): The number of lines to keep. Default is 4.
+
+  Returns:
+      str: The first stanza or first four line of the poem.
+  """
+  #return poem_text.split("\n\n")[0]
+  lines = poem_text.split("\n")
+  lines_no_blanks = [line for line in lines if len(line.strip()) > 0]
+  #title, text = lines_no_blanks[0], lines_no_blanks[1:]
+  # title is at line 0
+  keep = lines_no_blanks[1:n+1]
+  return "\n".join(keep)
+
+
 def process_openai_response(oa_client, model, cf, fn, poem_text, call_type):
   """
   Process the OpenAI response for a given text and write it to a file;
@@ -142,7 +163,7 @@ def process_openai_response(oa_client, model, cf, fn, poem_text, call_type):
     prompt = pr.general_prompt_json + pr.gsep + poem_text
     tpl = cf.response_filename_tpl_js
   elif call_type == "completion":
-    #TODO for completion give only the first stanza
+    poem_text = prepare_poem_for_completion_prompt(poem_text)
     prompt = pr.poem_comletion_prompt_json + pr.gsep + poem_text
     tpl = cf.completion_filename_tpl_js
   else:

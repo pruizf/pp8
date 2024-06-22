@@ -1,6 +1,6 @@
 """Prompts stored here."""
 
-gsep = "\n\n\n" # gen
+gsep = "\n\n\n"  # general separator
 
 general_prompt = """¿Es cómico el poema siguiente? ¿Por qué?"""
 general_prompt_json = """¿Es cómico el poema siguiente? ¿Por qué?

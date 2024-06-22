@@ -1,4 +1,5 @@
 from openai import OpenAI
+
 client = OpenAI()
 
 all_prompt_json = """¿Es cómico el poeta siguiente? ¿Por qué?.
@@ -41,13 +42,12 @@ Y con su Madalena, que le quita
 mil canas, está hecho un San Hilario.
 ¡Ved cómo nacen bienes de los males!"""
 
-
 completion = client.chat.completions.create(
-  #model="gpt-4-turbo",
+  # model="gpt-4-turbo",
   model="gpt-3.5-turbo",
   messages=[
-    #{"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
-    #{"role": "user", "content": campuzano}
+    # {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
+    # {"role": "user", "content": campuzano}
     {"role": "user", "content": all_prompt_json, "response_format": "json_object"}
   ]
 )

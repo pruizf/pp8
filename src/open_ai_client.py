@@ -15,8 +15,11 @@ import utils as ut
 if __name__ == "__main__":
   for modu in cf, pr, ut:
     reload(modu)
+
   oa_client = OpenAI()
   active_models = cf.oai_models
+
+  reuse_df = False
 
   # dataframe to store response times
   resp_times = {"poem_id": [],
@@ -25,9 +28,12 @@ if __name__ == "__main__":
                 "gpt-4o": [],
                 "call_type": []}
   resp_time_df = pd.DataFrame(resp_times)
-  resp_time_df = resp_time_df.astype(
-    {"poem_id": "int64", "gpt-3.5-turbo": "float64", "gpt-4": "float64",
-     "gpt-4-turbo": "float64", "gpt-4o": "float64", "call_type": "category"})
+  if reuse_df:
+    resp_time_df = pd.read_csv(cf.resp_time_df, sep="\t")
+  else:
+    resp_time_df = resp_time_df.astype(
+      {"poem_id": "int64", "gpt-3.5-turbo": "float64", "gpt-4": "float64",
+       "gpt-4-turbo": "float64", "gpt-4o": "float64", "call_type": "category"})
 
   # main loop
   for model in active_models:
@@ -49,7 +55,7 @@ if __name__ == "__main__":
       )
       td = 1000 * (time.time() - t1)
       humor_resp = humor_completion.choices[0].message.content
-      resp_time_row = pd.DataFrame({"poem_id": fn, model: td, "call_type": "humor"}, index=[0])
+      resp_time_row = pd.DataFrame({"poem_id": fn.replace(".txt", ""), model: td, "call_type": "humor"}, index=[0])
       resp_time_df = pd.concat([resp_time_df, resp_time_row], ignore_index=True)
       # figure out output file name
       resp_fn = cf.response_filename_tpl_js.format(poem_id=fn.replace(".txt", ""), model=model.replace(".", ""))
@@ -59,6 +65,8 @@ if __name__ == "__main__":
       # write response to file
       with open(out_fn, mode="w") as f:
         f.write(humor_resp)
+      # log response times
+      resp_time_df.to_csv(cf.resp_time_df, sep="\t", index=False)
       # poem knowledge response
       # known_text_prompt = pr.complete_poem_prompt + pr.gsep + poem_text
       # author knowledge response

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dL01jQ3k22AgeDnwl8nE3JhDRfvU",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Unas gotas tambi\u00e9n de melancol\u00eda,\\nY al suave son de b\u00facaro que choca\\nCon b\u00facaro en la fiesta de Esmirna o Troca,\\nVierte el Vinum de Glenda, Eur\u00eddice o Sabina.\\n\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162541,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 102,
+    "total_tokens": 175
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKr9SLWShkHyPrZkgjaZYqt9YxDQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Lope de Vega\"\n  ,\"century\": \"siglo XVI\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161991,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 22,
+    "prompt_tokens": 233,
+    "total_tokens": 255
+  }
+}

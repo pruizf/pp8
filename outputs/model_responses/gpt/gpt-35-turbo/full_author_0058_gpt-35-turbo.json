@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKorPnBjrNBWTFJX2kPSi5aNIIOQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Federico Garc\u00eda Lorca\",\n  \"century\": \"XX\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161849,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 22,
+    "prompt_tokens": 260,
+    "total_tokens": 282
+  }
+}

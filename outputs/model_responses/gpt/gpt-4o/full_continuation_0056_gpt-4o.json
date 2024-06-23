@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKzHQArSp9ZyrmRoCumeM7dAkO69",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Hay en el valle que mi Laura habita\\nUn rinc\u00f3n entre arbustos escondido,\\nDonde tienen las t\u00f3rtolas su nido\\nY las auras se dan amante cita.\\nAll\u00ed respira el inocente ambiente\\nDe solidaridad y paz bendita,\\nComo el oasis de frescura infinita\\nEn el ardor de un vasto continente.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162495,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 92,
+    "total_tokens": 186
+  }
+}

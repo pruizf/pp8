@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+Yo he leído mil versos inspirados
+
+en ese gran amor que nos domina
+pretendiendo contarnos la divina
+locura que nos tiene esclavizados
+¡Qué sonetos en llamas engendrados!

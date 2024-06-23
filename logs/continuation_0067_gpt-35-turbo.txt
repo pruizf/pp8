@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+A un pobre rico
+
+¡Es tu empeño ridículo, camueso!
+Yo pudiera admirarte y aun quererte,
+Maldecirte tal vez y aborrecerte;
+Envidiarte..., ¡jamás!, no doy en eso.

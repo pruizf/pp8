@@ -1,25 +1,69 @@
 {
-  "id": "chatcmpl-9dC9pDxwj9vmLOglraHCnyPzMr6ZF",
+  "id": "chatcmpl-9dKluObkc0ZvvjeFh4ap0HZughLNO",
   "choices": [
     {
       "finish_reason": "stop",
       "index": 0,
       "logprobs": null,
       "message": {
-        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico debido a su tono exagerado y pomposo, que resulta rid\u00edculo al describir el amor y la devoci\u00f3n por Nise de una manera tan exagerada y grandilocuente. Adem\u00e1s, la imagen del peregrino colgando su sombrero y esclavina en un templo como ofrenda a su amada resulta humor\u00edstica.\"\n}",
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema anterior no se considera c\u00f3mico debido a su tono serio y rom\u00e1ntico. No contiene elementos que sugieran humor o car\u00e1cter burlesco, sino que se centra en la expresi\u00f3n de sentimientos y emociones relacionadas con el amor y la belleza. La estructura m\u00e9trica y el lenguaje utilizado son propios de la poes\u00eda cl\u00e1sica, lo que contribuye a su seriedad y no a su car\u00e1cter c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 1,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema sigue una estructura y rima caracter\u00edstica de la poes\u00eda c\u00f3mica, usando un tono exagerado y rid\u00edculo para describir el amor hacia la figura de Nise. Adem\u00e1s, el uso de palabras como 'esclavina' y 'temple' a\u00f1aden un toque humor\u00edstico al poema. Por lo tanto, se puede considerar c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 2,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque parodia la forma en la que los poetas de la \u00e9poca sol\u00edan expresar su amor de una manera muy exagerada y pomposa. El uso de palabras grandilocuentes y la exageraci\u00f3n de los sentimientos rom\u00e1nticos hacen que la poes\u00eda resulte rid\u00edcula y graciosa para el lector moderno. Adem\u00e1s, la idea de un peregrino del amor que cuelga su sombrero en un templo y pone una tabla para ser invocado de manera casi religiosa es absurda y humor\u00edstica. La combinaci\u00f3n de elementos serios y elevados con situaciones rid\u00edculas da lugar a un tono c\u00f3mico en el poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 3,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"Este poema tiene elementos que podr\u00edan considerarse c\u00f3micos, como la exageraci\u00f3n en la descripci\u00f3n de la amada Nise como celestial divina y la comparaci\u00f3n del peregrino con Lope de Vega, un reconocido escritor. Sin embargo, al tratarse de un soneto cl\u00e1sico que exalta el amor y la devoci\u00f3n, su tono solemne y algo arcaico podr\u00eda restarle efecto c\u00f3mico. Por lo tanto, la respuesta es incierta ya que la percepci\u00f3n de humor puede variar seg\u00fan la interpretaci\u00f3n del lector.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 4,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema puede considerarse c\u00f3mico debido a la exageraci\u00f3n y la iron\u00eda presentes en la descripci\u00f3n del peregrino de amor. El tono de exaltaci\u00f3n y la forma en que se ridiculiza la situaci\u00f3n amorosa del protagonista pueden provocar risa en el lector, especialmente si se considera la tem\u00e1tica y el lenguaje utilizados de manera exagerada. La combinaci\u00f3n de la seriedad del tema amoroso con el tono burlesco puede resultar humor\u00edstica para algunos lectores.\"\n}",
         "role": "assistant",
         "function_call": null,
         "tool_calls": null
       }
     }
   ],
-  "created": 1719128553,
+  "created": 1719161666,
   "model": "gpt-3.5-turbo-0125",
   "object": "chat.completion",
   "system_fingerprint": null,
   "usage": {
-    "completion_tokens": 104,
-    "prompt_tokens": 239,
-    "total_tokens": 343
+    "completion_tokens": 667,
+    "prompt_tokens": 251,
+    "total_tokens": 918
   }
 }

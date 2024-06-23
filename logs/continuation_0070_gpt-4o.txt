@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+Josefa Vaca, comedianta
+
+Oye, Josefa, a quien tu bien desea,
+que es Villa-nueva aquesta vida humana,
+y a Villa-flor se pasará mañana,
+que es flor que al sol que mira lisonjea.

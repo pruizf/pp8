@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+Mal de muchos...
+
+¿No viste alguna vez del rayo herido
+Desprenderse y rodar cedro gigante,
+Llenando de terror al caminante
+Entre los bosques al azar perdido?

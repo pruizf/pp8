@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+Los placeres del campo
+
+Basta de expediciones en pollino
+Y manejar el remo a lo forzado;
+Basta de merendonas en el prado,
+Y venga el coche y la sopita en vino.

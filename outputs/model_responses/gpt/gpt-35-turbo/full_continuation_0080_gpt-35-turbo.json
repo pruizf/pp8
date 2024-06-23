@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKr1fm5sYA0zbNPPMCcnzrBTN0pk",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"es un ser de calma y garbo sutil, que en su vuelo acu\u00f1a la mariposa.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161983,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 42,
+    "prompt_tokens": 109,
+    "total_tokens": 151
+  }
+}

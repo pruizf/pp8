@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKobgE6pGLwdn8kdkMRtPw5LTEfF",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"All\u00ed en secreto nos veremos un d\u00eda, y nuestras bocas all\u00e1, bajo aqu\u00e9l sa\u00faco florido, como las aves del aire entre s\u00ed, nuestro secreto se dir\u00e1n, nuestra dulce agon\u00eda que entre sombras floreci\u00f3, las espumas del hurac\u00e1n, al alba con su velo de espumas, el acto inmenso de volar, poemas de un amor, por los siglos de los siglos, la despiadada realidad.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161833,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 125,
+    "prompt_tokens": 105,
+    "total_tokens": 230
+  }
+}

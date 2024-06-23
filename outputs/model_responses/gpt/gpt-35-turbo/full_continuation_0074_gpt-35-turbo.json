@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKqO3fs7BtqTBzEbjMc24YSm6Zwi",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Insidioso es, como su p\u00e9rfido amo,\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161944,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 29,
+    "prompt_tokens": 107,
+    "total_tokens": 136
+  }
+}

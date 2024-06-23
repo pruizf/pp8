@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dL1mTEyKtBvE9TOJjX7l0ubTp7WI",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que de este compuesto a lo divino \\nla sucia lengua envenenada mueve, \\npasando con ardor lo que no bebe \\nde la destila v\u00edvida de lino.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162650,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 97,
+    "total_tokens": 154
+  }
+}

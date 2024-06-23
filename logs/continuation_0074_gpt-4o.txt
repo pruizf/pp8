@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+A Jorge de Tovar
+
+Este es el sólo de este tiempo dino
+tribuno vil de la judaica plebe,
+que no conoce a Dios, a quien se atreve,
+secretario ladrón, fabril rabino.

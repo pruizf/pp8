@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+¡Del universo alado peregrino
+
+águila audaz, tu portentoso vuelo
+abraza la extensión de tierra y cielo,
+y salva los linderos del destino:
+como la mente angélica de Aquino,

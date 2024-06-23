@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dL0VaLghz9i7RO7dFhN7izhEsa71",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Quien no teme perder, deseo tenemos\\nDe buscar con ventura quien podamos;\\nPorque si con ventura la alcanzamos,\\nAl r\u00edo de su bien vado haremos.\\nMas \u00a1ay! si a la ventura codiciosa,\\nQue no sigue raz\u00f3n, sino apetito,\\nencontramos y habemos por esposa.\\nSeremos viles si en tan bajo mita\\nBuscamos paz en guerra tan costosa,\\nsoslayando los da\u00f1os que se avisan.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162571,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_888385ccad",
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 107,
+    "total_tokens": 226
+  }
+}

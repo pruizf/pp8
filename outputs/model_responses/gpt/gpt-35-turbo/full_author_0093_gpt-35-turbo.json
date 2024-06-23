@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKsDZMfidfaazDeB0uS4Dd9gI11i",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Garcilaso de la Vega\",\n  \"century\": \"XVI\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162057,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 24,
+    "prompt_tokens": 230,
+    "total_tokens": 254
+  }
+}

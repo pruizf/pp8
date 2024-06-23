@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKovFe7JDodvu5irq2Vhlpgk0mFu",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"La ciencia es la \u00fanica compa\u00f1era, sabidur\u00eda y placer son la medida; del temor y la esperanza nos libera, a la muerte la vida no da entrada.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161853,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 57,
+    "prompt_tokens": 106,
+    "total_tokens": 163
+  }
+}

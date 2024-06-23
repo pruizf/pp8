@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKqHJWU7G5cUgiunJzcJTK8GVRbx",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo siento, pero no puedo continuar el poema ya que est\u00e1 protegido por derechos de autor.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161937,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 38,
+    "prompt_tokens": 109,
+    "total_tokens": 147
+  }
+}

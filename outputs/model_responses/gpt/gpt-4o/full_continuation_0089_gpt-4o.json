@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dL3F8V5GycIychjoB6KV8QQlRL4P",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"vuelven, Se\u00f1ora, a darme el desconsuelo,\\ndice el aire mi pena en su murmullo\\ny me deja sin voz para el desvelo.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162741,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_888385ccad",
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 100,
+    "total_tokens": 152
+  }
+}

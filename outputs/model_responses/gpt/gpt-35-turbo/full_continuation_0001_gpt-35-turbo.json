@@ -1,25 +1,25 @@
 {
-  "id": "chatcmpl-9dK5IKK4fJYIwrTPPoMPXdIcBgMcI",
+  "id": "chatcmpl-9dKjq40VDPcJ13qGk78Cm6LInf3Qz",
   "choices": [
     {
       "finish_reason": "stop",
       "index": 0,
       "logprobs": null,
       "message": {
-        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Feliz es quien de ambos saborear\",\n  \"continuation\": \"sabe, la hierba y el t\u00e9: no es venenoso\",\n  \"continuation\": \"el licor su inter\u00e9s de los, tambi\u00e9n gozoso\",\n  \"continuation\": \"y traidores. \u00a1Oh qu\u00e9 poderoso\"\n}",
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo siento, no puedo proporcionar la continuaci\u00f3n de la obra ya que est\u00e1 protegida por derechos de autor\"\n}",
         "role": "assistant",
         "function_call": null,
         "tool_calls": null
       }
     }
   ],
-  "created": 1719159024,
+  "created": 1719161538,
   "model": "gpt-3.5-turbo-0125",
   "object": "chat.completion",
   "system_fingerprint": null,
   "usage": {
-    "completion_tokens": 86,
+    "completion_tokens": 41,
     "prompt_tokens": 106,
-    "total_tokens": 192
+    "total_tokens": 147
   }
 }

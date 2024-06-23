@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKr7fB8BCgs1gCZQ82Y5obnTNlm7",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"de la r\u00e1faga soberbia, espirando\\r\\nllamas de oro, en que el saber humano\\r\\na\u00fan con las puras plumas no topando\\r\\na lo inmenso s\u00f3lo eljano se aclama.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161989,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 112,
+    "total_tokens": 180
+  }
+}

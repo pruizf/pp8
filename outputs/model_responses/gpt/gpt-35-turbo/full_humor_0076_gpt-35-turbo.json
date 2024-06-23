@@ -1,0 +1,69 @@
+{
+  "id": "chatcmpl-9dKqXxkOAfDHZYcEgKy0S42W1ubQO",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque utiliza un lenguaje y una estructura propia de las composiciones humor\u00edsticas. El uso de rimas y juegos de palabras, as\u00ed como la exageraci\u00f3n de la situaci\u00f3n en la que el personaje principal se ve enfrentado a un toro enemigo, a\u00f1aden un tono humor\u00edstico a la historia. Adem\u00e1s, la iron\u00eda y el sarcasmo presente en la descripci\u00f3n de las habilidades del aguacil de corte contribuyen a generar un efecto c\u00f3mico en el lector. En resumen, la combinaci\u00f3n de elementos literarios propios del humor hacen que el poema sea percibido como c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 1,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico debido a la exageraci\u00f3n y la iron\u00eda presentes en la descripci\u00f3n de la situaci\u00f3n. Se burla de la habilidad del protagonista con los toros y juega con el doble sentido de las palabras. La imagen de un toro atacando a otro toro con un cuerno es absurda y risible, lo cual genera un efecto humor\u00edstico en el lector. Adem\u00e1s, el uso de palabras como 'decano', 'hermano' y 'cabestro', con un tono formal y pomposo, contrasta con la situaci\u00f3n c\u00f3mica descrita, generando un choque entre lo serio y lo absurdo que resulta gracioso.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 2,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque utiliza un tono burlesco y sarc\u00e1stico para describir la situaci\u00f3n de Pedro Vergel, quien a pesar de ser diestro en lidiar con toros, es derribado por un torillo enemigo. El uso de la iron\u00eda y la exageraci\u00f3n, as\u00ed como el juego de palabras con 'cuernos', contribuyen al tono humor\u00edstico del poema. Adem\u00e1s, la situaci\u00f3n absurda de un cuerno horadando a otro cuerno a\u00f1ade un elemento c\u00f3mico a la historia. En resumen, la combinaci\u00f3n de elementos c\u00f3micos y la estructura de la narrativa hacen que el poema sea considerado como c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 3,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque utiliza un tono ir\u00f3nico y humor\u00edstico para narrar la historia de Pedro Vergel, un aguacil de corte que se enfrenta a un toro enemigo. La situaci\u00f3n inusual de un cuerno horadando a otro cuerno y la iron\u00eda de que Vergel siempre se ve envuelto en situaciones con toros, hacen que el poema genere risa. Adem\u00e1s, la utilizaci\u00f3n de juegos de palabras y la exageraci\u00f3n de la habilidad de Vergel con los toros contribuyen al tono humor\u00edstico del poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 4,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico debido a la iron\u00eda y el humor presente en la situaci\u00f3n descrita. Se trata de un relato absurdo y exagerado sobre un aguacil de corte que se enfrenta a un toro y logra salir ileso. La forma en la que se narra la historia, con rimas y un tono jocoso, contribuye a su car\u00e1cter c\u00f3mico. Adem\u00e1s, la idea de un hombre que enfrenta a un toro con cuernos y sale victorioso gracias a su habilidad y suerte es algo fuera de lo com\u00fan y por lo tanto genera risa en el lector.\" \n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161953,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 810,
+    "prompt_tokens": 244,
+    "total_tokens": 1054
+  }
+}

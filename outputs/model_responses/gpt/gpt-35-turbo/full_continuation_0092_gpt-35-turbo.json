@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKs7m8izJ75QcUEhFqpcSXctAqBu",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"continuar ardiendo, pero tampoco eres de m\u00e1rmol. Sigues latiendo por Javier, aunque te has resistido a rendirte totalmente.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162051,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 118,
+    "total_tokens": 168
+  }
+}

@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+Soñé que una piedra me arrojaba
+
+quien mi querer sujeto así tenía,
+y casi ya en la boca me cogía
+una fiera que abajo me esperaba
+Yo, con temor buscando, procuraba

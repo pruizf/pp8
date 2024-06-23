@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dL4LFx0sGHdRxPRmWG4Q8rT94Anh",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"como rosa de nieve se entreabr\u00eda.\u00bb\\n\u00a1Oh, fresca Rosa de la patria m\u00eda,\\nsi al no verte, mi pecho se congela\\ncuando en la noche solitaria vela\\ncomo l\u00e1mpara tenue y mortecina,\\nes porque siempre al irse tu sombra divina\\nla tristeza me ba\u00f1a y me aquieta!\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162809,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_888385ccad",
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 106,
+    "total_tokens": 193
+  }
+}

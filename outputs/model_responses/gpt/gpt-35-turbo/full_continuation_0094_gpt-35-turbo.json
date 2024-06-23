@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKsIG4Z0kDF0PRd0NhmckUOZXcIE",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"tus manos anhelaron la frescura\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162062,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 114,
+    "total_tokens": 141
+  }
+}

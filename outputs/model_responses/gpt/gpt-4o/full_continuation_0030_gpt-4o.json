@@ -1,25 +1,25 @@
 {
-  "id": "chatcmpl-9dCD3gP701pmOE14Ta6GEkQltUwHF",
+  "id": "chatcmpl-9dKwKDuf4cGJsovkAWhLtUAp81Xzg",
   "choices": [
     {
       "finish_reason": "stop",
       "index": 0,
       "logprobs": null,
       "message": {
-        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Con tus labios, mi bien, hizo la hora\\nque eternamente ha de consumirle;\\nde tu garganta y 'no', que hizo morirme\\nmuchas veces al d\u00eda y ente flora.\"\n}",
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Las armas del amor te dispone ahora\\npara matarme, y para asombro m\u00edo,\\ntes\u00f3ralas en vos un dios imp\u00edo\\nque no quiere mi bien, mas me adora.\\n\\nVuestras armas, se\u00f1ora, amor me elige\\npara vencer mi gloria y mesura,\\nque tal regalo todo el mundo me liga.\\n\\nMas si con dulce golpe as\u00ed se cura\\nmi alma, quiero mi muerte bendiga,\\nque aun muerto, para m\u00ed vuestra hermosura.\"\n}",
         "role": "assistant",
         "function_call": null,
         "tool_calls": null
       }
     }
   ],
-  "created": 1719128753,
+  "created": 1719162312,
   "model": "gpt-4o-2024-05-13",
   "object": "chat.completion",
-  "system_fingerprint": "fp_3e7d703517",
+  "system_fingerprint": "fp_9cb5d38cf7",
   "usage": {
-    "completion_tokens": 56,
+    "completion_tokens": 121,
     "prompt_tokens": 95,
-    "total_tokens": 151
+    "total_tokens": 216
   }
 }

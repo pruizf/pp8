@@ -1,0 +1,69 @@
+{
+  "id": "chatcmpl-9dKoMA984y8MwpeijTtd5o2wO87YE",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque utiliza un tono sarc\u00e1stico y exagerado para describir situaciones cotidianas que pueden resultar inc\u00f3modas o frustrantes. Por ejemplo, la idea de pelear a bofetadas con un ingl\u00e9s o pretender durante uno o dos a\u00f1os. Estas situaciones son presentadas de una manera exagerada y rid\u00edcula, lo que puede generar humor en el lector. Adem\u00e1s, la \u00faltima frase juega con la iron\u00eda al comparar diferentes situaciones de disgusto con el disgusto de amar sin ser amado, lo cual tambi\u00e9n puede resultar c\u00f3mico por su exageraci\u00f3n.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 1,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque utiliza una exageraci\u00f3n humor\u00edstica para describir situaciones dolorosas de la vida cotidiana, como coger un hierro ardiendo o amar sin ser correspondido. El tono exagerado y absurdo de las situaciones hace que resulte c\u00f3mico para el lector, quien puede identificarse con las experiencias relatadas de una manera humor\u00edstica.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 2,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta una serie de situaciones desafortunadas de una manera ir\u00f3nica y humor\u00edstica. Aunque trata temas de dolor y desdicha, la forma en que se presentan estas situaciones, como tener botas apretadas o pelear con un ingl\u00e9s a bofetadas, resulta c\u00f3mica. Adem\u00e1s, el giro final del poema hacia la tristeza de amar sin ser amado a\u00f1ade un elemento de iron\u00eda que puede resultar humor\u00edstico para algunos lectores.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 3,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque de una manera ir\u00f3nica y exagerada presenta una serie de situaciones que provocan dolor y frustraci\u00f3n en la vida de una persona. Al mencionar acciones extremas como pelear a bofetadas con un ingl\u00e9s, sentirse frente a un animal sin percibir sus pisadas en la hierba o amar la libertad pero ser soldado, el poema utiliza un tono humor\u00edstico para resaltar la absurdidad de las situaciones. Adem\u00e1s, la \u00faltima frase que habla del disgusto de amar sin ser amado a\u00f1ade un toque de iron\u00eda que puede resultar c\u00f3mico para el lector.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 4,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque utiliza una serie de situaciones exageradas y absurdas para describir diferentes tipos de dolor y frustraci\u00f3n en la vida. La combinaci\u00f3n de situaciones extremas como pelear con un ingl\u00e9s a bofetadas, pretender durante a\u00f1os sin \u00e9xito, o pasar por hereje siendo amante de la libertad, genera un efecto c\u00f3mico y absurdo. Adem\u00e1s, la iron\u00eda presente en el \u00faltimo verso, que plantea el disgusto de amar sin ser amado como el mayor de todos los dolores, a\u00f1ade un toque humor\u00edstico a la conclusi\u00f3n del poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161818,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 699,
+    "prompt_tokens": 225,
+    "total_tokens": 924
+  }
+}

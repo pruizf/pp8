@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKqPaR6Hl4HEvFcWNVlrhnpwPrFK",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Francisco de Aldana\",\n  \"century\": \"siglo XVI\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161945,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 23,
+    "prompt_tokens": 246,
+    "total_tokens": 269
+  }
+}

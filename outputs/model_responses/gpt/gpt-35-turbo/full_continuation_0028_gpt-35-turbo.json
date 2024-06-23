@@ -1,25 +1,25 @@
 {
-  "id": "chatcmpl-9dC9xqkn12n11W24rH0XVc31TwAUt",
+  "id": "chatcmpl-9dKm7hl3f7hvF1qAdCeH4QPOJoOrm",
   "choices": [
     {
       "finish_reason": "stop",
       "index": 0,
       "logprobs": null,
       "message": {
-        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"t\u00e9trico cuadro! Acompa\u00f1ando al trueno, mudo, horroroso, un rel\u00e1mpago rasga el negro velo de la noche espes\u00edsima. Iracundo, el hurac\u00e1n, rugiendo, pasa. Todo es conmoci\u00f3n y ruido. Sobre el tonel de la muerte el mar se embiste. Ni un momento sereno; mar y nubes zigzaguean; mas bromas, que del rayo en la familia se emboza todo miedo en tal misterio.\"\n}",
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"las nubes tenebrosas cubren el cielo\"\n}",
         "role": "assistant",
         "function_call": null,
         "tool_calls": null
       }
     }
   ],
-  "created": 1719128561,
+  "created": 1719161679,
   "model": "gpt-3.5-turbo-0125",
   "object": "chat.completion",
   "system_fingerprint": null,
   "usage": {
-    "completion_tokens": 136,
+    "completion_tokens": 31,
     "prompt_tokens": 103,
-    "total_tokens": 239
+    "total_tokens": 134
   }
 }

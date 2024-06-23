@@ -1,25 +1,25 @@
 {
-  "id": "chatcmpl-9dCAwfuokWWBn18Lf9CRtN70QOmN8",
+  "id": "chatcmpl-9dKnegx9bDzyE5OSxGOyIa6Zhfw5c",
   "choices": [
     {
       "finish_reason": "stop",
       "index": 0,
       "logprobs": null,
       "message": {
-        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"el ego\u00edsmo de los fuertes. Llegaste cuando, fieros, mueren gobiernos, castas, protectores, creencias y la suma de los muertos. Y tu signo ser\u00e1 el grito de redenci\u00f3n de exiliados pobres, olvidados y hambrientos.\"\n}",
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Honda revoluci\u00f3n: ya s\u00e9 que vienes\\nNo por injusta ley, no por acaso,\\nsino porque providencial traspaso\\nla voluntad de Dios llevas en rehenes\\n\\nTu coraje y tu fe, lucha constante\\nlo que mueve tus pasos en el camino\\npor un mundo mejor, sin desatino\\ndonde todos vivamos en armon\u00eda\" \n}",
         "role": "assistant",
         "function_call": null,
         "tool_calls": null
       }
     }
   ],
-  "created": 1719128622,
+  "created": 1719161774,
   "model": "gpt-3.5-turbo-0125",
   "object": "chat.completion",
   "system_fingerprint": null,
   "usage": {
-    "completion_tokens": 87,
+    "completion_tokens": 104,
     "prompt_tokens": 100,
-    "total_tokens": 187
+    "total_tokens": 204
   }
 }

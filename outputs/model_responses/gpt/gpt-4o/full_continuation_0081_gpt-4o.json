@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dL2S29C0t3RShtbgRIhsDdeIp9Zz",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que, con osado esp\u00edritu elevado\\ndigitaba Francisco Su\u00e1rez hado,\\nmientras copiado el gallardete encanto.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162692,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 102,
+    "total_tokens": 145
+  }
+}

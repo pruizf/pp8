@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+¡LAONG-LAAN! Tu gloria, —la gloria de la diestra—
+
+infla de orgullo el alma serena de los bravos.
+Los ídolos de barro, que en medio la palestra
+se imaginaron reyes, apenas son esclavos.
+¡SAN NICOLÁS! ¡SAMPALOK! Palta a mi loa pauta

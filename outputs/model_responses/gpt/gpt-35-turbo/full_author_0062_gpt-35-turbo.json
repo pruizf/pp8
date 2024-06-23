@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKpFEM7Qi02cTmry4LvzQezNOk7c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Manuel Mar\u00eda Flores\",\n  \"century\": \"XIX\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161873,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 21,
+    "prompt_tokens": 252,
+    "total_tokens": 273
+  }
+}

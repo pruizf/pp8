@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+A propósito de un bailarín
+
+Vamos, que no es un hombre como yo,
+Ni una mujer siquiera como tú;
+Es un mono vestido de tisú,
+Que trabaja imitando lo que vio.

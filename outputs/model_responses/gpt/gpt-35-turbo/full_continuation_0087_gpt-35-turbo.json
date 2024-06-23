@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKrgArRFfAQPftSqFhEy9EctpjSH",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y en secreto el misterio le sorprende\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162024,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 30,
+    "prompt_tokens": 109,
+    "total_tokens": 139
+  }
+}

@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+No hay regla sin excepción
+
+Pasó ya la estación de los amores
+Y la edad de los sueños placentera;
+Pasó la deliciosa primavera,
+Y con ella los frutos y las flores.

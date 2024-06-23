@@ -53,7 +53,7 @@ def process_message_for_stylo(fname, md):
   return msg_txt, corpus_type
 
 
-def message_to_stylo_for_dir(msgdir, stylo_dir, md_file):
+def message_to_stylo_for_dir(msgdir, stylo_dir, md_file, max_choices=3):
   """Process a directory of responses into Stylo oppose() format."""
   md_df = pd.read_csv(md_file, sep="\t")
   # breakpoint()
@@ -61,6 +61,10 @@ def message_to_stylo_for_dir(msgdir, stylo_dir, md_file):
   out_secondary_list = []
   for fname in sorted(os.listdir(msgdir)):
     if not fname.startswith("humor"):
+      continue
+    choice_nbr = int(re.search(r"_(\d+)\.", fname).group(1))
+    assert choice_nbr is not None, f"Choice number not found in {fname}"
+    if choice_nbr > max_choices:
       continue
     msg_txt, corpus_type = process_message_for_stylo(
       os.path.join(msgdir, fname), md_df)
@@ -98,12 +102,14 @@ def get_author_info_for_dir(dname):
     with open(os.path.join(dname, fname), "r") as f:
       auth_info = json.load(f)
       au_name = auth_info["author"].strip()
-      if "Agustini" in au_name:
-        breakpoint()
+      # if "Juana" in au_name:
+      #   breakpoint()
       century = clean_century(auth_info["century"].strip())
       try:
         century = int(roman.fromRoman(century))
-      except Exception:
+      except Exception as e:
         century = int(century)
+        print(f"Error with century conversion: {e}")
     infos[os.path.basename(fname)] = [au_name, century]
     print(auth_info)
+  return infos

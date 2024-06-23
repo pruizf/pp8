@@ -22,4 +22,4 @@ if __name__ == '__main__':
       os.makedirs(mod_dir)
     techno_resp_dir = os.path.join(cf.response_dir, "gpt")
     resp_dir = os.path.join(techno_resp_dir, ut.clean_model_name(mod_name))
-    ut.message_to_stylo_for_dir(resp_dir, mod_dir, cf.metadata_file)
+    ut.message_to_stylo_for_dir(resp_dir, mod_dir, cf.metadata_file, max_choices=3)

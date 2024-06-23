@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+Tu mirada
+
+Ciego quise saber lo que es la vida,
+lo que tiene de goce y de tormento
+Pero en vano aguijé a mi pensamiento,
+en carrera veloz, suelta la brida.

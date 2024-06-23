@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+Soneto
+
+Bendito seas, Amor, perpetuamente,
+tu nombre, tu saeta, venda y fuego;
+tu nombre, por quien vivo en tal sosiego
+amado y conocido de la gente;

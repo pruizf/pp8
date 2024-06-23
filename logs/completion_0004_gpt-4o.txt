@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+A un valentón
+
+Un valentón de espátula y gregüesco
+que a la muerte mil vidas sacrifica,
+cansado del oficio de la pica,
+mas no del ejercicio picaresco,

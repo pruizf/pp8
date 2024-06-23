@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+Receta para hacer sonetos
+
+ Tómese una palabra; ejemplo, vasco;
+otra distinta luego, sea chusco,
+y búsquese, lo mismo que yo busco,
+un consonante a primer verso, chasco,

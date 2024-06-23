@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema
+}
+
+
+
+Soneto
+
+Es mi patrón el Cristo del Zapato,			
+mi devoción la Virgen de Cortina,			
+no conozco más ley que la divina,			
+mi lema es libertad, mi emblema un gato.			

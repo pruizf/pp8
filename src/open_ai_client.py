@@ -16,7 +16,7 @@ import prompts as pr
 import utils as ut
 
 
-def get_openai_response(oa_client, model, prompt, cf):
+def get_openai_response(oa_client, model, prompt, cf, call_type):
   """
   Returns Open AI response and response time.
 
@@ -38,12 +38,14 @@ def get_openai_response(oa_client, model, prompt, cf):
     temperature=cf.oai_config["temperature"],
     top_p=cf.oai_config["top_p"],
     response_format={"type": "json_object"},
-    seed=cf.oai_config["seed"]
+    #seed=cf.oai_config["seed"]
+    n=cf.oai_config["number_of_completions_humor"] \
+      if call_type == "humor" else cf.oai_config["number_of_completions_general"]
   )
   td = 1000 * (time.time() - t1)
   #breakpoint()
-  resp = completion.choices[0].message.content
-  return completion, resp, td
+  resps = [resp.message.content for resp in completion.choices]
+  return completion, resps, td
 
 
 def log_response_time(rtdf, fn, model, td, call_type):
@@ -72,7 +74,7 @@ def log_response_time(rtdf, fn, model, td, call_type):
   return rtdf
 
 
-def write_resp_message_to_file(cf, fn, tpl, model, resp):
+def write_resp_message_to_file(cf, fn, tpl, model, resps):
   """
   Write the completion message from the response to a file.
 
@@ -80,26 +82,29 @@ def write_resp_message_to_file(cf, fn, tpl, model, resp):
       cf (module): The configuration module.
       fn (str): The filename of the poem.
       tpl (str): Formatted string with template for output filename.
-        Template format is: prefix_{poem_id}_{model}.txt,
+        Template format is: prefix_{poem_id}_{model}_{choiceNbr}.txt,
         where the prefix describes the type of response
-        (humor judgment, poem completion, author, etc.).
+        (humor judgment, poem completion, author, etc.),
+        and choiceNbr identifies different completion choices.
       model (str): The model used to generate the response.
-      resp (str): The humor response from the model.
+      resps (list): List of humor responses from the model.
 
   Returns:
       None
   """
   # figure out output file name
-  resp_fn = tpl.format(
-    poem_id=fn.replace(".txt", ""),
-    model=model.replace(".", ""))
-  techno_dir = os.path.join(
-    cf.response_dir, re.sub(r"-.*", "", model))
-  out_dir = os.path.join(techno_dir, model.replace(".", ""))
-  out_fn = os.path.join(out_dir, resp_fn)
-  # write response to file
-  with open(out_fn, mode="w") as f:
-    f.write(resp)
+  for idx, resp in enumerate(resps):
+    resp_fn = tpl.format(
+      poem_id=fn.replace(".txt", ""),
+      model=model.replace(".", ""),
+      choiceNbr=idx+1)
+    techno_dir = os.path.join(
+      cf.response_dir, re.sub(r"-.*", "", model))
+    out_dir = os.path.join(techno_dir, model.replace(".", ""))
+    out_fn = os.path.join(out_dir, resp_fn)
+    # write response to file
+    with open(out_fn, mode="w") as f:
+      f.write(resp)
 
 
 def write_completion_to_file(cf, fn, tpl, model, comp: ChatCompletion):
@@ -203,19 +208,22 @@ def process_openai_response(oa_client, model, cf, fn, poem_text, call_type):
   # Define prompt and template based on call type
   if call_type == "humor":
     prompt = pr.general_prompt_json + pr.gsep + poem_text
-    tpl = cf.response_filename_tpl_js
+    tpl = cf.response_filename_tpl_js_alt
+    tpl_full = cf.response_filename_tpl_js
   elif call_type == "continuation":
     poem_text = prepare_poem_for_completion_prompt(poem_text)
     prompt = pr.poem_continuation_prompt_json + pr.gsep + poem_text
     tpl = cf.continuation_filename_tpl_js
+    tpl_full = tpl
   else:
     prompt = pr.poem_author_prompt_json + pr.gsep + poem_text
     tpl = cf.author_filename_tpl_js
+    tpl_full = tpl
 
   # Get full completion, mesage content, and write to file
-  comp, resp, resp_time = get_openai_response(
-    oa_client, model, prompt, cf)
-  write_resp_message_to_file(cf, fn, tpl, model, resp)
+  comp, resps, resp_time = get_openai_response(
+    oa_client, model, prompt, cf, call_type)
+  write_resp_message_to_file(cf, fn, tpl_full, model, resps)
   write_completion_to_file(cf, fn, cf.full_completion_pfx + tpl, model, comp)
   log_prompt_to_file(cf, fn, tpl, model, prompt)
 
@@ -252,7 +260,7 @@ if __name__ == "__main__":
         {"poem_id": "int64", "gpt-3.5-turbo": "float64", "gpt-4": "float64",
          "gpt-4-turbo": "float64", "gpt-4o": "float64", "call_type": "category"})
 
-    for fn in sorted(os.listdir(cf.corpus_dir)):
+    for fn in sorted(os.listdir(cf.corpus_dir))[0:1]:
       if fn == "metadata.tsv":
         continue
       print("- Start poem:", fn)

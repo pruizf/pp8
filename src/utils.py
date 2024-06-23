@@ -6,6 +6,7 @@ import os
 import re
 
 import pandas as pd
+import roman
 
 def clean_model_name(model_name):
   """Clean the model name for use in filenames."""
@@ -36,9 +37,11 @@ def get_humor_message_from_resp(fname):
   return json.loads(resp)["reason"]
 
 
+# Stylo part ------------------------------------------------------------------
+
 def process_message_for_stylo(fname, md):
   """Based on the metadata at `md`, figure out which corpus the
-  message belongs to for Stylo (primary or secondary)"""
+  message belongs to for Stylo oppose (primary or secondary)"""
   #breakpoint()
   msg_txt = get_humor_message_from_resp(fname)
   # figure out which corpus the message belongs to
@@ -51,7 +54,7 @@ def process_message_for_stylo(fname, md):
 
 
 def message_to_stylo_for_dir(msgdir, stylo_dir, md_file):
-  """Process a directory of responses into Stylo format."""
+  """Process a directory of responses into Stylo oppose() format."""
   md_df = pd.read_csv(md_file, sep="\t")
   # breakpoint()
   out_primary_list = []
@@ -77,3 +80,30 @@ def message_to_stylo_for_dir(msgdir, stylo_dir, md_file):
   for dname, fname, out_list in zip(dir_series, out_fn_series, out_list_series):
     with open(os.path.join(dname, fname), "w") as f:
       f.write("\n".join(out_list))
+
+
+def clean_century(st):
+  clean_st = re.sub(re.compile(r"^\s*Siglo\s*", re.I), "", st)
+  return clean_st
+
+
+# Evaluation ------------------------------------------------------------------
+
+def get_author_info_for_dir(dname):
+  """Get author info from a directory of responses."""
+  infos = {}
+  for fname in os.listdir(dname):
+    if not fname.startswith("author"):
+      continue
+    with open(os.path.join(dname, fname), "r") as f:
+      auth_info = json.load(f)
+      au_name = auth_info["author"].strip()
+      if "Agustini" in au_name:
+        breakpoint()
+      century = clean_century(auth_info["century"].strip())
+      try:
+        century = int(roman.fromRoman(century))
+      except Exception:
+        century = int(century)
+    infos[os.path.basename(fname)] = [au_name, century]
+    print(auth_info)

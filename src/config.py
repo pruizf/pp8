@@ -8,8 +8,9 @@ metadata_file = os.path.join(corpus_dir, "metadata.tsv")
 log_dir = "../logs"
 
 response_dir = "../outputs/model_responses"
-response_filename_tpl = "humor_{poem_id}_{model}.txt"
-response_filename_tpl_js = "humor_{poem_id}_{model}.json"
+response_filename_tpl = "humor_{poem_id}_{model}_{choiceNbr}.txt"
+response_filename_tpl_js = "humor_{poem_id}_{model}_{choiceNbr}.json"
+response_filename_tpl_js_alt = "humor_{poem_id}_{model}.json"
 continuation_filename_tpl = "continuation_{poem_id}_{model}.txt"
 continuation_filename_tpl_js = "continuation_{poem_id}_{model}.json"
 author_filename_tpl = "author_{poem_id}_{model}.txt"
@@ -27,7 +28,9 @@ call_types = {"humor": "humor", "continuation": "continuation", "author": "autho
 oai_config = {
   "temperature": 1,
   "top_p": 1,
-  "seed": 14
+  #"seed": 14
+  "number_of_completions_humor" : 5,
+  "number_of_completions_general" : 1
 }
 
 #oai_models = ["gpt-3.5-turbo"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]

@@ -10,6 +10,8 @@ Da una respuesta en JSON con la siguiente estructura:
   "judgement": "sí|no|incierto",
   "reason": "razón de la respuesta"
 }
+
+La longitud de la respuesta debe ser de 200 palabras.
 """
 poem_continuation_prompt = """¿Sabes cómo continúa el poema siguiente?"""
 poem_continuation_prompt_json = """¿Sabes cómo continúa el poema siguiente?

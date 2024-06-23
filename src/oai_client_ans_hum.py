@@ -4,13 +4,32 @@ client = OpenAI()
 
 all_prompt_json = """¿Es cómico el poeta siguiente? ¿Por qué?.
 
-Da una respuesta en JSON con la siguiente estructura:
+Da una respuesta en JSON, con la siguiente estructura:
 {
   "judgement": "sí|no|incierto",
   "reason": "razón de la respuesta"
 }
+La longitud de la respuesta debe ser de 200 palabras.
 
-Llamarla mía y nada todo es uno
+Pasó ya la estación de los amores
+Y la edad de los sueños placentera;
+Pasó la deliciosa primavera,
+Y con ella los frutos y las flores.
+   Pasarán de la suerte los favores
+Y de la vida la gentil quimera,
+Como pasan, cruzando por la esfera,
+Relámpagos de fuego brilladores.
+   También pasaron los instantes puros
+En que el alma a sus dichas no halló tasa,
+Ni vio para su afán diques ni muros;
+   Todo, al cabo, pasó; sólo no pasa
+Una moneda falsa de dos duros
+Que tengo hace tres meses en mi casa.
+
+
+"""
+
+"""Llamarla mía y nada todo es uno
 aunque naciera en ella y siga a oscuras
 fatigando sus tristes espesuras
 y ofrendándole un canto inoportuno.
@@ -43,13 +62,14 @@ mil canas, está hecho un San Hilario.
 ¡Ved cómo nacen bienes de los males!"""
 
 completion = client.chat.completions.create(
-  # model="gpt-4-turbo",
+  #model="gpt-4o",
   model="gpt-3.5-turbo",
   messages=[
     # {"role": "system", "content": "You are a poetic assistant, skilled in explaining complex programming concepts with creative flair."},
     # {"role": "user", "content": campuzano}
-    {"role": "user", "content": all_prompt_json}
-  ]
+    {"role": "user", "content": all_prompt_json},
+  ],
+  n=5
 )
 
 print(completion.choices[0].message)

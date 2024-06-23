@@ -1,12 +1,15 @@
-"""Open AI client to see humor judgments, poem completions, and author knowledge"""
+"""Open AI client to see humor judgments, poem continuation, and author knowledge"""
 
 from importlib import reload
+import json
 import os
 import re
 import time
 
 from openai import OpenAI
+from openai.types.chat import ChatCompletion
 import pandas as pd
+
 
 import config as cf
 import prompts as pr
@@ -34,11 +37,13 @@ def get_openai_response(oa_client, model, prompt, cf):
     ],
     temperature=cf.oai_config["temperature"],
     top_p=cf.oai_config["top_p"],
-    #response_format={"type": "json_object"}
+    response_format={"type": "json_object"},
+    seed=cf.oai_config["seed"]
   )
   td = 1000 * (time.time() - t1)
+  #breakpoint()
   resp = completion.choices[0].message.content
-  return resp, td
+  return completion, resp, td
 
 
 def log_response_time(rtdf, fn, model, td, call_type):
@@ -50,7 +55,7 @@ def log_response_time(rtdf, fn, model, td, call_type):
       fn (str): The filename of the poem.
       model (str): The model used to generate the response.
       td (float): The response time in milliseconds.
-      call_type: The type of call (humor, completion, author).
+      call_type: The type of call (humor, continuation, author).
   """
   row_for_poem = rtdf.loc[
     (rtdf["poem_id"] == int(fn.replace(".txt", ""))) &
@@ -67,9 +72,9 @@ def log_response_time(rtdf, fn, model, td, call_type):
   return rtdf
 
 
-def write_response_to_file(cf, fn, tpl, model, resp):
+def write_resp_message_to_file(cf, fn, tpl, model, resp):
   """
-  Write the response to a file.
+  Write the completion message from the response to a file.
 
   Args:
       cf (module): The configuration module.
@@ -95,6 +100,38 @@ def write_response_to_file(cf, fn, tpl, model, resp):
   # write response to file
   with open(out_fn, mode="w") as f:
     f.write(resp)
+
+
+def write_completion_to_file(cf, fn, tpl, model, comp: ChatCompletion):
+  """
+  Write the response to a file.
+
+  Args:
+      cf (module): The configuration module.
+      fn (str): The filename of the poem.
+      tpl (str): Formatted string with template for output filename.
+        Template format is: prefix_{poem_id}_{model}.txt,
+        where the prefix describes the type of response
+        (humor judgment, poem completion, author, etc.).
+      model (str): The model used to generate the response.
+      comp (ChatCompletion): Entire completion response.
+
+  Returns:
+      None
+  """
+  # figure out output file name
+  resp_fn = tpl.format(
+    poem_id=fn.replace(".txt", ""),
+    model=model.replace(".", ""))
+  techno_dir = os.path.join(
+    cf.response_dir, re.sub(r"-.*", "", model))
+  out_dir = os.path.join(techno_dir, model.replace(".", ""))
+  out_fn = os.path.join(out_dir, resp_fn)
+  # write response to file
+  comp_txt = comp.model_dump_json()
+  jso = json.loads(comp_txt)
+  with open(out_fn, mode="w") as f:
+    json.dump(jso, f, indent=2)
 
 
 def log_prompt_to_file(cf, fn, tpl, model, prompt):
@@ -155,7 +192,7 @@ def process_openai_response(oa_client, model, cf, fn, poem_text, call_type):
       cf (module): The configuration module.
       fn (str): The filename of the poem.
       poem_text (str): The text of the poem.
-      call_type (str): The type of call (humor, completion, author).
+      call_type (str): The type of call (humor, continuation, author).
 
   Returns:
       pandas.DataFrame: The updated response time dataframe.
@@ -167,18 +204,19 @@ def process_openai_response(oa_client, model, cf, fn, poem_text, call_type):
   if call_type == "humor":
     prompt = pr.general_prompt_json + pr.gsep + poem_text
     tpl = cf.response_filename_tpl_js
-  elif call_type == "completion":
+  elif call_type == "continuation":
     poem_text = prepare_poem_for_completion_prompt(poem_text)
-    prompt = pr.poem_comletion_prompt_json + pr.gsep + poem_text
-    tpl = cf.completion_filename_tpl_js
+    prompt = pr.poem_continuation_prompt_json + pr.gsep + poem_text
+    tpl = cf.continuation_filename_tpl_js
   else:
     prompt = pr.poem_author_prompt_json + pr.gsep + poem_text
     tpl = cf.author_filename_tpl_js
 
-  # Get response and write to file
-  resp, resp_time = get_openai_response(
+  # Get full completion, mesage content, and write to file
+  comp, resp, resp_time = get_openai_response(
     oa_client, model, prompt, cf)
-  write_response_to_file(cf, fn, tpl, model, resp)
+  write_resp_message_to_file(cf, fn, tpl, model, resp)
+  write_completion_to_file(cf, fn, cf.full_completion_pfx + tpl, model, comp)
   log_prompt_to_file(cf, fn, tpl, model, prompt)
 
   # Return updated response time dataframe (to reuse it in the main loop)
@@ -204,8 +242,8 @@ if __name__ == "__main__":
   for model in active_models:
     print(f"# Model: {model}")
 
-    #reuse_df = False if active_models.index(model) == 0 else True
-    reuse_df = True
+    reuse_df = False if active_models.index(model) == 0 else True
+    #reuse_df = True
     if reuse_df:
       resp_time_df = pd.read_csv(cf.resp_time_df, sep="\t")
     else:
@@ -214,7 +252,7 @@ if __name__ == "__main__":
         {"poem_id": "int64", "gpt-3.5-turbo": "float64", "gpt-4": "float64",
          "gpt-4-turbo": "float64", "gpt-4o": "float64", "call_type": "category"})
 
-    for fn in sorted(os.listdir(cf.corpus_dir)):
+    for fn in sorted(os.listdir(cf.corpus_dir))[0:1]:
       if fn == "metadata.tsv":
         continue
       print("- Start poem:", fn)

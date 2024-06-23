@@ -11,8 +11,8 @@ Da una respuesta en JSON con la siguiente estructura:
   "reason": "razón de la respuesta"
 }
 """
-poem_comletion_prompt = """¿Sabes cómo continúa el poema siguiente?"""
-poem_comletion_prompt_json = """¿Sabes cómo continúa el poema siguiente?
+poem_continuation_prompt = """¿Sabes cómo continúa el poema siguiente?"""
+poem_continuation_prompt_json = """¿Sabes cómo continúa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {

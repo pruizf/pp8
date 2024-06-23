@@ -2,7 +2,7 @@
 
 import os
 
-# IO
+# IO --------------------------------------------------------------------------
 corpus_dir = "../corpus"
 metadata_file = os.path.join(corpus_dir, "metadata.tsv")
 log_dir = "../logs"
@@ -17,14 +17,13 @@ author_filename_tpl_js = "author_{poem_id}_{model}.json"
 # prefix for full completion responses
 full_completion_pfx = "full_"
 
-
 resp_time_dir = "../logs"
 #resp_time_pkl = os.path.join(resp_time_dir, "response_times.pkl")
 resp_time_df = os.path.join(resp_time_dir, "response_times_df.tsv")
 
 call_types = {"humor": "humor", "continuation": "continuation", "author": "author"}
 
-# Open AI
+# Open AI ---------------------------------------------------------------------
 oai_config = {
   "temperature": 1,
   "top_p": 1,
@@ -36,3 +35,7 @@ oai_config = {
 oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
 #oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
 
+# Analysis --------------------------------------------------------------------
+
+stylo_dir = "../ana/stylo"
+stylo_corpus_dir = os.path.join(stylo_dir, "gpt")

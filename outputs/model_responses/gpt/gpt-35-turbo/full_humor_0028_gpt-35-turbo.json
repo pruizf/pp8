@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9wCwFWZKalRLF1jWrqW3wgP9z9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema trata sobre una tempestad y su impacto en la naturaleza, no tiene elementos claramente c\u00f3micos.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128560,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 225,
+    "total_tokens": 268
+  }
+}

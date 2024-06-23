@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDliQwGQQ7YJZy5kaZaU7qNn5zz",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"a quien nacer le vino en el gemido\\ndel fuego, de s\u00ed mismo en s\u00ed nacido,\\ntan grande maravilla en breve vida\\nde su luciente muerte fue medida,\\nque en vida muerto al mundo fue debido.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128797,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 100,
+    "total_tokens": 165
+  }
+}

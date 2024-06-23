@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCB4ZbZASMyfzmLjBJaTztG058ar",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Gustavo Adolfo B\u00e9cquer\",\n  \"century\": \"XIX\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128630,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 26,
+    "prompt_tokens": 257,
+    "total_tokens": 283
+  }
+}

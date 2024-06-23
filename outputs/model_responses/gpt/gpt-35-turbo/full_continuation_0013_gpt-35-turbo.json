@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC96pEOQtAYuamAG0xvHPg1MbncU",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Si sabes c\u00f3mo contin\u00faa el poema, por favor escr\u00edbelo para que pueda ayudarte.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128508,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 39,
+    "prompt_tokens": 111,
+    "total_tokens": 150
+  }
+}

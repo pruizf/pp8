@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCB6RTuILPuTwIFTUGT8M8OV5IG4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00bfQu\u00e9 es la gloria? Dime. -El eco dijo: 'sombras'. \u00bfQu\u00e9 es la vida? Un frenes\u00ed. Y el viento dijo: 'horas'. \u00bfQu\u00e9 es la muerte? El eco dijo: 'nada'. -\u00a1No digas nada m\u00e1s!' clam\u00f3 mi alma.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128632,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 120,
+    "total_tokens": 205
+  }
+}

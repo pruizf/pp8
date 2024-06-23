@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDSgIzpqRU5RDHVDZuQHI5NFEN9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema tiene un tono serio y reflexivo, centrado en temas como el recuerdo, la naturaleza y el tiempo. No presenta elementos c\u00f3micos o humor\u00edsticos que indiquen una intenci\u00f3n de hacer re\u00edr al lector.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128778,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 191,
+    "total_tokens": 251
+  }
+}

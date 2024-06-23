@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAVk0NhfGjGDOUfclIC0mfF5sNi",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00bfSabes qui\u00e9n soy?... Aquel que ayer sonri\u00f3, recuerda. La m\u00edstica embriaguez, el casto arrobamiento, el luminoso d\u00eda del alma en que, sorprendido, mir\u00e9 el fulgor de Dios en tu semblante. Todo fue luz y gozo y amor intenso; el mar sin fin de la celeste calma; la dicha sin ventura, la ilusi\u00f3n sin velo; el amor inmenso, el que todo lo enciende.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128595,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 98,
+    "total_tokens": 226
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9kHcXKGXlXTCGctATt91O0A8nL",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que al segundo halle, y, por un tiempo, obre: aqu\u00ed, un segundo chasco; all\u00e1, un t\u00edsico; all\u00e1, un tercero que armonice, y cinco, un \u00faltimo ex\u00e9geta toso y p\u00f3stico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128548,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 108,
+    "total_tokens": 183
+  }
+}

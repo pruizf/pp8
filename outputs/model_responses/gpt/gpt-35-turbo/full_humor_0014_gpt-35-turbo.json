@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC98hObFKMHhFzrH6nkR6LB5B9Kp",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque utiliza un tono humor\u00edstico y situaciones absurdas, como un tintero siendo arrojado o un salero siendo apuntado con una escopeta. Tambi\u00e9n se juega con las palabras de forma ingeniosa.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128510,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 231,
+    "total_tokens": 304
+  }
+}

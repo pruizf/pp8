@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDuL0ENfhJGtsqj6Ed8FpzAEliA",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Revoluci\u00f3n' tiene un tono serio y solemne, centrado en temas como la justicia, la voluntad de Dios y el destino ineludible. Emplea un lenguaje formal y referencias graves como el 'hacha feroz' y el 'abominable yugo', que no son t\u00edpicas de un contexto c\u00f3mico. No hay humor, iron\u00eda o elementos l\u00fadicos que normalmente asociar\u00edamos con lo c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128806,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 213,
+    "total_tokens": 321
+  }
+}

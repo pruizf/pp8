@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCBtSMhbpZpRprmItVb5KPI1BcPv",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema tiene un tono serio y melanc\u00f3lico, reflexionando sobre la vida, la muerte y la perdurabilidad de los logros a trav\u00e9s del arte. No contiene elementos humor\u00edsticos ni situaciones c\u00f3micas.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128681,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 202,
+    "total_tokens": 262
+  }
+}

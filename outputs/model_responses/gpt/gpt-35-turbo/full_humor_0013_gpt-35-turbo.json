@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC95kufNnI1lv41tqhc24IX3idvh",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque utiliza una serie de contrastes exagerados y absurdos para describir al poeta, lo que genera un tono humor\u00edstico en el texto.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128507,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 236,
+    "total_tokens": 292
+  }
+}

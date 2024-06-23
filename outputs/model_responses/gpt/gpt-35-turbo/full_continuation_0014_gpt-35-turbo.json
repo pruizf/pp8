@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9Awh1ncQNFTh35vM5qSBPiHhvQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Sali\u00f3 de su aposento con recato, recogiendo su aljofarina; y, porque yo la vi m\u00e1s clarina, fingi\u00f3 dulce color, cual requesato.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128512,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 102,
+    "total_tokens": 162
+  }
+}

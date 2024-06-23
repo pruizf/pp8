@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCr8GChLLooUREUcvV0r6R2g1st",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"No hay hombre tan agudo ni tan fino\\nque pise sus talones ni se intrometa\\n\\nno hay quien le coja el hilo ni me peta\\nsalar con oro fino su camino.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128741,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 96,
+    "total_tokens": 156
+  }
+}

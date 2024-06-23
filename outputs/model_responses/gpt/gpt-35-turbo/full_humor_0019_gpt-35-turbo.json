@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9RuLEIb2KxX2qXYJ92MuH7KefB",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema se burla de la actitud superficial y pretenciosa de aquellos que pretenden ser liberales sin realmente entender ni vivir los valores y principios de la liberalidad. La exageraci\u00f3n de los requisitos y comportamientos rid\u00edculos para ser considerado liberal lo convierte en un poema c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128529,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 204,
+    "total_tokens": 291
+  }
+}

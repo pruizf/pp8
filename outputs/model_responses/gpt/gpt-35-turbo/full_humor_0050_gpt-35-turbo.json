@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCB8Bfr7rDnPTJxePHr9EQjcOTKr",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta un tono ir\u00f3nico y c\u00f3mico al exagerar la solemnidad con la que se dirige al Marqu\u00e9s de Bradom\u00edn y la pomposidad con la que describe situaciones cotidianas, como la presencia de una paloma o un m\u00e1rmol desnudo. Adem\u00e1s, juega con la idea de la excesiva exaltaci\u00f3n de la literatura y las relaciones sociales, lo cual resulta humor\u00edstico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128634,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 269,
+    "total_tokens": 382
+  }
+}

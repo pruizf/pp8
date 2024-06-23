@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCB2oPmNT6b1SPE367aUp9F1ops9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un lenguaje po\u00e9tico y rom\u00e1ntico para describir un sue\u00f1o que resulta c\u00f3mico por la exageraci\u00f3n de las im\u00e1genes y la forma en que se narra la situaci\u00f3n.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128628,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 244,
+    "total_tokens": 305
+  }
+}

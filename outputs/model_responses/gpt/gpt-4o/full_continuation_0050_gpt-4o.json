@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCEFgeSlGPFulkl4Sh4qxKowo58z",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Marqu\u00e9s, (como el Divino lo era) te saludo.\\nEs el oto\u00f1o y vengo de un Versalles doliente.\\nHab\u00eda mucho fr\u00edo y erraba vulgar gente.\\nEl chorro de agua de Verlaine estaba mudo.\\n\\nDesde una Francia en sombras, llego triste, sa\u00f1udo.\\nAltiva, pero tr\u00e9mula, mi diestra floreciente\\nDeja caer la p\u00e1lida rosa impenitente\\nen el m\u00e1rmol glorioso de tu semblante rudo.\\n\\n\u00a1Ah, cu\u00e1n lejos los bosques de aquella primavera,\\ntrenzados por las ninfas y por los faunos bellos,\\nque hacen que el alma vibre con su fragor ligero!\\n\\nYo canto en mis abismos por la alegr\u00eda fiera.\\nY al regreso de luna te ir\u00e9 a buscar, ya luego,\\ncon una risa, adi\u00f3s, en mi cr\u00e1neo de fuego.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128827,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 217,
+    "prompt_tokens": 115,
+    "total_tokens": 332
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAhZAWq1gxa6SrAGXOkEvddcKp3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no parece tener elementos c\u00f3micos en su contenido. Trata m\u00e1s bien sobre la relaci\u00f3n del granjero con su tierra y los productos que cultiva, as\u00ed como su laboriosidad y su honorabilidad. No se observa la presencia de humor o situaciones graciosas.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128607,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 278,
+    "total_tokens": 356
+  }
+}

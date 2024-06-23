@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDnUHCcq0oI6IRjsahiyqD6FM0x",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Idilio salvaje \u2013 IV' presenta un tono serio y melanc\u00f3lico con un lenguaje po\u00e9tico elevado y descriptivo, evocando im\u00e1genes de la naturaleza y de una figura femenina en un paisaje desolado. Las emociones transmitidas son de pasi\u00f3n, enojos e intensidad emocional, sin elementos de humor o comicidad.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128799,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 203,
+    "total_tokens": 287
+  }
+}

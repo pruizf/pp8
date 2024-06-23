@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCBrYvnqDohx9kAPokaA5mwHXSfB",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"F\u00e9lix Grande\",\n  \"century\": \"20\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128679,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 20,
+    "prompt_tokens": 231,
+    "total_tokens": 251
+  }
+}

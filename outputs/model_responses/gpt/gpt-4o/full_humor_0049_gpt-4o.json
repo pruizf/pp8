@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCE8HX47JR7jLrumQ7jXVvbvsl0e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'MELANCOL\u00cdA' tiene un tono serio y triste, reflejando una profunda sensaci\u00f3n de desasosiego y dolor del hablante. Utiliza un lenguaje melanc\u00f3lico y expresivo para describir su lucha interna, lo cual no es caracter\u00edstico del humor. Adem\u00e1s, la estructura y tem\u00e1tica del poema est\u00e1n orientadas hacia la introspecci\u00f3n y la exploraci\u00f3n de las emociones dolorosas, no hacia la comedia.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128820,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 231,
+    "total_tokens": 336
+  }
+}

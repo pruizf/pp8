@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC8vIzCJA3Y86MmJYivdNAbokRD6",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"cogiendo su mellada cabellera de oro, / en las brumas del tiempo se reconoc\u00eda el loco.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128497,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 43,
+    "prompt_tokens": 121,
+    "total_tokens": 164
+  }
+}

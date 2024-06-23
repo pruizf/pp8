@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAU6zZ4vWTRai2Q9pOOafHxKoxu",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"El poema podr\u00eda considerarse c\u00f3mico para algunos lectores debido al tono exageradamente formal y dram\u00e1tico con el que se aborda el tema. Sin embargo, otros podr\u00edan no encontrar humor en \u00e9l.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128594,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 216,
+    "total_tokens": 277
+  }
+}

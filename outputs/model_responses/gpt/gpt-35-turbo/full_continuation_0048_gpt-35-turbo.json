@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCB3qWbMlFjfK8IqFOJRR8YXqsgB",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas de improviso el lago se hizo bravo\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128629,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 29,
+    "prompt_tokens": 106,
+    "total_tokens": 135
+  }
+}

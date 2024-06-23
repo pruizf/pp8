@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCC2T5s3FaSzA8hCX88n9HZKa1YQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico debido a su uso de situaciones absurdas y di\u00e1logos incongruentes. Los eventos descritos, como un zapato enganchado en una cortina y una conversaci\u00f3n sin sentido con la confitera, generan un efecto humor\u00edstico. Adem\u00e1s, la elecci\u00f3n de palabras y los giros inesperados contribuyen a la comicidad del poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128690,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 221,
+    "total_tokens": 309
+  }
+}

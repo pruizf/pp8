@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCD1bDwrPgnO3VTf7p04WYUgIDb7",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Las armas del amor' tiene un tono serio y rom\u00e1ntico, centrado en la admiraci\u00f3n y el amor idealizado hacia la amada. Utiliza im\u00e1genes cl\u00e1sicas del amor como una fuerza poderosa que rinde al amante a trav\u00e9s de la belleza y los encantos de la amada. No hay elementos de humor, iron\u00eda o situaciones c\u00f3micas que sugieran que el prop\u00f3sito del poema sea provocar risa o diversi\u00f3n.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128751,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 105,
+    "prompt_tokens": 210,
+    "total_tokens": 315
+  }
+}

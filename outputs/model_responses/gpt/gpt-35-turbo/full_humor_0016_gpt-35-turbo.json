@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9Hx5DXwDnW5OTIaRSDMdIcX53R",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema utiliza un tono insultante y malhumorado, por lo que puede resultar ofensivo en lugar de c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128519,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 45,
+    "prompt_tokens": 242,
+    "total_tokens": 287
+  }
+}

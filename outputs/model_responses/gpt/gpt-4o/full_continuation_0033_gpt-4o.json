@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDDrAhCFD0HveAWSjAidpiYxf6e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que desde\u00f1ado silbo al viento siente;\\no en el tronco do yace sepultado\\nluego el fiero, sangriento, riguros,\\nsuspiros exhalando, el dulce acento.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128763,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 105,
+    "total_tokens": 167
+  }
+}

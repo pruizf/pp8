@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDcfPQWk48aSKmlova4vBmFCSGC",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Anhelos' no tiene intenciones humor\u00edsticas. M\u00e1s bien se trata de una declaraci\u00f3n intensa y apasionada de amor. Usa un lenguaje florido y po\u00e9tico para expresar fuertes sentimientos de deseo y amor, lo cual es t\u00edpico de la poes\u00eda rom\u00e1ntica. No hay elementos evidentes de humor o comedia en el contenido o la estructura del poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128788,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 196,
+    "total_tokens": 285
+  }
+}

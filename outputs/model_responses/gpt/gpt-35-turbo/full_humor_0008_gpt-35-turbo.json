@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC8q3sTiBdeLQG8quWhc11CZIeDV",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"El poema contiene elementos descriptivos y melanc\u00f3licos, pero no necesariamente c\u00f3micos. La percepci\u00f3n de que algo es c\u00f3mico puede variar seg\u00fan la interpretaci\u00f3n del lector.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128492,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 237,
+    "total_tokens": 297
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCADdiuPC03omdcnLaYQjgQMT7VQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"L\u00e1mina de alj\u00f4far, torna, y revuelve\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128577,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 33,
+    "prompt_tokens": 114,
+    "total_tokens": 147
+  }
+}

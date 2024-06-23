@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCxNbB2AucKlAYU08xIgitg0mdQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema expresa sentimientos profundos de tristeza, desesperanza y amargura. Utiliza met\u00e1foras de la naturaleza para describir un torrente de emociones negativas que afectan al hablante de manera intensa. No hay elementos humor\u00edsticos ni un tono alegre, lo que hace que no pueda ser considerado c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128747,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 200,
+    "total_tokens": 278
+  }
+}

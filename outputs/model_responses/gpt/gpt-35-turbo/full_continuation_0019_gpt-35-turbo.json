@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9Tql8upR6ZUOCattmbQgKH6Wow",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo que importa no es la apariencia, sino la actitud, ser liberal es ser justo y respetuoso con los dem\u00e1s.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128531,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 47,
+    "prompt_tokens": 111,
+    "total_tokens": 158
+  }
+}

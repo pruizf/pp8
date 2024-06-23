@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCBonABYv8S2obAFcFAPIss6eYhu",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no contiene elementos c\u00f3micos evidentes, como juegos de palabras humor\u00edsticos, situaciones absurdas o iron\u00edas que generen risa. El lenguaje y el tono son m\u00e1s bien serios e introspectivos, y el contenido parece explorar temas de nostalgia, conflicto y pertenencia.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128676,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 220,
+    "total_tokens": 294
+  }
+}

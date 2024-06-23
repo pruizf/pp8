@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAjBudIHWwdc8eyIpex6xp8dOTH",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Al gladiolo por su bravura, al nardo por la esencia, a la salvia por su ingenio, al crisantemo japon\u00e9s.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128609,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 123,
+    "total_tokens": 173
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCChTa5yKJAxgIjFxnaZOHVCxnQ7",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"cuando se halle el vocablo, en un frasco\\nde esencia, se selecciona el 'pachorrusco'\\ny con cautela m\u00e9zclase al arb\u00fasculo,\\nsintiendo en cada s\u00edlaba un chispasco.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128731,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 98,
+    "total_tokens": 167
+  }
+}

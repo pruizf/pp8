@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCBQdFGMhiiuit1k0qVEaafKxGlT",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que deja el oro y sigue el pedrezco,\\nque en el tractar siempre raz\u00f3n trafica,\\neno meado va, que la pr\u00e1ctica\\npodr\u00e1 m\u00e1s que el furor de un brusco fresco;\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128652,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 93,
+    "total_tokens": 154
+  }
+}

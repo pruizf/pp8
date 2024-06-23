@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCgy9ckESYnGyQIsYvGR3rLeWTQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque ofrece una receta absurda y simplista para crear sonetos, utilizando rimas forzadas y palabras aleatorias. La exageraci\u00f3n y el tono desenfadado contribuyen a su car\u00e1cter humor\u00edstico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128730,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 218,
+    "total_tokens": 280
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCyMQEFzfNwVzto7G843Y9s6Pdl",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"corren as\u00ed mis horas desdichadas,\\nllevando en su raudal todas mis glorias,\\ny en medio de revueltas y discordias,\\nde un oc\u00e9ano sin luz son enviadas.\\n\\nMis pensamientos locos de exagerar,\\nvivos en su angustia extrema,\\ndejan mi vida del dolor colmada.\\n\u00bfY quieres t\u00fa, traidora en mi condena,\\nque florezca mi paz en esta suerte,\\nsiendo el sol, pero el sol que me deniega?\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128748,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 88,
+    "total_tokens": 212
+  }
+}

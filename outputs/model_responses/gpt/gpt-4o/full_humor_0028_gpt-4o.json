@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCu2kA217ELNCQDaS6411o7JojQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Tempestades' tiene un tono serio y sombr\u00edo, reflejando temas de desolaci\u00f3n, muerte y conflicto interno. El uso de im\u00e1genes evocadoras de la naturaleza en tormenta y la descripci\u00f3n de emociones intensamente negativas sugieren un contenido dram\u00e1tico y grave, no humor\u00edstico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128744,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 204,
+    "total_tokens": 281
+  }
+}

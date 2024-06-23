@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAwfuokWWBn18Lf9CRtN70QOmN8",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"el ego\u00edsmo de los fuertes. Llegaste cuando, fieros, mueren gobiernos, castas, protectores, creencias y la suma de los muertos. Y tu signo ser\u00e1 el grito de redenci\u00f3n de exiliados pobres, olvidados y hambrientos.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128622,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 100,
+    "total_tokens": 187
+  }
+}

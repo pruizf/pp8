@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCAOXoQFqk9e1bh9l5QIJWrlKFH",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico debido al uso exagerado y repetitivo de la palabra 'MAS', lo que genera un efecto de humor y juego de palabras que sorprende al lector. La acumulaci\u00f3n de 'MAS' en diversas connotaciones crea una sensaci\u00f3n de absurdo y ligereza humor\u00edstica, destacando la habilidad del autor para jugar con el lenguaje de manera ingeniosa.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128698,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 231,
+    "total_tokens": 321
+  }
+}

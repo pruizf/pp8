@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCA4YCYYFNP4wHEDt1Qf1iN68qbU",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"En ese crisol ardiente y fragoroso,\\ninfinita materia de un deseo,\\nen gustos sin crevalles deseoso,\\nencendido el deseo en sus destellos.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128568,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 108,
+    "total_tokens": 169
+  }
+}

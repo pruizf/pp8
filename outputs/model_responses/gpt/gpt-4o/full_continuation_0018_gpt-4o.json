@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCHYeACtVHdjlCgbHL49OEXg0B2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"los frescos rayos de su frente, cuando\\nla salud vi en su frente, ans\u00ed me andaba\\nde un lazo de amor ciega me ataba\\ns\u00f3lo por ver el fresco de su mando.\\n\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128705,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 96,
+    "total_tokens": 161
+  }
+}

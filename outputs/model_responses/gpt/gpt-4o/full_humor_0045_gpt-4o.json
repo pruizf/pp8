@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDqEQOpoWOY5ByRPs7RilsgU8FQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no tiene elementos de humor. Describe un retrato con un tono melanc\u00f3lico y sombr\u00edo. Habla sobre el dolor, la tristeza y la resignaci\u00f3n ante la vida, utilizando un lenguaje serio y reflexivo. No hay ning\u00fan aspecto en el poema que sugiera una intenci\u00f3n c\u00f3mica.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128802,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 233,
+    "total_tokens": 309
+  }
+}

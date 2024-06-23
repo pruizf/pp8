@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCArdrBD10biAn9ZTtzWWW69eKKi",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta una visi\u00f3n melanc\u00f3lica y reflexiva de la vida, utilizando met\u00e1foras y descripciones detalladas que pueden resultar c\u00f3micas para algunas personas por su exageraci\u00f3n o dramatismo.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128617,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 265,
+    "total_tokens": 330
+  }
+}

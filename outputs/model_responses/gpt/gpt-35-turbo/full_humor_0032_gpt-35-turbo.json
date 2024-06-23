@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAA04fK0PLWVcVynEMfbRV5BbtZ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico, ya que trata sobre un castillo medieval, la caza y la naturaleza de forma seria y descriptiva.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128574,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 48,
+    "prompt_tokens": 229,
+    "total_tokens": 277
+  }
+}

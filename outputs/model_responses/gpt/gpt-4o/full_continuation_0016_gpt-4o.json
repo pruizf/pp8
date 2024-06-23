@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCC8D74Fr7ZBGeJUIU1EJbslLftY",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Porque no hay vino en vuestra calabaza y mil veces, \u00a1o Dios!, hab\u00e9is jurado no comparecer nunca en mi morada. Si os veo entrar en ella, enfurecido coger\u00e9 al instante una cuchilla para que a gritos del infierno os env\u00ede.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128696,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 102,
+    "total_tokens": 178
+  }
+}

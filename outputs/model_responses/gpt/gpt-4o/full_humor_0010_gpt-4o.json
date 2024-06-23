@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCBka5qDU14sOTq7m88FnZG9s4Xo",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado tiene una estructura formal de soneto y utiliza un lenguaje po\u00e9tico y elevado. No contiene humor expl\u00edcito, juegos de palabras c\u00f3micos ni situaciones c\u00f3micas que sugieran una intenci\u00f3n humor\u00edstica del autor. Por el contrario, el tono parece serio y contemplativo, enfoc\u00e1ndose en temas existenciales y filos\u00f3ficos.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128672,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 216,
+    "total_tokens": 300
+  }
+}

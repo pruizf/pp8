@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDWm9sdpQGGrQsXEGhqqxSbJN9n",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"no menos fue la acci\u00f3n esclarecida\\nque contra el gran Filipo ejecutase\\nel generoso Maced\u00f3n, y hallase\\nal temor de morir lugar de huida.\\n\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128782,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 86,
+    "total_tokens": 140
+  }
+}

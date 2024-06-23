@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAvsYPTSTVFha92azwF5uWPvsT3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema trata sobre la idea de revoluci\u00f3n y justicia divina, temas que no suelen ser c\u00f3micos. Adem\u00e1s, el tono es serio y reflexivo, no busca provocar risa.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128621,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 234,
+    "total_tokens": 294
+  }
+}

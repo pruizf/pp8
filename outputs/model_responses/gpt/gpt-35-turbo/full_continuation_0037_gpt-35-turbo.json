@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCARnAmrDuHSNo6ANvCWb7uuT4NB",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"porque desde el d\u00eda en que te vi primera, mi coraz\u00f3n no tiene paz ni dueno. Sin ti, mi vida es un desierto lleno de sombras y de penas pasajeras.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128591,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 100,
+    "total_tokens": 160
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9nRpy2wWupgZZBNwWGXFWgaoMe",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Ambos solteros, t\u00fa una ni\u00f1a, yo un hombre. T\u00fa de d\u00eda, yo de noche, t\u00fa de plata, yo de nombre, t\u00fa de duelo, yo de luto, t\u00fa de usar y yo de olvido.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128551,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 113,
+    "total_tokens": 181
+  }
+}

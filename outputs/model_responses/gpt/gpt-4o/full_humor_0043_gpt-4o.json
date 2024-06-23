@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDkd3HWdUX5XNmnNxdg60EWedgC",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema tiene un tono serio y solemne, ya que trata sobre la muerte y el legado de figuras literarias. No contiene elementos c\u00f3micos ni situaciones humor\u00edsticas.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128796,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 216,
+    "total_tokens": 266
+  }
+}

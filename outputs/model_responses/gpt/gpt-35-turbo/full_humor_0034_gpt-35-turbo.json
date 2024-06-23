@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAFHCak8m6izFYhtuFbu39v7RCj",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"Este poema no se percibe como c\u00f3mico, ya que est\u00e1 hablando de sentimientos de amor y admiraci\u00f3n hacia la figura de Amor. No contiene elementos que generen risa o humor.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128579,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 58,
+    "prompt_tokens": 214,
+    "total_tokens": 272
+  }
+}

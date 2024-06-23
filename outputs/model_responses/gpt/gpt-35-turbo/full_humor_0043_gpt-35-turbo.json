@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAlY7EXjEkzdJVAWxfG07dCUuVr",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza una comparaci\u00f3n y una met\u00e1fora po\u00e9tica para expresar la idea de la muerte de un poeta y el surgimiento de otro. Adem\u00e1s, la referencia al F\u00e9nix a\u00f1ade un tono de sorpresa y misterio que puede resultar c\u00f3mico para algunos lectores.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128611,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 235,
+    "total_tokens": 319
+  }
+}

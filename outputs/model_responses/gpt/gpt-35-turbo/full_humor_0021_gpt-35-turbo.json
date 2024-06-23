@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9ZLf7ufw9MES6USN8nQNpoZLuy",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta un juego de palabras y una sorpresa final que rompe con la seriedad y reflexi\u00f3n del resto del poema, lo cual lo hace c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128537,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 250,
+    "total_tokens": 304
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCA6uaDp0Fk6IAlDJsPCELONAIMU",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"Este poema es un soneto cl\u00e1sico de estilo renacentista que trata sobre el amor y el sufrimiento causado por este. No tiene elementos c\u00f3micos ni busca provocar risas en el lector.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128570,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 223,
+    "total_tokens": 285
+  }
+}

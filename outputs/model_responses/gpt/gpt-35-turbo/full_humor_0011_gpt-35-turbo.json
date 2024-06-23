@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC8zN51DqOqdaZCpKkfgBsqpj3EM",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un juego de palabras y una estructura versificada que le otorgan un toque c\u00f3mico y sat\u00edrico. Adem\u00e1s, la exageraci\u00f3n en las descripciones y el tono ir\u00f3nico contribuyen a su car\u00e1cter humor\u00edstico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128501,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 247,
+    "total_tokens": 320
+  }
+}

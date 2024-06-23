@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCBbnPQPU27rP6uljxn9azP1vpfy",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"mas temi\u00f3 el ocean, la gran cuchilla.\\nY aunque afarole\u00f3, fue pura orilla\\nde mares menos fieros, nunca en vano.\\nCampuzano, del miedo prisionero,\\nvivi\u00f3 al filo del mundo, gran espanto,\\nsiempre en fuga sin rumbo ni sendero.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128663,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 97,
+    "total_tokens": 180
+  }
+}

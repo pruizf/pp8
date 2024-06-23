@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAyzXy8A28HsNrvxydD0OBfyWCM",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema trata sobre la importancia de no desanimarse ante la envidia y los celos, y se toma en un tono reflexivo y motivador, no c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128624,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 244,
+    "total_tokens": 300
+  }
+}

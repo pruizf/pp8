@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCPeQYoecUUugMsYmQApnGQCjJQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"no hay raz\u00f3n para que, de arte docta y diestra,\\nlogre nombrarse en esta Junta nuestra,\\nni aun en casos de enfado, ni de alijo.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128713,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 109,
+    "total_tokens": 163
+  }
+}

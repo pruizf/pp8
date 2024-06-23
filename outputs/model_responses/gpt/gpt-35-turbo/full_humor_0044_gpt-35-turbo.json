@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAoJhH68dWslALuNkNpMF9vP8SM",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza met\u00e1foras e im\u00e1genes po\u00e9ticas para describir la escena, lo que le da un tono c\u00f3mico a la situaci\u00f3n, especialmente en la descripci\u00f3n de los ojos como un 'dardo negro de pasi\u00f3n y enojos'.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128614,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 226,
+    "total_tokens": 300
+  }
+}

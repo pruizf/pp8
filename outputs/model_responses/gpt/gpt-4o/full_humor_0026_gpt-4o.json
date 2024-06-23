@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCmM508HplwnJq00sFRhEamb1M5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Al peregrino' de Lope de Vega no parece ser c\u00f3mico. El tono es serio y rom\u00e1ntico, enfocado en el amor y la devoci\u00f3n del peregrino hacia Nise. Utiliza un lenguaje elevado y rom\u00e1ntico, propio de la poes\u00eda amorosa y formal de su \u00e9poca. No hay elementos evidentes de humor, sarcasmo o iron\u00eda que sugieran que el prop\u00f3sito del poema sea c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128736,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 209,
+    "total_tokens": 312
+  }
+}

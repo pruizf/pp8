@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC8cvYoRQpaRQKN36gX1EsWncwGR",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo que importa no es la tierra m\u00eda, sino el amor, el amor del hombre, el hombre de todos los hombres...\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128478,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 44,
+    "prompt_tokens": 111,
+    "total_tokens": 155
+  }
+}

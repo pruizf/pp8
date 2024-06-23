@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCBgqkx537iAGDY86yf50r9Dhapk",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'LASTICO-SEXUAL' no es c\u00f3mico en su naturaleza. Utiliza un lenguaje po\u00e9tico elaborado y una compleja estructura que no busca provocar la risa. M\u00e1s bien, parece estar cargado de simbolismos y juegos de palabras que requieren un an\u00e1lisis profundo. La imagen del bebedor de absenta y las referencias literarias apuntan a un tono m\u00e1s serio y contemplativo, a pesar de algunas descripciones inusuales.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128668,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 107,
+    "prompt_tokens": 245,
+    "total_tokens": 352
+  }
+}

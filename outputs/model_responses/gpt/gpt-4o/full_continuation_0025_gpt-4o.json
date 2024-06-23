@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCkHhKfznjZYGKwLGrNcNImrC4I",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"T\u00fa beata y p\u00eda, yo curda y ansioso,\\nT\u00fa dama madura, yo verde doncella.\\nT\u00fa reques\u00f3n, yo \u00e1cido jugo,\\nT\u00fa lino al viento, yo bata de franela.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128734,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 102,
+    "total_tokens": 169
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9C3yeUPHULQcpPzCNeMlj2IePM",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema tiene una serie de situaciones c\u00f3micas, como el zapato enganchado en la cortina, la confusi\u00f3n con el gato y la confitera taimada. Estos elementos crean un tono humor\u00edstico en el poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128514,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 238,
+    "total_tokens": 312
+  }
+}

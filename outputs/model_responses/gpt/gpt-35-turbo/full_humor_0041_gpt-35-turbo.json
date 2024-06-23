@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAec7uMcPbMO1LQcH0VvbjXvJRx",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"El poema podr\u00eda considerarse c\u00f3mico para algunos lectores debido al tono exagerado y melodram\u00e1tico con el que se expresan los sentimientos del narrador. Sin embargo, la interpretaci\u00f3n del humor en este caso es subjetiva y puede variar seg\u00fan la sensibilidad de cada persona.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128604,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 216,
+    "total_tokens": 296
+  }
+}

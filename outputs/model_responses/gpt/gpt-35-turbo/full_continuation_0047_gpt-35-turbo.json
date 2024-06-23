@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAzzcFWW043XHTJ17OEWVibZIfl",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Ella sigue su curso mientras ellos ladran, ignorando sus lamentos nocturnos. La luna es indiferente, siguiendo su camino sin detenerse ante las cr\u00edticas de los envidiosos. As\u00ed que no desmayes ante las cr\u00edticas y sigue brillando como la luna en la oscuridad.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128625,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 115,
+    "total_tokens": 206
+  }
+}

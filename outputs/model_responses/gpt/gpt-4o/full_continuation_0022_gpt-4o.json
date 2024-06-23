@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCaW5qB5ftitk0Vxcq0oR8IH5x9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Jam\u00e1s sali\u00f3 de su nativa rueca,\\nsalvo cuando afarolase, acaso;\\ny enanos versos que compone al paso\\nlos mece, cual Nodriza tosca y hueca.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128724,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 97,
+    "total_tokens": 157
+  }
+}

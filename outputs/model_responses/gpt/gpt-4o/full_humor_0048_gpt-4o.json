@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCE45LoP0gV21m5Yfl1kyWmqXOdp",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'So\u00f1ar y amar' no es c\u00f3mico, ya que trata sobre temas de amor, sue\u00f1os y p\u00e9rdida con un tono serio y melanc\u00f3lico. El lenguaje utilizado es po\u00e9tico y evocador, con un enfoque en la belleza y la tristeza, sin elementos de humor o comicidad.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128816,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 213,
+    "total_tokens": 289
+  }
+}

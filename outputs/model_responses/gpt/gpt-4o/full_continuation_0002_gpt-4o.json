@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCBIrtv1mjOKnbmGeIWxRXcgkyUU",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Desde Torrej\u00f3n a T\u00e1nger me me\u00e9\\ny al moro de los moros desdoncell\u00e9.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128644,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 40,
+    "prompt_tokens": 108,
+    "total_tokens": 148
+  }
+}

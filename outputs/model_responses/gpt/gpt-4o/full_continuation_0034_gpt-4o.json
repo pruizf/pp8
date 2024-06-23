@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDH8pbk1HjNhqqWXsel8ha9gjTw",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128767,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_888385ccad",
+  "usage": {
+    "completion_tokens": 16,
+    "prompt_tokens": 93,
+    "total_tokens": 109
+  }
+}

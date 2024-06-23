@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9Wic00Xg4Dmsj3VKjLiDMxql0Z",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Que monto en cliso, un semo del arco, sin flema y sonso, hijastro, menos el colmo de duelo, que cinco, tintos exijo. Un tomo, una pieza de caldero; yo cinno y demando no el Belvedere ni el Imperio magn\u00e1nimo; topacio y condado; no civismo, bromo, que Brabo v\u00e9; la pieza, el tilo miro en Pino. S\u00ed, que vio. Yo clamo.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128534,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 130,
+    "prompt_tokens": 118,
+    "total_tokens": 248
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9fknOKh5eKsSXB46o7w4i54I4T",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"El poema no es claramente c\u00f3mico, ya que se trata de un elogio a un botijo y a su capacidad para mantener el agua fr\u00eda. Sin embargo, el tono puede considerarse ir\u00f3nico o humor\u00edstico en algunos puntos, por lo que la respuesta es incierta.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128543,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 230,
+    "total_tokens": 311
+  }
+}

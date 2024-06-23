@@ -252,7 +252,7 @@ if __name__ == "__main__":
         {"poem_id": "int64", "gpt-3.5-turbo": "float64", "gpt-4": "float64",
          "gpt-4-turbo": "float64", "gpt-4o": "float64", "call_type": "category"})
 
-    for fn in sorted(os.listdir(cf.corpus_dir))[0:1]:
+    for fn in sorted(os.listdir(cf.corpus_dir)):
       if fn == "metadata.tsv":
         continue
       print("- Start poem:", fn)

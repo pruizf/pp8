@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9tc1CsTDH6U8ZPaMhLXjreOUPv",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque utiliza un lenguaje coloquial y sarc\u00e1stico para comparar a Fray Gerundio con otros oradores famosos de la \u00e9poca, utilizando un tono humor\u00edstico al exaltar las cualidades de Fray Gerundio de una manera exagerada y burlona.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128557,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 87,
+    "prompt_tokens": 246,
+    "total_tokens": 333
+  }
+}

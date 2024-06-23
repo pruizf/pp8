@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCE9e9ydlx195HJ0GFVFCtCCeCJb",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Que en el gran todo, y mil, ansiar me empe\u00f1o\\nde un alma inferior los pobres rastros.\\nPero t\u00fa que comprendes mis ruinas,\\nHermano, t\u00fa que tienes la luz, dime la m\u00eda.\\n\u00bfQu\u00e9 har\u00e9 sin que mi fuego se despida\\ncuando en la aurora se despierte el d\u00eda?\\nCuando el deseo p\u00e1lido me anuncia\\nque en la vejez se acaba la existencia\\nsin que ya suene la angustiada melod\u00eda?\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128821,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 105,
+    "total_tokens": 224
+  }
+}

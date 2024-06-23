@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC9MN3Q0V0zhsGADcgc8v19bHqQ1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"La palabra M\u00c1S repites sin cesar, M\u00c1S tu obsesi\u00f3n parece no cesar. Pero MAS, querido MAS, no te preocupes, que a\u00fan queda mucho MAS por cantar.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128524,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 126,
+    "total_tokens": 187
+  }
+}

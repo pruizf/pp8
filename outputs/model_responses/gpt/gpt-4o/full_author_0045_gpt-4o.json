@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDuXVDaNRYMFh7AUhJZuaU8ZI6L",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Alejandra Pizarnik\",\n  \"century\": \"20\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128806,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 22,
+    "prompt_tokens": 244,
+    "total_tokens": 266
+  }
+}

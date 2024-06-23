@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAZQVL1m1hcl94AGt54k0VLqQBX",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Sabes qui\u00e9n dej\u00f3 de herencia rica, / agradeciendo a Dios, muriendo, muerte, / por Roma libre, a Marco Marcelo / la suma de los bienes de Natureza.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128599,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 99,
+    "total_tokens": 163
+  }
+}

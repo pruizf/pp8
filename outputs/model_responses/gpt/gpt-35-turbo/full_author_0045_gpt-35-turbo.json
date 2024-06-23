@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCAuMqC5v9yNm3BSQOB8Ioyoc1jj",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Manuel Guti\u00e9rrez N\u00e1jera\",\n  \"century\": \"XIX\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128620,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 278,
+    "total_tokens": 305
+  }
+}

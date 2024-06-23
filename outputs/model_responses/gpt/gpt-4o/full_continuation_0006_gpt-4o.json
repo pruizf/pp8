@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCBXhbMCkCzHLv9LnA9IYQCq0QaT",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00e9rase un reloj de sol mal encarado,\\n\u00e9rase una pir\u00e1mide de Egipto,\\nlas doce tribus de narices era,\\n\u00e9rase un naric\u00edsimo infinito.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128659,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 89,
+    "total_tokens": 145
+  }
+}

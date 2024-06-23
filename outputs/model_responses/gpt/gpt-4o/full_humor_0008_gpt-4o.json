@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCBdmFKJ0bcoBofzTLy2GTT7D5v8",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no presenta elementos c\u00f3micos. Su tono es serio y melanc\u00f3lico, evocando im\u00e1genes de un paisaje oto\u00f1al y recuerdos de la infancia, con un lenguaje solemne y una atm\u00f3sfera nost\u00e1lgica. No hay elementos de humor o situaciones que busquen provocar risa en el lector.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128665,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_888385ccad",
+  "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 219,
+    "total_tokens": 298
+  }
+}

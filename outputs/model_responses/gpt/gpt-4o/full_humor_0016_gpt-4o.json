@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCC7hCRT2QXWt6wBNZm8lPpqZQO6",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema tiene un tono sat\u00edrico y humor\u00edstico, utilizando un lenguaje exagerado y despectivo para quejarse de los amigos que siempre piden tabaco. La exageraci\u00f3n en las maldiciones y las sugerencias absurdas ('chupa heno' o 'ch\u00fapate la punta del carajo') contribuyen al efecto c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128695,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 216,
+    "total_tokens": 304
+  }
+}

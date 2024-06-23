@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDybMVGtVUmdev4ik8ea0OlagJV",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Ladrar a la luna' no es c\u00f3mico, ya que trata sobre la resistencia y la constancia frente a la envidia y los celos. Emplea una analog\u00eda entre los perros que ladran a la luna y las personas que intentan derribar a alguien talentoso sin \u00e9xito. La tem\u00e1tica es seria y reflexiva, y no busca generar risa o diversi\u00f3n.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128810,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 213,
+    "total_tokens": 310
+  }
+}

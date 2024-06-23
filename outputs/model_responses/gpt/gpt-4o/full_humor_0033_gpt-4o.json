@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDC4SzYV7q0tHF4ASWwf3O7fnEE",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico, sino m\u00e1s bien serio y melanc\u00f3lico. Habla de amor no correspondido y utiliza met\u00e1foras relacionadas con la naturaleza para expresar el dolor y la tristeza del hablante. La estructura y el tono del poema est\u00e1n m\u00e1s alineados con la poes\u00eda rom\u00e1ntica o tr\u00e1gica que con la comedia.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128762,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 220,
+    "total_tokens": 304
+  }
+}

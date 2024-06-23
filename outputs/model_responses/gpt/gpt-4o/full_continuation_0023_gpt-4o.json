@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCd06k6zTy9K5X8UMXjdS2rBGZ6",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Aqu\u00ed en mi Andaluc\u00eda la obra fina\\nes el botijo gris de barro y grana,\\nhecho a torno y 'pintao' de pura gana,\\ncon lo que el buen alfar se dora y china.\\n\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128727,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 93,
+    "total_tokens": 159
+  }
+}

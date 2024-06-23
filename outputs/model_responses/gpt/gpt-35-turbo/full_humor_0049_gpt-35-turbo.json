@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCB4f0vdYCKp18LZJe8lEWRgyQgk",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta un tono melanc\u00f3lico y reflexivo, con im\u00e1genes po\u00e9ticas que provocan una sensaci\u00f3n de tristeza. A pesar de que se trata de un tema serio, la forma en la que se expresa puede resultar c\u00f3mica para algunas personas.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128630,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 260,
+    "total_tokens": 338
+  }
+}

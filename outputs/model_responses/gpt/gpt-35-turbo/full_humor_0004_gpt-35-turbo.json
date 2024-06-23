@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dC8e4xb5T9Y71wHj5ND67M8gxjQC",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque utiliza un tono jocoso y sat\u00edrico para describir las acciones del valent\u00f3n que se enfrenta a una situaci\u00f3n ir\u00f3nica y c\u00f3mica, creando as\u00ed un efecto humor\u00edstico en el lector.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128480,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 259,
+    "total_tokens": 331
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCCLJYqRV5nDJzkn186yB6IXWPx1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"cuando hables optar\u00e1s por el chinelo.\\nY has de hablar, no de amor, sino del duelo,\\nde la danza, de moda y de vestido.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128709,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 98,
+    "total_tokens": 148
+  }
+}

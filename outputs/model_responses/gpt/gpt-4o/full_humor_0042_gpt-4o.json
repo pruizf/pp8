@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dCDgbFqFgprKEfEZGGKIuTeIk4WH",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'El granjero' no contiene elementos c\u00f3micos. Emplea un lenguaje y tono serio para describir la vida y las labores del granjero Isaac, resaltando su sabidur\u00eda, esfuerzo y respeto por la naturaleza y sus frutos. El poema trata de darle un aire de reverencia y solemnidad al trabajo del granjero, en vez de buscar provocar risa o humor.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719128792,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 252,
+    "total_tokens": 348
+  }
+}

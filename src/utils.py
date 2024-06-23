@@ -1,12 +1,14 @@
 """Utilities"""
 
-import config as cf
+from collections import Counter
 import json
 import os
 import re
 
 import pandas as pd
 import roman
+
+import config as cf
 
 def clean_model_name(model_name):
   """Clean the model name for use in filenames."""
@@ -113,3 +115,61 @@ def get_author_info_for_dir(dname):
     infos[os.path.basename(fname)] = [au_name, century]
     print(auth_info)
   return infos
+
+def group_judgement_by_prefix(dname):
+  """TESt"""
+  judgements = {}
+  for fname in os.listdir(dname):
+    if not fname.startswith("humor"):
+      continue
+    with open(os.path.join(dname, fname), "r") as f:
+      humor_info = json.load(f)
+      judgement = humor_info["judgement"].strip()
+    prefix = re.sub(r"_\d+\..*$", "", fname)
+    if prefix not in judgements:
+      judgements[prefix] = []
+    judgements[prefix].append(judgement)
+  return judgements
+
+
+def choose_among_disagreeing_judgements(jd):
+  """
+  Choose a judgement among disagreeing judgements for completions
+  for the same poem humor prompt.
+
+  Args:
+    jd (dict): Dictionary with judgements for each completion choice
+
+  Returns:
+    dict: Dictionary with a chosen judgement per poem id
+  """
+  chosen_jmts = {}
+  for ke, va in jd.items():
+    if len(set(va)) != 1:
+      # sort by value count in descending order and get first value
+      chosen_jmt = sorted(Counter(va).items(), key=lambda x: -x[-1])[0][0]
+      chosen_jmts[ke] = chosen_jmt
+    else:
+      #TODO treat uncertain resposes, so that can evaluate 3-way classification
+      chosen_jmts[ke] = va[0] if va[0] != "incierto" else "no"
+  return chosen_jmts
+
+
+def get_judgement_info_for_dir(dname):
+  """Get humor true/false judgement from a directory of responses."""
+  judgements_for_prefix = {}
+  for fname in os.listdir(dname):
+    if not fname.startswith("humor"):
+      continue
+    prefix = re.sub(r"_\d\..*$", "", fname)
+    judgements_for_prefix.setdefault(prefix, [])
+    with open(os.path.join(dname, fname), "r") as f:
+      humor_info = json.load(f)
+      judgement = humor_info["judgement"].strip()
+      judgements_for_prefix[prefix].append(judgement)
+  # analyze judgements
+  # for ke, va in judgements_for_prefix.items():
+  #   if len(set(va)) != 1:
+  #     print(f"  - Diverging judgements for {ke}: {repr(va)}")
+  judgements_postpro = choose_among_disagreeing_judgements(judgements_for_prefix)
+  return judgements_postpro

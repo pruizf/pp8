@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dBvKqcEHFvAagxPugwlnn8MWcO7x",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Pues se vuelven chinos o no, no s\u00e9;  mientras, bebo, callada, del licor  sin pensar en las bellas ni en el tiempo.  Pues miran el t\u00e9 y beben el sol  igual que el aguardiente de grano  y con recuerdos cinerarios./n\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719127654,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 88,
+    "prompt_tokens": 106,
+    "total_tokens": 194
+  }
+}

@@ -108,6 +108,13 @@ def clean_century(st):
 
 # Evaluation ------------------------------------------------------------------
 
+def normalize_judgement(jmt):
+  if jmt == "incierta":
+    return "incierto"
+  else:
+    assert jmt in cf.judgements_orig, f"Judgement {jmt} not in possible original judgements."
+    return jmt.lower()
+
 def get_author_info_for_dir(dname):
   """Get author info from a directory of responses."""
   infos = {}
@@ -151,7 +158,7 @@ def group_judgement_by_prefix(dname, max_choices=cf.max_choices_for_textometry):
     if prefix not in judgements:
       judgements[prefix] = []
     if len(judgements[prefix]) < max_choices:
-      judgements[prefix].append(judgement)
+      judgements[prefix].append(judgement.lower())
   return judgements
 
 
@@ -167,13 +174,13 @@ def choose_among_disagreeing_judgements(jd):
     dict: Dictionary with a chosen judgement per poem id
   """
   chosen_jmts = {}
-  for ke, va in jd.items():
+  for ke, va in sorted(jd.items()):
     if len(set(va)) != 1:
       # sort by value count in descending order and get first value
       # no ties posible so far cos binary classif with odd nbr of votes
       #TODO review this if have more than two classes
       chosen_jmt = sorted(Counter(va).items(), key=lambda x: -x[-1])[0][0]
-      chosen_jmts[ke] = chosen_jmt
+      chosen_jmts[ke] = chosen_jmt.lower()
     else:
       chosen_jmts[ke] = va[0] #if va[0] != "incierto" else "no"
   return chosen_jmts
@@ -184,24 +191,26 @@ def get_judgement_info_for_dir(dname, max_choices=cf.max_choices_for_textometry)
   Get humor true/false judgement from a directory of responses.
   """
   #TODO can `group_judgements_by_prefix()` above be integrated here?
-  judgements_for_prefix = {}
-  for fname in os.listdir(dname):
+  judgements_by_prefix = {}
+  for fname in sorted(os.listdir(dname)):
     if not fname.startswith("humor"):
       continue
     prefix = re.sub(r"_\d\..*$", "", fname)
-    judgements_for_prefix.setdefault(prefix, [])
+    judgements_by_prefix.setdefault(prefix, [])
     with open(os.path.join(dname, fname), "r") as f:
       humor_info = json.load(f)
-      judgement = humor_info["judgement"].strip()
+      judgement = normalize_judgement(humor_info["judgement"].lower().strip())
+      assert judgement in cf.judgements_orig, f"Judgement {judgement} not in possible original judgements."
       #TODO make configurable in config module and with keyword argument
       #TODO treat uncertain resposes, so that can evaluate 3-way classification
-      judgement_norm = "no" if judgement == "incierto" else judgement
-      if len(judgements_for_prefix[prefix]) < max_choices:
+      judgement_norm = "no" if judgement.lower() == "incierto" else judgement.lower()
+      if len(judgements_by_prefix[prefix]) < max_choices:
         # judgements[prefix].append(judgement)
-        judgements_for_prefix[prefix].append(judgement_norm)
+        judgements_by_prefix[prefix].append(judgement_norm)
   # analyze judgements
-  # for ke, va in judgements_for_prefix.items():
+  # for ke, va in judgements_by_prefix.items():
   #   if len(set(va)) != 1:
   #     print(f"  - Diverging judgements for {ke}: {repr(va)}")
-  judgements_postpro = choose_among_disagreeing_judgements(judgements_for_prefix)
-  return judgements_postpro
+  #breakpoint()
+  judgements_postpro = choose_among_disagreeing_judgements(judgements_by_prefix)
+  return judgements_postpro, judgements_by_prefix

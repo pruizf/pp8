@@ -116,10 +116,17 @@ def get_author_info_for_dir(dname):
     print(auth_info)
   return infos
 
-def group_judgement_by_prefix(dname):
-  """TESt"""
+def group_judgement_by_prefix(dname, max_choices=cf.max_choices_for_textometry):
+  """
+  Get judgements grouped by the filename part before choice number).
+  Args:
+      dname (str): directory name
+      max_choices (int): maximum number of choices to consider
+  Returns:
+      dict: dictionary with judgements grouped by prefix
+  """
   judgements = {}
-  for fname in os.listdir(dname):
+  for fname in sorted(os.listdir(dname)):
     if not fname.startswith("humor"):
       continue
     with open(os.path.join(dname, fname), "r") as f:

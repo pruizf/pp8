@@ -42,3 +42,6 @@ oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
 
 stylo_dir = "../ana/stylo"
 stylo_corpus_dir = os.path.join(stylo_dir, "gpt")
+# number of choices the text of which we copy to files analyzed with textometry
+# (Stylo, TXM etc.)
+max_choices_for_textometry = 3

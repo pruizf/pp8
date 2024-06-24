@@ -128,14 +128,17 @@ def get_author_info_for_dir(dname):
       au_name = auth_info["author"].strip()
       # if "Juana" in au_name:
       #   breakpoint()
-      century = clean_century(auth_info["century"].strip())
+      century = clean_century(str(auth_info["century"]).strip())
       try:
-        century = int(roman.fromRoman(century))
-      except Exception as e:
         century = int(century)
-        print(f"Error with century conversion: {e}")
+      except ValueError:
+        try:
+          century = int(roman.fromRoman(century))
+        except Exception as e:
+          century = int(century)
+          print(f"Error with century conversion: {e}")
     infos[os.path.basename(fname)] = [au_name, century]
-    print(auth_info)
+    #print(auth_info)
   return infos
 
 def group_judgement_by_prefix(dname, max_choices=cf.max_choices_for_textometry):

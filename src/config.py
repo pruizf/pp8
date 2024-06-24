@@ -45,4 +45,5 @@ stylo_corpus_dir = os.path.join(stylo_dir, "gpt")
 # number of choices the text of which we copy to files analyzed with textometry
 # (Stylo, TXM etc.)
 max_choices_for_textometry = 3
+error_analysis_dir = "../ana/ana"
 judgements_orig = ("sí", "no", "incierto")

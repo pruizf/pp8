@@ -135,7 +135,8 @@ def group_judgement_by_prefix(dname, max_choices=cf.max_choices_for_textometry):
     prefix = re.sub(r"_\d+\..*$", "", fname)
     if prefix not in judgements:
       judgements[prefix] = []
-    judgements[prefix].append(judgement)
+    if len(judgements[prefix]) < max_choices:
+      judgements[prefix].append(judgement)
   return judgements
 
 
@@ -154,15 +155,16 @@ def choose_among_disagreeing_judgements(jd):
   for ke, va in jd.items():
     if len(set(va)) != 1:
       # sort by value count in descending order and get first value
+      # no ties posible so far cos binary classif with odd nbr of votes
+      #TODO review this if have more than two classes
       chosen_jmt = sorted(Counter(va).items(), key=lambda x: -x[-1])[0][0]
       chosen_jmts[ke] = chosen_jmt
     else:
-      #TODO treat uncertain resposes, so that can evaluate 3-way classification
-      chosen_jmts[ke] = va[0] if va[0] != "incierto" else "no"
+      chosen_jmts[ke] = va[0] #if va[0] != "incierto" else "no"
   return chosen_jmts
 
 
-def get_judgement_info_for_dir(dname):
+def get_judgement_info_for_dir(dname, max_choices=cf.max_choices_for_textometry):
   """Get humor true/false judgement from a directory of responses."""
   judgements_for_prefix = {}
   for fname in os.listdir(dname):
@@ -173,7 +175,12 @@ def get_judgement_info_for_dir(dname):
     with open(os.path.join(dname, fname), "r") as f:
       humor_info = json.load(f)
       judgement = humor_info["judgement"].strip()
-      judgements_for_prefix[prefix].append(judgement)
+      #TODO make configurable in config module and with keyword argument
+      #TODO treat uncertain resposes, so that can evaluate 3-way classification
+      judgement_norm = "no" if judgement == "incierto" else judgement
+      if len(judgements_for_prefix[prefix]) < max_choices:
+        # judgements[prefix].append(judgement)
+        judgements_for_prefix[prefix].append(judgement_norm)
   # analyze judgements
   # for ke, va in judgements_for_prefix.items():
   #   if len(set(va)) != 1:

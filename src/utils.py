@@ -1,5 +1,7 @@
 """Utilities"""
 
+#TODO label rewriting could be simplified
+
 from collections import Counter
 import json
 import os

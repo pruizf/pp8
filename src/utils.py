@@ -11,7 +11,9 @@ import roman
 import config as cf
 
 def clean_model_name(model_name):
-  """Clean the model name for use in filenames."""
+  """
+  Clean the model name for use in filenames.
+  """
   return model_name.replace(".", "")
 
 def get_poem_text_by_fn(fn):
@@ -25,6 +27,17 @@ def get_poem_text_by_fn(fn):
   with open(fn, "r") as f:
     return f.read().strip()
 
+def get_poem_text_by_id(txtid, corpus_dir=cf.corpus_dir):
+  """
+  Get poem text by ID.
+  Args:
+      txtid (int): ID for poem
+      corpus_dir (str): Path for corpus directory
+  Returns:
+      str: poem text
+  """
+  with open(os.path.join(corpus_dir, f"{str.zfill(str(txtid),4)}.txt"), "r") as f:
+    return f.read().strip()
 
 def get_humor_message_from_resp(fname):
   """
@@ -119,6 +132,8 @@ def get_author_info_for_dir(dname):
 def group_judgement_by_prefix(dname, max_choices=cf.max_choices_for_textometry):
   """
   Get judgements grouped by the filename part before choice number).
+  So far only used for analyses. Code in `get_judgement_info_for_dir()`
+  already does what this function does mostly.
   Args:
       dname (str): directory name
       max_choices (int): maximum number of choices to consider
@@ -165,7 +180,10 @@ def choose_among_disagreeing_judgements(jd):
 
 
 def get_judgement_info_for_dir(dname, max_choices=cf.max_choices_for_textometry):
-  """Get humor true/false judgement from a directory of responses."""
+  """
+  Get humor true/false judgement from a directory of responses.
+  """
+  #TODO can `group_judgements_by_prefix()` above be integrated here?
   judgements_for_prefix = {}
   for fname in os.listdir(dname):
     if not fname.startswith("humor"):

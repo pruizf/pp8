@@ -19,7 +19,7 @@ poem_continuation_prompt_json = """¿Sabes cómo continúa el poema siguiente?
 Da una respuesta en JSON con la siguiente estructura:
 {
   "judgement": "sí|no",
-  "continuation": "continuación del poema
+  "continuation": "continuación del poema"
 }
 """
 

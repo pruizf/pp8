@@ -47,3 +47,5 @@ stylo_corpus_dir = os.path.join(stylo_dir, "gpt")
 max_choices_for_textometry = 3
 error_analysis_dir = "../ana/ana"
 judgements_orig = ("sí", "no", "incierto")
+
+plot_dir = "../ana/img"

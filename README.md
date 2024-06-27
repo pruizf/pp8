@@ -10,4 +10,4 @@ Work for the following presentation:
 - Scripts are at [`src`](./src)
 - GPT outputs are at [`outputs`](./outputs)
 - Textometric analyses are at [`ana`](./ana)
-- The [wk](./work) contains corpus creation stuff
+- The [wk](./wk) contains corpus creation stuff

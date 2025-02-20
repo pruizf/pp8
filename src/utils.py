@@ -54,6 +54,14 @@ def get_humor_message_from_resp(fname):
   return json.loads(resp)["reason"]
 
 
+def get_current_date_hms():
+  """
+  Get the current date formatted as a string.
+  """
+  from datetime import datetime
+  return datetime.now().strftime('%H:%M:%S')
+
+
 # Stylo part ------------------------------------------------------------------
 
 def process_message_for_stylo(fname, md):

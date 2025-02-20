@@ -63,7 +63,8 @@ def collect_data(ddir: str, model_name: str, md: pd.DataFrame) -> pd.DataFrame:
   assert model_name in cf.oai_models, f"Model {model_name} not in the list of models."
   model_name = model_name.replace(".", "")
   print(f"  - Collecting data for {model_name} from {ddir} [{ut.get_current_date_hms()}]")
-  data = {"text": [], "model": [], "exampleNumber": [], "completionNumber": [], "humorLabel": []}
+  data = {"text": [], "model": [], "exampleNumber": [],
+          "centuryBirth": [], "completionNumber": [], "humorLabel": []}
   for fname in sorted(os.listdir(ddir)):
     if fname.startswith("humor"):
       example_number = int(fname.split("_")[1])
@@ -72,6 +73,7 @@ def collect_data(ddir: str, model_name: str, md: pd.DataFrame) -> pd.DataFrame:
       text = jso["reason"]
       data["text"].append(text)
       data["exampleNumber"].append(example_number)
+      data["centuryBirth"].append(md.loc[md["id"] == example_number, "centuryBirth"].values[0])
       data["completionNumber"].append(completion_number)
       data["humorLabel"].append(md.loc[md["id"] == example_number, "comic"].values[0])
       data["model"].append(model_name)
@@ -86,4 +88,4 @@ if __name__ == "__main__":
   data_35 = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-35-turbo") , "gpt-3.5-turbo", mddf)
   data_4o = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-4o") , "gpt-4o", mddf)
   data_all = {k: data_35[k] + data_4o[k] for k in data_35.keys()}
-  #df = pd.DataFrame(data_all)
+  df = pd.DataFrame(data_all)

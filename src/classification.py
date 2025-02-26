@@ -141,9 +141,9 @@ if __name__ == "__main__":
                                    stop_words=stopwords,
                                    min_df=0.01)
   pos_vectorizer = TfidfVectorizer(lowercase=True,
-                                      tokenizer=pos_spacy(spacy_pipeline),
-                                      stop_words=stopwords,
-                                      min_df=0.01)
+                                   tokenizer=pos_spacy(spacy_pipeline),
+                                   stop_words=stopwords,
+                                   min_df=0.01)
 
 
 

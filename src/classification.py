@@ -7,25 +7,28 @@ from types import ModuleType
 
 # Suppression de l'affichage des messages d'avertissement
 import warnings
+
+import nltk.corpus
+
 warnings.filterwarnings('ignore')
 
-# import matplotlib.pyplot as plt
-# from nltk.corpus import stopwords
-# from nltk.tokenize import word_tokenize
+import matplotlib.pyplot as plt
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 import numpy as np
 import pandas as pd
-# from sklearn import metrics, set_config
-# from sklearn.compose import ColumnTransformer
-# from sklearn.ensemble import RandomForestClassifier
-# from sklearn.feature_extraction import DictVectorizer
-# from sklearn.feature_extraction.text import TfidfVectorizer
-# from sklearn.linear_model import LogisticRegression
-# from sklearn.linear_model import SGDClassifier, RidgeClassifier
-# from sklearn.metrics import classification_report, f1_score, accuracy_score, confusion_matrix
-# from sklearn.model_selection import train_test_split
-# from sklearn.preprocessing import FunctionTransformer, MinMaxScaler
-# from sklearn.pipeline import Pipeline, make_pipeline
-# import spacy
+from sklearn import metrics, set_config
+from sklearn.compose import ColumnTransformer
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.feature_extraction import DictVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import SGDClassifier, RidgeClassifier
+from sklearn.metrics import classification_report, f1_score, accuracy_score, confusion_matrix
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import FunctionTransformer, MinMaxScaler
+from sklearn.pipeline import Pipeline, make_pipeline
+import spacy
 
 import config as cf
 import utils as ut
@@ -44,7 +47,7 @@ def read_metadata(conf: ModuleType) -> pd.DataFrame:
   Returns:
     pd.DataFrame: The metadata in a dataframe.
   """
-  md = pd.read_csv(cf.metadata_file, sep="\t")
+  md = pd.read_csv(cf.metadata_file, sep="\t", encoding="utf-8")
   return md
 
 
@@ -69,7 +72,9 @@ def collect_data(ddir: str, model_name: str, md: pd.DataFrame) -> pd.DataFrame:
     if fname.startswith("humor"):
       example_number = int(fname.split("_")[1])
       completion_number = int(fname.split("_")[3].split(".")[0])
-      jso = json.load(open(os.path.join(ddir, fname), "r"))
+      #jso = json.load(open(os.path.join(ddir, fname), "r"))
+      with open(os.path.join(ddir, fname), "r", encoding="utf-8") as f:
+        jso = json.load(f)
       text = jso["reason"]
       data["text"].append(text)
       data["exampleNumber"].append(example_number)
@@ -78,6 +83,32 @@ def collect_data(ddir: str, model_name: str, md: pd.DataFrame) -> pd.DataFrame:
       data["humorLabel"].append(md.loc[md["id"] == example_number, "comic"].values[0])
       data["model"].append(model_name)
   return data
+
+def split_into_tokens_spacy(text: str, spacy_pipeline: spacy.language.Language) -> list:
+  """
+    Split text into tokens using spacy.
+  Args:
+    text: Text to tokenize
+    spacy_pipeline: SpaCy pipeline
+
+  Returns:
+    list: List of tokens
+  """
+  doc = spacy_pipeline(text)
+  return [w.text for w in doc]
+
+def pos_spacy(text: str, spacy_pipeline: spacy.language.Language) -> list:
+  """
+    Part-of-speech tag with spaCy.
+  Args:
+    text: Text to tokenize
+    spacy_pipeline: SpaCy pipeline
+
+  Returns:
+    list: List of part-of-speech tags
+  """
+  doc = spacy_pipeline(text)
+  return [w.pos_ for w in doc]
 
 
 if __name__ == "__main__":
@@ -89,3 +120,30 @@ if __name__ == "__main__":
   data_4o = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-4o") , "gpt-4o", mddf)
   data_all = {k: data_35[k] + data_4o[k] for k in data_35.keys()}
   df = pd.DataFrame(data_all)
+
+  labelCol = "humorLabel"
+  class_names = sorted(df[labelCol].unique())
+  #label2id = {class_names[i]: i for i in range(len(class_names))}
+  #id2label = {i: class_names[i] for i in range(len(class_names))}
+
+  #es_model = spacy.load("es_core_news_sm")
+  print(f"  - Loading spacy model [{ut.get_current_date_hms()}]")
+  spacy_pipeline = spacy.load("es_core_news_sm", disable=["parser", "ner"])
+  print("    - Done")
+
+  # will use NLTK stopwords instead of spacy's since latter seem too restrictive (too many words removed)
+  stopwords = nltk.corpus.stopwords.words("spanish")
+
+  # corpus vectorizers
+
+  tok_vectorizer = TfidfVectorizer(lowercase=True,
+                                   tokenizer=split_into_tokens_spacy(spacy_pipeline),
+                                   stop_words=stopwords,
+                                   min_df=0.01)
+  pos_vectorizer = TfidfVectorizer(lowercase=True,
+                                      tokenizer=pos_spacy(spacy_pipeline),
+                                      stop_words=stopwords,
+                                      min_df=0.01)
+
+
+

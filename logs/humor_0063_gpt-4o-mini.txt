@@ -1,0 +1,31 @@
+¿Es cómico el poema siguiente? ¿Por qué?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
+
+La longitud de la respuesta debe ser de 200 palabras.
+
+
+
+A propósito de un bailarín
+
+Vamos, que no es un hombre como yo,
+Ni una mujer siquiera como tú;
+Es un mono vestido de tisú,
+Que trabaja imitando lo que vio.
+
+De un hombre sale un tigre, un gato no
+(Aunque algunos conozco que hacen fú),
+Y desde Epaminondas a Mambrú,
+Por algo nuestro sexo se afanó.
+
+Tenerse un cuarto de hora sobre un pie
+Dices que es admirable; lo será:
+Ni tú ni yo lo hiciéramos, a fe.
+
+Pero si al cielo aspira y allí va,
+Ese aborto de grulla y chimpancé,
+¿Qué cuenta de su vida a Dios dará?

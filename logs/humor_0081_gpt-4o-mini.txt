@@ -1,0 +1,29 @@
+¿Es cómico el poema siguiente? ¿Por qué?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
+
+La longitud de la respuesta debe ser de 200 palabras.
+
+
+
+Los campos de Madrid, Isidro santo,
+agricultor labró, siendo ayudado
+de Angélico favor, bien que enviado
+del que al sabio Cherub le causa espanto
+
+En éxtasis suspenso admira el canto,
+casi en nueva región, del coro alado,
+surcos imprimen con el corvo arado
+oficiosos los Ángeles en tanto
+
+¿Quién mereció tener tal compañía,
+que hiciese el campo soberano cielo,
+ni la gloria le diese tal tributo?
+
+Isidro, que en la excelsa Monarquía
+goza de sus trabajos y su celo,
+sembrando aquí sus lágrimas, el fruto

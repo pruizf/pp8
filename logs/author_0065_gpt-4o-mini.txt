@@ -1,0 +1,28 @@
+¿Sabes quién es el autor o autora del poema siguiente?
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "author": "nombre y apellidos del autor o autora"
+  "century": "siglo en el que vivió, en números arábigos"
+}
+
+
+
+Informe - A un amigo que, pensando en casarse, me pidió mi opinión respecto de las mujeres
+
+Es la mujer prisión en que nacemos,
+Y a que desde el nacer nos condenamos:
+Unos por penitencia la buscamos,
+Otros por galardón la merecemos.
+
+Abismo en que los débiles caemos,
+Puerto donde los fuertes nos salvamos,
+Ídolo que de tierra fabricamos
+Y luego en oro convertir queremos.
+
+Ella del cielo del amor es luna,
+Inspira las letrillas y las odas,
+Sirve al capricho y manda en la fortuna.
+
+¿Dices que a ser del gremio te acomodas?
+Piénsalo bien, decídete por una...
+Verás cómo después te gustan todas.

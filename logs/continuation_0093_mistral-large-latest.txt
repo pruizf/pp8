@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+Ve, suspiro caliente, al pecho frío
+
+de aquella viva piedra por quien muero;
+que libre va de culpa el mensajero,
+aunque no sé en tal parte, siendo mío
+Loarte has que en extraño señorío

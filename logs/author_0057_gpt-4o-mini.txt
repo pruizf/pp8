@@ -1,0 +1,28 @@
+¿Sabes quién es el autor o autora del poema siguiente?
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "author": "nombre y apellidos del autor o autora"
+  "century": "siglo en el que vivió, en números arábigos"
+}
+
+
+
+Mal de muchos...
+
+¿No viste alguna vez del rayo herido
+Desprenderse y rodar cedro gigante,
+Llenando de terror al caminante
+Entre los bosques al azar perdido?
+
+¿Viste cómo la tórtola en su nido
+Llora la ausencia de su triste amante,
+Y cómo el sol derrite en un instante
+El alud de la sierra desprendido?
+
+¿Viste, por fin, en el tranquilo cielo,
+Extenderse las nubes poco a poco,
+Y de sombras y horror cubrir el suelo?
+
+¿Viste el arbusto que produce el coco?
+Pues cesa ya tu afán y tu desvelo,
+Que si tú no lo viste, yo tampoco.

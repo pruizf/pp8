@@ -1,0 +1,27 @@
+¿Sabes quién es el autor o autora del poema siguiente?
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "author": "nombre y apellidos del autor o autora"
+  "century": "siglo en el que vivió, en números arábigos"
+}
+
+
+
+Soneto
+
+Bendito seas, Amor, perpetuamente,
+tu nombre, tu saeta, venda y fuego;
+tu nombre, por quien vivo en tal sosiego
+amado y conocido de la gente;
+
+tu flecha, que me hizo así obediente
+de aquella, por quien todo el mundo niego;
+tu venda, con que me hiciste ciego,
+
+y el fuego sea bendito, cuya llama
+no toca al cuerpo, que es sutil y pura,
+y el alma sola de su gloria siente
+
+Y así el dichoso espíritu que ama
+dirá, tu rostro viendo y tu figura:
+«Bendito seas, Amor, perpetuamente »

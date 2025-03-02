@@ -1,0 +1,28 @@
+¿Sabes quién es el autor o autora del poema siguiente?
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "author": "nombre y apellidos del autor o autora"
+  "century": "siglo en el que vivió, en números arábigos"
+}
+
+
+
+Idilio
+
+Ayer, cuando la aurora amanecía,
+Me salí por la Cuesta de la Vega,
+Y al arenal que Manzanares riega
+Fuí buscando deleite y poesía.
+
+En sus riberas plácidas dormía
+La hermosa Tisbe, que de amores ciega,
+Por su galán Alfinto no sosiega,
+A quien vio en el cuartel de artillería.
+
+Sola estaba la pobre, y descuidada,
+Ver me dejó bajo su manta rota
+Un pie, más que el mayor una pulgada.
+
+Alzóse en esto; se apretó la bota,
+Y a los cielos lanzando una mirada,
+Soltó la manta y se quedó en pelota.

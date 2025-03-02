@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+A doña Justa Sánchez y don Diego de Tovar
+
+En nombre Justa, en obras pecadora,
+santa del calendario de Cupido,
+cuyos milagros tiene su marido
+canonizado de paciencia ahora.

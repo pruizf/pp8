@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+Las armas del amor
+
+De tus doradas hebras, mi señora,
+Amor formó los lazos para asirme;
+de tus lindos ojuelos, para herirme,
+las flechas y la llama abrasadora.

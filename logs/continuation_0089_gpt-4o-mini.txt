@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+Veo, Señora, al son de mi instrumento,
+
+cuando entona mi voz tu nombre santo,
+parar los ríos a escuchar mi canto,
+correr los montes y callar el viento.
+Y luego, si publico mi tormento,

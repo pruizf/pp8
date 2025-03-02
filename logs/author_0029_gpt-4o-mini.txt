@@ -1,0 +1,28 @@
+¿Sabes quién es el autor o autora del poema siguiente?
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "author": "nombre y apellidos del autor o autora"
+  "century": "siglo en el que vivió, en números arábigos"
+}
+
+
+
+Sin esperanza
+
+Como van hacia el mar precipitadas
+las aguas del torrente rumorosas,
+atropellando las humildes rosas
+que a su cauce crecieron asomadas,
+
+así mi corazón y mis miradas
+fueron, amante aquel y estas ansiosas,
+al mar que les copiaron engañosas
+tus pupilas profundas y rasgadas
+
+Hoy, bebiendo en sus olas la amargura,
+por sus fieras corrientes absorbida
+navega el alma en la tiniebla oscura,
+
+sin que le den consuelo en su caída
+la inocencia, la paz y la ventura,
+que atropelló el torrente de mi vida

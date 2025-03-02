@@ -208,8 +208,8 @@ def process_openai_response(oa_client, model, cf, fn, poem_text, call_type):
   # Define prompt and template based on call type
   if call_type == "humor":
     prompt = pr.general_prompt_json + pr.gsep + poem_text
-    tpl = cf.response_filename_tpl_js_alt
-    tpl_full = cf.response_filename_tpl_js
+    tpl = cf.response_filename_tpl_js
+    tpl_full = cf.response_filename_tpl_js_full
   elif call_type == "continuation":
     poem_text = prepare_poem_for_completion_prompt(poem_text)
     prompt = pr.poem_continuation_prompt_json + pr.gsep + poem_text
@@ -224,8 +224,8 @@ def process_openai_response(oa_client, model, cf, fn, poem_text, call_type):
   comp, resps, resp_time = get_openai_response(
     oa_client, model, prompt, cf, call_type)
   write_resp_message_to_file(cf, fn, tpl_full, model, resps)
-  write_completion_to_file(cf, fn, cf.full_completion_pfx + tpl, model, comp)
-  log_prompt_to_file(cf, fn, tpl, model, prompt)
+  write_completion_to_file(cf, fn, cf.full_completion_pfx + tpl_full, model, comp)
+  log_prompt_to_file(cf, fn, tpl_full, model, prompt)
 
   # Return updated response time dataframe (to reuse it in the main loop)
   return log_response_time(
@@ -239,11 +239,14 @@ if __name__ == "__main__":
   oa_client = OpenAI()
   active_models = cf.oai_models
 
+  #breakpoint()
+
   # dataframe to store response times
   resp_times = {"poem_id": [],
                 "gpt-3.5-turbo": [],
                 "gpt-4": [], "gpt-4-turbo": [],
                 "gpt-4o": [],
+                "gpt-4o-mini": [],
                 "call_type": []}
 
   # main loop
@@ -258,7 +261,9 @@ if __name__ == "__main__":
       resp_time_df = pd.DataFrame(resp_times)
       resp_time_df = resp_time_df.astype(
         {"poem_id": "int64", "gpt-3.5-turbo": "float64", "gpt-4": "float64",
-         "gpt-4-turbo": "float64", "gpt-4o": "float64", "call_type": "category"})
+         "gpt-4-turbo": "float64", "gpt-4o": "float64",
+         "gpt-4o-mini": "float64",
+         "call_type": "category"})
 
     for fn in sorted(os.listdir(cf.corpus_dir)):
       if fn == "metadata.tsv":

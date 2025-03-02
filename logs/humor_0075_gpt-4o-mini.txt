@@ -1,0 +1,31 @@
+¿Es cómico el poema siguiente? ¿Por qué?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
+
+La longitud de la respuesta debe ser de 200 palabras.
+
+
+
+A la casa de una cortesana donde entró a vivir un pretendiente
+
+Aquí vivió la Chenca, aquella joya
+por las hechuras cara; este aposento
+fue túmulo del sexto mandamiento
+y galera en que Amor fue buena boya.
+
+¡Viva Dios que esta sala que le apoya
+centellas de lujuria arroja al viento!
+Esta trampa inventó su atrevimiento
+para jugar al hombre con tramoya.
+
+Desde aquella ventana, la insolencia
+de sus cabellos afrentó al oriente,
+y en ésta fue su vista una estocada.
+
+Mas, ¡oh cruel, a entrambos penitencia!
+hoy la casa es albergue a un pretendiente,
+y la célebre Chenca está casada.

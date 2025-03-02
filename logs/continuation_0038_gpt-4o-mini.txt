@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+A Julio
+
+Sólo por complacerte es que recito
+entre las densas brumas del pasado,
+este recuerdo tétrico y helado
+que a tu instancia tan sólo resucito

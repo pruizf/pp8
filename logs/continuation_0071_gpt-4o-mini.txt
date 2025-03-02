@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+A una academia que se hizo en casa de Antonio de Vega, confeso
+
+A mi noticia el gran concilio llega
+y que el Jordán trasladan a Italía;
+cuidado, Apolo, que la gente impía
+teme a las llamas y a la luz se ciega.

@@ -1,0 +1,31 @@
+¿Es cómico el poema siguiente? ¿Por qué?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
+
+La longitud de la respuesta debe ser de 200 palabras.
+
+
+
+Los placeres del campo
+
+Basta de expediciones en pollino
+Y manejar el remo a lo forzado;
+Basta de merendonas en el prado,
+Y venga el coche y la sopita en vino.
+
+Si plugo alguna vez a mi destino
+Inspirarme afición al despoblado,
+Me cansan ya la choza y el ganado,
+Y el césped y el arroyo cristalino.
+
+La nave de mi afán viró de bordo,
+Y hoy, con tristeza, mis penantes dejo,
+A mis memorias de ayer haciendo el sordo,
+
+Pues me dicen la sangre y el espejo
+Que para los idilios estoy gordo
+Y para las zagalas estoy viejo.

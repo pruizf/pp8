@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+La doctrina de Epicuro
+
+-No existe la virtud, Dios es un mito,
+Humo la gloria y el amor quimera;
+El que otra vida tras la muerte espera,
+No tiene más cabeza que un chorlito.

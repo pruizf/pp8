@@ -1,0 +1,29 @@
+¿Es cómico el poema siguiente? ¿Por qué?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
+
+La longitud de la respuesta debe ser de 200 palabras.
+
+
+
+Corazón que a Javier te has resistido,
+¿serás de mármol? No, que te labrara
+con los rayos de luz, que en luz más clara
+acicalar su celo ha conseguido
+
+De fuego no serás, pues no han podido
+extinguirte los hilos de tu cara;
+pues de agria menos, porque te alterara
+el aire entre ternezas despedido
+
+Mas ya conozco de qué estas formado,
+al verte en tu inconstancia tan constante,
+que al valor de Javier te resististe.
+
+Si el coral al azote derramado,
+te venció claro está que eres diamante,
+pues que sólo a la sangre te rendiste.

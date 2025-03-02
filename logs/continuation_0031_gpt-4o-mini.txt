@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+Soneto
+
+Cuando de mi camino atrás volviendo
+miro, señora, en mi preciso daño,
+tal es mi pena y mi dolor tamaño
+que me siento en angustias feneciendo.

@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+¡Dulce Mari Rosa, cuán emocionada
+
+vistió aquella noche su traje nupcial!
+¡Qué júbilo inmenso brillo en su mirada
+y avivó sus labios de suave coral!
+Cuando el sacerdote, con su voz pausada,

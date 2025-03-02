@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+A un crítico
+
+Tu carta recibí, sabe Dios cuándo,
+Y a entenderla llegué, sabe Dios cómo;
+Me has dado un palizón de tomo y lomo,
+De esos que al más cerril dejan temblando.

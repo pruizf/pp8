@@ -1,0 +1,29 @@
+¿Es cómico el poema siguiente? ¿Por qué?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
+
+La longitud de la respuesta debe ser de 200 palabras.
+
+
+
+Ya de aquel Sol la hoguera repetida
+ferió en pardos silencios los reflejos,
+ya no más que la sombras, y los lejos
+se miran del retrato de su vida.
+
+Su lumbre racional yace extinguida, 
+reverberando mal tristes bosquejos,
+y ciegos ya los siglos, o perplejos,
+se lloran a su luz anochecida.
+
+Mas no murió, que tantos resplandores
+no podrá oscurecerlos mortal llama,
+bien que a otra esfera quieran trasladarse,
+
+después que vegetaron sus colores,
+lo que tardó en el lienzo de la Fama
+el Pincel de su Pluma en rescatarse.

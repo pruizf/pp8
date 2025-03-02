@@ -35,8 +35,22 @@ oai_config = {
 
 #oai_models = ["gpt-3.5-turbo"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
 #oai_models = ["gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
-oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
 #oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
+#oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
+oai_models = ["gpt-4o-mini"]
+
+# Mistral ---------------------------------------------------------------------
+#mistral_models = ["mistral-small"]
+mistral_models = ["mistral-large-latest"]
+mistral_config = {
+  "temperature": 0.7,
+  "top_p": 1,
+  #"seed": 14
+  "number_of_completions_humor" : 5,
+  "number_of_completions_general" : 1,
+  "random_seed": 42
+}
+
 
 # Analysis --------------------------------------------------------------------
 
@@ -49,3 +63,5 @@ error_analysis_dir = "../ana/ana"
 judgements_orig = ("sí", "no", "incierto")
 
 plot_dir = "../ana/img"
+
+rdm_seed = 42

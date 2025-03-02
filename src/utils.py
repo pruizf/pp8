@@ -26,7 +26,7 @@ def get_poem_text_by_fn(fn):
   Returns:
       str: poem text
   """
-  with open(fn, "r") as f:
+  with open(fn, "r", encoding="utf-8") as f:
     return f.read().strip()
 
 def get_poem_text_by_id(txtid, corpus_dir=cf.corpus_dir):
@@ -210,7 +210,7 @@ def get_judgement_info_for_dir(dname, max_choices=cf.max_choices_for_textometry)
       continue
     prefix = re.sub(r"_\d\..*$", "", fname)
     judgements_by_prefix.setdefault(prefix, [])
-    with open(os.path.join(dname, fname), "r") as f:
+    with open(os.path.join(dname, fname), "r", encoding="utf-8") as f:
       humor_info = json.load(f)
       judgement = normalize_judgement(humor_info["judgement"].lower().strip())
       assert judgement in cf.judgements_orig, f"Judgement {judgement} not in possible original judgements."

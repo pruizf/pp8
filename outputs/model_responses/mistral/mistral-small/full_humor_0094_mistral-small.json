@@ -1,0 +1,23 @@
+{
+  "id": "858b3e8d302c4beb8a2ecbcc212d9c16",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 283,
+    "completion_tokens": 159,
+    "total_tokens": 442
+  },
+  "created": 1740950959,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico en s\u00ed, ya que no contiene elementos que induzcan a la risa o el sarcasmo. Al contrario, se trata de un poema con un tono serio y emocional, con descripciones detalladas y el uso de figuras literarias como la met\u00e1fora y la personificaci\u00f3n. Adem\u00e1s, el poema narra una escena conmovedora en la que el protagonista muestra generosidad y compasi\u00f3n hacia una mujer necesitada. Por lo tanto, se puede concluir que el poema no es c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

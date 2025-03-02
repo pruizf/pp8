@@ -1,0 +1,23 @@
+{
+  "id": "735b53b4ef374eb1a11478c9159f48a5",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 93,
+    "total_tokens": 226
+  },
+  "created": 1740952161,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"me tienes, y tan duro es mi deseo.\\nTraspasa t\u00fa mi pena a su derecho\\ny dile a quien de m\u00ed se ha olvidado,\\nya que en su duro nombre me deshecho,\\nque, aunque en su vista muero, vivo en fuego.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

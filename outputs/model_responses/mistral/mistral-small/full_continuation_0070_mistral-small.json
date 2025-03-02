@@ -1,0 +1,23 @@
+{
+  "id": "ebdf15e065304f37b51b7c7bc6a18697",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 63,
+    "total_tokens": 206
+  },
+  "created": 1740950868,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"No puedo continuar con el poema, ya que no tengo suficiente contexto o informaci\u00f3n sobre qui\u00e9n es el autor y cu\u00e1l es el tema general del poema.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

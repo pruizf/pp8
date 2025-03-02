@@ -1,0 +1,23 @@
+{
+  "id": "5765299827fc40afb97c25f2b7c79d93",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 76,
+    "total_tokens": 209
+  },
+  "created": 1740951603,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y as\u00ed se teje el poema algo brusco,\\ncon la fina materia de los cascos,\\nde lat\u00f3n y de cinc, en verso escaso\\nde palabras que, al fin, son de repuesto.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

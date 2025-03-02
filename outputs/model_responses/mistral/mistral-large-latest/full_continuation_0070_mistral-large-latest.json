@@ -1,0 +1,23 @@
+{
+  "id": "9ce82067442646e28a2a3f3eba2048f9",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 43,
+    "total_tokens": 181
+  },
+  "created": 1740951974,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Pues, \u00a1voto a J\u00fapiter, que no es rica, Josefa!\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

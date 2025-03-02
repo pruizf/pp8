@@ -1,0 +1,23 @@
+{
+  "id": "6c3b07d4f2d44455a278ec1b05738208",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 312,
+    "completion_tokens": 153,
+    "total_tokens": 465
+  },
+  "created": 1740950848,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El tono y el contenido del poema no son claramente c\u00f3micos. Aunque el poema utiliza algunos elementos humor\u00edsticos, como comparar a la mujer con una prisi\u00f3n y un \u00eddolo, estos elementos se utilizan de una manera m\u00e1s reflexiva y filos\u00f3fica que humor\u00edstica. Adem\u00e1s, la \u00faltima l\u00ednea del poema, 'Ver\u00e1s c\u00f3mo despu\u00e9s te gustan todas', tiene un tono ir\u00f3nico y ligeramente c\u00f3mico, pero no es suficiente para clasificar todo el poema como c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

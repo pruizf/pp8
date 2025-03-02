@@ -1,0 +1,23 @@
+{
+  "id": "ee186d0235fa421690f823c987bcca06",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 170,
+    "total_tokens": 312
+  },
+  "created": 1740951948,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Porque veo que, al fin, tu mal secreto\\nCual otro rey Midas, te est\u00e1 volviendo,\\nNo en oro, en hielo el coraz\u00f3n estrecho,\\nY el oro que amas, va tu pecho friendo.\\nTus ojos la ambici\u00f3n tiene vendados,\\nY de amigos y deudo te aisla en vano;\\nPorque al punto que logres tus cuidados,\\nSolo en el mundo, libre de humano\\nAf\u00e1n, la dicha, el oro que has so\u00f1ado\\nSer\u00e1 manzana de Sodoma insano.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "86360173dcde444f8f2feacb04caf1c6",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 266,
+    "completion_tokens": 24,
+    "total_tokens": 290
+  },
+  "created": 1740950925,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Francisco Imperial\",\n  \"century\": \"15th\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

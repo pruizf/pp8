@@ -1,0 +1,23 @@
+{
+  "id": "2795b746bfb94362a955d5e19b3357de",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 80,
+    "total_tokens": 220
+  },
+  "created": 1740952216,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00a1Oh, dulce y fresca rosa de la patria m\u00eda!\\n\u00a1Oh, suave y casto lirio de Castilla,\\nque en tu fragante c\u00e1liz da asilo\\nla esencia de la santa poes\u00eda!\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

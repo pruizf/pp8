@@ -1,0 +1,23 @@
+{
+  "id": "bf35af1276684c1baee03d4f6f2200b6",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 249,
+    "total_tokens": 398
+  },
+  "created": 1740950611,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Retroced\u00ed un poco, en efecto, \\r\\nun gato hab\u00eda sido el causante \\r\\nde mi ligero y tonto embarazo \\r\\nque en la cortina qued\u00f3 enganchado.\\r\\n\\r\\nYa sin el obst\u00e1culo, prosegu\u00ed, \\r\\ny con una sonrisa, mi compra hice: \\r\\r\\nun buen trozo de turr\u00f3n, sin olvido,\\r\\npara endulzar el resto de la jornada.\\r\\n\\r\\nCon el gato jugando en la calle, \\r\\r\\ncontento, me fui de all\u00ed lejos;\\r\\nrecordando siempre aquel d\u00eda, \\r\\r\\ncuando un gato me rob\u00f3 un zapato.\\r\\n\\r\\nY as\u00ed, termino mi relato hoy,\\r\\nque en un simple detalle se resume el vivir.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

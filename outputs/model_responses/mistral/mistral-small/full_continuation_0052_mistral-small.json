@@ -1,0 +1,23 @@
+{
+  "id": "32e9818adccc4cf1bab49977f818e708",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 171,
+    "total_tokens": 305
+  },
+  "created": 1740950792,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Pas\u00f3 la hoja al \u00e1rbol sedienta,\\nPas\u00f3 el r\u00edo al mar sin temor,\\nPas\u00f3 el tiempo prisionero en hora,\\nY pas\u00f3 mi vida sin consuelo.\\nPas\u00f3 la alegre esperanza fugaz,\\nPas\u00f3 el ausente con recelo,\\nPas\u00f3 el rubor del bello querer,\\nY pas\u00f3 el beso con su calor.\\nPas\u00f3 el canto del p\u00e1jaro herido,\\nPas\u00f3 el eco del mar sin medida,\\nPas\u00f3 el honor sin reproche,\\nY pas\u00f3 la muerte sin sentido.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

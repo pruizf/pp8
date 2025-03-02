@@ -1,0 +1,23 @@
+{
+  "id": "0e4391c953814ef68cc0ec0cdf0e4553",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 289,
+    "completion_tokens": 234,
+    "total_tokens": 523
+  },
+  "created": 1740951727,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Anhelos' no es c\u00f3mico. Su tono y tem\u00e1tica son profundamente rom\u00e1nticos y apasionados. Las im\u00e1genes utilizadas, como 'perfume embriagante de verbenas', 'ardientes, de mis brazos amorosos', y 'borrascosas las noches y los d\u00edas', evocan una intensidad emocional y una pasi\u00f3n desbordante. El uso de met\u00e1foras y la estructura l\u00edrica del poema refuerzan esta sensaci\u00f3n. Adem\u00e1s, la referencia a 'tempestades locas y sombr\u00edas' sugiere una relaci\u00f3n tumultuosa y apasionada, alejada de cualquier tono humor\u00edstico o ligero. En resumen, el poema est\u00e1 dise\u00f1ado para transmitir una profunda emoci\u00f3n y una intensa pasi\u00f3n, lo que lo distancia del humor o la comicidad.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "1bd9a7d69a8f4290a2ca79db7ee6afc3",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 71,
+    "total_tokens": 204
+  },
+  "created": 1740952115,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"la luz sus rayos hacer perla,\\nni es su resplandor claro y permanente;\\npero la faz de la purp\u00farea selva\\npor siempre as\u00ed se deja entrever.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

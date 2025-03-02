@@ -1,0 +1,23 @@
+{
+  "id": "85a62f5710d14e99bf8b75c47cb64df7",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 147,
+    "completion_tokens": 42,
+    "total_tokens": 189
+  },
+  "created": 1740950858,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo siento, no puedo continuar el poema sin la siguiente parte del texto original.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

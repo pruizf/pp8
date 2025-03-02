@@ -1,0 +1,23 @@
+{
+  "id": "9958f19c8a274ff58b8275a68ae7661f",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 279,
+    "completion_tokens": 192,
+    "total_tokens": 471
+  },
+  "created": 1740952041,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico porque carece de elementos humor\u00edsticos o c\u00f3micos. En cambio, presenta un tono solemne y exaltado, caracter\u00edstico de la poes\u00eda \u00e9pica o laudatoria. La descripci\u00f3n de Raimundo como un personaje poderoso y su capacidad para controlar los elementos (mar y viento) sugiere un tema de hero\u00edsmo y grandeza. Adem\u00e1s, el uso de un lenguaje elevado y met\u00e1foras complejas refuerza la seriedad del poema. No hay juegos de palabras, iron\u00eda ni situaciones absurdas que puedan provocar risa, lo cual es t\u00edpico de la poes\u00eda c\u00f3mica.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

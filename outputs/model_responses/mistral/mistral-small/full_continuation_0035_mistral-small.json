@@ -1,0 +1,23 @@
+{
+  "id": "9f6d199a8c8447c39a3f4c7c912c3351",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 20,
+    "total_tokens": 155
+  },
+  "created": 1740950701,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": null\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

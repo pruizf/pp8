@@ -1,0 +1,23 @@
+{
+  "id": "d8937c4348134a688f37ebe036b80bf5",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 341,
+    "completion_tokens": 24,
+    "total_tokens": 365
+  },
+  "created": 1740952040,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Jos\u00e9 Rizal\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "c91e885578a742e287ac64cc9bb3c8b8",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 306,
+    "completion_tokens": 150,
+    "total_tokens": 456
+  },
+  "created": 1740950934,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presenta un tono serio y simb\u00f3lico, donde el sol rapta a Amor y le roba las plumas de las alas, impidi\u00e9ndole volar. Esto representa un evento trascendental en el que Amor queda a merced de la amada, quien ahora tiene el poder de disparar las flechas de amor. Esta tem\u00e1tica y lenguaje po\u00e9tico no encajan con los elementos caracter\u00edsticos de la comedia, como lo son la ridiculizaci\u00f3n, el ingenio o la s\u00e1tira.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

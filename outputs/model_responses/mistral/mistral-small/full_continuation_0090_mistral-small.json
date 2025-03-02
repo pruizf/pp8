@@ -1,0 +1,23 @@
+{
+  "id": "431a650640f042f5bd05c17c7dab4d85",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 146,
+    "completion_tokens": 262,
+    "total_tokens": 408
+  },
+  "created": 1740950944,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"lo siento, no puedo continuar este poema sin m\u00e1s contexto. El fragmento que proporcionaste parece pertenecer al soneto XXV de la colecci\u00f3n \"\n  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t  \t\t\t\t",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

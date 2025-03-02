@@ -1,0 +1,23 @@
+{
+  "id": "12ffeb8cbe2d4f6285c1570c634317d2",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 319,
+    "completion_tokens": 24,
+    "total_tokens": 343
+  },
+  "created": 1740951511,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Mariano Jos\u00e9 de Larra\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

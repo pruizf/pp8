@@ -1,0 +1,23 @@
+{
+  "id": "724d2dc5a9ac4dbe804310ab276202c5",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 327,
+    "completion_tokens": 24,
+    "total_tokens": 351
+  },
+  "created": 1740950614,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Gloria Fuertes\",\n  \"century\": \"20\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

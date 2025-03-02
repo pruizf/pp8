@@ -1,0 +1,23 @@
+{
+  "id": "3273cc2e86524f9783439e42756b3446",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 77,
+    "total_tokens": 209
+  },
+  "created": 1740952149,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"a tu desordenado deseo:\\nno es cordura querer lo que no tiene\\nseguro fundamento en su feo\\npresunci\u00f3n, ni esperar el bien que viene\\npor caminos tan torpes y tan vanos.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

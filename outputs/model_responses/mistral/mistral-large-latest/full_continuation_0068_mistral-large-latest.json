@@ -1,0 +1,23 @@
+{
+  "id": "71d5091f7c9742e6a4049e2d7fd572d7",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 72,
+    "total_tokens": 201
+  },
+  "created": 1740951960,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Basta de escalar montes eminente,\\nDe cazar con furor alima\u00f1as,\\nY a cobijarse en chozas y caba\u00f1as,\\nHuyendo de los hombres y del viento.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

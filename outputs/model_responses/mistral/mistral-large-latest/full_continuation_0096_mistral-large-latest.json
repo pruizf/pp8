@@ -1,0 +1,23 @@
+{
+  "id": "d250950d78f84d55928c1b55dced9945",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 50,
+    "total_tokens": 186
+  },
+  "created": 1740952188,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que en su fervor con la actividad divina\\nse apura, y en las alturas se aflina.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

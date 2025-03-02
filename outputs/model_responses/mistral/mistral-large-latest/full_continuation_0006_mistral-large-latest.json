@@ -1,0 +1,23 @@
+{
+  "id": "d077ec077df14d5188eb738613bc70be",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 123,
+    "completion_tokens": 67,
+    "total_tokens": 190
+  },
+  "created": 1740951424,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00e9rase un reloj de sol al rel\u00f3, \u00e9rase una alquitara pensada, \u00e9rase un elefante boca arriba, era Ovidio Nas\u00f3n m\u00e1s narizado.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

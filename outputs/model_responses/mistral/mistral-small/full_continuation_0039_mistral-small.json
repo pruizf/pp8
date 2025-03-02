@@ -1,0 +1,23 @@
+{
+  "id": "38f9f443fc6f4076b315f2a6d51d018c",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 121,
+    "completion_tokens": 81,
+    "total_tokens": 202
+  },
+  "created": 1740950714,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"ofreci\u00f3 en recompensa a su salvador\\nla mitad de su imperio y el coraz\u00f3n agradecido.\\nTal fue el honor que Roma le brind\u00f3\\nque a\u00fan en la gloria de su canto resound\u00f3.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

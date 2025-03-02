@@ -1,0 +1,23 @@
+{
+  "id": "da607bda1da94da58279a66edaa68907",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 87,
+    "total_tokens": 229
+  },
+  "created": 1740950980,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"No puedo continuar el poema, ya que no conozco el autor ni el contexto del mismo. El fragmento proporcionado parece pertenecer a un poema rom\u00e1ntico o pastoral, pero sin m\u00e1s informaci\u00f3n, no puedo continuarlo apropiadamente.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

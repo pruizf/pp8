@@ -1,0 +1,23 @@
+{
+  "id": "2378d5cc9e0a43838e77fd429fdb8570",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 288,
+    "completion_tokens": 26,
+    "total_tokens": 314
+  },
+  "created": 1740950728,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Fray Manuel de Sumaya\",\n  \"century\": \"18th\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

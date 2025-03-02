@@ -1,0 +1,23 @@
+{
+  "id": "c91f3a4257314f6fb2785afee80ba312",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 336,
+    "completion_tokens": 24,
+    "total_tokens": 360
+  },
+  "created": 1740950786,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Rub\u00e9n Dar\u00edo\",\n  \"century\": \"XIX\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

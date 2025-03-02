@@ -1,0 +1,23 @@
+{
+  "id": "9baf445f91164266b3d2813d962007d9",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 56,
+    "total_tokens": 193
+  },
+  "created": 1740951612,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"T\u00fa de vacaciones, yo de panadero,\\nt\u00fa de oros, yo de copas,\\nt\u00fa de instinto, yo de yerro.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

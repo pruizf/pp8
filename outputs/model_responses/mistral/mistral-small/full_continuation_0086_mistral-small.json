@@ -1,0 +1,23 @@
+{
+  "id": "5e5755684cc54dd1a1e9ab411e3bcec8",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 82,
+    "total_tokens": 219
+  },
+  "created": 1740950927,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"encontrar alg\u00fan socorro o v\u00eda de escape,\\ncuando de repente, con gran j\u00fabilo y placer,\\nsurge mi amada y con valent\u00eda y fuerza,\\nalzando la piedra, me libera de tan gran da\u00f1o.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

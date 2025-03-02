@@ -1,0 +1,23 @@
+{
+  "id": "e7030a632f3d459fa2a64d07d5de886e",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 284,
+    "completion_tokens": 137,
+    "total_tokens": 421
+  },
+  "created": 1740950900,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El tono y el lenguaje utilizados en este poema no son t\u00edpicos de la comedia. En su lugar, el poema tiene un tono serio y elevado, con un lenguaje formal y elaborado. Adem\u00e1s, el poema trata temas como el poder y la grandeza, que no suelen considerarse c\u00f3micos. Aunque el poema contiene im\u00e1genes poderosas y descripciones v\u00edvidas, no est\u00e1 dise\u00f1ado para ser gracioso o divertido.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

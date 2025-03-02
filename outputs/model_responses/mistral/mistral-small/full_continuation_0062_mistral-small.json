@@ -1,0 +1,23 @@
+{
+  "id": "2c10008bf7b84358a74e796436001812",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 111,
+    "total_tokens": 256
+  },
+  "created": 1740950838,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Pero all\u00e1 t\u00fa con tu sutil pluma;\\nSigue dando en el blanco con tanta sa\u00f1a;\\\\Sigue con tu sagaz, feroz lapidaci\u00f3n;\\\\Aunque muera en la raya, he de ser valiente,\\\\Y aguantar, as\u00ed Dios me d\u00e9 fortaleza,\\\\La tundida de verdades a quemarropa.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

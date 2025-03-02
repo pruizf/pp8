@@ -1,0 +1,23 @@
+{
+  "id": "49fdfaaf321b48199cdae723ea43e5e6",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 274,
+    "completion_tokens": 28,
+    "total_tokens": 302
+  },
+  "created": 1740952150,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Luis de G\u00f3ngora y Argote\",\n  \"century\": 16\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

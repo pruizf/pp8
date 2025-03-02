@@ -1,0 +1,23 @@
+{
+  "id": "e4f0769021654d5baee9cb2052105677",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 70,
+    "total_tokens": 212
+  },
+  "created": 1740950735,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"No puedo continuar el poema sin una fuente adicional de versos, ya que solo me ha proporcionado los primeros cuatro versos del poema 'Retrato' de Rosal\u00eda de Castro.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

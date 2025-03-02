@@ -1,0 +1,23 @@
+{
+  "id": "aa808ceb58cf4c78b944e2c2a166b7ca",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 124,
+    "total_tokens": 269
+  },
+  "created": 1740951981,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Porque aqu\u00ed viene un bulto de poetas, y si uno de ellos tiene un arcabuz, ver\u00e1n c\u00f3mo huyen las Musas de la tienda y la poes\u00eda se pone a buen recaudo. Aqu\u00ed me temo que van a hacer que el mundo se llene de malos versos. \u00a1Cuidado, Apolo, que esta vez s\u00ed que se nos va a caer el cielo encima!\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

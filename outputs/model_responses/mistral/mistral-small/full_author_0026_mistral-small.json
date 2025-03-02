@@ -1,0 +1,23 @@
+{
+  "id": "5d967f40f63c452a8822a8c1c78dd24f",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 295,
+    "completion_tokens": 25,
+    "total_tokens": 320
+  },
+  "created": 1740950661,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Fray Luis de Le\u00f3n\",\n  \"century\": \"16\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

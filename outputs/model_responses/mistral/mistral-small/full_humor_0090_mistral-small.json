@@ -1,0 +1,23 @@
+{
+  "id": "6f0ceefb658442a09569a51d878659b6",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 296,
+    "completion_tokens": 209,
+    "total_tokens": 505
+  },
+  "created": 1740950942,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El tono y el tema del poema no son inherentemente c\u00f3micos. El poema presenta una conversaci\u00f3n metaf\u00f3rica entre una mariposa y un \u00e1rbol, en la que la mariposa cuestiona la longevidad y la estabilidad del \u00e1rbol en comparaci\u00f3n con su propia vida ef\u00edmera. El \u00e1rbol, a su vez, reflexiona sobre la interconexi\u00f3n de la vida y c\u00f3mo cada entidad tiene su propio papel que desempe\u00f1ar. Este tema y tono po\u00e9tico no contienen elementos c\u00f3micos t\u00edpicos como la s\u00e1tira, el absurdo, la sorpresa o el humor slapstick. En su lugar, el poema es contemplativo y filos\u00f3fico, lo que sugiere que no es c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

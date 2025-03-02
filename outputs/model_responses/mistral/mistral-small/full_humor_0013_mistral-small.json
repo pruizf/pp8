@@ -1,0 +1,23 @@
+{
+  "id": "af9aaa6a3ffa44eb8efe59495c3fdb54",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 333,
+    "completion_tokens": 191,
+    "total_tokens": 524
+  },
+  "created": 1740950600,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado es un soneto, una forma po\u00e9tica tradicional que sigue una rima y un ritmo espec\u00edficos. El tema del poema y la actitud del hablante no son inherentemente c\u00f3micos. El hablante describe sus preferencias y posesiones de una manera sencilla y directa, sin ning\u00fan elemento que sugiera una broma o intenci\u00f3n humor\u00edstica. Aunque algunos de los objetos mencionados, como la Virgen de Cortina y la escopeta, pueden parecer inusuales o poco po\u00e9ticos, no est\u00e1n presentados de una manera que sugiera risa o diversi\u00f3n. Por lo tanto, el poema no debe clasificarse como c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

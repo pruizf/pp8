@@ -1,0 +1,23 @@
+{
+  "id": "32e649d892184d8e99d72957bca709c8",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 289,
+    "completion_tokens": 209,
+    "total_tokens": 498
+  },
+  "created": 1740951696,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"El poema presenta una mezcla de elementos que pueden ser interpretados de diferentes maneras. Por un lado, el uso de un lenguaje elevado y metaf\u00f3rico, como 'grito del amor', 'bandera' y 'b\u00e1lsamo es el placer en toda herida', sugiere una intenci\u00f3n seria y rom\u00e1ntica. Sin embargo, la menci\u00f3n de 'de seno en seno' y 'el \u00fanico brid\u00f3n en que consigo alejarme del campo de batalla' puede ser vista como ligeramente ir\u00f3nica o incluso c\u00f3mica, dependiendo del contexto y la interpretaci\u00f3n del lector. La ambig\u00fcedad en el tono y la intenci\u00f3n del poema hace que sea dif\u00edcil clasificarlo definitivamente como c\u00f3mico o serio.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

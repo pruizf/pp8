@@ -1,0 +1,23 @@
+{
+  "id": "92a1c1ea59214de3b7f11e9877b4a15d",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 245,
+    "total_tokens": 374
+  },
+  "created": 1740950591,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Aunque nace noble, en la cumbre altiva, \\nMuerde el polvo en la guerra; y all\u00ed, vencido, \\nSu vida a\u00edsla, yace, y, consumido, \\nSe muere solo, y cede a mejor estado. \\n\\n\u00bfQu\u00e9 valor hay en su linaje escogido? \\n\u00bfQu\u00e9 es el cetro sino un caduco rengl\u00f3n? \\n\u00bfQu\u00e9 la corona sino un simple adorno? \\n\u00bfQu\u00e9 la riqueza sino un pr\u00e9stamo? \\n\\nTodo en la vida es pasajero; \\nEl mundo es teatro de mudanza: un ser \\nQue nace, crece, se enflaquece y muere. \\n\\nSomos un soplo en el aire; un sue\u00f1o; \\nUn brote en la estaci\u00f3n; una sombra \\nEn la tarde: y en la noche, nada m\u00e1s.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

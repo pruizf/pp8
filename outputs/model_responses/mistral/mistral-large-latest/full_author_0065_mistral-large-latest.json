@@ -1,0 +1,23 @@
+{
+  "id": "f583f0f017b74880b0ab4be1432ae678",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 298,
+    "completion_tokens": 26,
+    "total_tokens": 324
+  },
+  "created": 1740951935,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Leandro Fern\u00e1ndez de Morat\u00edn\",\n  \"century\": 18\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

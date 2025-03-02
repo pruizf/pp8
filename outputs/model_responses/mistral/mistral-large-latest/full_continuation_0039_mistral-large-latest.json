@@ -1,0 +1,23 @@
+{
+  "id": "53dfc23eb37d4a29a01f8058b74eed49",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 116,
+    "completion_tokens": 102,
+    "total_tokens": 218
+  },
+  "created": 1740951715,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"le daba a su valor, en tan alta ocasi\u00f3n, una hoja de laurel por corona. Es justo que a cualquier amigo m\u00edo, que se vea en estrecho tan cerrado, le d\u00e9 un cipr\u00e9s por sola alegr\u00eda, porque es \u00e1rbol que al triste siempre agrada.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

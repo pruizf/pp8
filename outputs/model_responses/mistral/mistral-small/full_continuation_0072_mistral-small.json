@@ -1,0 +1,23 @@
+{
+  "id": "62d0c07c213a4c2d8cb364dd151b4f79",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 73,
+    "total_tokens": 208
+  },
+  "created": 1740950876,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Cort\u00e9me el de Mendoza el cuello,\\nque el de C\u00e1rdenas ya se ha cortado,\\nen la vida del de Ulloa he trocado\\nalgunas carnes y algunos huesos.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

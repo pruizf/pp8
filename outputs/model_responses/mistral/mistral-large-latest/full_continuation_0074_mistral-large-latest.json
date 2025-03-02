@@ -1,0 +1,23 @@
+{
+  "id": "20618ff2330646a0b814aa8b8df462ff",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 62,
+    "total_tokens": 193
+  },
+  "created": 1740952008,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Aquel que es de la falsa Mes\u00edas rey, \\nque Dios permita que todo mal crey \\nelsu perverso coraz\u00f3n y el mal que ense\u00f1a.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

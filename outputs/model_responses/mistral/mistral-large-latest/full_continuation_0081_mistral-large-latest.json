@@ -1,0 +1,23 @@
+{
+  "id": "4d28055133b04db98826c6eb3cac18e9",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 107,
+    "total_tokens": 240
+  },
+  "created": 1740952061,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"de los que llenos de glorioso manto\\nCelestiales loaban con su santo.\\nPastor de gran virtud, que en el sembrado\\nAmparo de la grey, siendo llamado,\\nConduce al rico fruto y al bien logrado\\nEn el valle de paz, verde y cuajado.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

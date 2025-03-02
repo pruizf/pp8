@@ -1,0 +1,23 @@
+{
+  "id": "3286ab2b06fb485fa66fa30424629a94",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 139,
+    "completion_tokens": 63,
+    "total_tokens": 202
+  },
+  "created": 1740950890,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"A la carcel de la villa,\\nel alcaide encargo y commiso,\\npor ser tan diestro en su oficio,\\ny por ser de la villa originario.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

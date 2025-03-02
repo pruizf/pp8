@@ -1,0 +1,23 @@
+{
+  "id": "d09037ec403f4125847b1ab10e0c96af",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 36,
+    "total_tokens": 185
+  },
+  "created": 1740952194,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y el viento en la arboleda susurra suave.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

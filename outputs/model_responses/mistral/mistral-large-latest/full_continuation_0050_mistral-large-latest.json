@@ -1,0 +1,23 @@
+{
+  "id": "3f0864fe08214be5a0c5b64ef9957cd1",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 156,
+    "completion_tokens": 150,
+    "total_tokens": 306
+  },
+  "created": 1740951806,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"El chorro de agua de Verlaine estaba mudo.\\nEntre la hojarasca de oro y el viento manso,\\nmi alma sinti\u00f3 tu divino aleteo.\\nAhora, con la tarde, se ha dormido el campo,\\ny se ha dormido mi alma, Marqu\u00e9s, y me suspiro\\ndel sol en las aristas del viejo convento.\\nLa tierra se hace m\u00edstica y dulce, Marqu\u00e9s,\\nen la tarde oto\u00f1al, tarde de mis anhelos.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

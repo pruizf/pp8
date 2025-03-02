@@ -1,0 +1,23 @@
+{
+  "id": "47a724601a084005ae896ef8a059ec06",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 305,
+    "completion_tokens": 157,
+    "total_tokens": 462
+  },
+  "created": 1740950840,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema contiene elementos c\u00f3micos, como la comparaci\u00f3n del bailar\u00edn con un 'mono vestido de tis\u00fa' y un 'aborto de grulla y chimpanc\u00e9', lo que crea una imagen rid\u00edcula y divertida. Adem\u00e1s, utiliza un tono sarc\u00e1stico e ir\u00f3nico, especialmente cuando se refiere a la 'admirable' habilidad del bailar\u00edn de mantenerse sobre un pie durante un cuarto de hora, lo que sugiere una cr\u00edtica humor\u00edstica a la vanidad y la arrogancia del mundo del baile.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

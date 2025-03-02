@@ -1,0 +1,23 @@
+{
+  "id": "bcc11b5a203a4f368af7c1bb93c2324d",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 92,
+    "total_tokens": 218
+  },
+  "created": 1740951700,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y as\u00ed, al fin, debo hacerte saber que\\nte amo, y que mi vida no tiene sentido si no es\\njunto a ti. En cada latido de mi coraz\u00f3n\\nresuena tu nombre, y en cada sue\u00f1o\\nme encuentro perdido en tus ojos.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 {
-  "id": "6cc488a9d5754ea9a87dde05aca18552",
+  "id": "fe08764e4255454db1989ad1c7d36ddd",
   "object": "chat.completion",
   "model": "mistral-large-latest",
   "usage": {
     "prompt_tokens": 284,
-    "completion_tokens": 22,
-    "total_tokens": 306
+    "completion_tokens": 27,
+    "total_tokens": 311
   },
-  "created": 1740951597,
+  "created": 1749484037,
   "choices": [
     {
       "index": 0,
       "message": {
-        "content": "{\n  \"author\": \"Manuel Machado\",\n  \"century\": 20\n}",
+        "content": "{\n  \"author\": \"Tom\u00e1s Navarro Tom\u00e1s\",\n  \"century\": \"20\"\n}",
         "tool_calls": null,
         "prefix": false,
         "role": "assistant"

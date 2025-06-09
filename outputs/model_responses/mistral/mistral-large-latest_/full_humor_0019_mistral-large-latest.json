@@ -1,0 +1,23 @@
+{
+  "id": "0c23034d25c04844978094334bdb494a",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 269,
+    "completion_tokens": 289,
+    "total_tokens": 558
+  },
+  "created": 1740951555,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico debido a su tono sat\u00edrico y a la exageraci\u00f3n con la que describe las caracter\u00edsticas de un 'liberal'. La descripci\u00f3n de la vestimenta y el comportamiento es caricaturesca, resaltando la superficialidad y la hipocres\u00eda. La menci\u00f3n de 'gran corbat\u00edn' y 'las lucientes botas' sugiere una preocupaci\u00f3n excesiva por la apariencia. Adem\u00e1s, la sugerencia de 'echar la religi\u00f3n al olvido' y la repetici\u00f3n de palabras como 'constituci\u00f3n' y 'ciudadanos' subraya la superficialidad y la falta de autenticidad en la adopci\u00f3n de ideales liberales. El uso de t\u00e9rminos como 'serviles', 'pancistas' y 'pitancines' a\u00f1ade un toque burlesco, ridiculizando las divisiones pol\u00edticas y sociales. En conjunto, el poema utiliza el humor para criticar a aquellos que adoptan una identidad pol\u00edtica basada en apariencias y estereotipos, en lugar de principios genuinos.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

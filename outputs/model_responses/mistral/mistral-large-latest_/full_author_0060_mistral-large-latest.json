@@ -1,0 +1,23 @@
+{
+  "id": "6731d052d5cd4876b5d44c65f74929f0",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 289,
+    "completion_tokens": 29,
+    "total_tokens": 318
+  },
+  "created": 1740951897,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Mar\u00eda Dolores de Cospedal Garc\u00eda\",\n  \"century\": \"20\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

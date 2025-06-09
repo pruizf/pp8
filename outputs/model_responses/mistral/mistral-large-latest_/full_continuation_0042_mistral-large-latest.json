@@ -1,0 +1,23 @@
+{
+  "id": "d8c0792c699540469e1f3f7a192471d5",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 150,
+    "completion_tokens": 133,
+    "total_tokens": 283
+  },
+  "created": 1740951739,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"ama a la remolacha, buena porque es sangu\u00ednea\\nal apio vil y al torpe alcornoque gascu\u00f1o\\ny al puerro, leve y al recio y al amargo pu\u00f1o\\nmas al trigo, porque da la harina pura\\ny al arrope, porque da la dulce mermelada\\nal ma\u00edz, porque da la tortilla y la arepa\\ny al caf\u00e9, porque da la energ\u00eda y la calma.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

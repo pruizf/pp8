@@ -1,0 +1,23 @@
+{
+  "id": "f1f27b489224423e85400b3266afd3e8",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 69,
+    "total_tokens": 200
+  },
+  "created": 1740952100,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"de vencer en la demanda\\nque hacemos, pues justicia nos ampara.\\nAs\u00ed, con fuerza y con constancia clara,\\nseguimos adelante sin desbanda.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

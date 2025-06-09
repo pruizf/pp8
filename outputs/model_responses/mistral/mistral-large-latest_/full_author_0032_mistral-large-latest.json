@@ -1,0 +1,23 @@
+{
+  "id": "f8601933ef974ed6aca41b832c71655b",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 273,
+    "completion_tokens": 28,
+    "total_tokens": 301
+  },
+  "created": 1740951664,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Mar\u00eda Eugenia Vaz Ferreira\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

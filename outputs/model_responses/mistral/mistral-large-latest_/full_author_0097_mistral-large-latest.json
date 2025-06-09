@@ -1,0 +1,23 @@
+{
+  "id": "0cfacc75d25749a28d3d35886b7cb7c2",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 287,
+    "completion_tokens": 26,
+    "total_tokens": 313
+  },
+  "created": 1740952195,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Enrique Gonz\u00e1lez Mart\u00ednez\",\n  \"century\": 20\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

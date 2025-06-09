@@ -1,0 +1,23 @@
+{
+  "id": "768514ac97484e0faf181e0912efbead",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 291,
+    "completion_tokens": 172,
+    "total_tokens": 463
+  },
+  "created": 1740951653,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico porque su contenido y tono son serios y melanc\u00f3licos. El autor expresa un profundo dolor y angustia al reflexionar sobre su vida y su amor no correspondido. A pesar de su sufrimiento, encuentra consuelo en la persona amada, lo que a\u00f1ade una capa de tristeza rom\u00e1ntica. No hay elementos humor\u00edsticos, iron\u00edas o situaciones graciosas que puedan hacer re\u00edr al lector. En cambio, el poema evoca emociones de tristeza, anhelo y resignaci\u00f3n, lo cual lo aleja del g\u00e9nero c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

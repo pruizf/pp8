@@ -1,18 +1,18 @@
 {
-  "id": "9ea7328754f447e78db5a145e8dbd930",
+  "id": "41fc8ad770164508881d5fa1465c124a",
   "object": "chat.completion",
   "model": "mistral-large-latest",
   "usage": {
     "prompt_tokens": 142,
-    "completion_tokens": 66,
-    "total_tokens": 208
+    "completion_tokens": 102,
+    "total_tokens": 244
   },
-  "created": 1740951390,
+  "created": 1749483608,
   "choices": [
     {
       "index": 0,
       "message": {
-        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y en el b\u00e9lico mar enfurecido,\\nunos murieron y otros se ahogaron,\\ny de vuelta quedamos cuatro personas\\ny la mitad de ellas medio podridas.\"\n}",
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Se\u00f1ora t\u00eda, de Cagalarache,\\n-Sobrino, \u00bfy cu\u00e1ntos fuisteis a Alfalarache?\\n-Treinta soldados en tres mil galeras.\\n-\u00bfY cu\u00e1ntos volvieron de Alfalarache?\\n-Un soldado y media en tres mil galeras.\"\n}",
         "tool_calls": null,
         "prefix": false,
         "role": "assistant"

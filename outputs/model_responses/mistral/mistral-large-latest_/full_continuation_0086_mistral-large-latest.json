@@ -1,0 +1,23 @@
+{
+  "id": "1ecc8f9fcfcc427490777577ba3910ce",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 89,
+    "total_tokens": 221
+  },
+  "created": 1740952109,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"ver si podr\u00eda\\nquitarme presto donde no me hallase\\ny con este cuidado despertaba.\\n\\nQued\u00e9me en tal manera alterado,\\nque el coraz\u00f3n de susto no ve\u00eda\\nla sangre que en el cuerpo me hab\u00eda dejado.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

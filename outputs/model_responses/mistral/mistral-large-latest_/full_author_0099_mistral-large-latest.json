@@ -1,0 +1,23 @@
+{
+  "id": "fa9bd4a0d71a4120a35747290c7dd4a7",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 281,
+    "completion_tokens": 23,
+    "total_tokens": 304
+  },
+  "created": 1740952211,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Manuel Mar\u00eda Flores\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

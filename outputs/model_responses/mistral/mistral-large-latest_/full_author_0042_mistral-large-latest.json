@@ -1,0 +1,23 @@
+{
+  "id": "a608ecb2800a4f5d8b870cacbed9e4f6",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 331,
+    "completion_tokens": 22,
+    "total_tokens": 353
+  },
+  "created": 1740951742,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Oscar Wilde\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

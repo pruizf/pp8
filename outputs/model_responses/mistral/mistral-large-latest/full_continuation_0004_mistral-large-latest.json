@@ -1,18 +1,18 @@
 {
-  "id": "f6ccaf9247cb40b9ad57ba65a51fd05a",
+  "id": "802b43a910f442d0ac08fd33d1e526f8",
   "object": "chat.completion",
   "model": "mistral-large-latest",
   "usage": {
     "prompt_tokens": 127,
-    "completion_tokens": 59,
-    "total_tokens": 186
+    "completion_tokens": 263,
+    "total_tokens": 390
   },
-  "created": 1740951408,
+  "created": 1749483633,
   "choices": [
     {
       "index": 0,
       "message": {
-        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"a un pica\u00f1o de plaza fue a dar,\\ny en el tranco de un carro\\na comer a todo tranco\\npor no querer trabajar.\"\n}",
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"en el valle de Josafat se me apareci\u00f3,\\nque, desnudo de carne y de pellejo,\\nvino a verme de muerto a boca abierta\\ny espant\u00f3me la cara que me ense\u00f1o.\\n\\nYo le dije: \u2014\u00bfQui\u00e9n eres? \u2014 Y \u00e9l me dijo:\\n\u2014Soy \u2014respondi\u00f3\u2014 el que en el mundo fui\\nmonigote de gente y de caballos,\\nvalent\u00f3n de los hombres y azote;\\nque a muchos mat\u00e9 porque no muriesen\\ny a otros di la vida porque fuesen\\nm\u00e1s sin ella que con ella viviendo.\\n\\nNo acab\u00f3 cuando, con un alarido,\\nle dej\u00e9 muy bien muerto, y \u00e9l se fue\\nhecho un haz de pellejo entre los huesos,\\nmostrando a los que estaban mirando\\nque no hay dicha sin pena ni gozo\\nque no tenga a la cola el desconsuelo.\"\n}",
         "tool_calls": null,
         "prefix": false,
         "role": "assistant"

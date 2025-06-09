@@ -1,0 +1,23 @@
+{
+  "id": "3554eefa1b0f443bb1d881be2066c8e7",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 270,
+    "completion_tokens": 35,
+    "total_tokens": 305
+  },
+  "created": 1740952048,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Juan de Tassis y Peralta, Conde de Villamediana\",\n  \"century\": 17\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

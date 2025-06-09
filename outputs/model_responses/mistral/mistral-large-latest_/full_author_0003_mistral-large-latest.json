@@ -1,0 +1,23 @@
+{
+  "id": "33d06260ebc048d6ac81cd48edf2427d",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 287,
+    "completion_tokens": 26,
+    "total_tokens": 313
+  },
+  "created": 1740951400,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Miguel de Unamuno\",\n  \"century\": \"19\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

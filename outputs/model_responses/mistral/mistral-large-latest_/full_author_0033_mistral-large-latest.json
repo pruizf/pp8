@@ -1,0 +1,23 @@
+{
+  "id": "280fcd13e9bc4b73b2d482279f8fae3b",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 296,
+    "completion_tokens": 30,
+    "total_tokens": 326
+  },
+  "created": 1740951670,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Mar\u00eda de Zayas y Sotomayor\",\n  \"century\": 17\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

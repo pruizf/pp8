@@ -1,18 +1,18 @@
 {
-  "id": "f3e92f3342304d5e9ef9340edcb9194f",
+  "id": "5a8b2affcc484a16b7610c8620a66713",
   "object": "chat.completion",
   "model": "mistral-large-latest",
   "usage": {
     "prompt_tokens": 130,
-    "completion_tokens": 95,
-    "total_tokens": 225
+    "completion_tokens": 47,
+    "total_tokens": 177
   },
-  "created": 1740951993,
+  "created": 1749485130,
   "choices": [
     {
       "index": 0,
       "message": {
-        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Ya no se usa lo que se ordena,\\naunque vuestra se\u00f1or\u00eda provea\\ncon su gran mando y con su gran cordura.\\nYa no se estima en toda esta llanura\\nlo que se ordena, aunque m\u00e1s provecho\\ntraiga al reino y a m\u00ed particularmente.\"\n}",
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"C\u00e1nsame el de Arag\u00f3n con su mula, ac\u00e1bame, en resumen, la regla.\"\n}",
         "tool_calls": null,
         "prefix": false,
         "role": "assistant"

@@ -1,18 +1,18 @@
 {
-  "id": "0b4a67f62e2e4f48b119cf052b152c69",
+  "id": "2d951acce4ef4194a76d20e9bc1f6e7c",
   "object": "chat.completion",
   "model": "mistral-large-latest",
   "usage": {
     "prompt_tokens": 128,
-    "completion_tokens": 20,
-    "total_tokens": 148
+    "completion_tokens": 80,
+    "total_tokens": 208
   },
-  "created": 1740951732,
+  "created": 1749484351,
   "choices": [
     {
       "index": 0,
       "message": {
-        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"\"\n}",
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00a1Y quiero besar tus labios carnosos\\ncon la pasi\u00f3n que arde en mis venas!\\nY en tu mirada, ver el cielo abierto,\\nreflejado en tus ojos, tan serenos.\"\n}",
         "tool_calls": null,
         "prefix": false,
         "role": "assistant"

@@ -1,0 +1,23 @@
+{
+  "id": "8815e9608fc54137b40441121975e7ef",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 305,
+    "completion_tokens": 212,
+    "total_tokens": 517
+  },
+  "created": 1740951664,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico porque su contenido y tono son serios y melanc\u00f3licos. La obra se centra en el tema del amor no correspondido y la frustraci\u00f3n del poeta hacia Nise, quien no le corresponde. El uso de im\u00e1genes naturales como el ruise\u00f1or, la t\u00f3rtola, el pez y el toro, todas figuras que simbolizan el amor y el deseo, contrasta con la frialdad de Nise, quien es comparada con una 'helada piedra'. La estructura y el lenguaje del poema, t\u00edpicos del barroco, refuerzan la intensidad emocional y la tristeza del hablante. No hay elementos de humor, sarcasmo o iron\u00eda que puedan considerarse c\u00f3micos.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

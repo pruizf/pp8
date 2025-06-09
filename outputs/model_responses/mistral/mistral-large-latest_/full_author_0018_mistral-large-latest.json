@@ -1,0 +1,23 @@
+{
+  "id": "0967519d933c4385aa56a1d8ad1b0a62",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 276,
+    "completion_tokens": 25,
+    "total_tokens": 301
+  },
+  "created": 1740951552,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Ventura de la Vega\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

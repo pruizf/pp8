@@ -1,0 +1,23 @@
+{
+  "id": "b93e94aabb844be5bf5dba4436327e0b",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 151,
+    "completion_tokens": 78,
+    "total_tokens": 229
+  },
+  "created": 1740952031,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"el alma a Dios se vuelve, y mientras que el cansado cuerpo busca su reposo, en el m\u00edstico viaje de la noche al d\u00eda, el coraz\u00f3n se eleva en plegaria piadosa.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

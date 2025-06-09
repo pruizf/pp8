@@ -1,0 +1,23 @@
+{
+  "id": "66b63a8c7bfa4fd7b1b1fa6780ca6a4c",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 30,
+    "total_tokens": 170
+  },
+  "created": 1740952155,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"tus llamas abrasarme;\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

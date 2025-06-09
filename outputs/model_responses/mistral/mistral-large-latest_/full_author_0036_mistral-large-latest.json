@@ -1,0 +1,23 @@
+{
+  "id": "222f6d3304be4f1592eea65bf77ccd38",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 287,
+    "completion_tokens": 29,
+    "total_tokens": 316
+  },
+  "created": 1740951695,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Luisa de Carvajal y Mendoza\",\n  \"century\": 16\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

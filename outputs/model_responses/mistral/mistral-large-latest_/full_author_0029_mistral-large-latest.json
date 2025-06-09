@@ -1,0 +1,23 @@
+{
+  "id": "753c61475bd54247988a8708b7231975",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 276,
+    "completion_tokens": 25,
+    "total_tokens": 301
+  },
+  "created": 1740951645,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Manuel Gonz\u00e1lez Prada\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ad023dd2abfd4c14992355365552311f",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 274,
+    "completion_tokens": 28,
+    "total_tokens": 302
+  },
+  "created": 1740952189,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Marcelino Men\u00e9ndez Pelayo\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

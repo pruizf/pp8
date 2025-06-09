@@ -1,0 +1,23 @@
+{
+  "id": "abcbff6e8a73432a983f6f0ffa51b210",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 35,
+    "total_tokens": 166
+  },
+  "created": 1740952070,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y el ser atleta de tama\u00f1a haza\u00f1a.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

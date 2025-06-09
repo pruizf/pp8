@@ -1,0 +1,23 @@
+{
+  "id": "eb6572cf6f244299a969979f1d322893",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 296,
+    "completion_tokens": 28,
+    "total_tokens": 324
+  },
+  "created": 1740951773,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Mar\u00eda Enriqueta Camarillo\",\n  \"century\": \"19\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

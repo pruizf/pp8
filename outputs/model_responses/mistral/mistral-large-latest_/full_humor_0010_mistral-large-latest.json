@@ -1,0 +1,23 @@
+{
+  "id": "8698f33c3a194e2a86288b0c1e2a0a86",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 305,
+    "completion_tokens": 244,
+    "total_tokens": 549
+  },
+  "created": 1740951477,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no es c\u00f3mico porque su contenido y estructura son serios y reflexivos. El soneto utiliza un lenguaje formal y arcaico, caracter\u00edstico de la poes\u00eda cl\u00e1sica, y aborda temas profundos como la mortalidad, el destino y la sabidur\u00eda. La referencia a 'Loyola' y a figuras como 'el general' y 'el maestre general' sugiere un contexto hist\u00f3rico o religioso solemne. Adem\u00e1s, la estructura de los versos y el uso de rimas y met\u00e1foras complejas no buscan provocar risa, sino m\u00e1s bien invitar a la reflexi\u00f3n y al an\u00e1lisis. La menci\u00f3n de 'clara luz' y 'locura cura' indica una b\u00fasqueda de iluminaci\u00f3n y sabidur\u00eda, lo que refuerza el tono serio y filos\u00f3fico del poema.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

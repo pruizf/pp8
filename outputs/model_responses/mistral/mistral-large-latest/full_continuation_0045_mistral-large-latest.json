@@ -1,18 +1,18 @@
 {
-  "id": "6220c26dfe0c4fca997a3b63059af0e2",
+  "id": "710468581df24f9c80440eb53502210b",
   "object": "chat.completion",
   "model": "mistral-large-latest",
   "usage": {
     "prompt_tokens": 137,
-    "completion_tokens": 113,
-    "total_tokens": 250
+    "completion_tokens": 44,
+    "total_tokens": 181
   },
-  "created": 1740951764,
+  "created": 1749484670,
   "choices": [
     {
       "index": 0,
       "message": {
-        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"El ojo azul, apagado y sin brillo, se hunde en el vac\u00edo sin \u00e1nimo, triste, fr\u00edo.\\nPorque el alma enferma que esconde su sonrisa en un sue\u00f1o imposible de ventura y de fe,\\nse ve en el semblante como en un libro abierto, y escrito con sangre el dolor que no ves.\"\n}",
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Los ojos hundidos, llenos de misterio, fulguran tristes\"\n}",
         "tool_calls": null,
         "prefix": false,
         "role": "assistant"

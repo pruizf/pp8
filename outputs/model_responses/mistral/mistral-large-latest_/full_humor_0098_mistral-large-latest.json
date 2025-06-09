@@ -1,0 +1,23 @@
+{
+  "id": "32f8cb693b4f4113a6f559fba8ca64c1",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 288,
+    "completion_tokens": 184,
+    "total_tokens": 472
+  },
+  "created": 1740952196,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico porque su contenido y tono son serios y reflexivos. Describe la experiencia de alcanzar una cima con gran esfuerzo, contemplando el paisaje desde una perspectiva elevada. Utiliza un lenguaje po\u00e9tico y metaf\u00f3rico para expresar la b\u00fasqueda de la iluminaci\u00f3n y el deseo de alcanzar una meta superior. La menci\u00f3n de la lucha y el esfuerzo, as\u00ed como la b\u00fasqueda de un rayo de luz del genio que ilumine al poeta en su muerte, indican un tema profundo y existencial, lejos de cualquier intenci\u00f3n humor\u00edstica.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

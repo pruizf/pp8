@@ -1,0 +1,23 @@
+{
+  "id": "b109f43380a74327bc172f0afd1cd02e",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 278,
+    "completion_tokens": 234,
+    "total_tokens": 512
+  },
+  "created": 1740952165,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico porque su contenido y tono son serios y emotivos. La descripci\u00f3n de los ojos centelleantes y la linfa pura del surtidor crean una atm\u00f3sfera de belleza y pureza. La aparici\u00f3n de una mujer enferma y doliente a\u00f1ade un elemento de tristeza y compasi\u00f3n. La acci\u00f3n de dar una perla a la mujer pobre y la reacci\u00f3n del narrador, que besa la frente de la persona en lugar de los labios, enfatizan la nobleza y la emoci\u00f3n del momento. No hay elementos de humor, iron\u00eda o situaciones absurdas que caractericen a un poema c\u00f3mico. En su lugar, el poema evoca sentimientos de empat\u00eda, admiraci\u00f3n y respeto, lo que lo sit\u00faa en el g\u00e9nero l\u00edrico y sentimental, no en el c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

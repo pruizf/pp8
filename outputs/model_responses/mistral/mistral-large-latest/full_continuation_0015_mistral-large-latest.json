@@ -1,18 +1,18 @@
 {
-  "id": "8694cc24a1bf4a93b6ab08fe4f0f8843",
+  "id": "3fcba60ffb17495696a8b25f16ae9694",
   "object": "chat.completion",
   "model": "mistral-large-latest",
   "usage": {
     "prompt_tokens": 144,
-    "completion_tokens": 242,
-    "total_tokens": 386
+    "completion_tokens": 56,
+    "total_tokens": 200
   },
-  "created": 1740951527,
+  "created": 1749483795,
   "choices": [
     {
       "index": 0,
       "message": {
-        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y me ofreci\u00f3 un vaso con horchata. \\n\\nYo, que iba por turr\u00f3n, sin m\u00e1s dilaci\u00f3n, \\nle dije: \u00abD\u00e9me uno de Jijona, \\nque es lo que m\u00e1s me gusta y me apasiona\u00bb. \\n\\nY mientras lo envolv\u00eda con devoci\u00f3n, \\nla dulce mujer me mir\u00f3 con gracia, \\nme entreg\u00f3 el turr\u00f3n y me dijo: \u00abAdi\u00f3s\u00bb, \\ncon una sonrisa llena de ternura. \\n\\nSal\u00ed de la tienda con mi regalo, \\nun turr\u00f3n en la mano y en la memoria \\nla voz de aquella dama tan hermosa. \\n\\nY al llegar a mi casa, con anhelo, \\nprob\u00e9 el dulce turr\u00f3n y su alegr\u00eda, \\nrecordando a la dama confitera.\"\n}",
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Yo, avergonzado, le dije: \u00abSe\u00f1ora,\\nmejor lo dejo, y ya volver\u00e9 ma\u00f1ana\u00bb.\"\n}",
         "tool_calls": null,
         "prefix": false,
         "role": "assistant"

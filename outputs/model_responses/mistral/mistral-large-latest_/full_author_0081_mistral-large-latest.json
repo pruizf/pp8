@@ -1,0 +1,23 @@
+{
+  "id": "5c858ec51d2f4a3b850fafa332e40d45",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 270,
+    "completion_tokens": 29,
+    "total_tokens": 299
+  },
+  "created": 1740952064,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"F\u00e9lix Lope de Vega y Carpio\",\n  \"century\": 17\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-"""Open AI client to see humor judgments, poem continuation, and author knowledge"""
+"""Mistral client to see humor judgments, poem continuation, and author knowledge"""
 
 from importlib import reload
 import json
@@ -51,7 +51,7 @@ def get_openai_response(oa_client, model, prompt, cf, call_type):
 
 def get_mistral_response(m_client, model, prompt, cf, call_type):
   """
-  Returns Open AI response and response time.
+  Returns Mistral response and response time.
 
   Args:
       m_client (mistralai.Mistral): The Mistral client.
@@ -72,9 +72,9 @@ def get_mistral_response(m_client, model, prompt, cf, call_type):
     top_p=cf.mistral_config["top_p"],
     response_format={"type": "json_object"},
     random_seed=cf.mistral_config["random_seed"],
-    # n = cf.oai_config["number_of_completions_humor"] \
-    #   if call_type == "humor" else cf.oai_config["number_of_completions_general"]
-    n = 1  )
+    n = cf.oai_config["number_of_completions_humor"] \
+       if call_type == "humor" else cf.oai_config["number_of_completions_general"])
+    #n = 1  )
   td = 1000 * (time.time() - t1)
   #breakpoint()
   resps = [resp.message.content for resp in completion.choices]

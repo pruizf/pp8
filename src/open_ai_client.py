@@ -38,7 +38,7 @@ def get_openai_response(oa_client, model, prompt, cf, call_type):
     temperature=cf.oai_config["temperature"],
     top_p=cf.oai_config["top_p"],
     response_format={"type": "json_object"},
-    #seed=cf.oai_config["seed"]
+    seed=cf.oai_config["seed"],
     n=cf.oai_config["number_of_completions_humor"] \
       if call_type == "humor" else cf.oai_config["number_of_completions_general"]
   )

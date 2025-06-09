@@ -237,7 +237,7 @@ if __name__ == "__main__":
     reload(modu)
 
   oa_client = OpenAI()
-  active_models = cf.oai_models
+  active_models = cf.model_list
 
   #breakpoint()
 

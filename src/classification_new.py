@@ -64,11 +64,11 @@ def collect_data(ddir: str, model_name: str, md: pd.DataFrame) -> pd.DataFrame:
     dict: Data for classification in a dictionary of lists, dictionary keys are column names.
       for a dataframe that will be created later
   """
-  assert model_name in cf.model_list, f"Model {model_name} not in the list of models."
+  assert model_name in cf.model_list_for_clf, f"Model {model_name} not in the list of models."
   model_name = model_name.replace(".", "")
   print(f"  - Collecting data for {model_name} from {ddir} [{ut.get_current_date_hms()}]")
-  data = {"text": [], "model": [], "exampleNumber": [],
-          "centuryBirth": [], "completionNumber": [], "humorLabel": []}
+  data = {"text": [], "model": [], "humorSys": [], "exampleNumber": [],
+          "centuryBirth": [], "completionNumber": [], "humorGold": []}
   for fname in sorted(os.listdir(ddir)):
     if fname.startswith("humor"):
       example_number = int(fname.split("_")[1])
@@ -81,9 +81,11 @@ def collect_data(ddir: str, model_name: str, md: pd.DataFrame) -> pd.DataFrame:
       data["exampleNumber"].append(example_number)
       data["centuryBirth"].append(md.loc[md["id"] == example_number, "centuryBirth"].values[0])
       data["completionNumber"].append(completion_number)
-      data["humorLabel"].append(md.loc[md["id"] == example_number, "comic"].values[0])
+      data["humorGold"].append(md.loc[md["id"] == example_number, "comic"].values[0])
+      data["humorSys"] = jso["judgement"]
       data["model"].append(model_name)
   return data
+
 
 def split_into_tokens_spacy(text: str) -> list:
   """
@@ -127,7 +129,9 @@ if __name__ == "__main__":
   mddf = read_metadata(cf)
   data_35 = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-35-turbo") , "gpt-3.5-turbo", mddf)
   data_4o = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-4o") , "gpt-4o", mddf)
-  data_all = {k: data_35[k] + data_4o[k] for k in data_35.keys()}
+  data_4o_mini = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-4o-mini") , "gpt-4o-mini", mddf)
+  data_all = {k: data_35[k] + data_4o[k] + data_4o_mini[k] for k in data_35.keys()}
+  #data_all = {k: data_35[k] + data_4o[k] for k in data_35.keys()}
   df = pd.DataFrame(data_all)
 
   #labelCol = "humorLabel"
@@ -159,7 +163,7 @@ if __name__ == "__main__":
   column_trans_wf_pos = ColumnTransformer(
     [
       # Colonne 'description' : tf-idf
-      ('judgement', tok_vectorizer, 'text'),
+      ('reason', tok_vectorizer, 'text'),
       ('pos', pos_vectorizer, 'text'),
       #('ngrams', ngram_vectorizer, 'description'),
       #('char_ngrams', descr_vectorizer_char_ng, 'description'),
@@ -178,7 +182,7 @@ if __name__ == "__main__":
     verbose=True,
   )
 
-  df_train, df_test = train_test_split(df, test_size=0.2, random_state=cf.rdm_seed)
+  df_train, df_test = train_test_split(df, test_size=0.2, random_state=cf.rdm_seed, stratify=df["model"])
 
   X_train = df_train.drop(columns=[labelCol])
   y_train = df_train[labelCol]

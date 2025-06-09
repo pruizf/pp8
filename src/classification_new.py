@@ -1,20 +1,12 @@
 from importlib import reload
 import json
 import os
-import string
-from datetime import datetime
 from types import ModuleType
+import sys
 
-# Suppression de l'affichage des messages d'avertissement
-import warnings
-
-import nltk.corpus
-
-warnings.filterwarnings('ignore')
-
+import matplotlib as mpl
 import matplotlib.pyplot as plt
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
+import nltk.corpus
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -30,6 +22,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import FunctionTransformer, MinMaxScaler
 from sklearn.pipeline import Pipeline, make_pipeline
 import spacy
+import warnings
+warnings.filterwarnings('ignore')
 
 import config as cf
 import utils as ut
@@ -73,7 +67,6 @@ def collect_data(ddir: str, model_name: str, md: pd.DataFrame) -> pd.DataFrame:
     if fname.startswith("humor"):
       example_number = int(fname.split("_")[1])
       completion_number = int(fname.split("_")[3].split(".")[0])
-      #jso = json.load(open(os.path.join(ddir, fname), "r"))
       with open(os.path.join(ddir, fname), "r", encoding="utf-8") as f:
         jso = json.load(f)
       text = jso["reason"]
@@ -112,19 +105,43 @@ def pos_spacy(text: str) -> list:
   doc = spacy_pipeline(text)
   return [w.pos_ for w in doc]
 
+
 def plot_confusion_matrix(cm, classes, normalize=False, cmap='Blues'):
-  title = 'Matrice de Confusion'
-  plt.figure(figsize=(8, 6))
+  title = 'Confusion matrix'
+  plt.figure(figsize=(11, 8))
   sns.heatmap(cm, annot=True, cmap=cmap, xticklabels=classes, yticklabels=classes)
   plt.title(title)
-  plt.xlabel('Prédits')
-  plt.ylabel('Réels')
+  plt.xlabel('pred')
+  plt.ylabel('gold')
+  plt.show()
+
+
+def plot_top_features(coef_df, out_fn, categ, n=20, save_format='png'):
+  """Bar plot for the top features for a given category."""
+  assert save_format in ('png', 'pdf')
+  top_words = coef_df.loc[categ].sort_values(ascending=False).head(n)
+  plt.figure(figsize=(11, 8))
+  plt.barh(top_words.index, top_words.values, color='green')
+  plt.xlabel("Coefficient")
+  plt.title(f"Top {n} features for {categ}")
+  ax = plt.gca()
+  ax.invert_yaxis()
+  ax.spines['top'].set_visible(False) 
+  ax.spines['right'].set_visible(False) 
+  if save_format == 'png':
+    plt.savefig(out_fn, format='png', dpi=300)
+  else:
+    plt.savefig(out_fn)
   plt.show()
 
 
 if __name__ == "__main__":
   for modu in cf, ut:
     reload(modu)
+
+  batch_name = sys.argv[1]
+  mpl.rcParams['font.family'] = cf.plot_font_family
+
   print(f"# Start [{ut.get_current_date_hms()}]")
   mddf = read_metadata(cf)
   data_35 = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-35-turbo") , "gpt-3.5-turbo", mddf)
@@ -140,7 +157,6 @@ if __name__ == "__main__":
   label2id = {class_names[i]: i for i in range(len(class_names))}
   id2label = {i: class_names[i] for i in range(len(class_names))}
 
-  #es_model = spacy.load("es_core_news_sm")
   print(f"  - Loading spacy model [{ut.get_current_date_hms()}]")
   spacy_pipeline = spacy.load("es_core_news_sm", disable=["parser", "ner"])
   print("    - Done")
@@ -149,7 +165,6 @@ if __name__ == "__main__":
   stopwords = nltk.corpus.stopwords.words("spanish")
 
   # corpus vectorizers
-
   tok_vectorizer = TfidfVectorizer(lowercase=True,
                                    tokenizer=split_into_tokens_spacy,
                                    stop_words=stopwords,
@@ -162,22 +177,8 @@ if __name__ == "__main__":
   # column transformer
   column_trans_wf_pos = ColumnTransformer(
     [
-      # Colonne 'description' : tf-idf
       ('reason', tok_vectorizer, 'text'),
       ('pos', pos_vectorizer, 'text'),
-      #('ngrams', ngram_vectorizer, 'description'),
-      #('char_ngrams', descr_vectorizer_char_ng, 'description'),
-      # (
-      #   'description_stats',
-      #   Pipeline(
-      #     [
-      #       ('text_stats', text_stats_transformer),
-      #       ('vect', text_stats_vectorizer),
-      #       ('scaling', min_max_scaler)
-      #     ]
-      #   ),
-      #   'description'
-      # )
     ],
     verbose=True,
   )
@@ -203,3 +204,25 @@ if __name__ == "__main__":
     print("Classification report:\n\n{}".format(classification_report(y_test, y_pred, digits=4)))
     f1 = metrics.f1_score(y_test, y_pred, average='macro')
     scores.append(f1)
+    
+    # feature importances
+    tok_feature_names = clf_pipeline.named_steps["columntransformer"].named_transformers_['reason'].get_feature_names_out()
+    pos_feature_names = clf_pipeline.named_steps["columntransformer"].named_transformers_['pos'].get_feature_names_out()
+    
+    feature_names = tok_feature_names.tolist() + pos_feature_names.tolist()
+    coeffs = clf_pipeline.named_steps['logisticregression'].coef_
+    coeffs_df = pd.DataFrame(coeffs, columns=feature_names, index=model.classes_)
+    
+    n_out_feats = 30
+    n_plot_feats = 20
+    out_fn = os.path.join(cf.clf_plot_dir, f"top_features_{model_name}_{str.zfill(str(batch_name), 3)}.txt")
+    if os.path.exists(out_fn):
+      os.remove(out_fn)
+    for categ in model.classes_:
+      print(f"\nTop features for {categ}:")
+      print(coeffs_df.loc[categ].sort_values(ascending=False).head(n_out_feats))
+      out_plot_fn = os.path.join(cf.clf_plot_dir, f"top_features_{model_name}_{categ}_{str.zfill(str(batch_name), 3)}.png")
+      plot_top_features(coeffs_df, out_plot_fn, categ=categ, n=n_plot_feats)
+      with open(out_fn, "a") as f:
+        coeffs_df.loc[categ].sort_values(ascending=False).head(n_out_feats).to_csv(f, header=True, sep="\t")
+        f.write("\n")

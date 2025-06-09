@@ -24,6 +24,7 @@ resp_time_df = os.path.join(resp_time_dir, "response_times_df.tsv")
 
 call_types = {"humor": "humor", "continuation": "continuation", "author": "author"}
 
+
 # Open AI ---------------------------------------------------------------------
 oai_config = {
   "temperature": 1,
@@ -37,10 +38,11 @@ oai_config = {
 #oai_models = ["gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
 #oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
 #oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
-model_list = ["gpt-4o-mini", "mistral-small", "mistral-large-latest", "gpt-3.5-turbo", "gpt-4o"]
-model_list_for_clf = ["gpt-4o-mini", "mistral-small", "mistral-large-latest", "gpt-3.5-turbo", "gpt-4o", "gpt-3.5"]
+#model_list = ["gpt-4o-mini", "mistral-small", "mistral-large-latest_", "gpt-3.5-turbo", "gpt-4o"]
+model_list_for_clf = ["gpt-4o-mini", "mistral-small", "mistral-large-latest_", "gpt-3.5-turbo", "gpt-4o", "gpt-3.5"]
 model_list_for_postpro = ["gpt-4o-mini"]
-model_list = ["gpt-4o-mini"]#, "mistral-small", "mistral-large-latest", "gpt-3.5-turbo", "gpt-4o"]
+model_list = ["gpt-4o-mini"]#, "mistral-small", "mistral-large-latest_", "gpt-3.5-turbo", "gpt-4o"]
+mistral_models = ["mistral-large-latest"]#, "mistral-small", "mistral-large-latest", "gpt-3.5-turbo", "gpt-4o"]
 
 # Mistral ---------------------------------------------------------------------
 #mistral_models = ["mistral-small"]
@@ -66,5 +68,7 @@ error_analysis_dir = "../ana/ana"
 judgements_orig = ("sí", "no", "incierto")
 
 plot_dir = "../ana/img"
+clf_plot_dir = '../outputs/plots'
+plot_font_family = "Arial"
 
 rdm_seed = 42

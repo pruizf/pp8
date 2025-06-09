@@ -1,29 +1,30 @@
 {
-  "id": "chatcmpl-B6h6agn5iWQz6gyPlQ1ohMtVK7jmV",
+  "id": "chatcmpl-BgVrkGM8VySGAUoQk7VqNa0NO8WVK",
   "choices": [
     {
       "finish_reason": "stop",
       "index": 0,
       "logprobs": null,
       "message": {
-        "content": "{\n  \"author\": \"Francisco de Quevedo\",\n  \"century\": \"17\"\n}",
+        "content": "{\n  \"author\": \"Luis de G\u00f3ngora\",\n  \"century\": 17\n}",
         "refusal": null,
         "role": "assistant",
+        "annotations": [],
         "audio": null,
         "function_call": null,
         "tool_calls": null
       }
     }
   ],
-  "created": 1740935364,
+  "created": 1749471968,
   "model": "gpt-4o-mini-2024-07-18",
   "object": "chat.completion",
   "service_tier": "default",
-  "system_fingerprint": "fp_06737a9306",
+  "system_fingerprint": "fp_34a54ae93c",
   "usage": {
-    "completion_tokens": 23,
+    "completion_tokens": 21,
     "prompt_tokens": 211,
-    "total_tokens": 234,
+    "total_tokens": 232,
     "completion_tokens_details": {
       "accepted_prediction_tokens": 0,
       "audio_tokens": 0,

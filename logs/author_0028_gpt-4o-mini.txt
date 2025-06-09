@@ -1,8 +1,8 @@
-¿Sabes quién es el autor o autora del poema siguiente?
+Â¿Sabes quiÃ©n es el autor o autora del poema siguiente?
 Da una respuesta en JSON con la siguiente estructura:
 {
   "author": "nombre y apellidos del autor o autora"
-  "century": "siglo en el que vivió, en números arábigos"
+  "century": "siglo en el que viviÃ³, en nÃºmeros arÃ¡bigos"
 }
 
 
@@ -10,19 +10,19 @@ Da una respuesta en JSON con la siguiente estructura:
 Tempestades
 
 Horrible tempestad anuncia el trueno
-por el cóncavo espacio resonando;
-el torrente desbórdase inundando
+por el cÃ³ncavo espacio resonando;
+el torrente desbÃ³rdase inundando
 cuanto halla al paso que le opone freno
 
 Desde las nubes sobre el valle ameno
 la centella veloz baja silbando,
 y en la espantada tierra va sembrando
-muerte y desolación, fuego y veneno
+muerte y desolaciÃ³n, fuego y veneno
 
 Cual si fuera su tronco arista leve,
 troncha el viento feroz la altiva palma,
 y tiembla de pavor cuanto se mueve
 
-¡Sólo conserva su terrible calma,
-y ningún cataclismo le conmueve
+Â¡SÃ³lo conserva su terrible calma,
+y ningÃºn cataclismo le conmueve
 quien siente tempestades en el alma!

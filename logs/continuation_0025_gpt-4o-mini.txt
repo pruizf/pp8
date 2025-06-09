@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
 TAL PARA CUAL
 
-Tú de farol, yo manco de una sota,
-tú rica en vitaminas, yo desnudo,
-tú carne de gallina, yo de jota,
-tú huérfana de novio, yo viudo.
+TÃº de farol, yo manco de una sota,
+tÃº rica en vitaminas, yo desnudo,
+tÃº carne de gallina, yo de jota,
+tÃº huÃ©rfana de novio, yo viudo.

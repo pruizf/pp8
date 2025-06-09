@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
 CARTA EN NOVIEMBRE
 
-El noroeste acérrimo desgarra
-la modorra otoñal. Sube al repecho
-del umbrío Aralar, tumba el helecho,
-arranca del balcón la recia parra.
+El noroeste acÃ©rrimo desgarra
+la modorra otoÃ±al. Sube al repecho
+del umbrÃ­o Aralar, tumba el helecho,
+arranca del balcÃ³n la recia parra.

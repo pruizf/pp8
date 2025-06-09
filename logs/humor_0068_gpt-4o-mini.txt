@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -18,11 +18,11 @@ Basta de merendonas en el prado,
 Y venga el coche y la sopita en vino.
 
 Si plugo alguna vez a mi destino
-Inspirarme afición al despoblado,
+Inspirarme aficiÃ³n al despoblado,
 Me cansan ya la choza y el ganado,
-Y el césped y el arroyo cristalino.
+Y el cÃ©sped y el arroyo cristalino.
 
-La nave de mi afán viró de bordo,
+La nave de mi afÃ¡n virÃ³ de bordo,
 Y hoy, con tristeza, mis penantes dejo,
 A mis memorias de ayer haciendo el sordo,
 

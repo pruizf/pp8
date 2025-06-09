@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -12,14 +12,14 @@ La longitud de la respuesta debe ser de 200 palabras.
 
 Soneto
 
-Cuando de mi camino atrás volviendo
-miro, señora, en mi preciso daño,
-tal es mi pena y mi dolor tamaño
+Cuando de mi camino atrÃ¡s volviendo
+miro, seÃ±ora, en mi preciso daÃ±o,
+tal es mi pena y mi dolor tamaÃ±o
 que me siento en angustias feneciendo.
 
 Mas cuando vuelvo a vos, alegre viendo
-la dulce causa de mi dulce engaño,
-luego en mi pecho siento un bien extraño
+la dulce causa de mi dulce engaÃ±o,
+luego en mi pecho siento un bien extraÃ±o
 y con gusto mis males voy sufriendo.
 
 Con vos se alivia mi dolor crecido
@@ -27,5 +27,5 @@ y en vos todo mi bien miro cifrado,
 cuanto puedo esperar y cuanto espero;
 
 y aunque ni el mal acaba ni el gemido,
-me miro en la aflicción tan consolado
+me miro en la aflicciÃ³n tan consolado
 que no siento morir si por vos muero.

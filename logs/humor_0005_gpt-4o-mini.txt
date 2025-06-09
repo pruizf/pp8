@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -13,9 +13,9 @@ La longitud de la respuesta debe ser de 200 palabras.
 Ripios ratoniles
 
 Roedores, retened recalcitrantes			
-rústicos rumorcillos requirentes;			
+rÃºsticos rumorcillos requirentes;			
 repoblando, rebeldes reverentes,			
-recónditos rincones rezumantes			
+recÃ³nditos rincones rezumantes			
 
 Rastreras ratoneras rutilantes			
 reporten ratonismos repelentes,			
@@ -27,5 +27,5 @@ republicanas ratas repentistas,
 rufianes ratoncillos rezagados.			
 
 Resolviendo reductos rigoristas			
-repuestos roncaréis regocijados,			
-¡respetables ratones reformistas!
+repuestos roncarÃ©is regocijados,			
+Â¡respetables ratones reformistas!

@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -12,20 +12,20 @@ La longitud de la respuesta debe ser de 200 palabras.
 
 Soneto
 
-Si mostrándose Roma agradecida
+Si mostrÃ¡ndose Roma agradecida
 a quien un ciudadano libertase
 cuando con el morir le amenazase
-su enemigo, ya dueño de su vida,
+su enemigo, ya dueÃ±o de su vida,
 
 quiso, para que fuese conocida
-hazaña tan honrosa y se imitase,
+hazaÃ±a tan honrosa y se imitase,
 que corona sus sienes adornase
 (honra a que fue muy grande, bien debida);
 
-España, si cual debes lo agradeces,
+EspaÃ±a, si cual debes lo agradeces,
 a quien te libra tantos ciudadanos
-(que con su muerte amenazó el olvido),
+(que con su muerte amenazÃ³ el olvido),
 
-¿cómo tantas coronas no le ofreces,
-haciéndole con nombre soberanos,
+Â¿cÃ³mo tantas coronas no le ofreces,
+haciÃ©ndole con nombre soberanos,
 en cuanto el sol alumbra, conocido?

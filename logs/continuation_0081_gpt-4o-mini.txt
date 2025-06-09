@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
 Los campos de Madrid, Isidro santo,
 
-agricultor labró, siendo ayudado
-de Angélico favor, bien que enviado
+agricultor labrÃ³, siendo ayudado
+de AngÃ©lico favor, bien que enviado
 del que al sabio Cherub le causa espanto
-En éxtasis suspenso admira el canto,
+En Ã©xtasis suspenso admira el canto,

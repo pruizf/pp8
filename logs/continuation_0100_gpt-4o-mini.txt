@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
-Rosa de fuego era al nacer el día
+Rosa de fuego era al nacer el dÃ­a
 
-el áureo sol de vivos resplandores,
+el Ã¡ureo sol de vivos resplandores,
 y la luna, a la tarde, en los alcores,
-«como rosa de nieve se entreabría»
-¡Oh, fresca Rosa de la patria mía,
+Â«como rosa de nieve se entreabrÃ­aÂ»
+Â¡Oh, fresca Rosa de la patria mÃ­a,

@@ -1,31 +1,31 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
 
 
 
-Soneto filosófico
+Soneto filosÃ³fico
 
- «¿Quién eres, ángel, que ante mí apareces,
+ Â«Â¿QuiÃ©n eres, Ã¡ngel, que ante mÃ­ apareces,
 como en nublado cielo blanca aurora,
-y al corazón, que desengaños llora,
+y al corazÃ³n, que desengaÃ±os llora,
 paz y consuelo y esperanzas ofreces?
 
-Yo te he visto en mis sueños muchas veces
-juguete de ilusión fascinadora,
-y vive en mí tu imagen seductora,
+Yo te he visto en mis sueÃ±os muchas veces
+juguete de ilusiÃ³n fascinadora,
+y vive en mÃ­ tu imagen seductora,
 y con tu puro aliento me estremeces.
 
-¿Eres, quizá, la sílfide hechicera
+Â¿Eres, quizÃ¡, la sÃ­lfide hechicera
 que amada de las nubes y las brisas
 llevarme quieres a su azul esfera?
 
 Flores hollando vas por donde pisas...
-¿Quién eres?» «Soy, señor, la lavandera,
-y vengo a que me pague las camisas».
+Â¿QuiÃ©n eres?Â» Â«Soy, seÃ±or, la lavandera,
+y vengo a que me pague las camisasÂ».

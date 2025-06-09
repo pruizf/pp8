@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -17,15 +17,15 @@ las aguas del torrente rumorosas,
 atropellando las humildes rosas
 que a su cauce crecieron asomadas,
 
-así mi corazón y mis miradas
+asÃ­ mi corazÃ³n y mis miradas
 fueron, amante aquel y estas ansiosas,
-al mar que les copiaron engañosas
+al mar que les copiaron engaÃ±osas
 tus pupilas profundas y rasgadas
 
 Hoy, bebiendo en sus olas la amargura,
 por sus fieras corrientes absorbida
 navega el alma en la tiniebla oscura,
 
-sin que le den consuelo en su caída
+sin que le den consuelo en su caÃ­da
 la inocencia, la paz y la ventura,
-que atropelló el torrente de mi vida
+que atropellÃ³ el torrente de mi vida

@@ -1,28 +1,28 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
 
 
 
-Javier Águila Indiana, cuanto hermosa
+Javier Ãguila Indiana, cuanto hermosa
 oro en las alas, en el pico plata,
 desde la bata tierra se dilata,
 al espacio del viento caudalosa
 
 Y cuando con sosiego en el reposa,
-mira al Sol más ardiente, y con él trata,
-lazos del gentilismo así desata
-absorto a suspensión tan prodigiosa
+mira al Sol mÃ¡s ardiente, y con Ã©l trata,
+lazos del gentilismo asÃ­ desata
+absorto a suspensiÃ³n tan prodigiosa
 
 Estrella se imagina el firmamento,
 vapor la tierra, que al cielo le encamina,
-el Sol aromo suyo más profundo.
+el Sol aromo suyo mÃ¡s profundo.
 
 Yo no le juzgo estrella, si portento,
 vapor tampoco, claridad divina,

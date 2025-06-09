@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
-Al señor MAS - Soneto MASónico.
+Al seÃ±or MAS - Soneto MASÃ³nico.
 
- MAS, por santo ToMÁS, no digas MÁS,
-que MÁS es mi intención dar MÁS al mes
-que menos, MAS ¡oh MÁS! también tú ves
-que el que hace MÁS disgusta a veces MÁS.
+ MAS, por santo ToMÃS, no digas MÃS,
+que MÃS es mi intenciÃ³n dar MÃS al mes
+que menos, MAS Â¡oh MÃS! tambiÃ©n tÃº ves
+que el que hace MÃS disgusta a veces MÃS.

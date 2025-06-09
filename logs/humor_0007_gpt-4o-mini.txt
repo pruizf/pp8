@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -17,13 +17,13 @@ y siempre le quedaba el brazo sano.
 
 Quiso pasarse a Indias un verano,
 y vino con Montalvo el de Sevilla;
-cojo quedó de un pie de la rencilla,
+cojo quedÃ³ de un pie de la rencilla,
 tuerto de un ojo, manco de una mano.
 
-Vínose a recoger a aquesta ermita
+VÃ­nose a recoger a aquesta ermita
 con su palo en la mano, y su rosario,
 y su ballesta de matar pardales.
 
 Y con su Madalena, que le quita
-mil canas, está hecho un San Hilario.
-¡Ved cómo nacen bienes de los males!
+mil canas, estÃ¡ hecho un San Hilario.
+Â¡Ved cÃ³mo nacen bienes de los males!

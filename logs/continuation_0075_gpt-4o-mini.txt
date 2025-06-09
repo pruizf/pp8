@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
-A la casa de una cortesana donde entró a vivir un pretendiente
+A la casa de una cortesana donde entrÃ³ a vivir un pretendiente
 
-Aquí vivió la Chenca, aquella joya
+AquÃ­ viviÃ³ la Chenca, aquella joya
 por las hechuras cara; este aposento
-fue túmulo del sexto mandamiento
+fue tÃºmulo del sexto mandamiento
 y galera en que Amor fue buena boya.

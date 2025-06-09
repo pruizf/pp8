@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -13,13 +13,13 @@ La longitud de la respuesta debe ser de 200 palabras.
 A una academia que se hizo en casa de Antonio de Vega, confeso
 
 A mi noticia el gran concilio llega
-y que el Jordán trasladan a Italía;
-cuidado, Apolo, que la gente impía
+y que el JordÃ¡n trasladan a ItalÃ­a;
+cuidado, Apolo, que la gente impÃ­a
 teme a las llamas y a la luz se ciega.
 
-Académico Antonio sea de Vega
-en vuestra judaizante compañía,
-y no ya vega del Ave María,
+AcadÃ©mico Antonio sea de Vega
+en vuestra judaizante compaÃ±Ã­a,
+y no ya vega del Ave MarÃ­a,
 sino de torpe tribu que la niega.
 
 De tal Mecenas, pues, de congregada
@@ -28,4 +28,4 @@ nuevas llamas y Cristo otra lanzada.
 
 Mucha luz me promete y poca cera
 gente que por confesa confesada
-por luminarias nos dará su hoguera.
+por luminarias nos darÃ¡ su hoguera.

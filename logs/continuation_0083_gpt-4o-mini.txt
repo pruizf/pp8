@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
-De ésta que envío, anciana generosa,
+De Ã©sta que envÃ­o, anciana generosa,
 
-frágil tapada, indúbita doncella,
-cuanto de más edad, mucho más bella,
+frÃ¡gil tapada, indÃºbita doncella,
+cuanto de mÃ¡s edad, mucho mÃ¡s bella,
 rival temible a la mujer hermosa.
 No queda en el origen ni aun la hojosa

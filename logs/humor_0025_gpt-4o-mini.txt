@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -12,20 +12,20 @@ La longitud de la respuesta debe ser de 200 palabras.
 
 TAL PARA CUAL
 
-Tú de farol, yo manco de una sota,
-tú rica en vitaminas, yo desnudo,
-tú carne de gallina, yo de jota,
-tú huérfana de novio, yo viudo.
+TÃº de farol, yo manco de una sota,
+tÃº rica en vitaminas, yo desnudo,
+tÃº carne de gallina, yo de jota,
+tÃº huÃ©rfana de novio, yo viudo.
 
-Tú cuento de calleja, yo en la inopia,
-tú con queso, yo hueso de ciruela,
-tú retrato robot, yo fotocopia,
-tal para cual, yo virus, tú viruela.
+TÃº cuento de calleja, yo en la inopia,
+tÃº con queso, yo hueso de ciruela,
+tÃº retrato robot, yo fotocopia,
+tal para cual, yo virus, tÃº viruela.
 
 Yo marino mercante en tierra firme
 con ganas de matarte y de morirme,
-tú anillo de brillantes, yo Juan lanas.
+tÃº anillo de brillantes, yo Juan lanas.
 
-Tú lagrimón estilo cocodrilo,
-yo agonizando, tú tensando el hilo,
-dos pinchauvas, dos cantamañanas.
+TÃº lagrimÃ³n estilo cocodrilo,
+yo agonizando, tÃº tensando el hilo,
+dos pinchauvas, dos cantamaÃ±anas.

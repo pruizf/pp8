@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -12,19 +12,19 @@ La longitud de la respuesta debe ser de 200 palabras.
 
 El granjero
 
-Isaac, Mago en la siembra, gracias al recio puño,
-intuye de la geórgica progenie, línea a línea:
-ama a la remolacha, buena porque es sanguínea
-al apio vil y al torpe alcornoque gascuño
+Isaac, Mago en la siembra, gracias al recio puÃ±o,
+intuye de la geÃ³rgica progenie, lÃ­nea a lÃ­nea:
+ama a la remolacha, buena porque es sanguÃ­nea
+al apio vil y al torpe alcornoque gascuÃ±o
 
-Respetan por inocuo todos, su refunfuño:
-el melón insinuante y la poma virgínea,
-el perejil humilde y la uva apolínea
-y el ajo, maldiciente canalla del terruño.
+Respetan por inocuo todos, su refunfuÃ±o:
+el melÃ³n insinuante y la poma virgÃ­nea,
+el perejil humilde y la uva apolÃ­nea
+y el ajo, maldiciente canalla del terruÃ±o.
 
-En el gesto ermitaño de la barba, su risa
-desciende como un óleo de consejo y de misa
-El puede, aunque reumático, sustentar una mole;
+En el gesto ermitaÃ±o de la barba, su risa
+desciende como un Ã³leo de consejo y de misa
+El puede, aunque reumÃ¡tico, sustentar una mole;
 
 San Isidro y las hadas miman su blanco lecho
 Y el sudor que adereza el buen pan de la prole

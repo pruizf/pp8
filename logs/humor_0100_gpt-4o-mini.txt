@@ -1,24 +1,24 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
 
 
 
-Rosa de fuego era al nacer el día
-el áureo sol de vivos resplandores,
+Rosa de fuego era al nacer el dÃ­a
+el Ã¡ureo sol de vivos resplandores,
 y la luna, a la tarde, en los alcores,
-«como rosa de nieve se entreabría»
+Â«como rosa de nieve se entreabrÃ­aÂ»
 
-¡Oh, fresca Rosa de la patria mía,
+Â¡Oh, fresca Rosa de la patria mÃ­a,
 que estando de la vida en los albores,
 a las pintadas y fragantes flores
-tu arrogante colora desafía!
+tu arrogante colora desafÃ­a!
 
 Radia en tus ojos negros el vislumbre
 de la rosa de fuego de la aurora

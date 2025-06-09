@@ -1,5 +1,5 @@
 {
-  "id": "chatcmpl-B6h5UnxjGt0sU5eI9yvjLpFT1FcVZ",
+  "id": "chatcmpl-BgVqKeoMIOkt1pWF5BEuILIUthiBW",
   "choices": [
     {
       "finish_reason": "stop",
@@ -9,21 +9,22 @@
         "content": "{\n  \"author\": \"Gustavo Adolfo B\u00e9cquer\",\n  \"century\": \"19\"\n}",
         "refusal": null,
         "role": "assistant",
+        "annotations": [],
         "audio": null,
         "function_call": null,
         "tool_calls": null
       }
     }
   ],
-  "created": 1740935296,
+  "created": 1749471880,
   "model": "gpt-4o-mini-2024-07-18",
   "object": "chat.completion",
   "service_tier": "default",
-  "system_fingerprint": "fp_06737a9306",
+  "system_fingerprint": "fp_34a54ae93c",
   "usage": {
-    "completion_tokens": 25,
+    "completion_tokens": 24,
     "prompt_tokens": 216,
-    "total_tokens": 241,
+    "total_tokens": 240,
     "completion_tokens_details": {
       "accepted_prediction_tokens": 0,
       "audio_tokens": 0,

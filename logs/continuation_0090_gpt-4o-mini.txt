@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
-Con el ruego que dura lo que el día
+Con el ruego que dura lo que el dÃ­a
 
 preguntaba la inquieta mariposa:
-¿por qué son tus raíces tan añosas
-que le sirven de tumba a mi agonía?
-¿Por qué duran tus hojas temblorosas
+Â¿por quÃ© son tus raÃ­ces tan aÃ±osas
+que le sirven de tumba a mi agonÃ­a?
+Â¿Por quÃ© duran tus hojas temblorosas

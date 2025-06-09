@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
 Ladrar a la luna
 
-¡No desmayes jamás ante una guerra
+Â¡No desmayes jamÃ¡s ante una guerra
 de torpe envidia y miserables celos!
-¿Qué le importa a la luna, allá en los cielos,
+Â¿QuÃ© le importa a la luna, allÃ¡ en los cielos,
 que le ladren los perros a la tierra?

@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -13,19 +13,19 @@ La longitud de la respuesta debe ser de 200 palabras.
 Tempestades
 
 Horrible tempestad anuncia el trueno
-por el cóncavo espacio resonando;
-el torrente desbórdase inundando
+por el cÃ³ncavo espacio resonando;
+el torrente desbÃ³rdase inundando
 cuanto halla al paso que le opone freno
 
 Desde las nubes sobre el valle ameno
 la centella veloz baja silbando,
 y en la espantada tierra va sembrando
-muerte y desolación, fuego y veneno
+muerte y desolaciÃ³n, fuego y veneno
 
 Cual si fuera su tronco arista leve,
 troncha el viento feroz la altiva palma,
 y tiembla de pavor cuanto se mueve
 
-¡Sólo conserva su terrible calma,
-y ningún cataclismo le conmueve
+Â¡SÃ³lo conserva su terrible calma,
+y ningÃºn cataclismo le conmueve
 quien siente tempestades en el alma!

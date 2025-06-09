@@ -1,16 +1,16 @@
-縎abes c髆o contin鷄 el poema siguiente?
+驴Sabes c贸mo contin煤a el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "s韡no",
-  "continuation": "continuaci髇 del poema"
+  "judgement": "s铆|no",
+  "continuation": "continuaci贸n del poema"
 }
 
 
 
 Soneto
 
-Es mi patr髇 el Cristo del Zapato,			
-mi devoci髇 la Virgen de Cortina,			
-no conozco m醩 ley que la divina,			
+Es mi patr贸n el Cristo del Zapato,			
+mi devoci贸n la Virgen de Cortina,			
+no conozco m谩s ley que la divina,			
 mi lema es libertad, mi emblema un gato.			

@@ -1,9 +1,9 @@
-縎abes c髆o contin鷄 el poema siguiente?
+驴Sabes c贸mo contin煤a el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "s韡no",
-  "continuation": "continuaci髇 del poema"
+  "judgement": "s铆|no",
+  "continuation": "continuaci贸n del poema"
 }
 
 
@@ -11,6 +11,6 @@ Da una respuesta en JSON con la siguiente estructura:
 La recompensa
 
 Hay en el valle que mi Laura habita
-Un rinc髇 entre arbustos escondido,
-Donde tienen las t髍tolas su nido
+Un rinc贸n entre arbustos escondido,
+Donde tienen las t贸rtolas su nido
 Y las auras se dan amante cita.

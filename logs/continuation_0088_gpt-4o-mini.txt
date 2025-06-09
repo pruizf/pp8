@@ -1,9 +1,9 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
@@ -11,6 +11,6 @@ Da una respuesta en JSON con la siguiente estructura:
 Cuando el sol caminaba hacia su ocaso,
 
 vio Nise a Amor en su florido otero,
-y, acercándose a él con lento paso,
-cogióle entre sus brazos prisionero.
+y, acercÃ¡ndose a Ã©l con lento paso,
+cogiÃ³le entre sus brazos prisionero.
 Queriendo engalanarse con sus galas,

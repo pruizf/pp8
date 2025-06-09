@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
 El oro de la tarde se diluye
 
-en la plata del río; cruza un ave
-el ámbar vesperal, da un grito y huye
-¿De qué? ¿De quién? ¿Adónde va? ¡Quién sabe!
+en la plata del rÃ­o; cruza un ave
+el Ã¡mbar vesperal, da un grito y huye
+Â¿De quÃ©? Â¿De quiÃ©n? Â¿AdÃ³nde va? Â¡QuiÃ©n sabe!
 Cruje el barco Refulge la candela

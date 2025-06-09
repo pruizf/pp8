@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
-La erupción
+La erupciÃ³n
 
 Hierve la sangre en las hinchadas venas,
 Fuego brotar parecen las mejillas,
-Se doblan hacía el suelo las rodillas
-Y el hombre más audaz respira apenas.
+Se doblan hacÃ­a el suelo las rodillas
+Y el hombre mÃ¡s audaz respira apenas.

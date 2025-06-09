@@ -1,8 +1,8 @@
-¿Sabes quién es el autor o autora del poema siguiente?
+Â¿Sabes quiÃ©n es el autor o autora del poema siguiente?
 Da una respuesta en JSON con la siguiente estructura:
 {
   "author": "nombre y apellidos del autor o autora"
-  "century": "siglo en el que vivió, en números arábigos"
+  "century": "siglo en el que viviÃ³, en nÃºmeros arÃ¡bigos"
 }
 
 
@@ -11,10 +11,10 @@ Tu mirada
 
 Ciego quise saber lo que es la vida,
 lo que tiene de goce y de tormento
-Pero en vano aguijé a mi pensamiento,
+Pero en vano aguijÃ© a mi pensamiento,
 en carrera veloz, suelta la brida.
 
-Justo es, Señor, que mi ceguera impida
+Justo es, SeÃ±or, que mi ceguera impida
 calmar mis ansias, infundirme aliento,
 si no alumbras mi oscuro entendimiento
 y confortas mi fe desfallecida
@@ -24,5 +24,5 @@ a la sierra y al valle da colores,
 trinos al ave, galas a la rosa,
 
 luz al espacio y al ambiente olores,
-baje a mí tu mirada luminosa
+baje a mÃ­ tu mirada luminosa
 y mis dudas disipe y mis temores.

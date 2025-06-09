@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
-Soneto filosófico
+Soneto filosÃ³fico
 
- «¿Quién eres, ángel, que ante mí apareces,
+ Â«Â¿QuiÃ©n eres, Ã¡ngel, que ante mÃ­ apareces,
 como en nublado cielo blanca aurora,
-y al corazón, que desengaños llora,
+y al corazÃ³n, que desengaÃ±os llora,
 paz y consuelo y esperanzas ofreces?

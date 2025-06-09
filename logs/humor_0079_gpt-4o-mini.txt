@@ -1,26 +1,26 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
 
 
 
-Peña fuerte es Raimundo en su apellido,
+PeÃ±a fuerte es Raimundo en su apellido,
 y rey del mundo el nombre le publica;
-aquél su fortaleza santa explica,
-y éste cuanto hay mortal muestra rendido.
+aquÃ©l su fortaleza santa explica,
+y Ã©ste cuanto hay mortal muestra rendido.
 
-El elemento más embravecido,
+El elemento mÃ¡s embravecido,
 cuado el mato en las ondas su fe aplica,
-el viento mansamente en él se implica,
+el viento mansamente en Ã©l se implica,
 hasta haberle en la playa conducido.
 
-Triunfó del mar airado y de los vientos,
+TriunfÃ³ del mar airado y de los vientos,
 y cuando sus preceptos obedecen,
 muestra el mundo menor sus movimientos.
 

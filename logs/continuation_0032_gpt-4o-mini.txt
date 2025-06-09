@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
 Medieval
 
-Monstruo de piedra, elévase el castillo
+Monstruo de piedra, elÃ©vase el castillo
 rodeado de coposos limoneros,
-que sombrean los húmedos senderos,
-donde crece aromático el tomillo
+que sombrean los hÃºmedos senderos,
+donde crece aromÃ¡tico el tomillo

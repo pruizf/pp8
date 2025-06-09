@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -12,20 +12,20 @@ La longitud de la respuesta debe ser de 200 palabras.
 
 Ladrar a la luna
 
-¡No desmayes jamás ante una guerra
+Â¡No desmayes jamÃ¡s ante una guerra
 de torpe envidia y miserables celos!
-¿Qué le importa a la luna, allá en los cielos,
+Â¿QuÃ© le importa a la luna, allÃ¡ en los cielos,
 que le ladren los perros a la tierra?
 
 Si alguien aspira a derribarte, yerra
-y puede ahorrase inútiles desvelos;
+y puede ahorrase inÃºtiles desvelos;
 no tan pronto de abate por los suelos
 el Escorial que tu talento encierra
 
-¿Qué no cede el ataque ni un momento?
-¿Qué a todo trance buscan tu fracaso?
-¿Qué te cansa el luchar? ¡No lo disputo
+Â¿QuÃ© no cede el ataque ni un momento?
+Â¿QuÃ© a todo trance buscan tu fracaso?
+Â¿QuÃ© te cansa el luchar? Â¡No lo disputo
 
-¡Mas oye, amigo, este refrán de paso:
-¡Se apedrean las plantas que dan fruto!
-¿Quién del árbol estéril hace caso?
+Â¡Mas oye, amigo, este refrÃ¡n de paso:
+Â¡Se apedrean las plantas que dan fruto!
+Â¿QuiÃ©n del Ã¡rbol estÃ©ril hace caso?

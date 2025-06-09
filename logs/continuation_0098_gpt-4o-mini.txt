@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
-Logré al fin con esfuerzo sobrehumano
+LogrÃ© al fin con esfuerzo sobrehumano
 
-a la cumbre subir de esta montaña:
-muéstranse abajo, en pequeñez extraña,
+a la cumbre subir de esta montaÃ±a:
+muÃ©stranse abajo, en pequeÃ±ez extraÃ±a,
 el bosque espeso, la colina, el llano
-Con cendales de púrpura engalano
+Con cendales de pÃºrpura engalano

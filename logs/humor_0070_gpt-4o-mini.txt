@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -14,21 +14,21 @@ Josefa Vaca, comedianta
 
 Oye, Josefa, a quien tu bien desea,
 que es Villa-nueva aquesta vida humana,
-y a Villa-flor se pasará mañana,
+y a Villa-flor se pasarÃ¡ maÃ±ana,
 que es flor que al sol que mira lisonjea.
 
-Más hace Peña-fiel al que desea,
+MÃ¡s hace PeÃ±a-fiel al que desea,
 si en ferias te da Feria ya Pastrana
 que anda el diablo suelto en Cantillana
 y en Barca-rota tu caudal se emplea.
 
-Que es Río-seco aquesta Corte loca;
-que lleva agua salobre ya Saldaña;
+Que es RÃ­o-seco aquesta Corte loca;
+que lleva agua salobre ya SaldaÃ±a;
 que pica el gusto y el amor provoca;
 
-que a tu marido el tiempo desengaña,
-que mucha presunción con edad poca
-el valor miente y el amor engaña.
+que a tu marido el tiempo desengaÃ±a,
+que mucha presunciÃ³n con edad poca
+el valor miente y el amor engaÃ±a.
 
-Que hallarás si plantares,
-fáciles Alcañices, no Olivares.
+Que hallarÃ¡s si plantares,
+fÃ¡ciles AlcaÃ±ices, no Olivares.

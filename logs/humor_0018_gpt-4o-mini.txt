@@ -1,18 +1,18 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
 
 
 
-Una mañana fresca, paseando
-hallé en el fresco prado a mi querida,
-de fresco tulipán la sien ceñida,
+Una maÃ±ana fresca, paseando
+hallÃ© en el fresco prado a mi querida,
+de fresco tulipÃ¡n la sien ceÃ±ida,
 frescamente adornada levantando.
 
 Fresca la aurora estaba derramando
@@ -24,6 +24,6 @@ Sentada en fresca alfombra de esmeralda
 gozando estaba del frescor del cielo,
 en frescas flores abundante el halda.
 
-Álzase en esto sobre el fresco suelo
-y, volviéndome infiel la fresca espalda,
-más fresco me dejó que el mismo hielo.
+Ãlzase en esto sobre el fresco suelo
+y, volviÃ©ndome infiel la fresca espalda,
+mÃ¡s fresco me dejÃ³ que el mismo hielo.

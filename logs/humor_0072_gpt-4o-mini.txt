@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -12,9 +12,9 @@ La longitud de la respuesta debe ser de 200 palabras.
 
 A vanas esperanzas de la Corte
 
-Cánsame Medinilla a la jineta
-y púdreme el de Hijar a la brida
-acábame Don Zarate la vida
+CÃ¡nsame Medinilla a la jineta
+y pÃºdreme el de Hijar a la brida
+acÃ¡bame Don Zarate la vida
 porque sigue de Tello la vil seta.
 
 Franqueza me ha rogado que le meta
@@ -24,7 +24,7 @@ de no acordarse de que fue soleta.
 
 Don Rodrigo de Tapia el tontivano
 no acaba de saber, vaga ignorancia,
-cuál sea en su coche la derecha mano.
+cuÃ¡l sea en su coche la derecha mano.
 
 El es un caballero de importancia
 y tiene cierta gracia que en verano

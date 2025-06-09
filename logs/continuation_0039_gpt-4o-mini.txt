@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
 Soneto
 
-Si mostrándose Roma agradecida
+Si mostrÃ¡ndose Roma agradecida
 a quien un ciudadano libertase
 cuando con el morir le amenazase
-su enemigo, ya dueño de su vida,
+su enemigo, ya dueÃ±o de su vida,

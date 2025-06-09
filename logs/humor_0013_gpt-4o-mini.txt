@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -12,20 +12,20 @@ La longitud de la respuesta debe ser de 200 palabras.
 
 Soneto
 
-Es mi patrón el Cristo del Zapato,			
-mi devoción la Virgen de Cortina,			
-no conozco más ley que la divina,			
+Es mi patrÃ³n el Cristo del Zapato,			
+mi devociÃ³n la Virgen de Cortina,			
+no conozco mÃ¡s ley que la divina,			
 mi lema es libertad, mi emblema un gato.			
 
-Mi inclinación es siempre a lo barato,			
-mi antipatía a la mujer ladina,			
+Mi inclinaciÃ³n es siempre a lo barato,			
+mi antipatÃ­a a la mujer ladina,			
 mi mundo no se aleja de Pechina,			
-y mi música toda es un silbato.			
+y mi mÃºsica toda es un silbato.			
 
 Mis muebles se reducen al tintero,			
 mi riqueza consiste en la escopeta,			
 mi vajilla se cifra en el salero.			
 
-En mi fogón no hay más que la paleta			
-ni más en mi cocina que un puchero;			
+En mi fogÃ³n no hay mÃ¡s que la paleta			
+ni mÃ¡s en mi cocina que un puchero;			
 pero nunca he asistido a una retreta.

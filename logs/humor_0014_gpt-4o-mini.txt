@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -12,20 +12,20 @@ La longitud de la respuesta debe ser de 200 palabras.
 
 Soneto
 
-Calzábase Justina su zapato,			
+CalzÃ¡base Justina su zapato,			
 de su retrete tras la azul cortina,			
 cuando yo por mirar su faz divina,			
 me aproximaba cual astuto gato.			
 
 Vi lo que nunca viera tan barato;			
-mas de ello apercibióse la ladina:			
+mas de ello apercibiÃ³se la ladina:			
 y una robusta moza de Pechina			
-sorprendióme al reclamo de un silbato			
+sorprendiÃ³me al reclamo de un silbato			
 
-Arrojóme violenta un gran tintero;			
+ArrojÃ³me violenta un gran tintero;			
 pero echando yo mano a la escopeta			
-apunté tremebundo a su salero			
+apuntÃ© tremebundo a su salero			
 
-De turrón una barra, cual paleta,			
-sirvió de escudo a su negruz puchero,			
+De turrÃ³n una barra, cual paleta,			
+sirviÃ³ de escudo a su negruz puchero,			
 y tuve que batir una retreta.

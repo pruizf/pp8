@@ -1,24 +1,24 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
 
 
 
-Ya de mis quietos días el sereno
+Ya de mis quietos dÃ­as el sereno
 cielo se va turbando y con sosiego
 en el alma se enciende un nuevo fuego
 que me consume dulcemente el seno
 
-Recoge, corazón, recoge el freno
-y a más sano lugar te vuelve luego,
-pues que de amor el más sabroso juego
-está con hiel templado y con veneno
+Recoge, corazÃ³n, recoge el freno
+y a mÃ¡s sano lugar te vuelve luego,
+pues que de amor el mÃ¡s sabroso juego
+estÃ¡ con hiel templado y con veneno
 
 Al suspirar y al llanto triste y laso,
 a oscura luz y a noches congojosas
@@ -26,4 +26,4 @@ no tornes, ya que miras libre el cielo
 
 Huye a los ojos bellos, cierra el paso
 al vano desear y a mentirosas
-esperanzas, y cércate de hielo
+esperanzas, y cÃ©rcate de hielo

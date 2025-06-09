@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -15,7 +15,7 @@ La doctrina de Epicuro
 -No existe la virtud, Dios es un mito,
 Humo la gloria y el amor quimera;
 El que otra vida tras la muerte espera,
-No tiene más cabeza que un chorlito.
+No tiene mÃ¡s cabeza que un chorlito.
 
 Ora practique el bien, ora el delito,
 La fortuna del hombre no se altera,
@@ -23,8 +23,8 @@ Pues al mirar la luz por vez primera,
 Ver puede en ella su destino escrito.
 Todo es mentira en la existencia humana,
 Y aquel que busca el goce eternamente,
-Sólo ve del placer la sombra vana.-
+SÃ³lo ve del placer la sombra vana.-
 
-Así de Atenas a la pobre gente
-Dijo el gran Epicuro una mañana...
-Y se marchó a tomar el aguardiente.
+AsÃ­ de Atenas a la pobre gente
+Dijo el gran Epicuro una maÃ±ana...
+Y se marchÃ³ a tomar el aguardiente.

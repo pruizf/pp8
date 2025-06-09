@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -13,7 +13,7 @@ La longitud de la respuesta debe ser de 200 palabras.
 El amor ideal
 
 Haces bien en decir, Lesbia querida,
-Que para mí son leyes tus antojos,
+Que para mÃ­ son leyes tus antojos,
 Pues por una mirada de tus ojos
 Satisfecho y feliz diera mi vida.
 
@@ -22,10 +22,10 @@ Sacrificios, placer, dicha y enojos;
 Pide que torne en flores los abrojos
 Y en pavesas la nieve derretida.
 
-Pídeme que te cante como Homero,
+PÃ­deme que te cante como Homero,
 Que ruja como hirviente catarata,
 Que llore entre cadenas prisionero:
 
-Pídeme, Lesbia, mi ilusión más grata;
+PÃ­deme, Lesbia, mi ilusiÃ³n mÃ¡s grata;
 Mas no me pidas ropa ni dinero,
-Porque estoy más perdido que una rata.
+Porque estoy mÃ¡s perdido que una rata.

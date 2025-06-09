@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
-Oración fúnebre
+OraciÃ³n fÃºnebre
 
-Murió no sé en qué pueblo una señora,
+MuriÃ³ no sÃ© en quÃ© pueblo una seÃ±ora,
 Y siguiendo costumbre inveterada,
-Inundóse de gente la morada,
+InundÃ³se de gente la morada,
 Amigos de illo tempore, o de ahora.

@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
-Soñar y amar
+SoÃ±ar y amar
 
-Soñé que una selva silenciosa
-junto a un lago risueño y transparente,
+SoÃ±Ã© que una selva silenciosa
+junto a un lago risueÃ±o y transparente,
 vi de mi Lesbia la serena frente
 pura cual siempre y como siempre hermosa

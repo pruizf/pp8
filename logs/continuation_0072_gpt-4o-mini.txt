@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
 A vanas esperanzas de la Corte
 
-Cánsame Medinilla a la jineta
-y púdreme el de Hijar a la brida
-acábame Don Zarate la vida
+CÃ¡nsame Medinilla a la jineta
+y pÃºdreme el de Hijar a la brida
+acÃ¡bame Don Zarate la vida
 porque sigue de Tello la vil seta.

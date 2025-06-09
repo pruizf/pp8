@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
-Ya de mis quietos días el sereno
+Ya de mis quietos dÃ­as el sereno
 
 cielo se va turbando y con sosiego
 en el alma se enciende un nuevo fuego
 que me consume dulcemente el seno
-Recoge, corazón, recoge el freno
+Recoge, corazÃ³n, recoge el freno

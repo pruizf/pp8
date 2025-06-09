@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -12,20 +12,20 @@ La longitud de la respuesta debe ser de 200 palabras.
 
 Soneto chino
 
-¡Qué higiénico resulta el té Houlong,
+Â¡QuÃ© higiÃ©nico resulta el tÃ© Houlong,
 mezclado con un poco de gin-seng,
 cuando es del puro que recibe Weng
 el mercader de efectos de Hong-Kong!
 
 Comprendo que no teman a un Armstrong
-los chinos de Tsung-Hái y de Tái-Yuéng,
-de Kwansi, de Ning-Kiang y de Chung-Tiéng,
-de Ning-Pó, de Nankín y de Souchóng
+los chinos de Tsung-HÃ¡i y de TÃ¡i-YuÃ©ng,
+de Kwansi, de Ning-Kiang y de Chung-TiÃ©ng,
+de Ning-PÃ³, de NankÃ­n y de SouchÃ³ng
 
-Bebido el té, me pongo el Smocking;
-y fumando mi pipa de Kwantúng,
-me paso un rato en el Skáting-Ríng.
+Bebido el tÃ©, me pongo el Smocking;
+y fumando mi pipa de KwantÃºng,
+me paso un rato en el SkÃ¡ting-RÃ­ng.
 
-Vuelvo a casa: reposo la Zeitúng;
-y después de saber que aún vive el King,
-pido el sueño a otra taza de Yuén-Súng.
+Vuelvo a casa: reposo la ZeitÃºng;
+y despuÃ©s de saber que aÃºn vive el King,
+pido el sueÃ±o a otra taza de YuÃ©n-SÃºng.

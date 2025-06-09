@@ -1,9 +1,9 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
@@ -11,6 +11,6 @@ Da una respuesta en JSON con la siguiente estructura:
 El amor ideal
 
 Haces bien en decir, Lesbia querida,
-Que para mí son leyes tus antojos,
+Que para mÃ­ son leyes tus antojos,
 Pues por una mirada de tus ojos
 Satisfecho y feliz diera mi vida.

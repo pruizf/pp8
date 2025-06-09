@@ -1,29 +1,30 @@
 {
-  "id": "chatcmpl-B6h3K0pK1HekdL6BFmtESyu3zM4hj",
+  "id": "chatcmpl-BgVh33nFLi3nRvmppngphlncEeJc2",
   "choices": [
     {
       "finish_reason": "stop",
       "index": 0,
       "logprobs": null,
       "message": {
-        "content": "{\n  \"author\": \"Jorge Manrique\",\n  \"century\": 15\n}",
+        "content": "{\n  \"author\": \"Garcilaso de la Vega\",\n  \"century\": \"16\"\n}",
         "refusal": null,
         "role": "assistant",
+        "annotations": [],
         "audio": null,
         "function_call": null,
         "tool_calls": null
       }
     }
   ],
-  "created": 1740935162,
+  "created": 1749471305,
   "model": "gpt-4o-mini-2024-07-18",
   "object": "chat.completion",
   "service_tier": "default",
-  "system_fingerprint": "fp_06737a9306",
+  "system_fingerprint": "fp_34a54ae93c",
   "usage": {
-    "completion_tokens": 21,
+    "completion_tokens": 22,
     "prompt_tokens": 204,
-    "total_tokens": 225,
+    "total_tokens": 226,
     "completion_tokens_details": {
       "accepted_prediction_tokens": 0,
       "audio_tokens": 0,

@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
 A una nariz
 
-Érase un hombre a una nariz pegado,
-érase una nariz superlativa,
-érase una alquitara medio viva,
-érase un pez espada mal barbado;
+Ã‰rase un hombre a una nariz pegado,
+Ã©rase una nariz superlativa,
+Ã©rase una alquitara medio viva,
+Ã©rase un pez espada mal barbado;

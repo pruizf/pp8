@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -13,13 +13,13 @@ La longitud de la respuesta debe ser de 200 palabras.
 De su comedia Celos, amor y venganza
 
 Amargas quejas forma dulcemente
-celoso el Ruiseñor, de enamorado,
-y la Tórtola viuda el desagrado
+celoso el RuiseÃ±or, de enamorado,
+y la TÃ³rtola viuda el desagrado
 cristal enturbia de la clara fuente
 
 El mudo pez a la veloz corriente,
 sale de amor desde su escollo helado,
-y el más robusto toro, no domado,
+y el mÃ¡s robusto toro, no domado,
 brama de amor, y sus pasiones siente;
 
 abraza el tronco la amorosa yedra

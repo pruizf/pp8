@@ -278,3 +278,24 @@ if __name__ == "__main__":
         # write out response times after each model
         # writing line-wise so far to avoid losing data in case of an error
         resp_time_df.to_csv(cf.resp_time_df, sep="\t", index=False)
+    
+    # for models added after original task, post-process full responses into individual responses
+    # (this is due to problems with original 2024 code, that's no longer working to 
+    # write individual humour judgement responses)
+    # start by backing up original humor response
+    resp_dir_for_backups = os.path.join(cf.response_dir + os.sep + "gpt", model.replace(".", ""))
+    backup_dir = resp_dir_for_backups + "_bkp_orig_completion_1"
+    if not os.path.exists(backup_dir):
+      os.path.makedirs(backup_dir)
+    for fn in sorted(os.listdir(resp_dir_for_backups)):
+      if not fn.startswith("humor"):
+        continue
+      ffn = os.path.join(resp_dir_for_backups, fn)
+      shutil.copy(ffn, backup_dir)
+    
+    if model in cf.model_list_for_postpro:
+      print(f"Post-processing full responses for {model}...")
+      for fn in sorted(os.listdir(cf.corpus_dir)):
+        if fn == "metadata.tsv":
+          continue
+        postprocess_full_into_individual_responses(cf, fn, model)

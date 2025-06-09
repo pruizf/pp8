@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
 A varios amigos tronados
 
- Esta turba famélica y bellaca
+ Esta turba famÃ©lica y bellaca
 nunca se cansa de fumar de gorra;
 como al hebreo en tiempo de Gomorra
 yo os maldigo, y mi furia no se aplaca.

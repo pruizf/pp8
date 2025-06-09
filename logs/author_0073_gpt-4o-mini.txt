@@ -1,13 +1,13 @@
-¿Sabes quién es el autor o autora del poema siguiente?
+Â¿Sabes quiÃ©n es el autor o autora del poema siguiente?
 Da una respuesta en JSON con la siguiente estructura:
 {
   "author": "nombre y apellidos del autor o autora"
-  "century": "siglo en el que vivió, en números arábigos"
+  "century": "siglo en el que viviÃ³, en nÃºmeros arÃ¡bigos"
 }
 
 
 
-A doña Justa Sánchez y don Diego de Tovar
+A doÃ±a Justa SÃ¡nchez y don Diego de Tovar
 
 En nombre Justa, en obras pecadora,
 santa del calendario de Cupido,
@@ -15,14 +15,14 @@ cuyos milagros tiene su marido
 canonizado de paciencia ahora.
 
 Culpas absuelve, penitencias llora
-del que es primo y al fin quizá marido,
+del que es primo y al fin quizÃ¡ marido,
 libre manteo de vuelta guarnecido
 que uno le paga y otro le desflora.
 
-¿Qué dirá la corona del viudo,
+Â¿QuÃ© dirÃ¡ la corona del viudo,
 viendo que ha renovado Don Jumento
-el cuerno en este sábado no santo?
+el cuerno en este sÃ¡bado no santo?
 
-Dirá que de mal termino es cornudo
+DirÃ¡ que de mal termino es cornudo
 y que olvida el honor del regimiento,
 y nosotros diremos otro tanto.

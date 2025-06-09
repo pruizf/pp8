@@ -38,6 +38,9 @@ oai_config = {
 #oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
 #oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
 model_list = ["gpt-4o-mini", "mistral-small", "mistral-large-latest", "gpt-3.5-turbo", "gpt-4o"]
+model_list_for_clf = ["gpt-4o-mini", "mistral-small", "mistral-large-latest", "gpt-3.5-turbo", "gpt-4o", "gpt-3.5"]
+model_list_for_postpro = ["gpt-4o-mini"]
+model_list = ["gpt-4o-mini"]#, "mistral-small", "mistral-large-latest", "gpt-3.5-turbo", "gpt-4o"]
 
 # Mistral ---------------------------------------------------------------------
 #mistral_models = ["mistral-small"]

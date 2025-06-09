@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -13,19 +13,19 @@ La longitud de la respuesta debe ser de 200 palabras.
 Retrato
 
 En la espaciosa frente que desnuda el cabello,
-cuya raíz abrasa un volcán interior,
+cuya raÃ­z abrasa un volcÃ¡n interior,
 se muestran las arrugas precoces Fatal sello
-con que a sus elegidos nos señala el dolor.
+con que a sus elegidos nos seÃ±ala el dolor.
 
 Debajo, en las hundidas cuencas, dan su destello,
-al que presta la ojera violáceo resplandor,
-unos ojos que ansían ver lo grande y lo bello
-y están tristes mirando de la vida el horror.
+al que presta la ojera violÃ¡ceo resplandor,
+unos ojos que ansÃ­an ver lo grande y lo bello
+y estÃ¡n tristes mirando de la vida el horror.
 
-La boca, contrayéndose, dibuja la sonrisa
-escéptica y doliente del que vivió de prisa,
-y gustó miel y ajenjo, y sabe el bien y el mal
+La boca, contrayÃ©ndose, dibuja la sonrisa
+escÃ©ptica y doliente del que viviÃ³ de prisa,
+y gustÃ³ miel y ajenjo, y sabe el bien y el mal
 
-Y sobre el pecho trémulo, que en un suspiro late,
-la pálida cabeza, resignada, se abate:
+Y sobre el pecho trÃ©mulo, que en un suspiro late,
+la pÃ¡lida cabeza, resignada, se abate:
 de la segura espera la caricia final.

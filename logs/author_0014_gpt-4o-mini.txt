@@ -1,28 +1,28 @@
-¿Sabes quién es el autor o autora del poema siguiente?
+Â¿Sabes quiÃ©n es el autor o autora del poema siguiente?
 Da una respuesta en JSON con la siguiente estructura:
 {
   "author": "nombre y apellidos del autor o autora"
-  "century": "siglo en el que vivió, en números arábigos"
+  "century": "siglo en el que viviÃ³, en nÃºmeros arÃ¡bigos"
 }
 
 
 
 Soneto
 
-Calzábase Justina su zapato,			
+CalzÃ¡base Justina su zapato,			
 de su retrete tras la azul cortina,			
 cuando yo por mirar su faz divina,			
 me aproximaba cual astuto gato.			
 
 Vi lo que nunca viera tan barato;			
-mas de ello apercibióse la ladina:			
+mas de ello apercibiÃ³se la ladina:			
 y una robusta moza de Pechina			
-sorprendióme al reclamo de un silbato			
+sorprendiÃ³me al reclamo de un silbato			
 
-Arrojóme violenta un gran tintero;			
+ArrojÃ³me violenta un gran tintero;			
 pero echando yo mano a la escopeta			
-apunté tremebundo a su salero			
+apuntÃ© tremebundo a su salero			
 
-De turrón una barra, cual paleta,			
-sirvió de escudo a su negruz puchero,			
+De turrÃ³n una barra, cual paleta,			
+sirviÃ³ de escudo a su negruz puchero,			
 y tuve que batir una retreta.

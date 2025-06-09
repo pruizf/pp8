@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -14,8 +14,8 @@ El mayor dolor
 
 Coger sin sospecharlo un hierro ardiendo,
 Estrenar unas botas apretadas,
-Reñir con un inglés a bofetadas,
-Andar uno o dos años pretendiendo.
+ReÃ±ir con un inglÃ©s a bofetadas,
+Andar uno o dos aÃ±os pretendiendo.
 
 Hallarse frente a frente de un berrendo
 Sin sentir en la hierba sus pisadas,
@@ -27,5 +27,5 @@ Amar la libertad y ser soldado,
 Y tener por rival quien nos protege,
 
 Disgustos son que al hombre dan enfado;
-Mas ¿qué disgusto habrá que se asemeje
+Mas Â¿quÃ© disgusto habrÃ¡ que se asemeje
 Al disgusto de amar sin ser amado?

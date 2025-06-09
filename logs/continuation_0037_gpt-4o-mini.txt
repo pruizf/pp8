@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
 Soneto
 
-Tienes razón, mujer, negarlo fuera
+Tienes razÃ³n, mujer, negarlo fuera
 pueril alarde, a la verdad ajeno:
 al grito del amor no existe freno
 que logre detenerme en mi carrera

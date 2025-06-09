@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
-Patria mía
+Patria mÃ­a
 
-Llamarla mía y nada todo es uno
+Llamarla mÃ­a y nada todo es uno
 aunque naciera en ella y siga a oscuras
 fatigando sus tristes espesuras
-y ofrendándole un canto inoportuno.
+y ofrendÃ¡ndole un canto inoportuno.

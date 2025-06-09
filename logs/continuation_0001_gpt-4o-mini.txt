@@ -1,16 +1,16 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
 
 Soneto chino
 
-¡Qué higiénico resulta el té Houlong,
+Â¡QuÃ© higiÃ©nico resulta el tÃ© Houlong,
 mezclado con un poco de gin-seng,
 cuando es del puro que recibe Weng
 el mercader de efectos de Hong-Kong!

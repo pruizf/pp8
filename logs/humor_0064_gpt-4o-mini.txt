@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -13,8 +13,8 @@ La longitud de la respuesta debe ser de 200 palabras.
 Un amigo residente en Roma
 
 Si alguna vez de Trevi en la fontana,
-O del risueño Pincio en la colina,
-O en la terrible cárcel Mamertina,
+O del risueÃ±o Pincio en la colina,
+O en la terrible cÃ¡rcel Mamertina,
 O en la soberbia iglesia Vaticana,
 
 La patria de Quevedo y de Santana
@@ -24,8 +24,8 @@ Que se viene a posar en mi ventana,
 
 No te detenga mujeril decoro,
 Troquemos de lugar y, lo confieso,
-Renunciaré al garbanzo sin desdoro.
+RenunciarÃ© al garbanzo sin desdoro.
 
-Una grada de sol tendrás de exceso,
-Y si la calma te aburrió del Foro,
-Te daré mi tarjeta del Congreso.
+Una grada de sol tendrÃ¡s de exceso,
+Y si la calma te aburriÃ³ del Foro,
+Te darÃ© mi tarjeta del Congreso.

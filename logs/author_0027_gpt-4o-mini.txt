@@ -1,8 +1,8 @@
-¿Sabes quién es el autor o autora del poema siguiente?
+Â¿Sabes quiÃ©n es el autor o autora del poema siguiente?
 Da una respuesta en JSON con la siguiente estructura:
 {
   "author": "nombre y apellidos del autor o autora"
-  "century": "siglo en el que vivió, en números arábigos"
+  "century": "siglo en el que viviÃ³, en nÃºmeros arÃ¡bigos"
 }
 
 
@@ -10,19 +10,19 @@ Da una respuesta en JSON con la siguiente estructura:
 Soneto
 
 No hay otro Fray Gerundio, ni le ha habido,
-hará inmortal el nombre de Campazas
+harÃ¡ inmortal el nombre de Campazas
 En casas, en conventos, calles, plazas,
 va dos cuartos que mete mucho ruido.
 
-No nos cite el francés envanecido
+No nos cite el francÃ©s envanecido
 a Fleury, a Bourdaloue ni a otros mazas,
-¿qué Segneri, qué Oliva o calabazas?
-¿Ni qué Vieira, portugués erguido?
+Â¿quÃ© Segneri, quÃ© Oliva o calabazas?
+Â¿Ni quÃ© Vieira, portuguÃ©s erguido?
 
-¿Demóstenes y Tulio? Dos zoquetes
-¿Los demás oradores? Mil orates,
+Â¿DemÃ³stenes y Tulio? Dos zoquetes
+Â¿Los demÃ¡s oradores? Mil orates,
 por no llamarlos pobres monigotes.
 
-Sólo Fray Blas con otros mozalbetes,
+SÃ³lo Fray Blas con otros mozalbetes,
 si no le exceden, le hacen sus empates
-Por los demás, es gloria de los ZOTES.
+Por los demÃ¡s, es gloria de los ZOTES.

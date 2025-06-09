@@ -1,9 +1,9 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
@@ -12,20 +12,20 @@ La longitud de la respuesta debe ser de 200 palabras.
 
 Medieval
 
-Monstruo de piedra, elévase el castillo
+Monstruo de piedra, elÃ©vase el castillo
 rodeado de coposos limoneros,
-que sombrean los húmedos senderos,
-donde crece aromático el tomillo
+que sombrean los hÃºmedos senderos,
+donde crece aromÃ¡tico el tomillo
 
 Alzadas las cadenas del rastrillo
-y enarbolando fúlgidos aceros,
+y enarbolando fÃºlgidos aceros,
 seguido de sus bravos halconeros
-va de caza el señor de horca y cuchillo.
+va de caza el seÃ±or de horca y cuchillo.
 
-Al oír el clamor de las bocinas
+Al oÃ­r el clamor de las bocinas
 bandadas de palomas campesinas
 surgen volando de las verdes frondas;
 
-y de los ríos al hendir las brumas
+y de los rÃ­os al hendir las brumas
 dibujan con las sombras de sus plumas
 cruces de nieve en las azules ondas.

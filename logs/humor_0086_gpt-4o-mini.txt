@@ -1,29 +1,29 @@
-¿Es cómico el poema siguiente? ¿Por qué?
+Â¿Es cÃ³mico el poema siguiente? Â¿Por quÃ©?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no|incierto",
-  "reason": "razón de la respuesta"
+  "judgement": "sÃ­|no|incierto",
+  "reason": "razÃ³n de la respuesta"
 }
 
 La longitud de la respuesta debe ser de 200 palabras.
 
 
 
-Soñé que una piedra me arrojaba
-quien mi querer sujeto así tenía,
-y casi ya en la boca me cogía
+SoÃ±Ã© que una piedra me arrojaba
+quien mi querer sujeto asÃ­ tenÃ­a,
+y casi ya en la boca me cogÃ­a
 una fiera que abajo me esperaba
 
 Yo, con temor buscando, procuraba
-de dónde con las manos me tendría,
-y el filo de una espada la una asía
+de dÃ³nde con las manos me tendrÃ­a,
+y el filo de una espada la una asÃ­a
 y en una hierbezuela la otra hincaba
 
-La yerba a más andar la iba arrancando
-la espada a mí la mano deshaciendo,
-yo más sus filos vivos apretando
+La yerba a mÃ¡s andar la iba arrancando
+la espada a mÃ­ la mano deshaciendo,
+yo mÃ¡s sus filos vivos apretando
 
-¡Oh, mísero de mí, que mal me entiendo
+Â¡Oh, mÃ­sero de mÃ­, que mal me entiendo
 pues huelgo verme estar despedazado
 de miedo de acabar mi mal muriendo!

@@ -1,9 +1,9 @@
-¿Sabes cómo continúa el poema siguiente?
+Â¿Sabes cÃ³mo continÃºa el poema siguiente?
 
 Da una respuesta en JSON con la siguiente estructura:
 {
-  "judgement": "sí|no",
-  "continuation": "continuación del poema"
+  "judgement": "sÃ­|no",
+  "continuation": "continuaciÃ³n del poema"
 }
 
 
@@ -11,6 +11,6 @@ Da una respuesta en JSON con la siguiente estructura:
 Un amigo residente en Roma
 
 Si alguna vez de Trevi en la fontana,
-O del risueño Pincio en la colina,
-O en la terrible cárcel Mamertina,
+O del risueÃ±o Pincio en la colina,
+O en la terrible cÃ¡rcel Mamertina,
 O en la soberbia iglesia Vaticana,

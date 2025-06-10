@@ -1,0 +1,23 @@
+{
+  "id": "889d0e23014543308b89562c757bc8ab",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 69,
+    "total_tokens": 212
+  },
+  "created": 1740950976,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"pero all\u00ed mi alegr\u00eda se detiene,\\ndesde esta cima al fin veo claro,\\nel camino recorrido hasta aqu\u00ed,\\nun valle de esfuerzo y dolor.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

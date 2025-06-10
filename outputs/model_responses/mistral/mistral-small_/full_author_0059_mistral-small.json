@@ -1,0 +1,23 @@
+{
+  "id": "0f4110fe836a4de1b9f8473fb702b5a6",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 288,
+    "completion_tokens": 24,
+    "total_tokens": 312
+  },
+  "created": 1740950829,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Luciano de Samosata\",\n  \"century\": \"II\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

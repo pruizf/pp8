@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+SONETO AUTUMNAL AL MARQUÉS DE BRADOMÍN
+
+Marqués, ( como el Divino lo era) te saludo.
+Es el otoño y vengo de un Versalles doliente.
+Había mucho frío y erraba vulgar gente.
+El chorro de agua de Verlaine estaba mudo.

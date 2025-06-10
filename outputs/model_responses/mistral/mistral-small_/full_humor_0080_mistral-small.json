@@ -1,0 +1,23 @@
+{
+  "id": "4634fe2a400c47cbb09f574877b307af",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 286,
+    "completion_tokens": 202,
+    "total_tokens": 488
+  },
+  "created": 1740950903,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El tono y el estilo del poema no son t\u00edpicamente c\u00f3micos. En su lugar, el poema tiene un tono serio y po\u00e9tico, con un lenguaje florido y m\u00e9tricas tradicionales. La comedia generalmente involucra una ruptura de las expectativas o una situaci\u00f3n inesperada, mientras que este poema sigue una estructura y tono consistentes a lo largo. Adem\u00e1s, el tema del poema, que parece ser una descripci\u00f3n de un ave volando y su relaci\u00f3n con el sol y el cielo, no es particularmente gracioso en s\u00ed mismo. Sin embargo, el juicio de si algo es c\u00f3mico o no puede ser subjetivo y depender del contexto en que se presente el poema.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

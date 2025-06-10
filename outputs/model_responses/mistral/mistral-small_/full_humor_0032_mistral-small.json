@@ -1,0 +1,23 @@
+{
+  "id": "bdca49bf506744ba9344d6114df5df06",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 287,
+    "completion_tokens": 134,
+    "total_tokens": 421
+  },
+  "created": 1740950687,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presenta un lenguaje y estilo propio de la poes\u00eda medieval, con descripciones detalladas de paisajes y acciones propias de esa \u00e9poca, como la figura del se\u00f1or feudal con su castillo y sus halconeros. Sin embargo, no contiene elementos c\u00f3micos expl\u00edcitos, como juegos de palabras, situaciones absurdas o exageraciones humor\u00edsticas. Por lo tanto, no se puede considerar c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "d6a514182b9f47beb3cac3fdb60244d4",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 321,
+    "completion_tokens": 48,
+    "total_tokens": 369
+  },
+  "created": 1740950826,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Gabriel Mar\u00eda Jos\u00e9 de Guzm\u00e1n y Sp\u00ednola, conde de Teba y marqu\u00e9s de Squilache\",\n  \"century\": \"18\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

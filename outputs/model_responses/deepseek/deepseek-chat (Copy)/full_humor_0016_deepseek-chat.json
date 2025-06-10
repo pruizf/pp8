@@ -1,0 +1,36 @@
+{
+  "id": "1ac59a16-f656-4ea5-8796-7a6815ed0199",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un lenguaje coloquial y directo, combinado con situaciones exageradas y preguntas ret\u00f3ricas que generan un efecto c\u00f3mico. La menci\u00f3n de 'fumar de gorra' y las comparaciones con personajes b\u00edblicos como el hebreo en tiempo de Gomorra, junto con las expresiones vulgares como 'hijo de zorra' y 'ch\u00fapate la punta del carajo', a\u00f1aden un tono irreverente y humor\u00edstico. Adem\u00e1s, la estructura del poema y el uso de rimas contribuyen a su car\u00e1cter c\u00f3mico, ya que contrasta con la seriedad que tradicionalmente se asocia a la poes\u00eda. El poema juega con las expectativas del lector, presentando una queja exagerada sobre un tema mundano como es el fumar, lo que resulta en un efecto humor\u00edstico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554378,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 212,
+    "prompt_tokens": 262,
+    "total_tokens": 474,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 198
+  }
+}

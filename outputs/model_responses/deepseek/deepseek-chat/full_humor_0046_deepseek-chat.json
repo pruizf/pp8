@@ -1,0 +1,36 @@
+{
+  "id": "dae663c8-76a3-4a50-b994-0c1654c1e964",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Revoluci\u00f3n' aborda temas profundos y serios como la voluntad de Dios, la justicia, y el papel de la revoluci\u00f3n en la sociedad. Su tono es m\u00e1s bien solemne y reflexivo, con un lenguaje que evoca im\u00e1genes de lucha y destino, lejos de la ligereza o el humor que caracterizar\u00edan a un poema c\u00f3mico. La elecci\u00f3n de palabras como 'providencial traspaso', 'abominable yugo', y 'desastre' refuerza la seriedad del mensaje, centrado en la inevitabilidad y el peso moral de la revoluci\u00f3n. Por lo tanto, no se considera c\u00f3mico, sino m\u00e1s bien un reflejo po\u00e9tico sobre temas trascendentales y conflictivos.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555322,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 258,
+    "total_tokens": 441,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 194
+  }
+}

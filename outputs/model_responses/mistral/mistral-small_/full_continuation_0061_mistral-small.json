@@ -1,0 +1,23 @@
+{
+  "id": "59abb006d5394a14992c8b553a82232b",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 90,
+    "total_tokens": 233
+  },
+  "created": 1740950834,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo siento, no puedo continuar el poema, ya que no hay una continuaci\u00f3n can\u00f3nica o ampliamente aceptada para este fragmento en particular. El fragmento que proporcionaste parece ser una cita aislada, y no estoy programado para generar poes\u00eda original.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

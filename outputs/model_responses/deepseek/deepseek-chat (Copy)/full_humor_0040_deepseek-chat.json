@@ -1,0 +1,36 @@
+{
+  "id": "cb6584ef-903a-4168-984c-8b3b735b0aaa",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado aborda temas profundos como la b\u00fasqueda del significado de la vida, la ceguera espiritual, y la s\u00faplica por iluminaci\u00f3n y consuelo divino. Su tono es serio y reflexivo, con un lenguaje que evoca emociones intensas y una sensaci\u00f3n de vulnerabilidad y anhelo. La estructura y el uso de met\u00e1foras, como la comparaci\u00f3n de la iluminaci\u00f3n divina con el sol que trae vida y color despu\u00e9s de la noche, refuerzan su car\u00e1cter contemplativo y no c\u00f3mico. La poes\u00eda c\u00f3mica, por otro lado, se caracteriza por el uso de humor, iron\u00eda, o situaciones absurdas para provocar risa o sonrisas, elementos que est\u00e1n ausentes en este poema. Por lo tanto, basado en el contenido, tono y prop\u00f3sito del poema, se concluye que no es c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555142,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 218,
+    "prompt_tokens": 246,
+    "total_tokens": 464,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 182
+  }
+}

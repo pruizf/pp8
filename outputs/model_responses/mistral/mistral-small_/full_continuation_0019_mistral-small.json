@@ -1,0 +1,23 @@
+{
+  "id": "ec67ff77f941411ab94b6db6845d60e8",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 139,
+    "completion_tokens": 102,
+    "total_tokens": 241
+  },
+  "created": 1740950631,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo siento, no puedo continuar el poema, ya que no conozco el autor ni el contexto completo. El fragmento que proporcionaste parece pertenecer a un soneto de Lope de Vega con el tema de la vanidad y la apariencia, pero hay varias versiones y variantes de los versos.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

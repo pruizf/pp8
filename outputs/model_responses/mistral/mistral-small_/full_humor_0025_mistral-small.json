@@ -1,0 +1,23 @@
+{
+  "id": "c67ef20d33a64103a4a2f848d1b99e83",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 155,
+    "total_tokens": 464
+  },
+  "created": 1740950654,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema tiene un tono humor\u00edstico y utilizando figuras literarias como la ant\u00edtesis y la iron\u00eda, el autor crea im\u00e1genes absurdas y divertidas al comparar dos personajes. Por ejemplo, en la primera estrofa, el autor describe una comparaci\u00f3n entre dos personas donde uno es rico en vitaminas y el otro est\u00e1 desnudo. Adem\u00e1s, el uso de palabras inesperadas y absurdas en las comparaciones, como 'manco de una sota' o 'fotocopia', aumentan el efecto c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

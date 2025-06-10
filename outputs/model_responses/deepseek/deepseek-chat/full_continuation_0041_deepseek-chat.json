@@ -1,0 +1,36 @@
+{
+  "id": "5da33d97-88aa-41c6-830b-6eec4b8003dc",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Quiero escuchar tus risas luminosas,\\ncomo cascadas de cristal sonoro,\\ny en tus ojos leer, cual en un libro de oro,\\nlas leyendas m\u00e1s dulces y amorosas.\\n\\nQuiero que seas el sol de mis ma\u00f1anas,\\nla luna de mis noches solitarias,\\nel eco de mis cantos en las prader\u00edas,\\ny la musa inspiradora de mis haza\u00f1as.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555188,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 115,
+    "total_tokens": 232,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 115
+  }
+}

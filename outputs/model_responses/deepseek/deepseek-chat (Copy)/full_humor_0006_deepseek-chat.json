@@ -1,0 +1,36 @@
+{
+  "id": "a2fa3035-55e2-455c-b343-f0a0f837eb12",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema 'A una nariz' utiliza una exageraci\u00f3n c\u00f3mica y una serie de comparaciones absurdas para describir una nariz de manera humor\u00edstica. La repetici\u00f3n de la estructura '\u00e9rase' seguida de im\u00e1genes cada vez m\u00e1s extravagantes y poco realistas (como 'un elefante boca arriba' o 'una pir\u00e1mide de Egipto') crea un efecto c\u00f3mico. Adem\u00e1s, el uso de t\u00e9rminos inventados o poco comunes como 'naric\u00edsimo infinito' y 'fris\u00f3n archinariz' a\u00f1ade un toque de humor absurdo. El poema juega con la imaginaci\u00f3n del lector, llev\u00e1ndolo a visualizar una nariz de proporciones y caracter\u00edsticas imposibles, lo que resulta en una descripci\u00f3n c\u00f3mica y sat\u00edrica de la vanidad o peculiaridad humana.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554076,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 204,
+    "prompt_tokens": 239,
+    "total_tokens": 443,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 175
+  }
+}

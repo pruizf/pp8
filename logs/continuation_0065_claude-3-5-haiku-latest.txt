@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+Informe - A un amigo que, pensando en casarse, me pidió mi opinión respecto de las mujeres
+
+Es la mujer prisión en que nacemos,
+Y a que desde el nacer nos condenamos:
+Unos por penitencia la buscamos,
+Otros por galardón la merecemos.

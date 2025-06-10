@@ -1,0 +1,36 @@
+{
+  "id": "c6f69f75-ce37-4458-b353-39ed9e32a1ca",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Despu\u00e9s, se mezclan bien con arte y brusco,\\nun poco de ritmo, un tanto de musgo,\\ny se hornea en el alma hasta el ocusco.\\nAs\u00ed, con estos versos, simple y justo,\\nse logra un soneto, fresco y robusto.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554657,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 118,
+    "total_tokens": 207,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 118
+  }
+}

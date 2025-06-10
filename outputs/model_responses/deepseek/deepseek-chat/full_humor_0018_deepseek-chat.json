@@ -1,0 +1,36 @@
+{
+  "id": "50e0b23e-d777-48b8-9aa5-9fd91e728a28",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presenta un lenguaje y una estructura que, aunque pueden ser apreciados por su belleza y ritmo, no est\u00e1n dise\u00f1ados espec\u00edficamente para provocar risa o ser percibidos como c\u00f3micos. El uso repetitivo de la palabra 'fresco' y sus variaciones podr\u00eda considerarse juguet\u00f3n o l\u00fadico, pero no necesariamente c\u00f3mico. El tema del poema, centrado en la naturaleza y un encuentro amoroso, junto con su tono l\u00edrico y rom\u00e1ntico, no apunta hacia la comedia. La situaci\u00f3n descrita al final, donde la persona amada da la espalda al narrador, podr\u00eda tener un toque de iron\u00eda o sarcasmo, pero no es suficiente para clasificar el poema como c\u00f3mico en su conjunto. Por lo tanto, aunque hay elementos que podr\u00edan ser interpretados con humor, el poema en su totalidad no se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554444,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 221,
+    "prompt_tokens": 243,
+    "total_tokens": 464,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 179
+  }
+}

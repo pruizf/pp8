@@ -1,0 +1,23 @@
+{
+  "id": "c072cd242b6c45f793631744579cf841",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 280,
+    "completion_tokens": 157,
+    "total_tokens": 437
+  },
+  "created": 1740950982,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado es una estrofa de un soneto cl\u00e1sico espa\u00f1ol, que sigue las normas de rima y m\u00e9trica propias del g\u00e9nero. Aunque el poema hace uso de comparaciones y met\u00e1foras con rosas, fuego y sol, lo hace de una manera seria y reflexiva, sin ning\u00fan elemento que pueda considerarse c\u00f3mico. No se emplean exageraciones, iron\u00edas o situaciones absurdas que suelen estar presentes en lo c\u00f3mico. Por lo tanto, el juicio es que este poema no es c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

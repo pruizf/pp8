@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+SONETO
+
+   Es el mejor mortal, prestado estado;
+Y esta sentencia tal, Loyola oyola,
+Y por un grave mal, pasola sola
+Haciendo igual su pronunciado hado.

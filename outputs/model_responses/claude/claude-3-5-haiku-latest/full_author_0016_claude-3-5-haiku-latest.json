@@ -1,0 +1,23 @@
+{
+  "id": "msg_01EFC73293y8RqY4KFT5wMgE",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Ram\u00f3n de Campoamor\",\n  \"century\": \"19\"\n}\n\nEste poema sat\u00edrico es obra del poeta espa\u00f1ol Ram\u00f3n de Campoamor y Gonz\u00e1lez (1817-1901), quien fue un reconocido escritor del siglo XIX, conocido por su estilo humor\u00edstico y sus poemas filos\u00f3ficos y costumbristas.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 291,
+    "output_tokens": 96,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

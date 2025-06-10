@@ -1,0 +1,23 @@
+{
+  "id": "fe8ef6922f8b4e5a8cdcca065a6140e1",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 71,
+    "total_tokens": 209
+  },
+  "created": 1740950908,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"del ruise\u00f1or que al cantar se atreve,\\nan las flores de los campos se posa,\\nes su dulce voz el aire se recrea,\\nla primavera cobra su color.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

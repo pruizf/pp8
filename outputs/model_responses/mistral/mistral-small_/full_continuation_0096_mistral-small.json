@@ -1,0 +1,23 @@
+{
+  "id": "f9cd0322e8a3410e87ad972c51f5b3aa",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 49,
+    "total_tokens": 190
+  },
+  "created": 1740950970,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"pero aqu\u00ed est\u00e1 un posible verso para continuar:\\nla verdad revelas, sin un solo estremecer\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

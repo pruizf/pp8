@@ -1,0 +1,23 @@
+{
+  "id": "2e4f5d3c16074d52be5857b0e4fe6866",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 288,
+    "completion_tokens": 193,
+    "total_tokens": 481
+  },
+  "created": 1740950699,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado es un soneto, una forma po\u00e9tica tradicional que no est\u00e1 asociada normalmente con la comedia. Su lenguaje y estructura son formales y no contienen elementos c\u00f3micos claros, como la s\u00e1tira, el absurdo o el juego de palabras. En su lugar, el poema parece ser un elogio o una oda, con un tono serio y respetuoso. Adem\u00e1s, el tema del poema -un p\u00e1jaro canario que vuela alto y es glorificado por su canto- no es intr\u00ednsecamente c\u00f3mico. Sin embargo, es importante se\u00f1alar que el humor es subjetivo y puede variar seg\u00fan el lector y su contexto cultural.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

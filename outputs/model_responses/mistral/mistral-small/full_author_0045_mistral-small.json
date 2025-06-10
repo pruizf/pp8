@@ -1,13 +1,13 @@
 {
-  "id": "029c23c70b634a84a4d7ca3d7e273389",
+  "id": "bebda6883cc24e53b2c23f542aaed100",
   "object": "chat.completion",
   "model": "mistral-small",
   "usage": {
     "prompt_tokens": 328,
-    "completion_tokens": 26,
-    "total_tokens": 354
+    "completion_tokens": 27,
+    "total_tokens": 355
   },
-  "created": 1740950736,
+  "created": 1749541590,
   "choices": [
     {
       "index": 0,

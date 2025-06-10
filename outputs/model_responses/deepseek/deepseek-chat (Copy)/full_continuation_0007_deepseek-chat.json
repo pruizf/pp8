@@ -1,0 +1,36 @@
+{
+  "id": "77c68d7a-8381-4df0-adc4-5b7065f3c3a5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"donde su fama a\u00fan m\u00e1s relucir\u00eda,\\ncon su destreza y valent\u00eda,\\nen tierras nuevas gan\u00f3 m\u00e1s de un mano.\\nAll\u00ed, entre indios y espa\u00f1oles,\\nsu leyenda creci\u00f3 sin parang\u00f3n,\\nmaestro de armas, sin temor,\\nCampuzano, nombre de soles.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554118,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 119,
+    "total_tokens": 216,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 119
+  }
+}

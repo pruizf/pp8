@@ -1,0 +1,23 @@
+{
+  "id": "msg_01FbirKmLp7rqtXmSKBpW4eE",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Rafael Pombo\",\n  \"century\": \"19\"\n}\n\nEl poema \"Tu mirada\" es un soneto escrito por Rafael Pombo, un reconocido poeta, escritor y diplom\u00e1tico colombiano que vivi\u00f3 durante el siglo XIX (1833-1912). El poema refleja su estilo rom\u00e1ntico y su profunda espiritualidad, con un tema religioso que busca la iluminaci\u00f3n divina para disipar dudas y temores.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 261,
+    "output_tokens": 118,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

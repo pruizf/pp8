@@ -1,0 +1,23 @@
+{
+  "id": "cee96503a58d45eebcb3ecafcc2b5511",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 42,
+    "total_tokens": 191
+  },
+  "created": 1740950596,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"lo siento, no puedo continuar este poema sin m\u00e1s contexto o autor espec\u00edfico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

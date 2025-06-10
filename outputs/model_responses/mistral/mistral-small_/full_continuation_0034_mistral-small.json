@@ -1,0 +1,23 @@
+{
+  "id": "7a73f9231863418f87e032f0aee08864",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 70,
+    "total_tokens": 200
+  },
+  "created": 1740950697,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo siento, no puedo continuar el poema sin m\u00e1s contexto. Necesito saber qui\u00e9n es el autor y el resto del soneto para poder proporcionar una continuaci\u00f3n adecuada.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

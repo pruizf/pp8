@@ -1,0 +1,23 @@
+{
+  "id": "d253f5bcba744950a12a87f8112155a0",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 53,
+    "total_tokens": 189
+  },
+  "created": 1740950924,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"a dar en \u00e9l la batalla fiera;\\nan el non venir le van aflojando,\\nan el venir le van atajando.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

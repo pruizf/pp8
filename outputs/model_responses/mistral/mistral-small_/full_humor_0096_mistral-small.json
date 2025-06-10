@@ -1,0 +1,23 @@
+{
+  "id": "5e87bb81e11b428b84fb72ba5073e7f6",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 288,
+    "completion_tokens": 185,
+    "total_tokens": 473
+  },
+  "created": 1740950968,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico en el sentido tradicional de la palabra, ya que no contiene elementos humor\u00edsticos o sat\u00edricos intencionados. Por el contrario, el tono es serio y elevado, con un lenguaje po\u00e9tico formal y figuras ret\u00f3ricas como met\u00e1foras y personificaciones. El poema parece m\u00e1s una oda o alabanza a la majestuosa figura del \u00e1guila y a la grandeza del universo. Sin embargo, la subjetividad y la percepci\u00f3n del humor pueden variar entre los lectores, y algunos pueden encontrar humor o iron\u00eda en la solemnidad y la grandilocuencia del lenguaje.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

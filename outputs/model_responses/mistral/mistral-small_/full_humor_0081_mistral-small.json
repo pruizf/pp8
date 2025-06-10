@@ -1,0 +1,23 @@
+{
+  "id": "e51e6c074b074c3895d88eda2a1792c4",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 284,
+    "completion_tokens": 204,
+    "total_tokens": 488
+  },
+  "created": 1740950906,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado es una estrofa de un soneto en espa\u00f1ol escrito en un lenguaje arcaico y formal, siguiendo la m\u00e9trica y rima propia del g\u00e9nero po\u00e9tico. El tema del poema es la vida y obra de San Isidro Labrador, un campesino espa\u00f1ol que fue canonizado por su dedicaci\u00f3n al trabajo y su piedad. Aunque el tema podr\u00eda prestarse a una interpretaci\u00f3n c\u00f3mica, particularmente si se actualizara el lenguaje o se presentaran situaciones m\u00e1s contempor\u00e1neas o absurdas, en su forma original el poema no tiene intenci\u00f3n c\u00f3mica. Por el contrario, su lenguaje elevado y su tema religioso lo sit\u00faan en una tradici\u00f3n literaria seria y respetuosa.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "1fdd31b2fabf4237814dd7979fc931a6",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 289,
+    "completion_tokens": 24,
+    "total_tokens": 313
+  },
+  "created": 1740950651,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Rafael Alberti\",\n  \"century\": \"20\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,18 +1,18 @@
 {
-  "id": "d73462d1fec34804bd1bbb322723abb5",
+  "id": "ae48d8d93eda4691b851a762652e6f22",
   "object": "chat.completion",
   "model": "mistral-small",
   "usage": {
     "prompt_tokens": 155,
-    "completion_tokens": 172,
-    "total_tokens": 327
+    "completion_tokens": 84,
+    "total_tokens": 239
   },
-  "created": 1740950850,
+  "created": 1749542300,
   "choices": [
     {
       "index": 0,
       "message": {
-        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00bfEs c\u00e1rcel la que aborrecemos,\\nO el cielo en que llegamos a gozar?\\nElla es prisi\u00f3n dulce y juzgado,\\nDonde el delito es amar sin tasa.\\nEl que a su ley sagrada se ata,\\nMas \u00e1spera rigorosa cadena\\nNo labr\u00f3 Jam\u00e1s cruel taller humano.\\nMas \u00bfqui\u00e9n puede ser tan constante?\\nTan fuerte el coraz\u00f3n que en sus manos\\nEl hierro de la ley dom\u00e9stica\\nSoportar pueda sin flaquear jam\u00e1s?\"\n}",
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Es la mujer reja donde recreamos, \\r\\nY al paso de los a\u00f1os m\u00e1s amamos; \\r\\nEs la mujer cama de donde nacemos, \\r\\nY a que volvemos, cansados, a reposar.\"\n}",
         "tool_calls": null,
         "prefix": false,
         "role": "assistant"

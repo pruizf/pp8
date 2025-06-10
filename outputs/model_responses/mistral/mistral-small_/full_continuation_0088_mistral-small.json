@@ -1,0 +1,23 @@
+{
+  "id": "d0408c0edaaf4e2c826722b76478f583",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 83,
+    "total_tokens": 232
+  },
+  "created": 1740950935,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"desafortunadamente, no puedo continuar el poema sin conocer el autor y el resto del poema, ya que este fragmento puede pertenecer a cualquiera de las muchas obras escritas por diversos autores a lo largo de la historia.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

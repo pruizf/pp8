@@ -1,0 +1,23 @@
+{
+  "id": "b382e1acf01a44258da825423bec446e",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 342,
+    "completion_tokens": 142,
+    "total_tokens": 484
+  },
+  "created": 1740950892,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico en s\u00ed, ya que no contiene elementos ni situaciones humor\u00edsticas o graciosas. Por el contrario, es un poema serio y reflexivo que aborda temas como la tristeza, la b\u00fasqueda de Dios y el amor eterno. El tono po\u00e9tico y las im\u00e1genes evocadoras tambi\u00e9n contribuyen a su seriedad. Sin embargo, la interpretaci\u00f3n del humor puede ser subjetiva y depender del contexto cultural y personal de cada persona.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

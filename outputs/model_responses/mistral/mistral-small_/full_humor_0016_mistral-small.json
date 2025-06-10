@@ -1,0 +1,23 @@
+{
+  "id": "7af964b196754238a8ec9fdeef1ef4b0",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 325,
+    "completion_tokens": 179,
+    "total_tokens": 504
+  },
+  "created": 1740950615,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El tono y el lenguaje utilizados en este poema no son t\u00edpicos de la comedia. Por el contrario, el poema parece ser una condena mordaz y furiosa a un grupo de personas (amigos sin dinero) que constantemente piden al hablante que les d\u00e9 tabaco. El lenguaje es grosero y ofensivo, y el hablante se muestra muy enojado y despectivo con los destinatarios de la poes\u00eda. Adem\u00e1s, el poema no contiene elementos c\u00f3micos comunes, como la iron\u00eda, la s\u00e1tira o el humor f\u00edsico. Por lo tanto, no se puede considerar c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

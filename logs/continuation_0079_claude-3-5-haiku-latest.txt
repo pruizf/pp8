@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+Peña fuerte es Raimundo en su apellido,
+
+y rey del mundo el nombre le publica;
+aquél su fortaleza santa explica,
+y éste cuanto hay mortal muestra rendido.
+El elemento más embravecido,

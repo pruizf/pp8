@@ -1,0 +1,31 @@
+¿Es cómico el poema siguiente? ¿Por qué?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
+
+La longitud de la respuesta debe ser de 200 palabras.
+
+
+
+Mal de muchos...
+
+¿No viste alguna vez del rayo herido
+Desprenderse y rodar cedro gigante,
+Llenando de terror al caminante
+Entre los bosques al azar perdido?
+
+¿Viste cómo la tórtola en su nido
+Llora la ausencia de su triste amante,
+Y cómo el sol derrite en un instante
+El alud de la sierra desprendido?
+
+¿Viste, por fin, en el tranquilo cielo,
+Extenderse las nubes poco a poco,
+Y de sombras y horror cubrir el suelo?
+
+¿Viste el arbusto que produce el coco?
+Pues cesa ya tu afán y tu desvelo,
+Que si tú no lo viste, yo tampoco.

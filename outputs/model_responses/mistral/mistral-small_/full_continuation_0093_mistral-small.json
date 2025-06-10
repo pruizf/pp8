@@ -1,0 +1,23 @@
+{
+  "id": "72e70f07df5e4ec6917760d1a4bedaf8",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 63,
+    "total_tokens": 201
+  },
+  "created": 1740950958,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"desafortunadamente, no puedo continuar el poema porque no tengo suficiente contexto o informaci\u00f3n sobre qui\u00e9n lo escribi\u00f3 o a qu\u00e9 se refiere.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

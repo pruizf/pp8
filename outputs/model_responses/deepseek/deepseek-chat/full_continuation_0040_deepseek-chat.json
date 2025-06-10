@@ -1,0 +1,36 @@
+{
+  "id": "8f0cf00a-bbfb-4009-b0da-0550ace17077",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Tu mirada fue el faro que, en la oscuridad,\\nme gui\u00f3 hacia el puerto de tu amor sin igual.\\nEn ella encontr\u00e9 la luz que nunca se apaga,\\nla verdad que en silencio me habla y me abraza.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555159,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 115,
+    "total_tokens": 194,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 115
+  }
+}

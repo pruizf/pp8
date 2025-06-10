@@ -1,0 +1,36 @@
+{
+  "id": "627491a9-688d-487b-82bf-894127375c3f",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un tono sat\u00edrico y exagerado para describir las caracter\u00edsticas de alguien que pretende ser liberal, lo cual es una t\u00e9cnica com\u00fan en la comedia para criticar o ridiculizar ciertos comportamientos o ideolog\u00edas. La exageraci\u00f3n en la descripci\u00f3n del atuendo, las actitudes hacia las damas, la religi\u00f3n, y el uso de t\u00e9rminos como 'liberal\u00f3n hecho y derecho' contribuyen a un efecto c\u00f3mico. Adem\u00e1s, el contraste entre la seriedad con la que se podr\u00edan tomar estos ideales y la manera burlona en que se presentan refuerza la intenci\u00f3n humor\u00edstica del poema.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554478,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 164,
+    "prompt_tokens": 230,
+    "total_tokens": 394,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 166
+  }
+}

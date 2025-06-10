@@ -1,0 +1,36 @@
+{
+  "id": "50c50467-ce17-4cbb-b285-9b0e1ca3bc94",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema 'TAL PARA CUAL' utiliza un lenguaje juguet\u00f3n y contrastes exagerados entre los personajes descritos, lo cual es caracter\u00edstico del humor. Las comparaciones absurdas y las rimas inesperadas, como 't\u00fa carne de gallina, yo de jota' o 't\u00fa anillo de brillantes, yo Juan lanas', generan un efecto c\u00f3mico al presentar situaciones y caracter\u00edsticas opuestas de manera ingeniosa. Adem\u00e1s, el uso de t\u00e9rminos coloquiales y la estructura repetitiva del poema refuerzan su tono humor\u00edstico, invitando al lector a re\u00edrse de las disparidades y similitudes entre los dos sujetos del poema. La combinaci\u00f3n de estos elementos ling\u00fc\u00edsticos y estructurales hace que el poema sea percibido como c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554673,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 199,
+    "prompt_tokens": 258,
+    "total_tokens": 457,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 194
+  }
+}

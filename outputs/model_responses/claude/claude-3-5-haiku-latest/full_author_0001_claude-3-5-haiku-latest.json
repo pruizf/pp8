@@ -1,0 +1,23 @@
+{
+  "id": "msg_01HG2aSHUdu2V9PdNCKmsvY7",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Ram\u00f3n de Campoamor\",\n  \"century\": \"19\"\n}\n\nEste poema es claramente del poeta espa\u00f1ol Ram\u00f3n de Campoamor, un reconocido escritor del siglo XIX conocido por su estilo humor\u00edstico y sus innovaciones po\u00e9ticas. El soneto juega con nombres orientales y t\u00e9rminos internacionales de una manera caracter\u00edstica de su estilo ir\u00f3nico y cosmopolita.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 316,
+    "output_tokens": 110,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "c59d8ab6-78b1-4d7f-856d-361f2fcce7e8",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"MAS, si en tu pecho M\u00c1S virtud se encierra, no temas M\u00c1S, que M\u00c1S ser\u00e1 tu gloria, y M\u00c1S el premio a tu constante historia, de dar M\u00c1S luz, M\u00c1S paz, M\u00c1S amor a la tierra.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554429,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 137,
+    "total_tokens": 222,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 137
+  }
+}

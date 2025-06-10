@@ -1,0 +1,23 @@
+{
+  "id": "msg_013Avc8wy3KKHfak2JT2B4Do",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Pedro Salinas\",\n  \"century\": \"20\"\n}\n\nAunque el poema est\u00e1 dedicado al botijo, quiero aclarar que este soneto es en realidad de Pedro Salinas, un reconocido poeta espa\u00f1ol de la Generaci\u00f3n del 27, que vivi\u00f3 en el siglo XX (1891-1951).",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 262,
+    "output_tokens": 87,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

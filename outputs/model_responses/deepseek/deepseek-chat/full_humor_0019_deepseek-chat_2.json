@@ -1,0 +1,36 @@
+{
+  "id": "a57752a0-2be4-4d88-bbd6-7ee079003818",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un tono sat\u00edrico y exagerado para describir los estereotipos asociados con ser liberal en un contexto espec\u00edfico. La exageraci\u00f3n en la descripci\u00f3n de las caracter\u00edsticas f\u00edsicas y comportamentales, como 'gran corbat\u00edn' y 'habla de la creaci\u00f3n con grande celo', junto con la ridiculizaci\u00f3n de ciertas actitudes pol\u00edticas y sociales, como 'a los serviles llamar\u00e1s villanos', contribuye a un efecto c\u00f3mico. Adem\u00e1s, el uso de rimas y estructuras po\u00e9ticas tradicionales para transmitir un mensaje ir\u00f3nico y cr\u00edtico a\u00f1ade una capa de humor. El poema juega con las expectativas del lector al presentar una caricatura de lo que significa ser liberal, lo que puede resultar gracioso para aquellos que reconocen los estereotipos que se est\u00e1n parodiando.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556228,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 212,
+    "prompt_tokens": 230,
+    "total_tokens": 442,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 38
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "msg_01JCyJPezqG5stmmzDwjhxXX",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Francisco de Medrano\",\n  \"century\": \"17\"\n}\n\nEste soneto es caracter\u00edstico de la poes\u00eda barroca espa\u00f1ola y fue escrito por Francisco de Medrano (1570-1607), poeta del Siglo de Oro espa\u00f1ol que destac\u00f3 por sus composiciones de tem\u00e1tica amorosa y moral, con influencias de Horacio.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 251,
+    "output_tokens": 92,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

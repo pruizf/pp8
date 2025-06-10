@@ -1,0 +1,23 @@
+{
+  "id": "msg_01RHcrtoyBjyxUNU4Z1S2qLc",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"retorciendo el mostacho soldadesco,\\npor ver que ya su bolsa le repica,\\na un corrillo lleg\u00f3 de gente rica,\\ny en el nombre de Dios pidi\u00f3 refresco.\\n\\n'Den voacedes, por Dios, a mi pobreza',\\nles dice: 'donde no, por ocho santos\\nque har\u00e9 lo que hacer suelo sin tardanza'.\\n\\nMas uno, que a sacar la espada empieza,\\n'\u00bfCon qui\u00e9n habla \u2014le dijo\u2014 el tiracantos?\\n\u00a1Cuerpo de Dios con \u00e9l y su crianza!'\"\n}\n\nEste es un soneto sat\u00edrico de Francisco de Quevedo que se burla de un valent\u00f3n (un fanfarr\u00f3n o mat\u00f3n) que intenta intimidar a la gente para conseguir dinero, pero acaba encontr\u00e1ndose con alguien que le planta cara.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 114,
+    "output_tokens": 246,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

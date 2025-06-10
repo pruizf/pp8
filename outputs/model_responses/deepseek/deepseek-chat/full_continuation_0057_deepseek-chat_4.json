@@ -1,0 +1,36 @@
+{
+  "id": "52df8126-37c1-4cde-a463-b718b755a879",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"consuelo de tontos es el dicho antiguo,\\nque alivia al necio con su falso abrigo,\\nmientras el sabio, en su dolor amigo,\\nbusca en la verdad su \u00fanico resquicio.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566475,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 111,
+    "total_tokens": 184,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 47
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "cdbbee3a-e701-4023-822f-77b782a01a8b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"se abrasa el coraz\u00f3n en fuego ardiente,\\nque no hay en amor ley ni convenio,\\ny as\u00ed, aunque m\u00edo, en extra\u00f1o se\u00f1or\u00edo,\\nme consume en dolor eternamente.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749558398,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 124,
+    "total_tokens": 189,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 60
+  }
+}

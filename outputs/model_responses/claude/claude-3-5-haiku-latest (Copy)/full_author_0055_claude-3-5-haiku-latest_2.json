@@ -1,0 +1,23 @@
+{
+  "id": "msg_01UTjmrzuhhMTYXAPmP1TDTW",
+  "content": [
+    {
+      "citations": null,
+      "text": "Bas\u00e1ndome en el poema, puedo identificar que el autor es:\n\n{\n  \"author\": \"Ram\u00f3n de Campoamor\",\n  \"century\": \"19\"\n}\n\nEl poema \"Idilio\" es caracter\u00edstico del estilo de Ram\u00f3n de Campoamor, poeta espa\u00f1ol del siglo XIX conocido por su poes\u00eda humor\u00edstica y costumbrista, con un tono ir\u00f3nico y ligero que se refleja claramente en este poema.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 275,
+    "output_tokens": 118,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

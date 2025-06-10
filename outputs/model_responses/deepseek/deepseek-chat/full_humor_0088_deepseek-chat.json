@@ -1,0 +1,36 @@
+{
+  "id": "50cc12a6-94ee-4c1f-b414-73a537f3e898",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien rom\u00e1ntico y mitol\u00f3gico. Describe una escena donde Nise captura a Amor (Cupido) y le quita las plumas de las alas, lo que resulta en que Amor no pueda volar y permanezca en los brazos de Nise. Esta narrativa se enfoca en temas de amor y mitolog\u00eda, utilizando un lenguaje po\u00e9tico y metaf\u00f3rico que no apunta hacia el humor. La situaci\u00f3n descrita puede interpretarse como una alegor\u00eda del poder del amor y c\u00f3mo puede ser capturado o controlado, m\u00e1s que como una situaci\u00f3n c\u00f3mica. Adem\u00e1s, el tono del poema es serio y reflexivo, lo que refuerza la idea de que no est\u00e1 destinado a ser c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556474,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 199,
+    "prompt_tokens": 250,
+    "total_tokens": 449,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 186
+  }
+}

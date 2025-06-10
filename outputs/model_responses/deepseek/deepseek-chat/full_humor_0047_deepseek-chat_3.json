@@ -1,0 +1,36 @@
+{
+  "id": "5171265c-45b8-4f07-8d1b-a49cb3962bdc",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Ladrar a la luna' aborda temas serios como la envidia, los celos, la perseverancia ante la adversidad y el valor del talento frente a la mediocridad, utilizando un tono reflexivo y admonitorio m\u00e1s que c\u00f3mico. Aunque emplea im\u00e1genes v\u00edvidas como 'ladrar a la luna' y 'apedrear las plantas que dan fruto', estas met\u00e1foras sirven para ilustrar la inutilidad de la envidia y la importancia de seguir adelante a pesar de los obst\u00e1culos, no para provocar risa. El lenguaje es elevado y el mensaje, moralizante, lo cual dista del prop\u00f3sito de la comedia, que busca entretener y hacer re\u00edr a trav\u00e9s de la exageraci\u00f3n, el absurdo o la iron\u00eda. Por lo tanto, el poema no puede considerarse c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749560313,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 216,
+    "prompt_tokens": 263,
+    "total_tokens": 479,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 7
+  }
+}

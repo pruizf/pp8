@@ -1,0 +1,36 @@
+{
+  "id": "94044613-9fe2-4b0c-a1f3-1a5df4e8a42c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien de explorar temas como la belleza, el paso del tiempo y la sensualidad a trav\u00e9s de met\u00e1foras y lenguaje po\u00e9tico. El tono es m\u00e1s reflexivo y admirativo que humor\u00edstico. Las im\u00e1genes utilizadas, como la de la 'anciana generosa' y la 'fr\u00e1gil tapada', sugieren una contemplaci\u00f3n seria sobre la naturaleza de la belleza y el deseo, en lugar de buscar provocar risa o diversi\u00f3n. Adem\u00e1s, la estructura y el lenguaje del poema son t\u00edpicos de la poes\u00eda l\u00edrica, que generalmente se enfoca en expresar emociones profundas o ideas filos\u00f3ficas, no en el humor.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749558055,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 248,
+    "total_tokens": 430,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 56
+  }
+}

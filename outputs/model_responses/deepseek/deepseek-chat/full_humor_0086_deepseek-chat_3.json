@@ -1,0 +1,36 @@
+{
+  "id": "7822d588-80da-4ad1-a9d0-a0d58a6d5779",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien tr\u00e1gico o dram\u00e1tico. El lenguaje y las im\u00e1genes utilizadas, como 'una piedra me arrojaba', 'una fiera que abajo me esperaba', y 'la espada a m\u00ed la mano deshaciendo', evocan una sensaci\u00f3n de angustia y sufrimiento. Adem\u00e1s, el tono general del poema es de desesperaci\u00f3n y conflicto interno, como se evidencia en los versos finales: '\u00a1Oh, m\u00edsero de m\u00ed, que mal me entiendo / pues huelgo verme estar despedazado / de miedo de acabar mi mal muriendo!'. Estos elementos sugieren que el poema busca transmitir una experiencia emocional intensa y dolorosa, m\u00e1s que provocar risa o diversi\u00f3n. Por lo tanto, aunque la interpretaci\u00f3n del humor puede ser subjetiva, los temas y el tono del poema no est\u00e1n alineados con lo que t\u00edpicamente se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561627,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 247,
+    "prompt_tokens": 248,
+    "total_tokens": 495,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 56
+  }
+}

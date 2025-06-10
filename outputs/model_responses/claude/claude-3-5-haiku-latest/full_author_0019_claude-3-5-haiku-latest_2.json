@@ -1,0 +1,23 @@
+{
+  "id": "msg_0131XhSR7uqYJVWUYjrRwyEo",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Jos\u00e9 Joaqu\u00edn de Mora\",\n  \"century\": \"19\"\n}\n\nExplicaci\u00f3n: Este soneto es obra del poeta, periodista y pol\u00edtico hispanoamericano Jos\u00e9 Joaqu\u00edn de Mora, quien vivi\u00f3 entre 1783 y 1864, por lo tanto, perteneciente al siglo XIX. Es un poema sat\u00edrico que critica de manera ir\u00f3nica el comportamiento de los liberales de su \u00e9poca.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 251,
+    "output_tokens": 109,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

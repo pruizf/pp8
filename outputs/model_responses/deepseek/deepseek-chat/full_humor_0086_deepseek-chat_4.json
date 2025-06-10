@@ -1,0 +1,36 @@
+{
+  "id": "f2ba5749-4258-499f-9209-7884b40d59b9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece ser c\u00f3mico, sino m\u00e1s bien tr\u00e1gico y lleno de angustia. El lenguaje y las im\u00e1genes utilizadas, como 'una piedra me arrojaba', 'una fiera que abajo me esperaba', y 'la espada a m\u00ed la mano deshaciendo', evocan una sensaci\u00f3n de dolor y desesperaci\u00f3n en lugar de humor. El tono general del poema es oscuro y preocupante, centr\u00e1ndose en el sufrimiento del narrador y su miedo a la muerte. Adem\u00e1s, la estructura y el estilo del poema son m\u00e1s caracter\u00edsticos de la poes\u00eda l\u00edrica que explora temas profundos y emocionales, en contraste con la ligereza y el juego t\u00edpicos de la comedia. Por lo tanto, basado en el contenido y el tono del poema, se puede concluir que no es c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567406,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 218,
+    "prompt_tokens": 248,
+    "total_tokens": 466,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 56
+  }
+}

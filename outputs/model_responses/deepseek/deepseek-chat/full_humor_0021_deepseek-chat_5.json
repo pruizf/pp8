@@ -1,0 +1,36 @@
+{
+  "id": "5a26c5aa-521d-4156-b3ca-0cd28d6c8526",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema comienza con un tono elevado y filos\u00f3fico, utilizando un lenguaje po\u00e9tico y metaf\u00f3rico para describir a un ser casi divino que ofrece consuelo y esperanza. Sin embargo, el giro c\u00f3mico llega al final, cuando se revela que este '\u00e1ngel' o 's\u00edlfide hechicera' es, en realidad, una lavandera que viene a cobrar por su trabajo. Este contraste entre lo sublime y lo mundano, entre la expectativa creada por el lenguaje po\u00e9tico y la realidad prosaica de la situaci\u00f3n, es un recurso cl\u00e1sico del humor. La sorpresa y la ruptura de las expectativas generan la comicidad, haciendo que el poema sea c\u00f3mico a pesar de su inicio serio y filos\u00f3fico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749570709,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 197,
+    "prompt_tokens": 266,
+    "total_tokens": 463,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 10
+  }
+}

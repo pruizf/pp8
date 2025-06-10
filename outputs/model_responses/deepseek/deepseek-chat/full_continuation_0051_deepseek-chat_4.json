@@ -1,0 +1,36 @@
+{
+  "id": "16c9464e-254a-44bb-954a-e2acca2930d5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"El coraz\u00f3n palpita con violencia,\\nComo queriendo escapar del pecho;\\nLa frente se cubre de sudor,\\nY en los ojos brilla un fuego interno.\\n\\nTodo anuncia que la naturaleza,\\nEn su seno formidable encierra,\\nUn poder que al hombre somete,\\nY le hace sentir su peque\u00f1ez.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566296,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 114,
+    "total_tokens": 212,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 50
+  }
+}

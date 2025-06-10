@@ -1,0 +1,36 @@
+{
+  "id": "e45d6b98-6dc3-4090-94ec-4b0fd0988c60",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien de inspirar y reflexionar sobre temas elevados como el vuelo del \u00e1guila y su simbolismo en relaci\u00f3n con lo divino y lo infinito. Su lenguaje es elevado y metaf\u00f3rico, centr\u00e1ndose en la belleza y la majestuosidad de la naturaleza y lo trascendental, lo cual no es caracter\u00edstico de la comedia. La comedia suele basarse en situaciones, lenguaje o giros inesperados que provocan risa, elementos que est\u00e1n ausentes en este poema. Por lo tanto, su tono y contenido sugieren una intenci\u00f3n seria o contemplativa m\u00e1s que humor\u00edstica.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567730,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 236,
+    "total_tokens": 412,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 44
+  }
+}

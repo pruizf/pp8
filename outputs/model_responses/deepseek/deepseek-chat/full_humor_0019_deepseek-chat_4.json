@@ -1,0 +1,36 @@
+{
+  "id": "9cedae9f-4db3-451b-8dc8-011fb68751b5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un tono ir\u00f3nico y exagerado para describir las caracter\u00edsticas de un liberal, lo que puede ser interpretado como c\u00f3mico. La exageraci\u00f3n en la descripci\u00f3n del atuendo y el comportamiento del liberal, junto con la ridiculizaci\u00f3n de ciertos estereotipos pol\u00edticos, crea un efecto humor\u00edstico. Adem\u00e1s, el uso de rimas y un lenguaje juguet\u00f3n contribuye a la sensaci\u00f3n de ligereza y diversi\u00f3n, haciendo que el poema sea c\u00f3mico para aquellos que aprecian la s\u00e1tira y la iron\u00eda en la literatura.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749565196,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 230,
+    "total_tokens": 377,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 38
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "cab2bb45-91ed-474a-9b1d-2f9d78489d82",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"El granjero sigue su labor, con manos firmes y coraz\u00f3n noble,\\ncultivando la tierra, sembrando vida en cada surco,\\ncon la esperanza de que cada semilla, bajo el sol y la lluvia,\\nse convierta en fruto, en pan, en futuro para su linaje.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749560165,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 132,
+    "total_tokens": 223,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 4
+  }
+}

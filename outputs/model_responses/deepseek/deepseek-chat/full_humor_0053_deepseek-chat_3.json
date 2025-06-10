@@ -1,0 +1,36 @@
+{
+  "id": "c92fb89e-edc9-4b45-a916-720d8604d05b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema 'El amor ideal' presenta un contraste humor\u00edstico entre la disposici\u00f3n del hablante para cumplir con los caprichos m\u00e1s exagerados y rom\u00e1nticos de Lesbia, y su incapacidad para satisfacer pedidos m\u00e1s mundanos como 'ropa ni dinero', culminando en la auto-descriptiva l\u00ednea 'Porque estoy m\u00e1s perdido que una rata'. Esta exageraci\u00f3n en las promesas de amor, seguida por una admisi\u00f3n tan mundana y c\u00f3mica de pobreza, crea un efecto humor\u00edstico. El uso de hip\u00e9rboles en las promesas de amor, como convertir 'abrojos' en 'flores' y 'nieve derretida' en 'pavesas', junto con la abrupta ca\u00edda a la realidad en los \u00faltimos versos, refuerza la comicidad del poema. El contraste entre lo sublime y lo rid\u00edculo es una t\u00e9cnica com\u00fan en la poes\u00eda c\u00f3mica, y aqu\u00ed se emplea efectivamente para provocar risa.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749560506,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 240,
+    "prompt_tokens": 247,
+    "total_tokens": 487,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 55
+  }
+}

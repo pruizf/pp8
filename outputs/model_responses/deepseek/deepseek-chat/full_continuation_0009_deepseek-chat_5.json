@@ -1,0 +1,36 @@
+{
+  "id": "0ad572f4-1eb6-4981-bbf9-1ca37ccfdf3a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"enrojecido por el vicio y la pena,\\nvagaba entre las sombras de la noche serena.\\nLa luna, indiferente a su triste figura,\\nsegu\u00eda su camino en la oscura altura,\\nmientras \u00e9l, en su sue\u00f1o de absenta y de olvido,\\nbuscaba en vano el amor que hab\u00eda perdido.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749570365,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 131,
+    "total_tokens": 233,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 3
+  }
+}

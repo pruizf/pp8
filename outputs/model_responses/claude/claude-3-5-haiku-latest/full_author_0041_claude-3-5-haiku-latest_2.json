@@ -1,0 +1,23 @@
+{
+  "id": "msg_01TkswZM2shfb35oZnCjomkR",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Juli\u00e1n del Casal\",\n  \"century\": \"19\"\n}\n\nEsta atribuci\u00f3n corresponde al poeta cubano Juli\u00e1n del Casal (1863-1893), reconocido como uno de los principales representantes del Modernismo en Hispanoam\u00e9rica. El poema \"Anhelos\" muestra claramente su estilo po\u00e9tico caracter\u00edstico, con un lenguaje muy elaborado, sensual y con fuertes im\u00e1genes rom\u00e1nticas y modernistas.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 256,
+    "output_tokens": 120,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

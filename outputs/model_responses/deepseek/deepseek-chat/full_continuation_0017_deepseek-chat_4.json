@@ -1,0 +1,36 @@
+{
+  "id": "4afd475d-4bbd-4552-8910-0e062e57bf89",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"MAS, si callas, ser\u00e1s M\u00c1S, MAS si hablas,\\nquiz\u00e1 no digas M\u00c1S que el que call\u00f3,\\ny el que call\u00f3, MAS sabio, se qued\u00f3\\ncon M\u00c1S de lo que el hablador obtuviera.\\nMAS, por favor, no digas M\u00c1S, te ruego,\\nque en el silencio M\u00c1S se encuentra el juego.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749565146,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 137,
+    "total_tokens": 251,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 9
+  }
+}

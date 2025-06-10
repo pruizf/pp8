@@ -1,0 +1,36 @@
+{
+  "id": "dd1f6ae9-bcc0-47b1-af25-1af1098c5afa",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'So\u00f1ar y amar' transmite una sensaci\u00f3n de melancol\u00eda y p\u00e9rdida, centr\u00e1ndose en temas como el amor no correspondido y la fugacidad de los sue\u00f1os. Su tono es m\u00e1s l\u00edrico y emotivo que c\u00f3mico, utilizando im\u00e1genes como la selva silenciosa, el lago risue\u00f1o, y la referencia a Lesbia para evocar un sentido de belleza y tristeza. La estructura y el lenguaje empleado no sugieren un intento de humor o comedia, sino m\u00e1s bien una exploraci\u00f3n profunda de sentimientos personales y reflexiones sobre el amor y la p\u00e9rdida. Por lo tanto, no se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749560345,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 257,
+    "total_tokens": 426,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 1
+  }
+}

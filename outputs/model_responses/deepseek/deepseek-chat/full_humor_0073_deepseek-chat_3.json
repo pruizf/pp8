@@ -1,0 +1,36 @@
+{
+  "id": "0a9632b4-fa8c-46cd-8ac6-70644db95825",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un lenguaje sat\u00edrico y juegos de palabras que son caracter\u00edsticos del humor. Por ejemplo, la referencia a 'santa del calendario de Cupido' y 'canonizado de paciencia' son ir\u00f3nicas y sugieren una cr\u00edtica humor\u00edstica a las relaciones maritales y las infidelidades. Adem\u00e1s, el uso de t\u00e9rminos como 'Don Jumento' y 'el cuerno' son claras alusiones c\u00f3micas a la infidelidad, un tema com\u00fan en la comedia. La estructura del poema, con su ritmo y rima, tambi\u00e9n contribuye a su tono ligero y burlesco, lo que refuerza la percepci\u00f3n de que est\u00e1 destinado a ser c\u00f3mico. La menci\u00f3n de 'la corona del viudo' y 'el honor del regimiento' a\u00f1ade un toque de exageraci\u00f3n y sarcasmo que es t\u00edpico en la poes\u00eda humor\u00edstica. En conjunto, estos elementos hacen que el poema sea percibido como c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561181,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 241,
+    "prompt_tokens": 244,
+    "total_tokens": 485,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 52
+  }
+}

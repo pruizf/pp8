@@ -1,0 +1,36 @@
+{
+  "id": "5e9706a1-3f9c-4052-b268-485a1df1e2cf",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presenta una narrativa sobre el amor y la captura de Cupido (Amor) por Nise, lo que resulta en una situaci\u00f3n donde el dios del amor no puede volar y, por lo tanto, afecta a aquellos que miran a Nise. Aunque hay elementos que podr\u00edan ser interpretados como ir\u00f3nicos o juguetones, como la idea de que el dios del amor sea capturado y despojado de sus plumas, el tono general del poema es m\u00e1s l\u00edrico y rom\u00e1ntico que c\u00f3mico. La descripci\u00f3n de los 'flechazos' que causan 'hondas heridas de cari\u00f1o' y el efecto en los observadores sugiere una reflexi\u00f3n sobre la naturaleza del amor y su poder, m\u00e1s que una intenci\u00f3n de hacer re\u00edr. Por lo tanto, el poema no se considera c\u00f3mico, sino m\u00e1s bien una exploraci\u00f3n seria y po\u00e9tica de los temas del amor y el deseo.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567476,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 232,
+    "prompt_tokens": 250,
+    "total_tokens": 482,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 58
+  }
+}

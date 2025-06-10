@@ -1,0 +1,36 @@
+{
+  "id": "3b0dbb2c-dc85-47a1-9622-c4c514761791",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien de explorar temas profundos como el amor, la pasi\u00f3n y lo inefable de ciertas experiencias humanas. El tono es m\u00e1s bien serio y reflexivo, con un lenguaje que busca evocar emociones intensas y contemplativas en lugar de provocar risa o diversi\u00f3n. La estructura y el contenido del poema sugieren una b\u00fasqueda de expresi\u00f3n art\u00edstica y emocional, alej\u00e1ndose de los recursos t\u00edpicos del humor o la comedia. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, los elementos presentes en el poema no apuntan hacia la comicidad como su objetivo principal.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561945,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 222,
+    "total_tokens": 399,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 30
+  }
+}

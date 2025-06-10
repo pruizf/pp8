@@ -1,0 +1,36 @@
+{
+  "id": "111f3cde-6b4c-4d2d-9736-9b238c45e086",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado tiene un tono m\u00e1s rom\u00e1ntico y melanc\u00f3lico que c\u00f3mico. Describe emociones profundas como el amor, la ilusi\u00f3n y el desenga\u00f1o, utilizando un lenguaje po\u00e9tico y metaf\u00f3rico, como 'te\u00f1ida en rubores su faz virginal' y 'se agosta lo mismo que un rojo clavel'. Estos elementos sugieren una intenci\u00f3n de conmover o reflexionar sobre la naturaleza ef\u00edmera de la felicidad y el amor, m\u00e1s que de provocar risa o diversi\u00f3n. La comedia generalmente se asocia con situaciones, lenguaje o giros inesperados que generan humor, los cuales est\u00e1n ausentes en este poema. Por lo tanto, aunque el poema puede ser apreciado por su belleza y profundidad emocional, no se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561557,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 204,
+    "prompt_tokens": 250,
+    "total_tokens": 454,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 58
+  }
+}

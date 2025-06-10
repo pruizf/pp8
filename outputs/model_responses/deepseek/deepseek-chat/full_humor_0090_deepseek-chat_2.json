@@ -1,0 +1,36 @@
+{
+  "id": "c3145f0e-9174-4f7f-818d-dcecd214b7f9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presenta un di\u00e1logo entre una mariposa y un \u00e1rbol, donde la mariposa expresa su angustia por la brevedad de su vida en comparaci\u00f3n con la longevidad del \u00e1rbol. El \u00e1rbol, por su parte, reconoce su permanencia pero tambi\u00e9n la falta de libertad y ligereza que la mariposa posee. Este intercambio es m\u00e1s bien melanc\u00f3lico y reflexivo, centr\u00e1ndose en temas como la mortalidad, el tiempo y la naturaleza ef\u00edmera de la vida, en lugar de buscar provocar risa o alegr\u00eda. La elecci\u00f3n de palabras y el tono general del poema no apuntan hacia lo c\u00f3mico, sino hacia una contemplaci\u00f3n m\u00e1s profunda y seria de la existencia.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749558288,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 236,
+    "total_tokens": 418,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 44
+  }
+}

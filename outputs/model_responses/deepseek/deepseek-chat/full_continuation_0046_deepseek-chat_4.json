@@ -1,0 +1,36 @@
+{
+  "id": "a91d6ff6-b20f-4a7b-a358-066544ab4563",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Con fuego en las palabras y en las manos,\\ncon la verdad como \u00fanico escudo,\\navanzas hacia el futuro desnudo,\\ndejando atr\u00e1s los siglos inhumanos.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566140,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 111,
+    "total_tokens": 172,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 47
+  }
+}

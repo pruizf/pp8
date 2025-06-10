@@ -1,0 +1,36 @@
+{
+  "id": "d99cc741-5c14-4e8b-870d-314e3b9544f7",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien serio y elevado en su tono. Habla de Raimundo y su fortaleza, utilizando un lenguaje po\u00e9tico y metaf\u00f3rico que sugiere grandeza y poder sobre los elementos naturales como el mar y el viento. La estructura y el contenido del poema est\u00e1n m\u00e1s alineados con la tradici\u00f3n de la poes\u00eda \u00e9pica o l\u00edrica, que busca inspirar o conmover, m\u00e1s que provocar risa. La ausencia de elementos t\u00edpicos del humor, como la iron\u00eda, el sarcasmo o lo inesperado, refuerza esta interpretaci\u00f3n. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, las caracter\u00edsticas formales y tem\u00e1ticas del poema sugieren que no fue escrito con la intenci\u00f3n de ser c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572453,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 211,
+    "prompt_tokens": 234,
+    "total_tokens": 445,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 42
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "eb5a5e1e-d45c-4ffb-b886-2fc27108e5e1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema 'Ripios ratoniles' utiliza un lenguaje juguet\u00f3n y una estructura r\u00edtmica que, combinados con la tem\u00e1tica de ratones y su comportamiento, crea un efecto c\u00f3mico. La repetici\u00f3n de la letra 'r' y la creaci\u00f3n de palabras como 'ratonismos' y 'reformistas' a\u00f1aden un toque de humor absurdo y l\u00fadico. Adem\u00e1s, la personificaci\u00f3n de los ratones y la exageraci\u00f3n de sus acciones, como 'rebanando rumiantes reincidentes', contribuyen a la comicidad del poema. La elecci\u00f3n de palabras y la construcci\u00f3n de versos que riman de manera ingeniosa tambi\u00e9n juegan un papel clave en el tono humor\u00edstico del poema.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749570222,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 235,
+    "total_tokens": 420,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 43
+  }
+}

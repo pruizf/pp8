@@ -1,0 +1,23 @@
+{
+  "id": "msg_01Vw3LpMf9Mk1ggSCrk5wvWq",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"La mir\u00e9, me mir\u00f3; pas\u00f3 un buen rato;\\ny al fin me descolgu\u00e9 como en la mina\\ndescuelga el cable a la primer vagina\\nque encuentra el hierro en el primer contacto.\\n\\nLuego sal\u00ed moh\u00edno y cabizbajo,\\nsin el turr\u00f3n, sin el dinero encima,\\ny con el pantal\u00f3n hecho un pingajo.\\n\\nY al recordar despu\u00e9s, all\u00e1 en mi casa,\\nlo del gato, el turr\u00f3n y la tarima,\\nme dio un vah\u00eddo y me ca\u00ed de guasa.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 131,
+    "output_tokens": 166,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

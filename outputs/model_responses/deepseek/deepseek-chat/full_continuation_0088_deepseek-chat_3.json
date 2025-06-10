@@ -1,0 +1,36 @@
+{
+  "id": "6ab44508-744c-49f0-95e1-3d341a35cb52",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"le dijo: '\u00bfPor qu\u00e9, ni\u00f1o, tan ligero,\\nsiempre me hieres con tus flechas de oro,\\ny nunca me concedes un momento\\nen que pueda gozar de mi contento?'\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561717,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 123,
+    "total_tokens": 190,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 59
+  }
+}

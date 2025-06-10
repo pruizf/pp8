@@ -1,0 +1,36 @@
+{
+  "id": "f93066c5-5745-415c-96fa-d031c397ac59",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"alguna ayuda en mi favor hallar,\\nmas no hall\u00e9 sino desesperar,\\nporque a mi mal remedio no se daba.\\nY as\u00ed, entre el miedo y el dolor llorando,\\nme vi en poder de la fiera estando,\\nque con sus u\u00f1as me quer\u00eda matar.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561646,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 119,
+    "total_tokens": 211,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 55
+  }
+}

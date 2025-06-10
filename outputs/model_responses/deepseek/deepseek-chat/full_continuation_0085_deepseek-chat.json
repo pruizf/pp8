@@ -1,0 +1,36 @@
+{
+  "id": "f53b5e14-e13d-4d78-971e-76c51f9d8f38",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que en la virtud y en la verdad se alcanza\\nla gloria y el honor que siempre dura,\\nm\u00e1s que la fama de la hermosura\\nque el tiempo marchita con su mudanza.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556400,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 117,
+    "total_tokens": 183,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 117
+  }
+}

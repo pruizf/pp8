@@ -1,0 +1,23 @@
+{
+  "id": "msg_01Bt6tJHzJx4jnrHHwDBuzFP",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y de las glorias vanas harto el poeta sabe,\\nde ese instante solemne comprender la honda y grave\\nmelancol\u00eda augusta que nos hace mejores.\\nEn la paz vespertina levanta el pensamiento\\na Dios, que da a las almas generoso sustento\\ny vierte en nuestras llagas b\u00e1lsamo de dolores.\"\n}\n\nEste es el soneto \"Vespertina\" del poeta nicarag\u00fcense Rub\u00e9n Dar\u00edo, publicado en su libro \"Cantos de vida y esperanza\" (1905).",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 142,
+    "output_tokens": 155,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

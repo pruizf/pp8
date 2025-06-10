@@ -1,0 +1,36 @@
+{
+  "id": "4d738838-8e6c-40da-9bc8-1bcd96783dcd",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado tiene un tono m\u00e1s l\u00edrico y rom\u00e1ntico que c\u00f3mico. Narra un encuentro entre Nise y Amor (Cupido), donde Nise captura a Amor y le arranca las plumas de las alas, impidi\u00e9ndole volar. Este acto podr\u00eda interpretarse como una met\u00e1fora del poder del amor o de c\u00f3mo el amor puede ser capturado y controlado, lo cual no es inherentemente c\u00f3mico. Adem\u00e1s, el lenguaje utilizado es po\u00e9tico y serio, con un enfoque en la emoci\u00f3n y la belleza del momento, m\u00e1s que en provocar risa. La situaci\u00f3n descrita, aunque inusual, no se presenta de una manera que se pretenda ser humor\u00edstica, sino m\u00e1s bien como una alegor\u00eda del amor y sus efectos en las personas. Por lo tanto, el juicio es que el poema no es c\u00f3mico, basado en su tono, lenguaje y la intenci\u00f3n detr\u00e1s de la narrativa.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749558206,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 234,
+    "prompt_tokens": 250,
+    "total_tokens": 484,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 58
+  }
+}

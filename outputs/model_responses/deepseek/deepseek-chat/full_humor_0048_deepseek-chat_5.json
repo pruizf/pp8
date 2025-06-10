@@ -1,0 +1,36 @@
+{
+  "id": "3871467e-d9d9-4894-892e-793318d911f1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'So\u00f1ar y amar' presenta un tono l\u00edrico y melanc\u00f3lico, centrado en temas de amor, sue\u00f1os y p\u00e9rdida, m\u00e1s que en elementos c\u00f3micos. La descripci\u00f3n de la selva silenciosa, el lago risue\u00f1o y transparente, y la imagen de Lesbia con su serena frente, pura y hermosa, evocan una sensibilidad rom\u00e1ntica y nost\u00e1lgica. El momento en que Lesbia dice 'Adi\u00f3s' y el hablante no puede detenerla, seguido por la comparaci\u00f3n de su partida con el viento r\u00e1pido, refuerza la atm\u00f3sfera de tristeza y despedida. La estructura y el lenguaje del poema est\u00e1n dise\u00f1ados para conmover al lector, no para provocar risa. Por lo tanto, el juicio es que el poema no es c\u00f3mico, sino m\u00e1s bien emotivo y reflexivo.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749571518,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 221,
+    "prompt_tokens": 257,
+    "total_tokens": 478,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 1
+  }
+}

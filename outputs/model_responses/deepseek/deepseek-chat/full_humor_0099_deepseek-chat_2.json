@@ -1,0 +1,36 @@
+{
+  "id": "35fd935a-3172-44cf-8109-46f745b6ce5d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien l\u00edrico y emotivo. Utiliza un lenguaje po\u00e9tico y metaf\u00f3rico para describir la naturaleza y los sentimientos humanos, como el amor y el dolor, en un tono que evoca melancol\u00eda y belleza. La estructura y el vocabulario empleados son t\u00edpicos de la poes\u00eda rom\u00e1ntica o pastoral, que busca conmover al lector a trav\u00e9s de la descripci\u00f3n de paisajes y emociones, en lugar de provocar risa o humor. Adem\u00e1s, los temas tratados, como el amor, la p\u00e9rdida y la nostalgia, no son com\u00fanmente asociados con la comedia. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, los elementos presentes en el poema sugieren que su prop\u00f3sito principal no es ser c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749558565,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 210,
+    "prompt_tokens": 247,
+    "total_tokens": 457,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 55
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "msg_01LY4NU35SPzSuWPm4kXgtn1",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Gustavo Adolfo B\u00e9cquer\",\n  \"century\": \"19\"\n}\n\nBas\u00e1ndome en el estilo po\u00e9tico, el uso del lenguaje y los elementos rom\u00e1nticos presentes en el poema, puedo identificar con bastante certeza que se trata de un soneto de Gustavo Adolfo B\u00e9cquer, poeta espa\u00f1ol del siglo XIX, conocido por su poes\u00eda l\u00edrica y sus rimas.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 276,
+    "output_tokens": 111,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

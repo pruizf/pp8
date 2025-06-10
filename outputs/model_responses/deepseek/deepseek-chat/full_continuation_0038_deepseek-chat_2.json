@@ -1,0 +1,36 @@
+{
+  "id": "17c96d44-a952-4623-a69b-9e5739bd8524",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Como un espectro p\u00e1lido y callado,\\nque en la noche del tiempo se levanta,\\npara decirte, en voz baja y quebrantada,\\nque a\u00fan late, en el silencio, nuestro pacto.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556771,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 109,
+    "total_tokens": 181,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 45
+  }
+}

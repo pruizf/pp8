@@ -1,0 +1,36 @@
+{
+  "id": "5b35d93c-6834-42d9-a1e8-e9bfe8e46e0d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado es una eleg\u00eda dedicada al doctor Juan P\u00e9rez Montalb\u00e1n, centr\u00e1ndose en temas de muerte, legado y duelo, m\u00e1s que en elementos c\u00f3micos. La estructura y el lenguaje utilizado son solemnes y reflejan un tono de respeto y tristeza, lejos de la ligereza o el humor caracter\u00edsticos de la comedia. La referencia al F\u00e9nix, s\u00edmbolo de renacimiento, y las invocaciones a las Musas y Apolo, refuerzan el car\u00e1cter serio y po\u00e9tico del texto, sin incluir juegos de palabras, iron\u00eda o situaciones que pudieran interpretarse como c\u00f3micas. Por lo tanto, el juicio es que el poema no es c\u00f3mico, sino m\u00e1s bien una reflexi\u00f3n profunda sobre la mortalidad y el legado art\u00edstico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749560182,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 199,
+    "prompt_tokens": 253,
+    "total_tokens": 452,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 61
+  }
+}

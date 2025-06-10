@@ -1,0 +1,36 @@
+{
+  "id": "aa9a0eb1-b5ac-4467-833d-3b690b9576ad",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"El poema 'Trabajo perdido' aborda temas profundos y universales como el deseo, la p\u00e9rdida, la lucha interna y las contradicciones humanas, utilizando un tono que puede ser interpretado de diversas maneras dependiendo del lector. Mientras que algunos pueden encontrar un humor negro o ir\u00f3nico en la descripci\u00f3n de las frustraciones y contradicciones humanas, otros pueden verlo como una reflexi\u00f3n seria y melanc\u00f3lica sobre la condici\u00f3n humana. La ambig\u00fcedad en el tono y la falta de elementos tradicionalmente c\u00f3micos, como juegos de palabras o situaciones absurdas, hacen que sea incierto clasificarlo como c\u00f3mico. La interpretaci\u00f3n del humor es subjetiva y var\u00eda seg\u00fan la perspectiva del lector, por lo que no se puede afirmar con certeza que el poema sea c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749571887,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 204,
+    "prompt_tokens": 242,
+    "total_tokens": 446,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 50
+  }
+}

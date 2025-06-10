@@ -1,0 +1,36 @@
+{
+  "id": "6443ee0d-92a4-40e5-9582-9175369902ad",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza juegos de palabras y referencias a lugares con nombres que sugieren situaciones c\u00f3micas o ir\u00f3nicas, como 'Villa-nueva' para describir la vida humana o 'Barca-rota' para referirse al empleo del caudal. Adem\u00e1s, la menci\u00f3n de 'el diablo suelto en Cantillana' y la descripci\u00f3n de la Corte como 'R\u00edo-seco' aportan un tono humor\u00edstico y sat\u00edrico. La estructura y el lenguaje empleado, junto con las exageraciones y las contradicciones presentadas, como 'mucho presunci\u00f3n con edad poca', refuerzan la intenci\u00f3n c\u00f3mica del poema. Por lo tanto, se puede considerar que el poema tiene un car\u00e1cter c\u00f3mico debido a su uso ingenioso del lenguaje y su tono sat\u00edrico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749557674,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 200,
+    "prompt_tokens": 272,
+    "total_tokens": 472,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 16
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "9f474e9a-107f-44b6-a863-b5c0932a189d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"El poema contiene elementos que podr\u00edan interpretarse como c\u00f3micos debido a su tono sat\u00edrico y al uso de iron\u00eda, especialmente en la forma en que describe la situaci\u00f3n y los personajes involucrados. Sin embargo, el humor puede ser subjetivo y depende en gran medida del contexto hist\u00f3rico y cultural del lector. Adem\u00e1s, el poema aborda temas serios como la religi\u00f3n y la herej\u00eda, lo que podr\u00eda hacer que el humor no sea evidente para todos. Por lo tanto, aunque hay indicios de que el autor podr\u00eda estar utilizando la comedia para criticar o burlarse de ciertas situaciones, no es definitivamente c\u00f3mico para todos los lectores.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749557707,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 255,
+    "total_tokens": 421,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 63
+  }
+}

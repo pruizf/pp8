@@ -1,0 +1,36 @@
+{
+  "id": "42720ed4-9747-4051-ad88-bccd5b4bebb1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Con fuego en las palabras y en las manos,\\nla tierra tiembla bajo tus pasos,\\nlos cielos se iluminan con tus rayos,\\nun nuevo amanecer surge del caos.\\n\\nHonda revoluci\u00f3n, tu voz no calla,\\nen cada coraz\u00f3n tu eco suena,\\nliberando las cadenas que atan,\\nabriendo las puertas a la nueva era.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749560292,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 111,
+    "total_tokens": 221,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 47
+  }
+}

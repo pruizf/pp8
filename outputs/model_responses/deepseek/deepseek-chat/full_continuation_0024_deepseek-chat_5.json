@@ -1,0 +1,36 @@
+{
+  "id": "fcdfcd1e-8b3b-455b-9d44-e6b698a96045",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Despu\u00e9s, se a\u00f1ade un poco de arte,\\nun toque de ritmo y un coraz\u00f3n,\\nmezclando con cuidado cada parte,\\nhasta que surja la emoci\u00f3n.\\n\\nNo olvides el soneto, su estructura,\\ncatorce versos bien medidos,\\ncon rima y m\u00e9trica perfecta,\\npara que sean siempre preferidos.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749570818,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 118,
+    "total_tokens": 219,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 54
+  }
+}

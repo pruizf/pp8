@@ -1,0 +1,36 @@
+{
+  "id": "beb58507-0ae9-41a2-aa8e-3ff01107db7e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presenta una descripci\u00f3n detallada y v\u00edvida de un escenario medieval, centr\u00e1ndose en la belleza natural y las actividades nobles de la \u00e9poca, como la caza. El lenguaje utilizado es po\u00e9tico y evocador, con un tono que m\u00e1s bien refleja solemnidad y admiraci\u00f3n por la escena descrita, en lugar de buscar provocar risa o diversi\u00f3n. La elecci\u00f3n de palabras como 'monstruo de piedra', 'f\u00falgidos aceros', y 'se\u00f1or de horca y cuchillo' aporta un aire de grandiosidad y seriedad, alej\u00e1ndose de los elementos t\u00edpicos asociados con la comedia, como la exageraci\u00f3n, el absurdo o la iron\u00eda. Por lo tanto, aunque el poema es rico en im\u00e1genes y puede ser apreciado por su belleza literaria, no se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749565656,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 216,
+    "prompt_tokens": 249,
+    "total_tokens": 465,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 57
+  }
+}

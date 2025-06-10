@@ -1,0 +1,36 @@
+{
+  "id": "e13bb5bd-c699-4b57-9d01-0e7951430dad",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que el tiempo te impuso con su ley severa,\\nno corras tras la llama pasajera\\nque en el viento se pierde y el cieno.\\n\\nMira c\u00f3mo en el lago silencioso\\nse copian las estrellas, y en su seno\\nguarda la luz, la paz, el puro trueno\\nque en la noche callada es m\u00e1s hermoso.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567587,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 118,
+    "total_tokens": 229,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 54
+  }
+}

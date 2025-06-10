@@ -1,0 +1,36 @@
+{
+  "id": "864029c1-b8fd-4f3c-bc37-ea899ab2f291",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Medieval' describe una escena de un castillo y sus alrededores con un tono serio y descriptivo, centr\u00e1ndose en la belleza natural y las actividades de la \u00e9poca medieval, como la caza. No utiliza elementos t\u00edpicos del humor, como la iron\u00eda, el sarcasmo o situaciones absurdas, que son comunes en la poes\u00eda c\u00f3mica. En cambio, su lenguaje es elevado y su enfoque es m\u00e1s l\u00edrico y narrativo, evocando im\u00e1genes v\u00edvidas y atmosf\u00e9ricas sin intenci\u00f3n de provocar risa o alegr\u00eda en el lector. Por lo tanto, aunque el poema es rico en im\u00e1genes y detalles, no se puede considerar c\u00f3mico debido a su tono y prop\u00f3sito serios.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559832,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 186,
+    "prompt_tokens": 249,
+    "total_tokens": 435,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 57
+  }
+}

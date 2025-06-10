@@ -1,0 +1,36 @@
+{
+  "id": "9baec0d1-20e9-4243-b8f2-504560fa2d8a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta elementos c\u00f3micos a trav\u00e9s de la iron\u00eda y el juego de palabras, especialmente en la descripci\u00f3n de Pedro Vergel y su interacci\u00f3n con los toros. La menci\u00f3n de que 'jam\u00e1s hombres han visto un cuerno de otro cuerno horadado' y la afirmaci\u00f3n de que 'Vergel contra cuernos es hadado' utilizan un lenguaje exagerado y absurdo que provoca risa. Adem\u00e1s, la situaci\u00f3n en la que Vergel es derribado por un torillo, pero sale ileso gracias a una intervenci\u00f3n divina, a\u00f1ade un toque de humor inesperado y sat\u00edrico a la narrativa. Estos recursos literarios, combinados con el tono ligero y desenfadado del poema, contribuyen a su car\u00e1cter c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749557852,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 194,
+    "prompt_tokens": 248,
+    "total_tokens": 442,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 56
+  }
+}

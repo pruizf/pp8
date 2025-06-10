@@ -1,0 +1,23 @@
+{
+  "id": "msg_01CjdrJGK5oPoXnJxv7DC3Rx",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Luis Cernuda\",\n  \"century\": \"20\"\n}\n\nLa estructura y el estilo del soneto, con referencias mitol\u00f3gicas y un tono ir\u00f3nico, son caracter\u00edsticos del poeta Luis Cernuda, uno de los integrantes de la Generaci\u00f3n del 27. El poema juega con el mito de Leda y el cisne (J\u00fapiter transformado), reinterpret\u00e1ndolo con un lenguaje moderno y una mirada cr\u00edtica.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 277,
+    "output_tokens": 121,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

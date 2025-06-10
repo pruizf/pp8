@@ -1,0 +1,36 @@
+{
+  "id": "cf72c565-f3f0-42fd-94a2-25f267619445",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Porque en tu alma, aunque de oro el peso, \\nNo hay un rayo de luz que la ilumine, \\nNi en tu coraz\u00f3n, que el oro oprime, \\nHay un eco de amor, ni un solo beso.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572122,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 121,
+    "total_tokens": 196,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 57
+  }
+}

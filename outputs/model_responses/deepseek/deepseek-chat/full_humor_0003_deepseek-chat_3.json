@@ -1,0 +1,36 @@
+{
+  "id": "ed325bfc-9c8a-45e7-a5dc-37138fe93d1e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Patria m\u00eda' transmite una profunda sensaci\u00f3n de melancol\u00eda y reflexi\u00f3n sobre la relaci\u00f3n del autor con su patria, m\u00e1s que buscar provocar risa o alegr\u00eda. El lenguaje utilizado es po\u00e9tico y cargado de emociones, con referencias a lugares espec\u00edficos como Guernica y Luno, y a elementos simb\u00f3licos como un roble, un otero y una muno, que sugieren una conexi\u00f3n personal y emotiva con la tierra. Adem\u00e1s, el tono general del poema es serio y contemplativo, con un final que expresa un sentimiento de no merecimiento, lo cual no es caracter\u00edstico de la comedia. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, los elementos presentes en el poema no parecen estar dise\u00f1ados para ser c\u00f3micos.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749558846,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 201,
+    "prompt_tokens": 261,
+    "total_tokens": 462,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 5
+  }
+}

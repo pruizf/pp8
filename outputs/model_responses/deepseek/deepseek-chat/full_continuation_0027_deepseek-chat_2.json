@@ -1,0 +1,36 @@
+{
+  "id": "921faf63-d96e-469e-be88-99b9dd09bda6",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas aunque el vulgo suele ser medroso,\\nno hay que temer, que es hombre de provecho,\\ny en todo tiempo y caso generoso.\\nSu ingenio y su virtud es tal, que hecho\\nha de s\u00ed mismo un nombre glorioso,\\ny en el mundo su fama ensancha el pecho.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556474,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 120,
+    "total_tokens": 213,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 56
+  }
+}

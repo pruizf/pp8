@@ -1,0 +1,36 @@
+{
+  "id": "ffa0c33c-4cdf-450b-a6a2-28123f42ec20",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y en su lugar la noche ha descendido,\\ncon su manto de sombras ha cubierto\\nel brillo fugitivo del recuerdo,\\nquedando s\u00f3lo el eco del suspiro\\nque en el viento se pierde, sin consuelo,\\ncomo el \u00faltimo adi\u00f3s del alma al cielo.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749564898,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 123,
+    "total_tokens": 214,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 59
+  }
+}

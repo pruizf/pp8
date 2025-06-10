@@ -1,0 +1,36 @@
+{
+  "id": "e4c999e3-bc0a-4fac-bbf6-55988ce0efeb",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien serio y reflexivo. Su lenguaje es elevado y utiliza met\u00e1foras y referencias hist\u00f3ricas que sugieren un tono \u00e9pico o moralizante. La estructura y el contenido del poema est\u00e1n m\u00e1s alineados con la tradici\u00f3n de la poes\u00eda \u00e9pica o did\u00e1ctica, que busca inspirar o ense\u00f1ar, m\u00e1s que entretener con humor. Adem\u00e1s, los temas tratados, como la justicia, la esperanza, y la reflexi\u00f3n sobre la vida y la muerte, son profundos y no se prestan f\u00e1cilmente a la comicidad. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, las caracter\u00edsticas formales y tem\u00e1ticas del poema sugieren que su intenci\u00f3n no es c\u00f3mica.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561594,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 201,
+    "prompt_tokens": 229,
+    "total_tokens": 430,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 37
+  }
+}

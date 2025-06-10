@@ -1,0 +1,23 @@
+{
+  "id": "msg_019bzZwe63XWinEC3Eq3Dfh5",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Luis de G\u00f3ngora y Argote\",\n  \"century\": \"17\"\n}\n\nEl poema es un soneto de Luis de G\u00f3ngora, uno de los principales poetas del Siglo de Oro espa\u00f1ol, perteneciente a la corriente literaria del Barroco. El texto presenta las caracter\u00edsticas t\u00edpicas de su estilo: un lenguaje complejo, metaf\u00f3rico, con juegos conceptuales y un tratamiento del amor como una experiencia dolorosa y contradictoria.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 251,
+    "output_tokens": 126,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

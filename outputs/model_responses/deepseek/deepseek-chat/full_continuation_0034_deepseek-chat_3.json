@@ -1,0 +1,36 @@
+{
+  "id": "57db4e7f-226a-45af-aed2-180b8123882b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"tu saeta, que me hiri\u00f3 tan tiernamente,\\ny el fuego en que me abraso sin sosiego;\\nla venda que me pones, y no veo,\\nsino la luz que me diste, dulcemente.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559903,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 110,
+    "total_tokens": 184,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 46
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "msg_01Ax8hdX7fz34ii2eudfpJeu",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Carlos Arturo Torres\",\n  \"century\": \"19\"\n}\n\nEl poema \"Soneto chino\" fue escrito por el poeta colombiano Carlos Arturo Torres (1867-1911), quien vivi\u00f3 durante el siglo XIX. Es una obra que juega con sonidos y palabras de origen chino o que suenan orientales, mezcladas con anglicismos, creando un efecto par\u00f3dico y humor\u00edstico.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 316,
+    "output_tokens": 113,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

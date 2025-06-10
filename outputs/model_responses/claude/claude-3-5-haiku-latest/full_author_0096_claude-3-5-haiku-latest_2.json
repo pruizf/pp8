@@ -1,0 +1,23 @@
+{
+  "id": "msg_01XCQTJwzegQExVnCVdTnvMS",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Amado Nervo\",\n  \"century\": \"19\"\n}\n\nEl poema pertenece a Amado Nervo, un poeta mexicano que vivi\u00f3 entre 1870 y 1919, por lo tanto, del siglo XIX. Es un soneto que presenta una met\u00e1fora del \u00e1guila y su vuelo como s\u00edmbolo de elevaci\u00f3n espiritual e intelectual.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 253,
+    "output_tokens": 101,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

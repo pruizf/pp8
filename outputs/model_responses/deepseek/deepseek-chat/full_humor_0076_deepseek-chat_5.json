@@ -1,0 +1,36 @@
+{
+  "id": "82415cde-9b6d-484a-be75-fb76809940d9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta elementos de humor a trav\u00e9s de la iron\u00eda y el juego de palabras, especialmente en la descripci\u00f3n de las habilidades de Pedro Vergel con los toros y su relaci\u00f3n con los 'cuernos', que puede interpretarse de manera c\u00f3mica. La menci\u00f3n de que 'jam\u00e1s hombres han visto un cuerno de otro cuerno horadado' a\u00f1ade un toque de absurdo que contribuye al tono humor\u00edstico. Adem\u00e1s, la resoluci\u00f3n del poema, donde Vergel sale 'sano y salvo' gracias a su supuesta habilidad contra los cuernos, refuerza la intenci\u00f3n c\u00f3mica del autor. La combinaci\u00f3n de estos elementos ling\u00fc\u00edsticos y tem\u00e1ticos sugiere que el poema est\u00e1 dise\u00f1ado para ser divertido, jugando con las expectativas del lector y utilizando la exageraci\u00f3n para crear un efecto humor\u00edstico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572370,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 211,
+    "prompt_tokens": 248,
+    "total_tokens": 459,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 56
+  }
+}

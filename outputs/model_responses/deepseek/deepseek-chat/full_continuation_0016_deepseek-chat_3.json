@@ -1,0 +1,36 @@
+{
+  "id": "4ca29db9-9096-4c7d-ad62-86d6befe8704",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Porque sois la escoria de la raza,\\nla hez del vicio y de la mala entra\u00f1a,\\nporque en vosotros no hay ni un \u00e1pice de haza\u00f1a,\\nni una chispa de honor, ni una pizca de gracia.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559294,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 121,
+    "total_tokens": 204,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 57
+  }
+}

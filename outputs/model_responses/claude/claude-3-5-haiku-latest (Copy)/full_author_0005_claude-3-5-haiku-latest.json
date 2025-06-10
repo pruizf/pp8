@@ -1,0 +1,23 @@
+{
+  "id": "msg_01WTDb2UWLNzTzqfctghRi9J",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Cesar Vallejo\",\n  \"century\": \"20\"\n}\n\nEsta respuesta se basa en que el poema \"Ripios ratoniles\" corresponde al poeta peruano C\u00e9sar Vallejo, quien vivi\u00f3 en el siglo XX (1892-1938). El poema presenta un estilo muy caracter\u00edstico de Vallejo, con un uso repetitivo de palabras que comienzan con \"r\" y una estructura que juega con la sonoridad y el significado, algo muy propio de su obra experimental.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 255,
+    "output_tokens": 130,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

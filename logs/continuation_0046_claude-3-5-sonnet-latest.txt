@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+Revolución
+
+Honda revolución: ya sé que vienes
+No por injusta ley, no por acaso,
+sino porque providencial traspaso
+la voluntad de Dios llevas en rehenes

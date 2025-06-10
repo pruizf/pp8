@@ -1,0 +1,36 @@
+{
+  "id": "e8a14ae7-92e9-4e6d-a4db-bb2031b2a04f",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que en el jard\u00edn del mundo florec\u00edas,\\ncon el roc\u00edo de la aurora fr\u00eda,\\ny el canto de los p\u00e1jaros al d\u00eda.\\n\u00a1Oh, Rosa de mi amor, mi alegr\u00eda,\\nque en el coraz\u00f3n de la noche oscura,\\nbrillas con luz de eterna hermosura!\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567871,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 128,
+    "total_tokens": 221,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 64
+  }
+}

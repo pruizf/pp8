@@ -1,0 +1,36 @@
+{
+  "id": "a62ff8ed-9592-4344-afec-1803b3978e73",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien de explorar temas de belleza, edad y sensualidad con un tono serio y reflexivo. El lenguaje utilizado es po\u00e9tico y metaf\u00f3rico, centr\u00e1ndose en la descripci\u00f3n de una mujer anciana y su belleza, as\u00ed como en la naturaleza sensual de la boca femenina. No hay elementos t\u00edpicos de humor, como juegos de palabras, situaciones absurdas o iron\u00eda, que suelen encontrarse en la poes\u00eda c\u00f3mica. En cambio, el tono es m\u00e1s bien l\u00edrico y contemplativo, lo que sugiere que el autor no buscaba provocar risa, sino m\u00e1s bien una reflexi\u00f3n sobre los temas mencionados.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567310,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 248,
+    "total_tokens": 433,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 56
+  }
+}

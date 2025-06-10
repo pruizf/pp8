@@ -1,0 +1,23 @@
+{
+  "id": "msg_01HS1eiXDgaUUDX49XrcfCtt",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Quise andar, y ca\u00ed; me dio un mal rato\\nel ver que la mujer me descalina;\\nuna ni\u00f1a que estaba en la vitrina\\nme ayud\u00f3 compasiva en mi arrebato.\\n\\nNo me atrev\u00ed a volver, y eso que hab\u00eda\\ngran variedad de dulces y bombones;\\nmi dignidad estaba adolorida.\\n\\nDesde entonces yo evito las funciones\\nde comprar golosinas, pues ser\u00eda\\nrepetir las pasadas sensaciones.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 131,
+    "output_tokens": 151,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

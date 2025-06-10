@@ -1,0 +1,36 @@
+{
+  "id": "b8acdf58-8629-4b76-9e59-bddd63df4cdf",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Anhelos' no es c\u00f3mico, sino m\u00e1s bien apasionado y dram\u00e1tico. Utiliza un lenguaje intenso y emocional para expresar deseos amorosos profundos, con im\u00e1genes como 'perfume embriagante de verbenas' y 'tempestades locas y sombr\u00edas'. Estos elementos sugieren una seriedad y una intensidad emocional que est\u00e1n lejos de ser c\u00f3micos. La comedia generalmente se basa en la ligereza, la iron\u00eda o el absurdo, ninguno de los cuales est\u00e1 presente en este poema. En cambio, el tono es rom\u00e1ntico y casi tr\u00e1gico, enfatizando la pasi\u00f3n y el drama del amor m\u00e1s que cualquier aspecto humor\u00edstico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749571305,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 179,
+    "prompt_tokens": 237,
+    "total_tokens": 416,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 45
+  }
+}

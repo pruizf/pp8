@@ -1,0 +1,23 @@
+{
+  "id": "msg_011r64hmtcSLsEjTBenL42cR",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Rosario Sansores\",\n  \"century\": \"20\"\n}\n\nLa poetisa Rosario Sansores (1889-1972) fue una escritora mexicana originaria de Yucat\u00e1n, conocida por su poes\u00eda rom\u00e1ntica y modernista. Este soneto forma parte de su obra po\u00e9tica, que fue muy popular durante la primera mitad del siglo XX.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 249,
+    "output_tokens": 99,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

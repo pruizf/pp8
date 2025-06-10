@@ -1,0 +1,36 @@
+{
+  "id": "f9c5a9d4-4cb8-47a5-a860-42a34b90b00a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00c9se es mi mal. So\u00f1ar. La carne ro\u00edda\\npor la eterna ansiedad de lo infinito,\\ny el alma que presiente y que adivina\\ndonde no puede ver el o\u00eddo invicto.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749560392,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 129,
+    "total_tokens": 200,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1
+  }
+}

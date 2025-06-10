@@ -1,0 +1,36 @@
+{
+  "id": "894856f5-a9d7-4981-a125-0e44cc19fd9d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta una serie de contrastes y exageraciones que son caracter\u00edsticas del humor. La elecci\u00f3n de objetos y situaciones cotidianas, elevadas a un nivel de devoci\u00f3n o importancia inusual (como 'el Cristo del Zapato' o 'la Virgen de Cortina'), crea una iron\u00eda que puede ser interpretada como c\u00f3mica. Adem\u00e1s, la declaraci\u00f3n final, 'pero nunca he asistido a una retreta', que rompe con la expectativa de una conclusi\u00f3n grandiosa o significativa, a\u00f1ade un toque de humor absurdo. La combinaci\u00f3n de lo mundano con lo divino, junto con la autoiron\u00eda del hablante, sugiere una intenci\u00f3n humor\u00edstica detr\u00e1s del poema.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559181,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 180,
+    "prompt_tokens": 256,
+    "total_tokens": 436,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 64
+  }
+}

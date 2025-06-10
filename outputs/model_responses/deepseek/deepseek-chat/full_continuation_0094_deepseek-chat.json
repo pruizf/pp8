@@ -1,0 +1,36 @@
+{
+  "id": "9de4c587-08b7-4458-8dab-b8e25acc1d9d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"te acercaste a la fuente, y en su murmullo,\\ncre\u00edste escuchar un dulce arrullo,\\nque te hablaba de amores y encantos.\\nMas era el viento, que con sus cantos,\\njugaba entre las hojas de los \u00e1rboles altos,\\ny el agua, que al caer, formaba escalones,\\ncomo de plata, entre los verdes rincones.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556663,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 114,
+    "prompt_tokens": 123,
+    "total_tokens": 237,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 123
+  }
+}

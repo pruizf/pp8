@@ -1,0 +1,36 @@
+{
+  "id": "37db922c-f333-4578-8178-9e97d984d18e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un tono ir\u00f3nico y juega con contradicciones y exageraciones para hablar sobre las relaciones y el matrimonio, lo cual es caracter\u00edstico del humor. Frases como 'Es la mujer prisi\u00f3n en que nacemos' y 'Ver\u00e1s c\u00f3mo despu\u00e9s te gustan todas' emplean un lenguaje hiperb\u00f3lico que, en lugar de ser tomado literalmente, sugiere una cr\u00edtica humor\u00edstica a las convenciones sociales y a las expectativas en torno al matrimonio. Adem\u00e1s, la estructura del poema y el uso de met\u00e1foras contrastantes (como 'Abismo en que los d\u00e9biles caemos, Puerto donde los fuertes nos salvamos') a\u00f1aden una capa de ingenio que puede ser interpretada como c\u00f3mica, especialmente en el contexto de un consejo a un amigo sobre el matrimonio. El poema, por lo tanto, combina elementos de s\u00e1tira y humor para abordar un tema serio de una manera ligera y entretenida.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572049,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 234,
+    "prompt_tokens": 258,
+    "total_tokens": 492,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 2
+  }
+}

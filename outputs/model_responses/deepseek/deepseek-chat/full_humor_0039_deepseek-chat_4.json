@@ -1,0 +1,36 @@
+{
+  "id": "b70d2694-a56f-429c-9f87-dc1d3ab99463",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado es un soneto que aborda temas de gratitud, libertad y honor, utilizando un lenguaje formal y estructurado t\u00edpico de la poes\u00eda cl\u00e1sica. No contiene elementos t\u00edpicos de la comedia, como el humor, la iron\u00eda o la s\u00e1tira, ni busca provocar risa o diversi\u00f3n. En cambio, su tono es serio y reflexivo, centr\u00e1ndose en la apreciaci\u00f3n de actos heroicos y la importancia de reconocer y honrar dichos actos. Por lo tanto, no se considera c\u00f3mico, sino m\u00e1s bien un poema con un mensaje profundo y serio sobre la gratitud y el reconocimiento.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749565881,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 238,
+    "total_tokens": 408,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 46
+  }
+}

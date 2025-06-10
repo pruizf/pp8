@@ -1,0 +1,36 @@
+{
+  "id": "7dee8093-e101-4dfa-86f6-ed2eb2db81c2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado tiene un tono elevado y serio, centr\u00e1ndose en temas como el vuelo del \u00e1guila como met\u00e1fora de la b\u00fasqueda espiritual y la conexi\u00f3n con lo divino. Su lenguaje es po\u00e9tico y elaborado, con referencias a conceptos filos\u00f3ficos y teol\u00f3gicos, como la 'mente ang\u00e9lica de Aquino' y la 'esencia del Ser \u00danico y Trino'. Estos elementos sugieren una intenci\u00f3n m\u00e1s reflexiva y trascendental que c\u00f3mica. La comicidad en la poes\u00eda a menudo se asocia con el uso de lenguaje coloquial, situaciones absurdas o inesperadas, y un tono ligero o ir\u00f3nico, ninguno de los cuales est\u00e1 presente en este poema. Por lo tanto, es m\u00e1s apropiado considerar este poema como una obra seria que explora temas profundos y universales, en lugar de una pieza c\u00f3mica.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561979,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 223,
+    "prompt_tokens": 236,
+    "total_tokens": 459,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 44
+  }
+}

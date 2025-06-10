@@ -1,0 +1,36 @@
+{
+  "id": "d2409371-542d-4f64-9d07-2c861f8da430",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico. Su tono es m\u00e1s bien serio y elevado, con un lenguaje que evoca la gloria, la lucha y la grandeza. El uso de exclamaciones y la referencia a conceptos como la gloria, los \u00eddolos de barro, la vida como lucha, y la furia dormida del Taal, sugieren un prop\u00f3sito m\u00e1s \u00e9pico o reflexivo que humor\u00edstico. Adem\u00e1s, la estructura y el ritmo del poema est\u00e1n dise\u00f1ados para inspirar o conmover, no para provocar risa. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, los elementos presentes en el poema apuntan hacia un juicio de que no es c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567151,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 187,
+    "prompt_tokens": 301,
+    "total_tokens": 488,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 45
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "acf1cf4a-fe03-453e-9e60-6605ed78e1ff",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener un tono c\u00f3mico, sino m\u00e1s bien rom\u00e1ntico y melanc\u00f3lico. Utiliza un lenguaje po\u00e9tico tradicional, con met\u00e1foras y expresiones que evocan sentimientos de amor no correspondido y sufrimiento emocional, como 'suspiro caliente', 'pecho fr\u00edo', 'viva piedra por quien muero', y 'coraz\u00f3n de acero'. Estos elementos sugieren una profundidad emocional y una seriedad que no son caracter\u00edsticas t\u00edpicas de la comedia. Adem\u00e1s, la estructura y el estilo del poema est\u00e1n m\u00e1s alineados con la tradici\u00f3n l\u00edrica amorosa, que busca expresar la intensidad de los sentimientos del poeta, en lugar de provocar risa o diversi\u00f3n. Por lo tanto, bas\u00e1ndonos en el contenido y el tono del poema, concluimos que no es c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749558383,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 214,
+    "prompt_tokens": 238,
+    "total_tokens": 452,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 46
+  }
+}

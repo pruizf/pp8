@@ -1,0 +1,36 @@
+{
+  "id": "f1831166-2a63-4aeb-aa97-ce5d2934478d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"el mar, su furia en vano ejercita,\\ncontra la pe\u00f1a que jam\u00e1s se quiebra,\\nni el tiempo en su dureza considera.\\nRaimundo, as\u00ed, en su fe nunca se quebra,\\nante el mundo su nombre reverbera,\\ncomo pe\u00f1a en el mar que nunca cede.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567190,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 115,
+    "total_tokens": 209,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 51
+  }
+}

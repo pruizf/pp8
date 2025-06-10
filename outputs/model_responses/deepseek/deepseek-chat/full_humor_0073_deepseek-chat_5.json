@@ -1,0 +1,36 @@
+{
+  "id": "88e48c21-7ead-46fc-9b91-b203cd4ef155",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un lenguaje sat\u00edrico y juegos de palabras que son caracter\u00edsticos del humor. La referencia a 'santa del calendario de Cupido' y 'canonizado de paciencia' son ejemplos de iron\u00eda, mientras que la menci\u00f3n de 'Don Jumento' y 'el cuerno' son claras alusiones c\u00f3micas a la infidelidad. Adem\u00e1s, el tono general del poema y la forma en que se describe la situaci\u00f3n de los personajes, especialmente con frases como 'libre manteo de vuelta guarnecido que uno le paga y otro le desflora', contribuyen a una atm\u00f3sfera de comedia. La combinaci\u00f3n de estos elementos ling\u00fc\u00edsticos y tem\u00e1ticos sugiere que el autor ten\u00eda la intenci\u00f3n de provocar risa o al menos una sonrisa en el lector, lo que justifica la clasificaci\u00f3n del poema como c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572281,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 222,
+    "prompt_tokens": 244,
+    "total_tokens": 466,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 52
+  }
+}

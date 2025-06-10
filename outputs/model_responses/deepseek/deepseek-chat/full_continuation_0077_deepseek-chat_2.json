@@ -1,0 +1,36 @@
+{
+  "id": "8777347e-5b55-4d1f-aeab-f52eabce6e9e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"huye el poeta, y en su melancol\u00eda,\\nencuentra en la quietud de la noche fr\u00eda,\\nel consuelo profundo que el alma quiere.\\n\\nLejos del bullicio, bajo el cielo estrellado,\\nmedita en el silencio, en lo pasado,\\ny en su pecho el dolor se torna en poes\u00eda.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749557894,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 136,
+    "total_tokens": 238,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 8
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "1507ee5e-08ae-4574-87ad-466b0bdc2206",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y al despertar, del miedo que sent\u00eda,\\nvi que era amor quien as\u00ed me lanzaba,\\nque en sue\u00f1os y en vigilia me alcanzaba\\ncon su ardiente pasi\u00f3n que no cesaba.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749571175,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 119,
+    "total_tokens": 190,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 55
+  }
+}

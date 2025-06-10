@@ -1,0 +1,36 @@
+{
+  "id": "44b6549c-b810-4e78-8274-2e14f2ccc03a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado es un soneto que aborda temas elevados y serios, como la b\u00fasqueda de remedio en lo contrario, la fama, la prisi\u00f3n y el desconsuelo del 'divino Pastor, santo vicario', y la ofrenda de una corona de laurel. Estos temas, junto con el lenguaje po\u00e9tico y formal utilizado, no est\u00e1n destinados a provocar risa o ser interpretados como c\u00f3micos. Por el contrario, el tono es solemne y refleja una admiraci\u00f3n por el 'p\u00e1jaro canario' y su vuelo alto, simbolizando quiz\u00e1s la aspiraci\u00f3n humana hacia lo divino o lo sublime. La estructura y el contenido del poema est\u00e1n m\u00e1s alineados con la tradici\u00f3n po\u00e9tica seria que con la comedia o el humor. Por lo tanto, no se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556683,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 205,
+    "prompt_tokens": 233,
+    "total_tokens": 438,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 41
+  }
+}

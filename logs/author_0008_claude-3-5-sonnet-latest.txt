@@ -1,0 +1,28 @@
+¿Sabes quién es el autor o autora del poema siguiente?
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "author": "nombre y apellidos del autor o autora"
+  "century": "siglo en el que vivió, en números arábigos"
+}
+
+
+
+CARTA EN NOVIEMBRE
+
+El noroeste acérrimo desgarra
+la modorra otoñal. Sube al repecho
+del umbrío Aralar, tumba el helecho,
+arranca del balcón la recia parra.
+
+El chopo en que cantara la chicharra
+sacude sin clemencia sobre el lecho
+del regato, y a tuerto y a derecho
+barre la alta llanura de Navarra.
+
+Región del viento indomeñable y cruel
+provincia despiadada de la infancia.
+Alguien vela en tu noche sin cuartel.
+
+Tras la lluvia de azogue, en la distancia,
+mi corazón se queda con Miguel
+Sánchez-Ostiz en el Portal de Francia.

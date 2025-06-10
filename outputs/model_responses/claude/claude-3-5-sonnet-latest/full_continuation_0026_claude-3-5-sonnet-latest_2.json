@@ -1,0 +1,23 @@
+{
+  "id": "msg_01NT9c2kWFAMKbk1rq4RjxA9",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Arda de Amor el luminoso templo\\nen pura llama, y la beldad peregrina\\nde tu esposa gentil, toda se inclina\\na tu amor firme que admirado contemplo.\\n\\nGoza mil siglos tan gallarda esposa,\\nque envidia causa a la mayor belleza\\ny a las flores que dan la verde falda;\\n\\nY en dulce uni\u00f3n, amada y venturosa,\\ngoza el valor, ingenio y gentileza\\nde tanto honor, en sucesi\u00f3n que aguarda.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 118,
+    "output_tokens": 154,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "e0b0638d-8356-4da5-a98f-cbced5f4adcb",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado tiene un tono m\u00e1s l\u00edrico y devocional que c\u00f3mico. Utiliza un lenguaje elevado y met\u00e1foras complejas para alabar la pureza y belleza de la Virgen Mar\u00eda, compar\u00e1ndola con una perla en el mar. Este tipo de contenido y estilo no est\u00e1 destinado a provocar risa o humor, sino m\u00e1s bien a inspirar admiraci\u00f3n y reflexi\u00f3n espiritual. La comicidad generalmente requiere elementos como la exageraci\u00f3n, la iron\u00eda, o situaciones absurdas, los cuales est\u00e1n ausentes en este poema. Por lo tanto, basado en el tono, el lenguaje y el prop\u00f3sito del poema, se concluye que no es c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749558175,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 172,
+    "prompt_tokens": 253,
+    "total_tokens": 425,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 61
+  }
+}

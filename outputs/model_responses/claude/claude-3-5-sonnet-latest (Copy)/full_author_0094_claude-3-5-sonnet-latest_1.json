@@ -1,0 +1,23 @@
+{
+  "id": "msg_01W4yauozUhWx51bhFTGjxcD",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Salvador D\u00edaz Mir\u00f3n\",\n  \"century\": \"19\"\n}\n\nEste soneto titulado \"La perla\" fue escrito por el poeta mexicano Salvador D\u00edaz Mir\u00f3n (1853-1928), uno de los principales representantes del modernismo en M\u00e9xico. El poema refleja las caracter\u00edsticas t\u00edpicas de su estilo, combinando elementos rom\u00e1nticos con la perfecci\u00f3n formal del modernismo.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 254,
+    "output_tokens": 102,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "6454e2ba-c618-41b9-8abb-bc566f7391c3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"El poema presenta un tono sat\u00edrico y cr\u00edtico hacia una academia y sus miembros, utilizando un lenguaje que podr\u00eda interpretarse como c\u00f3mico para algunos lectores debido a su iron\u00eda y sarcasmo. Sin embargo, el humor es subjetivo y depende del contexto cultural e hist\u00f3rico del lector. Adem\u00e1s, el poema aborda temas serios como la religi\u00f3n y la herej\u00eda, lo que podr\u00eda hacer que el humor no sea evidente o incluso inapropiado para algunos. Por lo tanto, es incierto si el poema es c\u00f3mico, ya que esto var\u00eda seg\u00fan la perspectiva del lector.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572230,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 155,
+    "prompt_tokens": 255,
+    "total_tokens": 410,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 63
+  }
+}

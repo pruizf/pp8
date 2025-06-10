@@ -1,0 +1,36 @@
+{
+  "id": "662c54f3-3850-4376-a16f-11ea5ae5f093",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'MELANCOL\u00cdA' transmite una profunda sensaci\u00f3n de tristeza, desesperaci\u00f3n y sufrimiento, lejos de cualquier intenci\u00f3n c\u00f3mica. El uso de met\u00e1foras como 'la camisa f\u00e9rrea de mil puntas cruentas' y 'las espinas sangrientas' evoca im\u00e1genes de dolor f\u00edsico y emocional, mientras que el tono general del poema refleja una lucha interna y una b\u00fasqueda de significado en medio de la oscuridad. La repetici\u00f3n de la palabra 'melancol\u00eda' y la pregunta ret\u00f3rica final refuerzan el estado de \u00e1nimo sombr\u00edo del hablante, haciendo que el poema sea m\u00e1s una expresi\u00f3n de angustia existencial que un intento de humor. Por lo tanto, no se puede considerar c\u00f3mico bajo ning\u00fan aspecto.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749557059,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 203,
+    "prompt_tokens": 283,
+    "total_tokens": 486,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 27
+  }
+}

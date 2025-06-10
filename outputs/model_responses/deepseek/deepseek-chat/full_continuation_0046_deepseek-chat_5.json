@@ -1,0 +1,36 @@
+{
+  "id": "73371b59-8c75-4413-8144-50da4b6b5cd3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Con fuego en las palabras y en las manos,\\ncon la verdad que en cada paso avanza,\\nrompes las cadenas del olvido,\\ny alzas la voz donde solo hay silencio.\\n\\nHonda revoluci\u00f3n, no te detengas,\\nque en tu camino florece el cambio,\\ny en cada coraz\u00f3n que tocas,\\nnace la esperanza de un mundo nuevo.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749571468,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 111,
+    "total_tokens": 219,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 47
+  }
+}

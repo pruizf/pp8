@@ -1,0 +1,36 @@
+{
+  "id": "239554a9-fd5b-4ac8-8833-c4225ebec6af",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Aqu\u00ed, donde el placer fue su moneda, y el vicio su comercio m\u00e1s lucido, hoy s\u00f3lo el polvo y el silencio queda, testigos mudos de lo que ha sido.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567069,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 129,
+    "total_tokens": 195,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1
+  }
+}

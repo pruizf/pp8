@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+Trabajo perdido
+
+Ver de lejos la dicha, codiciarla,
+Darle caza por fin y poseerla;
+No vivir con el miedo de perderla,
+Morirse con el ansia de gozarla.

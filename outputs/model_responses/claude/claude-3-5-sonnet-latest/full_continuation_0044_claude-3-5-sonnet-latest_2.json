@@ -1,0 +1,23 @@
+{
+  "id": "msg_019N3ucMS1KGgcMH8JyrXMgv",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Tu hermosura rom\u00e1ntica y divina\\nde pie sobre el desierto gris y espeso,\\nme hace pensar en el ardiente beso\\nde Satan\u00e1s a una mujer latina.\\n\\nHasta el sol, ese pr\u00edncipe que dora\\nla movediza curva del torrente,\\ny en las erizas pellas del boscaje;\\n\\nse torna fatigado en esta hora,\\ny cae del cielo, como plomo hirviente,\\nsobre la muda horror del paisaje.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 121,
+    "output_tokens": 151,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

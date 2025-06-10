@@ -1,0 +1,36 @@
+{
+  "id": "5fa8a6c3-034a-4198-913d-1ce959153181",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico. Su lenguaje es po\u00e9tico y elevado, centr\u00e1ndose en la descripci\u00f3n de un \u00e1guila y su interacci\u00f3n con el sol y el cielo, utilizando met\u00e1foras y un tono serio. La ausencia de elementos t\u00edpicos del humor, como la iron\u00eda, el sarcasmo o situaciones absurdas, sugiere que el autor no buscaba provocar risa o diversi\u00f3n, sino m\u00e1s bien inspirar admiraci\u00f3n o reflexi\u00f3n a trav\u00e9s de la belleza y la grandiosidad de la naturaleza. Adem\u00e1s, la estructura y el estilo del poema son cl\u00e1sicos, lo que refuerza su car\u00e1cter serio y no c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572487,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 180,
+    "prompt_tokens": 234,
+    "total_tokens": 414,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 42
+  }
+}

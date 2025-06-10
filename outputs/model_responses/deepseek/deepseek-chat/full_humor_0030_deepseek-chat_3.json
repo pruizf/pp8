@@ -1,0 +1,36 @@
+{
+  "id": "ed4e7577-e708-4b9e-818c-2e41ff1dd12b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Las armas del amor' no es c\u00f3mico, sino m\u00e1s bien rom\u00e1ntico y apasionado. Utiliza un lenguaje florido y met\u00e1foras tradicionales del amor cort\u00e9s para describir los sentimientos del hablante hacia su amada. Las im\u00e1genes de las 'armas' del amor, como los lazos formados por las hebras doradas del cabello de la amada, las flechas de sus ojos, y la llama abrasadora, son convencionales en la poes\u00eda amorosa y no est\u00e1n destinadas a provocar risa, sino a expresar la intensidad del amor y la devoci\u00f3n. El tono del poema es serio y admirativo, celebrando la belleza y el poder de la amada sobre el hablante, quien se declara voluntariamente su 'prisionero'. Por lo tanto, el poema carece de los elementos t\u00edpicos del humor, como la iron\u00eda, el sarcasmo o lo absurdo, que ser\u00edan necesarios para considerarlo c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559763,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 246,
+    "prompt_tokens": 254,
+    "total_tokens": 500,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 62
+  }
+}

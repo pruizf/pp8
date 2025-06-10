@@ -1,0 +1,36 @@
+{
+  "id": "85b87d96-0544-4fb8-a9fb-bc2279d7b3ad",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Tu mirada, serena y encendida,\\nme mostr\u00f3 en un instante el firmamento,\\ny en su luz comprend\u00ed que el sufrimiento\\nno es m\u00e1s que sombra de tu amor, querida.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749571288,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 115,
+    "total_tokens": 184,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 51
+  }
+}

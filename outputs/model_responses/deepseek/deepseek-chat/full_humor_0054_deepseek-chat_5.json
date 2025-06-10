@@ -1,0 +1,36 @@
+{
+  "id": "89bf2f69-9625-4f81-9459-e0b3169b37bb",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'El mayor dolor' aborda temas profundos y dolorosos como el amor no correspondido, la frustraci\u00f3n y la desesperaci\u00f3n, utilizando un tono serio y melanc\u00f3lico. Aunque contiene situaciones que podr\u00edan ser vistas como absurdas o exageradas (como re\u00f1ir con un ingl\u00e9s a bofetadas o coger un hierro ardiendo sin sospecharlo), estas se presentan de manera que enfatizan el sufrimiento y la iron\u00eda de la vida, m\u00e1s que provocar risa. La estructura y el lenguaje del poema est\u00e1n dise\u00f1ados para evocar empat\u00eda y reflexi\u00f3n, no humor. Por lo tanto, no se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749571705,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 170,
+    "prompt_tokens": 231,
+    "total_tokens": 401,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 39
+  }
+}

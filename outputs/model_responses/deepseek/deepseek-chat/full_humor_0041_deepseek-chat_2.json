@@ -1,0 +1,36 @@
+{
+  "id": "181ceda7-d702-4936-91ed-bf33ba1bd9af",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Anhelos' no es c\u00f3mico, sino m\u00e1s bien apasionado y lleno de emoci\u00f3n. Utiliza un lenguaje rico y metaf\u00f3rico para expresar sentimientos intensos de amor y deseo, como 'abundar tus rizos abundosos' y 'encender con besos fervorosos'. La estructura y el tono del poema son serios y rom\u00e1nticos, centr\u00e1ndose en la intensidad de los sentimientos del hablante hacia su amado. No hay elementos de humor, iron\u00eda o sarcasmo que sugieran una intenci\u00f3n c\u00f3mica. Por el contrario, el poema se sumerge en la profundidad de las emociones humanas, explorando temas de pasi\u00f3n, amor y la naturaleza tempestuosa de los sentimientos, lo que lo aleja de cualquier interpretaci\u00f3n c\u00f3mica.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556833,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 208,
+    "prompt_tokens": 237,
+    "total_tokens": 445,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 45
+  }
+}

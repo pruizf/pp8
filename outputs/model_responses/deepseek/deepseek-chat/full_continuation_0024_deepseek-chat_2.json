@@ -1,0 +1,36 @@
+{
+  "id": "f019c076-02cc-405a-a5c7-5651582aec6c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Despu\u00e9s, se mezclan con cuidado y tino,\\nlas ideas, el ritmo y el destino.\\nA\u00f1\u00e1dase un poco de amor y dolor,\\npara darle sabor y mejor color.\\nCoc\u00ednese a fuego lento con pasi\u00f3n,\\nhasta que rime cada expresi\u00f3n.\\nDeje reposar bajo la luna llena,\\ny sirva caliente en una cena.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556384,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 111,
+    "prompt_tokens": 118,
+    "total_tokens": 229,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 54
+  }
+}

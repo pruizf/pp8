@@ -1,0 +1,36 @@
+{
+  "id": "35072db5-6f08-405f-aa43-a3797e36b022",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien serio y eleg\u00edaco. Est\u00e1 dedicado al doctor Juan P\u00e9rez Montalb\u00e1n, y su tono es de lamento y admiraci\u00f3n, utilizando im\u00e1genes como el F\u00e9nix, s\u00edmbolo de renacimiento, pero tambi\u00e9n de p\u00e9rdida y duelo. Las referencias a las Musas y a Apolo, junto con el lenguaje utilizado, sugieren un prop\u00f3sito m\u00e1s elevado y tr\u00e1gico que humor\u00edstico. La estructura y el contenido del poema est\u00e1n m\u00e1s alineados con la tradici\u00f3n po\u00e9tica de elogio y lamentaci\u00f3n, lo que hace que la interpretaci\u00f3n de su tono como c\u00f3mico sea poco probable. Adem\u00e1s, la ausencia de elementos t\u00edpicamente asociados con la comedia, como el juego de palabras, la iron\u00eda o la exageraci\u00f3n, refuerza esta conclusi\u00f3n.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556888,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 214,
+    "prompt_tokens": 253,
+    "total_tokens": 467,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 61
+  }
+}

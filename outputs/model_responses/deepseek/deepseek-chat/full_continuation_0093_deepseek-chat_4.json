@@ -1,0 +1,36 @@
+{
+  "id": "d2fa0115-f512-407e-8c92-383acf91d618",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"se abrasa el coraz\u00f3n en fuego ardiente,\\nque en su dureza, m\u00e1s que el m\u00e1rmol fuerte,\\nno deja entrar el llanto al pecho m\u00edo.\\n\\nY si no quieres ir tan ciego luego,\\nal menos dime ad\u00f3nde vas, que temo\\nque te pierdas en tanto desvar\u00edo.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567649,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 124,
+    "total_tokens": 221,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 60
+  }
+}

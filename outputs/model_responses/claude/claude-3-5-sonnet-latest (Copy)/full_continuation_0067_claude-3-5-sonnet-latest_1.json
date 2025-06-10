@@ -1,0 +1,23 @@
+{
+  "id": "msg_01XbfHWuiKp9GscTZBDAeE9E",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00a1Qu\u00e9 importa que te ensanches cual poseso\\nCuando el oro te cuentas y te mides!\\nYo no admiro ni envidio, no lo olvides,\\nSino aquello que falta y no el exceso.\\n\\nY t\u00fa, que en todo crees tener derecho,\\nNo lograr\u00e1s que cambie mi desprecio,\\nPues s\u00e9 que no eres rico satisfecho.\\n\\nCon lo que tienes y eres, necio, necio,\\nEn vez de henchir de vanidad tu pecho,\\nDeb\u00edas de morirte de desprecio.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 134,
+    "output_tokens": 178,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

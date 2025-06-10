@@ -1,0 +1,36 @@
+{
+  "id": "372ab23c-64bc-4774-ba6d-9bb8fece66b0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas no por eso mi esperanza muere, que en la Corte, aunque tarde, se alcanza lo que el tiempo y la suerte nos depara. Y aunque el favor real no me prefiere, no por eso mi pluma se cansa, ni mi fe en el favor se desampara.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566974,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 119,
+    "total_tokens": 205,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 55
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "f447097a-5f78-4cc5-8d3c-5fe12624514c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien refleja un tono serio y contemplativo. El lenguaje utilizado es elevado y po\u00e9tico, con un enfoque en la superaci\u00f3n personal y la b\u00fasqueda de la iluminaci\u00f3n espiritual o intelectual. Temas como el esfuerzo sobrehumano, la altivez frente a la luz, y la aspiraci\u00f3n a alcanzar la cumbre m\u00e1s alta en los sue\u00f1os del hablante, sugieren una reflexi\u00f3n profunda m\u00e1s que un intento de humor. La estructura y el contenido del poema est\u00e1n m\u00e1s alineados con la tradici\u00f3n l\u00edrica y rom\u00e1ntica, que valora la expresi\u00f3n de emociones intensas y la belleza del lenguaje, en lugar de buscar la risa o el entretenimiento ligero. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, los elementos presentes en el poema no apuntan hacia la comedia.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567793,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 228,
+    "prompt_tokens": 252,
+    "total_tokens": 480,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 60
+  }
+}

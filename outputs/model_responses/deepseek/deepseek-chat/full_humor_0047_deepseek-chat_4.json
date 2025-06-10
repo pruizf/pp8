@@ -1,0 +1,36 @@
+{
+  "id": "bb22f1dd-99a1-4cf6-a0d3-c1c443c55f64",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Ladrar a la luna' no es c\u00f3mico, sino m\u00e1s bien reflexivo y filos\u00f3fico. Utiliza met\u00e1foras y refranes para transmitir un mensaje sobre la envidia, la perseverancia y el valor del talento frente a la adversidad. El tono es serio y motivador, animando al lector a no desanimarse por los ataques de los dem\u00e1s y a reconocer el valor de sus propias capacidades. La referencia al Escorial y al \u00e1rbol est\u00e9ril versus el que da fruto son im\u00e1genes poderosas que invitan a la reflexi\u00f3n m\u00e1s que a la risa. Por lo tanto, aunque el poema puede ser apreciado por su ingenio y sabidur\u00eda, no est\u00e1 dise\u00f1ado para ser c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566157,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 191,
+    "prompt_tokens": 263,
+    "total_tokens": 454,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 7
+  }
+}

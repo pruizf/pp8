@@ -113,6 +113,8 @@ def message_to_stylo_for_dir(msgdir, stylo_dir, md_file, max_choices=3):
 
 def clean_century(st):
   clean_st = re.sub(re.compile(r"^\s*Siglo\s*", re.I), "", st)
+  # remove ordinal suffixes
+  clean_st = re.sub(r"^(.*?)(st|nd|rd|th)$", r"\1", clean_st)
   return clean_st
 
 
@@ -128,23 +130,39 @@ def normalize_judgement(jmt):
 def get_author_info_for_dir(dname):
   """Get author info from a directory of responses."""
   infos = {}
-  for fname in os.listdir(dname):
+  for fname in sorted(os.listdir(dname)):
     if not fname.startswith("author"):
       continue
     with open(os.path.join(dname, fname), "r") as f:
-      auth_info = json.load(f)
+      try:
+        auth_info = json.load(f)
+      except json.decoder.JSONDecodeError as e:
+        with open(os.path.join(dname, fname), "r") as f:
+          clean_text = re.sub(re.compile(r"^.*\{", re.DOTALL), r"{", f.read())
+          clean_text = re.sub(re.compile(r"\}.*$", re.DOTALL), r"}", clean_text)
+          auth_info = json.loads(clean_text)
       au_name = auth_info["author"].strip()
       # if "Juana" in au_name:
       #   breakpoint()
       century = clean_century(str(auth_info["century"]).strip())
+      # assign majority class if 
+      if century == "desconocido":
+        print(f"  - Warning: unknown century for {au_name} in {fname}, assign 19")
+        century = 19
       try:
         century = int(century)
       except ValueError:
         try:
           century = int(roman.fromRoman(century))
+          #print(f"Error with century conversion: {e}")
         except Exception as e:
-          century = int(century)
-          print(f"Error with century conversion: {e}")
+          try:
+            century = int(century)
+          except Exception as e:
+            # get only first numeral
+            first_century = re.sub(r"[\s-].*", "", century)
+            century = int(roman.fromRoman(first_century))
+          #print(f"Fixed error with century conversion: {e}")
     infos[os.path.basename(fname)] = [au_name, century]
     #print(auth_info)
   return infos
@@ -211,7 +229,13 @@ def get_judgement_info_for_dir(dname, max_choices=cf.max_choices_for_textometry)
     prefix = re.sub(r"_\d\..*$", "", fname)
     judgements_by_prefix.setdefault(prefix, [])
     with open(os.path.join(dname, fname), "r", encoding="utf-8") as f:
-      humor_info = json.load(f)
+      try:
+        humor_info = json.load(f)
+      except json.decoder.JSONDecodeError as e:
+        with open(os.path.join(dname, fname), "r", encoding="utf-8") as f:
+          clean_text = re.sub(re.compile(r"^.*\{", re.DOTALL), r"{", f.read())
+          humor_info = json.loads(clean_text)
+        
       judgement = normalize_judgement(humor_info["judgement"].lower().strip())
       assert judgement in cf.judgements_orig, f"Judgement {judgement} not in possible original judgements."
       #TODO make configurable in config module and with keyword argument

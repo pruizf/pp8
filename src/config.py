@@ -24,8 +24,13 @@ resp_time_df = os.path.join(resp_time_dir, "response_times_df.tsv")
 
 call_types = {"humor": "humor", "continuation": "continuation", "author": "author"}
 
+model_list = ["gpt-4o-mini"]#, "mistral-small", "mistral-large-latest_", "gpt-3.5-turbo", "gpt-4o"]
+model_list_for_clf = ["gpt-4o-mini", "mistral-small", "mistral-large-latest_", "gpt-3.5-turbo", "gpt-4o", "gpt-3.5"]
+model_list_for_postpro = ["gpt-4o-mini"]
+
 
 # Open AI ---------------------------------------------------------------------
+oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
 oai_config = {
   "temperature": 1,
   "top_p": 1,
@@ -34,19 +39,8 @@ oai_config = {
   "number_of_completions_general" : 1
 }
 
-#oai_models = ["gpt-3.5-turbo"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
-#oai_models = ["gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
-#oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
-#oai_models = ["gpt-3.5-turbo", "gpt-4o"]  # , "gpt-4", "gpt-4-turbo", "gpt-4o"]
-#model_list = ["gpt-4o-mini", "mistral-small", "mistral-large-latest_", "gpt-3.5-turbo", "gpt-4o"]
-model_list_for_clf = ["gpt-4o-mini", "mistral-small", "mistral-large-latest_", "gpt-3.5-turbo", "gpt-4o", "gpt-3.5"]
-model_list_for_postpro = ["gpt-4o-mini"]
-model_list = ["gpt-4o-mini"]#, "mistral-small", "mistral-large-latest_", "gpt-3.5-turbo", "gpt-4o"]
-mistral_models = ["mistral-large-latest"]#, "mistral-small", "mistral-large-latest", "gpt-3.5-turbo", "gpt-4o"]
-
 # Mistral ---------------------------------------------------------------------
-#mistral_models = ["mistral-small"]
-mistral_models = ["mistral-large-latest"]
+mistral_models = ["mistral-large-latest"]#, "mistral-small", "mistral-large-latest", "gpt-3.5-turbo", "gpt-4o"]
 mistral_config = {
   "temperature": 0.7,
   "top_p": 1,
@@ -56,6 +50,26 @@ mistral_config = {
   "random_seed": 42
 }
 
+# Anthropic -------------------------------------------------------------------
+anthropic_models_actual_versions = {'claude-sonnet-latest': 'claude-sonnet-4-20250514', 'claude-3-5-haiku-latest': 'claude-3-5-haiku-20241022'}
+#anthropic_models = ['claude-sonnet-latest', 'claude-3-5-haiku-latest']
+#anthropic_models = ['claude-3-5-haiku-latest']
+anthropic_models = ['claude-3-5-sonnet-latest']
+anthropic_config = {
+  "temperature": 1,
+  "max_tokens": 500,
+}
+
+# Deepseek ---------------------------------------------------------------------
+deepseek_models = ["deepseek-chat"]
+#deepseek_models = ["deepseek-chat", "deepseek-reasoner"]
+deepseek_config = {
+  "temperature": 1,
+  "top_p": 1,
+  #"seed": 14
+  "number_of_completions_humor" : 1,
+  "number_of_completions_general" : 1
+}
 
 # Analysis --------------------------------------------------------------------
 

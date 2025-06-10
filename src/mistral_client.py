@@ -226,7 +226,7 @@ def process_openai_response(oa_client, model, cf, fn, poem_text, call_type):
   Also log the response time.
 
   Args:
-      oa_client (openai.OpenAI): The OpenAI client.
+      oa_client (mistralai.Mistral): The Mistral client.
       model (str): The model to use for generating the response.
       cf (module): The configuration module.
       fn (str): The filename of the poem.

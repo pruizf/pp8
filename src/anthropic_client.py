@@ -1,14 +1,15 @@
 """Anthropic client to see humor judgments, poem continuation, and author knowledge"""
 
+import argparse
 from importlib import reload
 import json
 import os
 import re
+import sys
 import time
 
 import anthropic
 import pandas as pd
-
 
 import config as cf
 import prompts as pr
@@ -103,7 +104,7 @@ def log_response_time(rtdf, fn, model, td, call_type):
   return rtdf
 
 
-def write_resp_message_to_file(cf, fn, tpl, model, resps):
+def write_resp_message_to_file(cf, fn, tpl, model, resps, suffix=None):
   """
   Write the completion message from the response to a file.
 
@@ -126,7 +127,7 @@ def write_resp_message_to_file(cf, fn, tpl, model, resps):
     resp_fn = tpl.format(
       poem_id=fn.replace(".txt", ""),
       model=model.replace(".", ""),
-      choiceNbr=idx+1)
+      choiceNbr=suffix if suffix is not None else idx + 1)
     techno_dir = os.path.join(
       cf.response_dir, re.sub(r"-.*", "", model))
     out_dir = os.path.join(techno_dir, model.replace(".", ""))
@@ -136,7 +137,7 @@ def write_resp_message_to_file(cf, fn, tpl, model, resps):
       f.write(resp)
 
 
-def write_completion_to_file(cf, fn, tpl, model, comp):
+def write_completion_to_file(cf, fn, tpl, model, comp, suffix=None):
   """
   Write the response to a file.
 
@@ -157,6 +158,9 @@ def write_completion_to_file(cf, fn, tpl, model, comp):
   resp_fn = tpl.format(
     poem_id=fn.replace(".txt", ""),
     model=model.replace(".", ""))
+  if suffix is not None:
+    resp_fn = resp_fn.replace(".json", f"_{suffix}.json")
+    resp_fn = resp_fn.replace(".txt", f"_{suffix}.txt")
   techno_dir = os.path.join(
     cf.response_dir, re.sub(r"-.*", "", model))
   out_dir = os.path.join(techno_dir, model.replace(".", ""))
@@ -214,7 +218,7 @@ def prepare_poem_for_completion_prompt(poem_text, n=4):
   return title + "\n\n" + "\n".join(keep)
 
 
-def process_anthropic_response(oa_client, model, cf, fn, poem_text, call_type):
+def process_anthropic_response(oa_client, model, cf, fn, poem_text, call_type, suffix=None):
   """
   Process the OpenAI response for a given text and write it to a file;
   prompt and template are defined based on the call type (humor, completion, author).
@@ -231,7 +235,8 @@ def process_anthropic_response(oa_client, model, cf, fn, poem_text, call_type):
   Returns:
       pandas.DataFrame: The updated response time dataframe.
   """
-  print(f"  - {call_type.capitalize()} response", fn)
+  suffix_to_log = f"[Completion Nbr {suffix}]" if suffix is not None else ""
+  print(f"  - {call_type.capitalize()} response [{fn}]. {suffix_to_log}")
   assert call_type in cf.call_types
 
   # Define prompt and template based on call type
@@ -254,8 +259,9 @@ def process_anthropic_response(oa_client, model, cf, fn, poem_text, call_type):
   #   oa_client, model, prompt, cf, call_type)
   comp, resps, resp_time = get_anthropic_response(
     oa_client, model, prompt, cf, call_type)
-  write_resp_message_to_file(cf, fn, tpl_full, model, resps)
-  write_completion_to_file(cf, fn, cf.full_completion_pfx + tpl_full, model, comp)
+  write_resp_message_to_file(cf, fn, tpl_full, model, resps, suffix=suffix)
+  #write_resp_message_to_file(cf, fn, tpl, model, resps, suffix=suffix)
+  write_completion_to_file(cf, fn, cf.full_completion_pfx + tpl_full, model, comp, suffix=suffix)
   log_prompt_to_file(cf, fn, tpl_full, model, prompt)
 
   # Return updated response time dataframe (to reuse it in the main loop)
@@ -263,9 +269,24 @@ def process_anthropic_response(oa_client, model, cf, fn, poem_text, call_type):
     resp_time_df, fn, model, resp_time, cf.call_types[call_type])
 
 
+def parse_args():
+  """
+  Parse command line arguments.
+  """
+  parser = argparse.ArgumentParser(description="Anthropic client.")
+  parser.add_argument("completion_suffix", type=str)
+  parser.add_argument("--check_for_suffix", "-c", action="store_true")
+  parser.add_argument("--sleep", "-s", type=int, default=2,)
+  return parser.parse_args()
+
+
 if __name__ == "__main__":
   for modu in cf, pr, ut:
     reload(modu)
+
+  args = parse_args()
+  completion_suffix = args.completion_suffix
+  check_for_suffix = args.check_for_suffix
 
   #oa_client = OpenAI()
   anthropic_client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
@@ -288,7 +309,8 @@ if __name__ == "__main__":
   # main loop
   for model in active_models:
     #model = cf.anthropic_models_actual_versions[model]
-    print(f"# Model: {model}")
+    #print(f"# Model: {model}")
+    print(f"# Model: {model}. Completion suffix: [{completion_suffix}]")
 
     reuse_df = False if active_models.index(model) == 0 else True
     #reuse_df = True
@@ -308,23 +330,34 @@ if __name__ == "__main__":
     for fn in sorted(os.listdir(cf.corpus_dir)):
       if fn == "metadata.tsv":
         continue
-
+      if fn.startswith("~") or fn.endswith("#"):
+        print(f"  - Skipping {fn}")
+        continue
       # Skip done files
       techno_dir = os.path.join(
         cf.response_dir, re.sub(r"-.*", "", model))
       out_dir = os.path.join(techno_dir, model.replace(".", ""))
 
-      if f"humor_{fn.replace('.txt', '')}_{model}.json" in os.listdir(out_dir):
+      if args.check_for_suffix:
+        #breakpoint()
+        fn_to_check = f"humor_{fn.replace('.txt', '')}_{model}_{completion_suffix}.json"
+      else:
+        fn_to_check = f"humor_{fn.replace('.txt', '')}_{model}.json" 
+      if fn_to_check in os.listdir(out_dir):
         print(f"  - Skipping {fn} for {model} (already exists).")
         continue
 
       print("- Start poem:", fn)
       poem_text = ut.get_poem_text_by_fn(os.path.join(cf.corpus_dir, fn))
       for call_type in cf.call_types:
-      #for call_type in ['humor', 'author']:
+        # only get author and continuation once
+        if int(completion_suffix) >= 2 and call_type != "humor":
+          print("  - Skipping", call_type, "for", fn, "and", model)
+          continue
         resp_time_df = process_anthropic_response(
-          anthropic_client, model, cf, fn, poem_text, call_type)
-        time.sleep(2)
+          anthropic_client, model, cf, fn, poem_text, call_type, suffix=completion_suffix)
+      if args.sleep is not None:
+        time.sleep(args.sleep)
 
         # write out response times after each model
         # writing line-wise so far to avoid losing data in case of an error

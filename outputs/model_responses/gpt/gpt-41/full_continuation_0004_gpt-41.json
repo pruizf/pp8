@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-BhIL5vYrexcjQAbZ3tStCCibLv1Wo",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"un pobret\u00f3n llam\u00f3, ruin y cherresco,\\ny le dijo: \u2014\u00bfDel arte no se abdica?\\nMire vuesa merced c\u00f3mo se explica\\nlo falso, por lo grueso, por lo fresco.\\n\\nA lo que el valent\u00f3n, puesto en sosiego,\\nrepuso: \u2014Ya el temor no me acobarda,\\nque he dejado el oficio, no el empleo.\\n\\nY el ruin: \u2014Yo, se\u00f1or, nunca reniego;\\ny en entrar en prisi\u00f3n ya no hay quien guarde\\nel t\u00edtulo de p\u00edcaro sin miedo.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749658299,
+  "model": "gpt-4.1-2025-04-14",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_51e1070cf2",
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 93,
+    "total_tokens": 231,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

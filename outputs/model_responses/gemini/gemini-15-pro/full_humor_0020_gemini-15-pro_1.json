@@ -1,0 +1,183 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"reason\": \"El poema es c\u00f3mico debido a su ir\u00f3nica construcci\u00f3n y al juego de palabras con el apellido del supuesto poeta, \\\"Brabo\\\". La descripci\u00f3n del hijo como semiparto, posma94 y prolijo, junto con la voz bronco-chillona, de botijo, crea una imagen humor\u00edstica del personaje.  El soneto, descrito como de desgracia parto, y la exagerada autocomplacencia del poeta al escuchar los \\\"bravos\\\" que en realidad se refieren a su apellido, contribuyen a la iron\u00eda.  El final, donde se revela que la pregunta sobre la autor\u00eda del \\\"fatal soneto\\\" era ret\u00f3rica y la respuesta refuerza la burla hacia la vanidad del poeta, remata el efecto c\u00f3mico.  El poema utiliza la hip\u00e9rbole y la iron\u00eda para crear una situaci\u00f3n humor\u00edstica a costa del personaje Brabo.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.12623893971345862,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"reason\": \"El poema es c\u00f3mico debido a su estructura ir\u00f3nica y su juego de palabras. Presenta a un personaje, Brabo hijo, que busca reconocimiento por un soneto que resulta ser malo. La comicidad se construye a trav\u00e9s de varios elementos: 1. La exageraci\u00f3n del orgullo del poeta, contrastada con la calidad de su obra. 2. La repetici\u00f3n del nombre \\\"Brabo\\\" que acent\u00faa la burla.  3. El uso de onomatopeyas como \\\"bronco-chillona\\\" que crea una imagen humor\u00edstica. 4. El final abrupto e inesperado, donde se revela que todos saben que Brabo es el autor del \\\"fatal soneto\\\", intensifica la iron\u00eda y genera un efecto c\u00f3mico. 5. La descripci\u00f3n del soneto como \\\"de desgracia parto\\\" anticipa la reacci\u00f3n negativa que provoca.  En resumen, el poema utiliza la iron\u00eda, la exageraci\u00f3n y el juego de palabras para crear un efecto humor\u00edstico a costa del personaje Brabo y su vanidad po\u00e9tica.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.1481882563808508,
+      "grounding_metadata": null,
+      "index": 1,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"reason\": \"El poema es c\u00f3mico debido a su uso de la iron\u00eda y el juego de palabras. Describe a un poeta mediocre, Brabo (hijo), que se regocija por la aclamaci\u00f3n que recibe tras leer un soneto, creyendo haber alcanzado el \u00e9xito literario. Sin embargo, la aclamaci\u00f3n no es por la calidad del poema, sino porque los oyentes preguntan qui\u00e9n es el autor de tan \\\"fatal soneto\\\" para poder atribuirle la culpa. La repetici\u00f3n del nombre \\\"Brabo\\\" al final, como respuesta a la pregunta, refuerza la burla y la identificaci\u00f3n del poeta con su obra desastrosa. La descripci\u00f3n del personaje, con su voz \\\"bronco-chillona, de botijo\\\", y la exageraci\u00f3n de su reacci\u00f3n al ser aclamado contribuyen al humor. El poema crea una situaci\u00f3n c\u00f3mica al contrastar la autopercepci\u00f3n del poeta con la realidad de su falta de talento, revelada por la reacci\u00f3n de los dem\u00e1s.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.174737548828125,
+      "grounding_metadata": null,
+      "index": 2,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"reason\": \"El poema es c\u00f3mico debido a su ir\u00f3nica representaci\u00f3n de la vanidad y la mediocridad del poeta Brabo (hijo).  La exagerada autocomplacencia con la que recibe elogios por un soneto \\\"fatal\\\", junto a la revelaci\u00f3n final de que \u00e9l mismo es el autor del poema mediocre, crea un efecto humor\u00edstico.  El tono burl\u00f3n se refuerza con la descripci\u00f3n poco halagadora del poeta: \\\"voz bronco-chillona, de botijo\\\", \\\"semiparto, posma94 y prolijo\\\".  Adem\u00e1s, la repetici\u00f3n del nombre \\\"Brabo\\\" al final, como respuesta a la pregunta sobre la autor\u00eda del \\\"fatal soneto\\\", acent\u00faa la iron\u00eda y el humor de la situaci\u00f3n. El poema se burla de la falsa modestia y la b\u00fasqueda de reconocimiento por obras sin m\u00e9rito.  El contraste entre la grandilocuencia de Brabo y la realidad de su pobre creaci\u00f3n po\u00e9tica genera la comicidad del poema. La referencia a Lope y Moreto, dramaturgos reconocidos, resalta a\u00fan m\u00e1s la disparidad entre la ambici\u00f3n de Brabo y su talento.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.20248710966680156,
+      "grounding_metadata": null,
+      "index": 3,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"reason\": \"El poema es c\u00f3mico debido a la iron\u00eda y el juego de palabras que presenta. Describe una situaci\u00f3n humor\u00edstica donde un poeta llamado Brabo, hijo (no el padre, lo cual a\u00f1ade un toque c\u00f3mico), recita un soneto aparentemente malo. La reacci\u00f3n inicial de \\\"\u00a1Bravo! \u00a1Bravo!\\\" es sarc\u00e1stica, ya que proviene del propio Brabo celebr\u00e1ndose a s\u00ed mismo. El humor se intensifica cuando se revela que la pregunta sobre la autor\u00eda del \\\"fatal soneto\\\" lleva a que todos respondan \\\"Brabo, Brabo\\\", confirmando la iron\u00eda inicial y exponiendo la vanidad del poeta. La descripci\u00f3n del tono de voz de Brabo como \\\"bronco-chillona, de botijo\\\" a\u00f1ade un elemento humor\u00edstico adicional a la escena.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.16004003104517014,
+      "grounding_metadata": null,
+      "index": 4,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1067,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1067
+      }
+    ],
+    "prompt_token_count": 274,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 274
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 1341,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "reason": "El poema es c\u00f3mico debido a su ir\u00f3nica construcci\u00f3n y al juego de palabras con el apellido del supuesto poeta, \"Brabo\". La descripci\u00f3n del hijo como semiparto, posma94 y prolijo, junto con la voz bronco-chillona, de botijo, crea una imagen humor\u00edstica del personaje.  El soneto, descrito como de desgracia parto, y la exagerada autocomplacencia del poeta al escuchar los \"bravos\" que en realidad se refieren a su apellido, contribuyen a la iron\u00eda.  El final, donde se revela que la pregunta sobre la autor\u00eda del \"fatal soneto\" era ret\u00f3rica y la respuesta refuerza la burla hacia la vanidad del poeta, remata el efecto c\u00f3mico.  El poema utiliza la hip\u00e9rbole y la iron\u00eda para crear una situaci\u00f3n humor\u00edstica a costa del personaje Brabo."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+A Josefa Vaca, reprendiéndola su marido
+
+«Oiga Josefa, y mire que ya pisa
+esta corte del rey, cordura tenga;
+mire que el vulgo en murmurar se venga
+y el tiempo siempre sin hablar avisa.

@@ -1,0 +1,23 @@
+{
+  "id": "1d692d530f4248e19c30d01e85f1bf03",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 86,
+    "total_tokens": 185
+  },
+  "created": 1749671460,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Tienes oro, mas no tienes alma,\\\\ntienes fama, mas no tienes nombre,\\\\ntienes casa, mas no tienes hogar,\\\\ny aunque el mundo te aplauda y te encumbre,\\\\n\u00a1eres menos que el polvo de la tierra,\\\\nque el viento arrastra sin dejar huella!\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

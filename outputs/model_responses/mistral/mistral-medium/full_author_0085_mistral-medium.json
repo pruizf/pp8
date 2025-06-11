@@ -1,0 +1,23 @@
+{
+  "id": "a4576c75ba144c78b0d33f09c22ecd80",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 22,
+    "total_tokens": 217
+  },
+  "created": 1749671612,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Jorge Manrique\",\n  \"century\": 15\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

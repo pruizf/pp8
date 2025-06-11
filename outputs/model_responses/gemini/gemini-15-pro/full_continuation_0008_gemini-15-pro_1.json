@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Cruje la encina centenaria, cruje\\nla parda enredadera mustia y seca,\\ny bajo un cielo gris, que se ennegrece,\\ntiembla la escarcha en la elevada cruje.\\n\\nLa tarde es fr\u00eda, destemplada y lluviosa,\\nlos campos y las sendas y los prados\\nse cubren de un sudario silencioso:\\nmusgo, escarcha y silencio desolados.\\n\\nEn el hogar tranquilo y confortable\\nchisporrotea alegre y placentero\\nel fuego bienhechor. Crepita el roble\\ny sube y baja la llama al cielo.\\n\\nY en este ambiente grato y apacible\\nvierte su luz dorada la buj\u00eda,\\ny entreabre el libro una mano sensible\\nun poema del alma todav\u00eda.\\n\\n\u00a1Oh, dulces horas del hogar risue\u00f1o\\ndonde se olvida la tristeza y el da\u00f1o,\\ndonde la paz y la alegr\u00eda enfreno\\nvierten en torno su fulgor extra\u00f1o!\\n\\n\u00a1Oh, horas de quietud bienhechora,\\noasis sereno del vivir humano,\\nen vosotras el alma so\u00f1adora\\nse abre al amor, a la fe, al arcano!\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.7793590079108588,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 278,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 278
+      }
+    ],
+    "prompt_token_count": 122,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 122
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 400,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Cruje la encina centenaria, cruje\nla parda enredadera mustia y seca,\ny bajo un cielo gris, que se ennegrece,\ntiembla la escarcha en la elevada cruje.\n\nLa tarde es fr\u00eda, destemplada y lluviosa,\nlos campos y las sendas y los prados\nse cubren de un sudario silencioso:\nmusgo, escarcha y silencio desolados.\n\nEn el hogar tranquilo y confortable\nchisporrotea alegre y placentero\nel fuego bienhechor. Crepita el roble\ny sube y baja la llama al cielo.\n\nY en este ambiente grato y apacible\nvierte su luz dorada la buj\u00eda,\ny entreabre el libro una mano sensible\nun poema del alma todav\u00eda.\n\n\u00a1Oh, dulces horas del hogar risue\u00f1o\ndonde se olvida la tristeza y el da\u00f1o,\ndonde la paz y la alegr\u00eda enfreno\nvierten en torno su fulgor extra\u00f1o!\n\n\u00a1Oh, horas de quietud bienhechora,\noasis sereno del vivir humano,\nen vosotras el alma so\u00f1adora\nse abre al amor, a la fe, al arcano!"
+    }
+  ]
+}

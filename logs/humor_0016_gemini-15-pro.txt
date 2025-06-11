@@ -1,0 +1,31 @@
+¿Es cómico el poema siguiente? ¿Por qué?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
+
+La longitud de la respuesta debe ser de 200 palabras.
+
+
+
+A varios amigos tronados
+
+ Esta turba famélica y bellaca
+nunca se cansa de fumar de gorra;
+como al hebreo en tiempo de Gomorra
+yo os maldigo, y mi furia no se aplaca.
+
+¿A qué tanto pedirme la petaca?
+¿Cómo quieres, hambrón, que te socorra?
+¿Soy acaso estanquero, hijo de zorra?
+¿Recibo yo bajeles de Guaxaca?
+
+¿Cómplice acaso soy del vicio ajeno?
+Yo gano mi fumar con mi trabajo,
+y en la aduana lo compro, malo o bueno.
+
+Tú, que eres otro pobre calandrajo,
+estate sin fumar... o chupa heno...
+o chúpate la punta del carajo.

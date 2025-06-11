@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Aqu\u00ed la cama, en cuyo blando seno\\nCupido derriti\u00f3 con sus saetas\\nde mil amantes las heladas venas,\\ny encendi\u00f3 el fuego de su llama ardiente.\\n\\nAqu\u00ed el espejo, donde se pintaba\\nla blanca nieve de su rostro bello,\\ny el oro puro de su crespo pelo,\\ncon mil primores que el Amor cifrara.\\n\\nAqu\u00ed la mesa, donde convidaba\\na sus amigos con afable celo,\\ny el vino tinto derramaba en ellos\\nla dulce ponzo\u00f1a que les preparaba.\\n\\nAqu\u00ed el tocador, donde se adornaba\\ncon oro y perlas, y con mil afeites,\\npara rendir los \u00e1speros pechos\\nde aquellos que su amor solicitaban.\\n\\nAqu\u00ed la sala, donde celebraba\\ncon alegr\u00edas sus festines suaves,\\ny con m\u00fasica y danzas deleitaba\\na los que en sus redes aprisionaba.\\n\\nAqu\u00ed el jard\u00edn, donde se recreaba\\ncon sus amantes en las tardes calmas,\\ny entre las flores y las verdes ramas\\nsus dulces palabras les murmuraba.\\n\\n\u00a1Oh, Chenca, Chenca! \u00a1Cu\u00e1nto me has costado\\ncon tus enga\u00f1os y tus falsos halagos!\\n\u00a1Cu\u00e1nto me pesa de haberte amado,\\ny de haber gastado en ti mis a\u00f1os vagos!\\n\\nMas ya que el tiempo pasado no vuelve,\\ny que mi amor por ti se ha extinguido,\\nolvidar\u00e9 tus encantos y tus artes,\\ny buscar\u00e9 una mujer m\u00e1s digna de mi amor.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.2902185990362942,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 357,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 357
+      }
+    ],
+    "prompt_token_count": 122,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 122
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 479,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Aqu\u00ed la cama, en cuyo blando seno\nCupido derriti\u00f3 con sus saetas\nde mil amantes las heladas venas,\ny encendi\u00f3 el fuego de su llama ardiente.\n\nAqu\u00ed el espejo, donde se pintaba\nla blanca nieve de su rostro bello,\ny el oro puro de su crespo pelo,\ncon mil primores que el Amor cifrara.\n\nAqu\u00ed la mesa, donde convidaba\na sus amigos con afable celo,\ny el vino tinto derramaba en ellos\nla dulce ponzo\u00f1a que les preparaba.\n\nAqu\u00ed el tocador, donde se adornaba\ncon oro y perlas, y con mil afeites,\npara rendir los \u00e1speros pechos\nde aquellos que su amor solicitaban.\n\nAqu\u00ed la sala, donde celebraba\ncon alegr\u00edas sus festines suaves,\ny con m\u00fasica y danzas deleitaba\na los que en sus redes aprisionaba.\n\nAqu\u00ed el jard\u00edn, donde se recreaba\ncon sus amantes en las tardes calmas,\ny entre las flores y las verdes ramas\nsus dulces palabras les murmuraba.\n\n\u00a1Oh, Chenca, Chenca! \u00a1Cu\u00e1nto me has costado\ncon tus enga\u00f1os y tus falsos halagos!\n\u00a1Cu\u00e1nto me pesa de haberte amado,\ny de haber gastado en ti mis a\u00f1os vagos!\n\nMas ya que el tiempo pasado no vuelve,\ny que mi amor por ti se ha extinguido,\nolvidar\u00e9 tus encantos y tus artes,\ny buscar\u00e9 una mujer m\u00e1s digna de mi amor."
+    }
+  ]
+}

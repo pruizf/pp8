@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-BhIQmJFdrIDDTJkAc39VyZZcoLC7T",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"cuando mi dulce bien, que desde acaba\\nde en m\u00ed poner piedad y gallard\u00eda,\\nacudi\u00f3 y, con su vista, desv\u00ed\u00ada\\nla fiera, y la piedra se desclava.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749658652,
+  "model": "gpt-4.1-2025-04-14",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_51e1070cf2",
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 96,
+    "total_tokens": 158,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

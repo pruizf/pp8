@@ -1,0 +1,23 @@
+{
+  "id": "7cef32b6ac924063b15ae397ed961cec",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 119,
+    "total_tokens": 214
+  },
+  "created": 1749671451,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"No temas, que no ha de ser cisne vano\\nel que en tus brazos su fulgor despliegue,\\nni el fuego que en tu pecho se mantenga\\nser\u00e1 menos ardiente que el de Vulcano.\\n\\nMas guarda el secreto, que el Olimpo es fr\u00edo,\\ny el rayo de su ira no perdona:\\nsi el toro fue castigo, el cisne es gloria,\\npero el amor, Leda, siempre es traici\u00f3n.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

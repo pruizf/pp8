@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"me obliga a hacer un esfuerzo sin recobro\\npara armar, como un Lego, este artilugio.\\n\\nBrind\u00f3 Brabo, no el padre, sino el hijo\\n(y d\u00e9 gracias de entrar en el reparto,\\nque harto me tiene su meneo, y harto\\nsu voz bronco-chillona, de botijo).\\nEste semiparto, posma y prolijo,\\nme obliga a hacer un esfuerzo sin recobro\\npara armar, como un Lego, este artilugio.\\n\\nBrindo por las palabras bien trabadas,\\nlas que muerden la lengua y se resisten\\na dejarse encasillar en lo preciso.\\nBrindo por la alegr\u00eda desatada,\\npor las ganas de escribir, cuando persisten\\na pesar del desaliento y el fastidio.\\n\\nBrindo por las ideas desbocadas,\\npor las rimas que fluyen como un r\u00edo,\\npor la belleza que surge en lo imprevisto.\\nBrindo por la poes\u00eda, liberada\\nde las normas y los moldes, en su br\u00edo,\\ny por la voz que canta lo que ha visto.\\n\\nBrindo por los lectores, esos c\u00f3mplices\\nque se adentran en el verso y lo descifran,\\nque encuentran en la palabra un gran alivio.\\nBrindo por la emoci\u00f3n que nos complice\\ny nos hace sentir vivos, aunque cifran\\nsu esperanza en un mundo corrosivo.\\n\\nBrindo por los poetas, esos magos\\nque con las palabras crean mundos nuevos,\\nque nos invitan a so\u00f1ar con lo prolijo.\\nBrindo por la palabra, ese estrago\\nque nos conmueve y nos hace m\u00e1s breves,\\ny por la vida, que es un verso prolijo.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.35259608417823357,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 403,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 403
+      }
+    ],
+    "prompt_token_count": 135,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 135
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 538,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "me obliga a hacer un esfuerzo sin recobro\npara armar, como un Lego, este artilugio.\n\nBrind\u00f3 Brabo, no el padre, sino el hijo\n(y d\u00e9 gracias de entrar en el reparto,\nque harto me tiene su meneo, y harto\nsu voz bronco-chillona, de botijo).\nEste semiparto, posma y prolijo,\nme obliga a hacer un esfuerzo sin recobro\npara armar, como un Lego, este artilugio.\n\nBrindo por las palabras bien trabadas,\nlas que muerden la lengua y se resisten\na dejarse encasillar en lo preciso.\nBrindo por la alegr\u00eda desatada,\npor las ganas de escribir, cuando persisten\na pesar del desaliento y el fastidio.\n\nBrindo por las ideas desbocadas,\npor las rimas que fluyen como un r\u00edo,\npor la belleza que surge en lo imprevisto.\nBrindo por la poes\u00eda, liberada\nde las normas y los moldes, en su br\u00edo,\ny por la voz que canta lo que ha visto.\n\nBrindo por los lectores, esos c\u00f3mplices\nque se adentran en el verso y lo descifran,\nque encuentran en la palabra un gran alivio.\nBrindo por la emoci\u00f3n que nos complice\ny nos hace sentir vivos, aunque cifran\nsu esperanza en un mundo corrosivo.\n\nBrindo por los poetas, esos magos\nque con las palabras crean mundos nuevos,\nque nos invitan a so\u00f1ar con lo prolijo.\nBrindo por la palabra, ese estrago\nque nos conmueve y nos hace m\u00e1s breves,\ny por la vida, que es un verso prolijo."
+    }
+  ]
+}

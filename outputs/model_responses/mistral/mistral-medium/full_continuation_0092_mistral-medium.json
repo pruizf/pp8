@@ -1,0 +1,23 @@
+{
+  "id": "a01f645bc6b747fdbfb83bafc3491dd5",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 103,
+    "completion_tokens": 88,
+    "total_tokens": 191
+  },
+  "created": 1749671682,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"los ardientes rayos de tu mirada\\napagar el amor que en m\u00ed ha ardido.\\n\u00bfSer\u00e1s de hielo acaso? No, que helada\\nno ha estado nunca tu alma encendida.\\nMas si no eres de m\u00e1rmol, ni de nada,\\n\u00bfpor qu\u00e9, coraz\u00f3n, me has resistido?\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

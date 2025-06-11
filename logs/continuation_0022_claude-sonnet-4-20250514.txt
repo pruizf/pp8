@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+A un vate huero
+
+ Conozco yo un ratón de biblioteca,
+presunto monaguillo del Parnaso,
+émulo del Petrarca y Garcilaso,
+más digno que del estro de una rueca.

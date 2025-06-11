@@ -1,0 +1,23 @@
+{
+  "id": "1fc296ff73c5438f82f856571bfc277b",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 98,
+    "completion_tokens": 63,
+    "total_tokens": 161
+  },
+  "created": 1749671631,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"su nombre al viento, que en su vuelo lleva\\nla esencia del mar que en sue\u00f1os mueve.\\nMas si la ola su destino rompe,\\nvolver\u00e1 al abismo donde se esconde.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

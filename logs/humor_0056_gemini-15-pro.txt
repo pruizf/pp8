@@ -1,0 +1,31 @@
+¿Es cómico el poema siguiente? ¿Por qué?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
+
+La longitud de la respuesta debe ser de 200 palabras.
+
+
+
+La recompensa
+
+Hay en el valle que mi Laura habita
+Un rincón entre arbustos escondido,
+Donde tienen las tórtolas su nido
+Y las auras se dan amante cita.
+
+Levántase en su centro una casita,
+Cuyo tejado, por el sol herido,
+Brilla con el matiz de oro bruñido,
+Como torre de arábiga mezquita.
+
+Cerca de esa mansión tan hechicera
+Se abre en el bosque pabellón esbelto,
+Vestido de jazmín y enredadera.
+
+Allí fue donde, impávido y resuelto,
+Pinté a Laura mi afán de tal manera...
+Que me dio un bofetón de cuello vuelto.

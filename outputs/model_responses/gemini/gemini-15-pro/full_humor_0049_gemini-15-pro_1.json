@@ -1,0 +1,183 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Melancol\u00eda\\\" no es c\u00f3mico, sino que expresa un profundo sentimiento de tristeza y desesperaci\u00f3n. El hablante l\u00edrico se describe a s\u00ed mismo como un ciego que vaga sin rumbo, atormentado por sus sue\u00f1os y la poes\u00eda que, como una camisa de hierro con puntas afiladas, le causa un dolor intenso. La melancol\u00eda se representa mediante las gotas que caen constantemente, simbolizando el sufrimiento incesante del poeta. El poema utiliza im\u00e1genes v\u00edvidas y un tono sombr\u00edo para transmitir la angustia emocional del hablante, quien se siente abrumado por la vida y cuestiona la duraci\u00f3n del camino que le queda por recorrer. En lugar de provocar risa, el poema evoca empat\u00eda y conmiseraci\u00f3n por el estado de \u00e1nimo del poeta.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.10336509792284033,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Melancol\u00eda\\\" no es c\u00f3mico, sino que expresa un profundo sentimiento de tristeza y desesperaci\u00f3n. El hablante l\u00edrico se describe como un ciego que vaga sin rumbo, atormentado por sus sue\u00f1os y la poes\u00eda, que le causa dolor. La imagen de la \\\"camisa f\u00e9rrea de mil puntas cruentas\\\" refuerza la idea de sufrimiento y tormento interior.  La repetici\u00f3n de la frase \\\"las gotas de mi melancol\u00eda\\\" enfatiza la intensidad de su tristeza, que parece desbordarlo. El poema utiliza un lenguaje cargado de im\u00e1genes negativas, como \\\"tempestades\\\", \\\"tormentas\\\", \\\"espinas sangrientas\\\", \\\"mundo amargo\\\", \\\"aliento y agon\u00eda\\\", que contribuyen a crear una atm\u00f3sfera de profunda melancol\u00eda. El tono general del poema es sombr\u00edo y pesimista, sin ning\u00fan atisbo de humor o comicidad.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.09935639731249019,
+      "grounding_metadata": null,
+      "index": 1,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Melancol\u00eda\\\" no es c\u00f3mico, sino que expresa un profundo sentimiento de tristeza y desesperaci\u00f3n. El hablante l\u00edrico se describe como un ciego que vaga sin rumbo, atormentado por sus sue\u00f1os y la poes\u00eda que, como una camisa de espinas, le causa un dolor inmenso. La repetici\u00f3n de la imagen de las gotas de melancol\u00eda que caen enfatiza la intensidad de su sufrimiento.  La sensaci\u00f3n de un camino a veces largo, a veces corto, refleja la incertidumbre y la angustia existencial del hablante.  En lugar de provocar risa, el poema busca generar empat\u00eda con el estado an\u00edmico del poeta, invitando al lector a comprender su dolor.  El tono sombr\u00edo, las im\u00e1genes de oscuridad y sufrimiento, y la s\u00faplica final contribuyen a la atm\u00f3sfera melanc\u00f3lica y conmovedora, alejada de cualquier intenci\u00f3n c\u00f3mica.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.06731896957165094,
+      "grounding_metadata": null,
+      "index": 2,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Melancol\u00eda\\\" no es c\u00f3mico, sino que expresa un profundo sentimiento de tristeza y desesperaci\u00f3n. El hablante l\u00edrico se describe a s\u00ed mismo como un ciego que vaga sin rumbo, atormentado por sus sue\u00f1os y la poes\u00eda, que le causa dolor. La imagen de la \\\"camisa f\u00e9rrea de mil puntas cruentas\\\" refuerza la idea de sufrimiento y angustia.  La repetici\u00f3n de la frase \\\"las gotas de mi melancol\u00eda\\\" enfatiza la intensidad de su tristeza, que parece inagotable. El poema utiliza un lenguaje conmovedor y evocador para transmitir la sensaci\u00f3n de desasosiego y pesimismo del hablante. En lugar de buscar la risa o el humor, el poema explora las profundidades del dolor emocional y la fragilidad humana.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.15622706871248235,
+      "grounding_metadata": null,
+      "index": 3,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Melancol\u00eda\\\" no es c\u00f3mico, sino que expresa un profundo sentimiento de tristeza y desesperaci\u00f3n. El hablante l\u00edrico se describe a s\u00ed mismo como un ciego que vaga sin rumbo, atormentado por sus sue\u00f1os y la poes\u00eda que, como una camisa de espinas, le causa un intenso dolor. La repetici\u00f3n de la imagen de las gotas de melancol\u00eda que caen enfatiza la persistencia de su sufrimiento.  La sensaci\u00f3n de desorientaci\u00f3n, la carga de penas insoportable y la agon\u00eda que expresa el hablante l\u00edrico refuerzan el tono melanc\u00f3lico del poema. No hay elementos humor\u00edsticos o ir\u00f3nicos que sugieran una intenci\u00f3n c\u00f3mica.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.08027771980531755,
+      "grounding_metadata": null,
+      "index": 4,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 902,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 902
+      }
+    ],
+    "prompt_token_count": 267,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 267
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 1169,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "no",
+      "reason": "El poema \"Melancol\u00eda\" no es c\u00f3mico, sino que expresa un profundo sentimiento de tristeza y desesperaci\u00f3n. El hablante l\u00edrico se describe a s\u00ed mismo como un ciego que vaga sin rumbo, atormentado por sus sue\u00f1os y la poes\u00eda que, como una camisa de hierro con puntas afiladas, le causa un dolor intenso. La melancol\u00eda se representa mediante las gotas que caen constantemente, simbolizando el sufrimiento incesante del poeta. El poema utiliza im\u00e1genes v\u00edvidas y un tono sombr\u00edo para transmitir la angustia emocional del hablante, quien se siente abrumado por la vida y cuestiona la duraci\u00f3n del camino que le queda por recorrer. En lugar de provocar risa, el poema evoca empat\u00eda y conmiseraci\u00f3n por el estado de \u00e1nimo del poeta."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico, sino que adopta un tono serio y reflexivo, propio de la poes\u00eda religiosa y m\u00edstica. El tema central gira en torno a la b\u00fasqueda de Dios y la uni\u00f3n espiritual con lo divino. El bardo expresa su deseo de trascender lo terrenal y entregarse por completo a la experiencia religiosa. La imagen del alma como un p\u00e1jaro que anhela volar hacia Dios refuerza esta idea de anhelo espiritual. El lenguaje utilizado, con referencias a la armon\u00eda, el alma, la poes\u00eda ing\u00e9nita y el sagrario, es propio del discurso religioso y m\u00edstico, lo que aleja el poema del humor o la comicidad. La menci\u00f3n del \\\"cruento itinerario\\\" y la falta de arrepentimiento ante la muerte refuerzan la solemnidad del tema.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.18542807752435858,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico, sino que expresa una profunda devoci\u00f3n religiosa y anhelo espiritual. El tono es serio y reflexivo, y el tema central es la b\u00fasqueda de Dios y la uni\u00f3n con lo divino. El poema utiliza im\u00e1genes de la naturaleza, como el atardecer y el p\u00e1jaro, para simbolizar la trascendencia del alma y el deseo de elevarse por encima del mundo material.  La comparaci\u00f3n del alma con un sagrario refuerza la idea de la entrega total a Dios y la disposici\u00f3n a recibirlo.  No hay elementos de humor, iron\u00eda o sarcasmo que sugieran una intenci\u00f3n c\u00f3mica.  La expresi\u00f3n \\\"vivido a solas contigo eternamente\\\" enfatiza la conexi\u00f3n espiritual profunda y la b\u00fasqueda de la eternidad en compa\u00f1\u00eda de Dios, un tema recurrente en la poes\u00eda m\u00edstica y religiosa que se opone a la idea de lo c\u00f3mico.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.1345173418521881,
+      "grounding_metadata": null,
+      "index": 1,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico, sino que presenta un tono serio y reflexivo, propio de la poes\u00eda religiosa y m\u00edstica. El tema central gira en torno a la b\u00fasqueda de Dios y la uni\u00f3n espiritual con lo divino. El bardo expresa su deseo de trascender lo terrenal y entregarse por completo a la experiencia religiosa.  Utiliza im\u00e1genes como \\\\\\\"el morir del d\u00eda\\\\\\\" y \\\\\\\"un p\u00e1jaro, a Dios volar ansia\\\\\\\" para simbolizar la elevaci\u00f3n del alma hacia lo espiritual.  La comparaci\u00f3n del alma con un sagrario refuerza la idea de un espacio interior dedicado a la comuni\u00f3n con Dios.  No hay elementos de humor, iron\u00eda o sarcasmo en el texto.  El lenguaje es elevado y solemne, y el tema tratado con reverencia.  Por lo tanto, el poema se clasifica como una expresi\u00f3n de profunda espiritualidad, no como una obra c\u00f3mica.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.18157644271850587,
+      "grounding_metadata": null,
+      "index": 2,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico. Su tono es serio y reflexivo, enfoc\u00e1ndose en temas espirituales y la relaci\u00f3n del hablante l\u00edrico con Dios. El lenguaje utilizado es elevado y formal, con referencias a la armon\u00eda, el alma, la poes\u00eda y la eternidad. La estructura del soneto, con su rima y m\u00e9trica rigurosas, tambi\u00e9n contribuye a la solemnidad del poema. No hay elementos de humor, iron\u00eda o sarcasmo que sugieran una intenci\u00f3n c\u00f3mica. El poema expresa una profunda devoci\u00f3n religiosa y una b\u00fasqueda de conexi\u00f3n espiritual, lo que contrasta con la ligereza y el humor que caracterizan a la comedia.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.08594176851469895,
+      "grounding_metadata": null,
+      "index": 3,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico. Su tono es serio y reflexivo, enfoc\u00e1ndose en temas espirituales y la relaci\u00f3n del hablante l\u00edrico con Dios.  El lenguaje utilizado es elevado y formal, con referencias a la armon\u00eda, el alma, y la poes\u00eda como algo divino.  La imagen del p\u00e1jaro que anhela volar a Dios, la comparaci\u00f3n del alma con un sagrario, y la entrega a la voluntad divina refuerzan la solemnidad del poema.  No hay elementos de humor, iron\u00eda, o juegos de palabras que sugieran una intenci\u00f3n c\u00f3mica.  Al contrario, el poema expresa una profunda devoci\u00f3n religiosa y una b\u00fasqueda de conexi\u00f3n espiritual.  La idea de la muerte se presenta no con temor, sino como una uni\u00f3n con Dios, culminando en la afirmaci\u00f3n de haber vivido eternamente con \u00c9l.  En resumen, el poema se centra en la trascendencia y la espiritualidad, alej\u00e1ndose de cualquier elemento que pueda considerarse c\u00f3mico.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.12566759010061834,
+      "grounding_metadata": null,
+      "index": 4,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 924,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 924
+      }
+    ],
+    "prompt_token_count": 280,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 280
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 1204,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "no",
+      "reason": "El poema no es c\u00f3mico, sino que adopta un tono serio y reflexivo, propio de la poes\u00eda religiosa y m\u00edstica. El tema central gira en torno a la b\u00fasqueda de Dios y la uni\u00f3n espiritual con lo divino. El bardo expresa su deseo de trascender lo terrenal y entregarse por completo a la experiencia religiosa. La imagen del alma como un p\u00e1jaro que anhela volar hacia Dios refuerza esta idea de anhelo espiritual. El lenguaje utilizado, con referencias a la armon\u00eda, el alma, la poes\u00eda ing\u00e9nita y el sagrario, es propio del discurso religioso y m\u00edstico, lo que aleja el poema del humor o la comicidad. La menci\u00f3n del \"cruento itinerario\" y la falta de arrepentimiento ante la muerte refuerzan la solemnidad del tema."
+    }
+  ]
+}

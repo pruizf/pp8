@@ -1,0 +1,23 @@
+{
+  "id": "91fa249bd538479583a44ca79819b539",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 105,
+    "completion_tokens": 103,
+    "total_tokens": 208
+  },
+  "created": 1749670842,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u2014Y \u00bfqui\u00e9n os mand\u00f3, sobrino, a tal empresa?\\n\u2014El rey don Juan, se\u00f1ora, que en Granada\\nnos dio su bendici\u00f3n y su licencia.\\n\u2014Y \u00bfqui\u00e9n os dio, sobrino, la bandera?\\n\u2014Un moro viejo que en la Alhambra mora,\\nque es gran hechicero y sabe astrolog\u00eda.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

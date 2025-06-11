@@ -1,0 +1,23 @@
+{
+  "id": "a505d7ecb8714d219eeea1ce6b78fa63",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 65,
+    "total_tokens": 156
+  },
+  "created": 1749671284,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"La frente se enciende, los ojos brillan,\\nla boca se abre en un grito mudo,\\nla tierra tiembla bajo el pie desnudo\\ny el alma se desgarra en mil puntillas.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

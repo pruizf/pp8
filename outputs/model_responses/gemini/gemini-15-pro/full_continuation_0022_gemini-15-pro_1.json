@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Sus composiciones, siempre afectadas,\\ncarecen de la m\u00e9trica y del nervio\\nque el genio comunic\u00f3 al de Hornero,\\ny ostentan, cual la suya, la endeblez\\nde la materia vil que las sustenta.\\n\\nSi a rimar se complace, fabrica un soneto,\\ncomo quien en la escuela hace un tema,\\no bien traduce del griego, o del hebreo,\\nalg\u00fan trozo elegante, alg\u00fan soneto.\\n\\nSi le place imitar, con voz melosa,\\nlos arrullos del cisne moribundo,\\nle falta el sentimiento, el hondo, el puro,\\ny s\u00f3lo imita el silbo de una oca.\\n\\n\u00c9l junta palabras, palabras, muchas,\\ncon un arte admirable de paciencia,\\ny cree haber escrito una sentencia,\\nsi son sus frases largas como cuchas.\\n\\nAs\u00ed discurre el m\u00edsero, el menguado\\npoeta, el vano, el fatuo, el necio,\\nque cree dar aroma de alel\u00ed,\\ny s\u00f3lo exhala un tufo nauseabundo.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.8154515912455897,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 248,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 248
+      }
+    ],
+    "prompt_token_count": 121,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 121
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 369,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Sus composiciones, siempre afectadas,\ncarecen de la m\u00e9trica y del nervio\nque el genio comunic\u00f3 al de Hornero,\ny ostentan, cual la suya, la endeblez\nde la materia vil que las sustenta.\n\nSi a rimar se complace, fabrica un soneto,\ncomo quien en la escuela hace un tema,\no bien traduce del griego, o del hebreo,\nalg\u00fan trozo elegante, alg\u00fan soneto.\n\nSi le place imitar, con voz melosa,\nlos arrullos del cisne moribundo,\nle falta el sentimiento, el hondo, el puro,\ny s\u00f3lo imita el silbo de una oca.\n\n\u00c9l junta palabras, palabras, muchas,\ncon un arte admirable de paciencia,\ny cree haber escrito una sentencia,\nsi son sus frases largas como cuchas.\n\nAs\u00ed discurre el m\u00edsero, el menguado\npoeta, el vano, el fatuo, el necio,\nque cree dar aroma de alel\u00ed,\ny s\u00f3lo exhala un tufo nauseabundo."
+    }
+  ]
+}

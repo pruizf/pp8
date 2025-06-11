@@ -1,0 +1,183 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Anhelos\\\" no es c\u00f3mico, sino que se adscribe al g\u00e9nero rom\u00e1ntico, con una fuerte carga de sentimentalismo y dramatismo. El yo po\u00e9tico expresa un deseo apasionado y vehemente por su amada, utilizando un lenguaje florido y exagerado, t\u00edpico del romanticismo.  Habla de besos fervorosos, brazos amorosos, y un amor que se asemeja a una tempestad.  La intenci\u00f3n del poema es transmitir la intensidad de los sentimientos del poeta, no generar humor.  Elementos como la menci\u00f3n de \\\"venenosas flores\\\", \\\"noches borrascosas\\\", y \\\"tempestades locas y sombr\u00edas\\\" contribuyen a la atm\u00f3sfera dram\u00e1tica y pasional, no a un tono c\u00f3mico.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.1633267202777063,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Anhelos\\\" no es c\u00f3mico, sino que se adscribe al g\u00e9nero rom\u00e1ntico.  Su lenguaje es apasionado y exaltado, expresando un deseo intenso y abrumador por la persona amada.  Habla de besos fervorosos, brazos amorosos, y la transformaci\u00f3n de la serenidad en fogosidad.  La imaginer\u00eda de rizos abundantes, perfume de verbenas, y ojos luminosos refuerza el tono rom\u00e1ntico.  Aunque menciona \\\"venenosas flores\\\", \\\"noches borrascosas\\\", y \\\"tempestades locas\\\", estos elementos se utilizan para enfatizar la intensidad y permanencia del amor, no para provocar la risa.  En resumen, el poema busca evocar emociones fuertes relacionadas con el amor rom\u00e1ntico, no el humor.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.13685656420757317,
+      "grounding_metadata": null,
+      "index": 1,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Anhelos\\\" no es c\u00f3mico, sino que se adscribe al g\u00e9nero rom\u00e1ntico.  Su tema central es el amor apasionado y el deseo del hablante l\u00edrico de entregarse por completo a su amada.  Utiliza un lenguaje po\u00e9tico, con abundantes met\u00e1foras e im\u00e1genes sensoriales que evocan la intensidad del sentimiento amoroso.  La menci\u00f3n de \\\"perfumes embriagantes\\\", \\\"besos fervorosos\\\", \\\"miradas luminosas\\\" y el deseo de \\\"encender la sangre\\\" de la amada son recursos propios de la poes\u00eda rom\u00e1ntica que buscan idealizar el amor y la belleza.  Adem\u00e1s, la estructura del poema, un soneto con rima consonante, refuerza su car\u00e1cter l\u00edrico.  La intensidad emocional que expresa, lejos de provocar humor, busca conmover al lector con la fuerza del amor del poeta.  Aunque la imagen final de las \\\"tempestades locas y sombr\u00edas\\\" puede resultar un tanto exagerada para los est\u00e1ndares modernos, se enmarca dentro de la est\u00e9tica rom\u00e1ntica que valora la expresi\u00f3n desbordada de las emociones.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.22574066612790908,
+      "grounding_metadata": null,
+      "index": 2,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Anhelos\\\" no es c\u00f3mico, sino que se adscribe al romanticismo, expresando un amor intenso y apasionado. El hablante l\u00edrico anhela una conexi\u00f3n profunda con la persona amada, utilizando im\u00e1genes sensoriales como \\\"perfume embriagante\\\", \\\"besos fervorosos\\\" y \\\"miradas luminosas\\\".  La intensidad de sus emociones se refleja en el deseo de transformar la serenidad de la amada en una pasi\u00f3n ardiente.  Aunque utiliza la imagen de \\\"venenosas flores\\\", \\\"noches borrascosas\\\" y \\\"tempestades locas\\\", estas no pretenden ser c\u00f3micas, sino que simbolizan la fuerza abrumadora y perdurable del amor, que deja \\\"huellas\\\" imborrables. El tono general es serio y rom\u00e1ntico, enfocado en la idealizaci\u00f3n del amor y la belleza.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.10634448402806332,
+      "grounding_metadata": null,
+      "index": 3,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Anhelos\\\" no es c\u00f3mico, sino que expresa un deseo apasionado y rom\u00e1ntico. El hablante l\u00edrico anhela una conexi\u00f3n intensa con la persona amada, utilizando im\u00e1genes sensoriales como el perfume de verbenas, besos fervorosos y brazos amorosos.  La intensidad de la emoci\u00f3n se refleja en el lenguaje exaltado y en el deseo de transformar la serenidad de la amada en una pasi\u00f3n ardiente.  Aunque la imagen de las \\\"tempestades locas y sombr\u00edas\\\" podr\u00eda interpretarse como dram\u00e1tica o incluso exagerada, no llega a ser c\u00f3mica. M\u00e1s bien, refuerza la idea de que el amor, para el hablante l\u00edrico, es una fuerza poderosa e imborrable que deja una huella profunda.  El poema se centra en la intensidad del sentimiento amoroso, no en la incongruencia o el humor.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.14684413106817948,
+      "grounding_metadata": null,
+      "index": 4,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 957,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 957
+      }
+    ],
+    "prompt_token_count": 232,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 232
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 1189,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "no",
+      "reason": "El poema \"Anhelos\" no es c\u00f3mico, sino que se adscribe al g\u00e9nero rom\u00e1ntico, con una fuerte carga de sentimentalismo y dramatismo. El yo po\u00e9tico expresa un deseo apasionado y vehemente por su amada, utilizando un lenguaje florido y exagerado, t\u00edpico del romanticismo.  Habla de besos fervorosos, brazos amorosos, y un amor que se asemeja a una tempestad.  La intenci\u00f3n del poema es transmitir la intensidad de los sentimientos del poeta, no generar humor.  Elementos como la menci\u00f3n de \"venenosas flores\", \"noches borrascosas\", y \"tempestades locas y sombr\u00edas\" contribuyen a la atm\u00f3sfera dram\u00e1tica y pasional, no a un tono c\u00f3mico."
+    }
+  ]
+}

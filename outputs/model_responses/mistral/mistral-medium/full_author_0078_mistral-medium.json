@@ -1,0 +1,23 @@
+{
+  "id": "60f7076775df4fb19f1983c389f2a52e",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 271,
+    "completion_tokens": 22,
+    "total_tokens": 293
+  },
+  "created": 1749671559,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Fernando Mar\u00eda Guerrero\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

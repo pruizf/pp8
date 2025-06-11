@@ -1,0 +1,183 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"reason\": \"El poema \\\"Tal para cual\\\" utiliza el humor y la iron\u00eda para describir una relaci\u00f3n desequilibrada. La exageraci\u00f3n y las met\u00e1foras incongruentes contribuyen al efecto c\u00f3mico.  El hablante se describe a s\u00ed mismo con im\u00e1genes de falta o carencia (\\\"manco de una sota\\\", \\\"desnudo\\\", \\\"hueso de ciruela\\\", \\\"fotocopia\\\", \\\"virus\\\"), mientras que a su pareja la asocia con elementos de riqueza,  vitalidad o superioridad (\\\"rica en vitaminas\\\", \\\"carne de gallina\\\", \\\"con queso\\\", \\\"retrato robot\\\", \\\"anillo de brillantes\\\").  Esta yuxtaposici\u00f3n crea un contraste humor\u00edstico.  Adem\u00e1s, el uso de expresiones coloquiales como \\\"cantama\u00f1anas\\\" o \\\"pinchauvas\\\", junto con la  exageraci\u00f3n de los sentimientos (\\\"con ganas de matarte y de morirme\\\", \\\"t\u00fa tensando el hilo\\\"),  a\u00f1aden un tono sarc\u00e1stico y divertido al poema.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.12565837650124087,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"reason\": \"El poema \\\"Tal para cual\\\" utiliza el humor a trav\u00e9s de varios recursos.  Primero, presenta una serie de comparaciones desproporcionadas e inesperadas entre dos personas, creando un efecto c\u00f3mico.  Por ejemplo, \\\"t\u00fa rica en vitaminas, yo desnudo\\\", o \\\"t\u00fa carne de gallina, yo de jota\\\". Estas oposiciones absurdas generan una sensaci\u00f3n de incongruencia que provoca la risa. Adem\u00e1s, el poema emplea un lenguaje coloquial y expresiones populares como \\\"cuento de calleja\\\", \\\"cantama\u00f1anas\\\" o \\\"pinchauvas\\\", que contribuyen al tono humor\u00edstico y a la cercan\u00eda con el lector.  La exageraci\u00f3n tambi\u00e9n juega un papel importante, como en la imagen del \\\"lagrim\u00f3n estilo cocodrilo\\\" o en el deseo del hablante de \\\"matarte y de morirme\\\".  Finalmente, el uso de rimas consonantes, a veces forzadas o inesperadas, refuerza el car\u00e1cter l\u00fadico y ligero del poema.  En resumen, la combinaci\u00f3n de comparaciones absurdas, lenguaje coloquial, exageraci\u00f3n y rimas crea un efecto humor\u00edstico generalizado en el poema.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.07724066205352907,
+      "grounding_metadata": null,
+      "index": 1,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"reason\": \"El poema \\\"Tal para cual\\\" utiliza el humor y la iron\u00eda para describir una relaci\u00f3n desigual y desastrosa. La exageraci\u00f3n y las comparaciones absurdas contribuyen al efecto c\u00f3mico. Se presentan dos personajes opuestos en todo: uno con recursos y el otro en la miseria. La enumeraci\u00f3n de estas diferencias, con im\u00e1genes como \\\"t\u00fa rica en vitaminas, yo desnudo\\\", \\\"t\u00fa carne de gallina, yo de jota\\\", o \\\"t\u00fa con queso, yo hueso de ciruela\\\", crea un efecto humor\u00edstico. El tono sarc\u00e1stico y resignado del poema, que culmina con la autocompasi\u00f3n de ambos como \\\"dos pinchauvas, dos cantama\u00f1anas\\\", tambi\u00e9n a\u00f1ade al humor. En resumen, la comicidad se logra mediante la yuxtaposici\u00f3n de elementos dispares, la hip\u00e9rbole y un tono ir\u00f3nico que invita a la risa a pesar del tema subyacente de la desesperanza.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.18972478727015055,
+      "grounding_metadata": null,
+      "index": 2,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"reason\": \"El poema \\\"Tal para cual\\\" utiliza el humor y la iron\u00eda para describir una relaci\u00f3n desequilibrada. La exageraci\u00f3n y las comparaciones absurdas (\\\"t\u00fa rica en vitaminas, yo desnudo\\\"; \\\"t\u00fa carne de gallina, yo de jota\\\") crean un efecto c\u00f3mico.  La enumeraci\u00f3n de las diferencias, presentadas como desprop\u00f3sitos, refuerza la idea de una pareja mal avenida, pero lo hace de forma divertida.  Adem\u00e1s, el lenguaje coloquial (\\\"pinchauvas\\\", \\\"cantama\u00f1anas\\\") y las im\u00e1genes grotescas (\\\"yo virus, t\u00fa viruela\\\") contribuyen al tono humor\u00edstico.  Aunque el poema describe una situaci\u00f3n potencialmente triste o conflictiva, la forma en que se presenta, a trav\u00e9s del humor y la iron\u00eda, provoca risa en el lector.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.17008176057235055,
+      "grounding_metadata": null,
+      "index": 3,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"reason\": \"El poema \\\"Tal para cual\\\" utiliza el humor a trav\u00e9s de varios recursos.  En primer lugar, la exageraci\u00f3n y las comparaciones desproporcionadas crean un efecto c\u00f3mico. Se yuxtaponen elementos dispares como \\\"rica en vitaminas\\\" y \\\"desnudo\\\", o \\\"carne de gallina\\\" y \\\"de jota\\\",  generando una imagen absurda y divertida.  Adem\u00e1s, el uso de expresiones coloquiales como \\\"cuento de calleja\\\", \\\"cantama\u00f1anas\\\" o \\\"pinchauvas\\\" contribuye al tono humor\u00edstico y desenfadado. El poema tambi\u00e9n juega con la rima consonante, que le da un ritmo ligero y musical, reforzando el efecto c\u00f3mico. Finalmente, la enumeraci\u00f3n de defectos y carencias, tanto del hablante l\u00edrico como de la persona a la que se dirige, crea una situaci\u00f3n ir\u00f3nica y, en cierto modo, c\u00f3mica, al presentarse como una pareja ideal a pesar de sus desdichas.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.12249699178731667,
+      "grounding_metadata": null,
+      "index": 4,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 1066,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 1066
+      }
+    ],
+    "prompt_token_count": 250,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 250
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 1316,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "reason": "El poema \"Tal para cual\" utiliza el humor y la iron\u00eda para describir una relaci\u00f3n desequilibrada. La exageraci\u00f3n y las met\u00e1foras incongruentes contribuyen al efecto c\u00f3mico.  El hablante se describe a s\u00ed mismo con im\u00e1genes de falta o carencia (\"manco de una sota\", \"desnudo\", \"hueso de ciruela\", \"fotocopia\", \"virus\"), mientras que a su pareja la asocia con elementos de riqueza,  vitalidad o superioridad (\"rica en vitaminas\", \"carne de gallina\", \"con queso\", \"retrato robot\", \"anillo de brillantes\").  Esta yuxtaposici\u00f3n crea un contraste humor\u00edstico.  Adem\u00e1s, el uso de expresiones coloquiales como \"cantama\u00f1anas\" o \"pinchauvas\", junto con la  exageraci\u00f3n de los sentimientos (\"con ganas de matarte y de morirme\", \"t\u00fa tensando el hilo\"),  a\u00f1aden un tono sarc\u00e1stico y divertido al poema."
+    }
+  ]
+}

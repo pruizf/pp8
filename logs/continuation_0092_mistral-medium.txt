@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+Corazón que a Javier te has resistido,
+
+¿serás de mármol? No, que te labrara
+con los rayos de luz, que en luz más clara
+acicalar su celo ha conseguido
+De fuego no serás, pues no han podido

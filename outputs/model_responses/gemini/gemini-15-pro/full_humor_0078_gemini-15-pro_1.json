@@ -1,0 +1,183 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico, sino m\u00e1s bien serio y heroico en tono.  Utiliza un lenguaje elevado y referencias hist\u00f3ricas/culturales (Laong-Laan, San Nicol\u00e1s, Sampalok, Taal) para invocar un sentido de orgullo, fuerza y perseverancia. El poema exhorta a Laong-Laan a ser fuerte y silencioso, como el volc\u00e1n Taal, y a no moldear estatuas ni erigir altares en vano.  Describe la vida como una lucha y enfatiza la importancia de la perseverancia. Estos temas no son c\u00f3micos, sino que reflejan una seria contemplaci\u00f3n sobre la vida y el hero\u00edsmo.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.23583269435048893,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico, sino m\u00e1s bien serio y heroico en su tono.  Utiliza un lenguaje elevado y referencias hist\u00f3ricas para expresar temas de gloria, coraje y la lucha por la libertad.  El poema invoca figuras como Laong-Laan (un seud\u00f3nimo de Jos\u00e9 Rizal) y San Nicol\u00e1s, y utiliza im\u00e1genes de \u00eddolos de barro, rosas, lauros y espinas para crear una atm\u00f3sfera de nobleza y sacrificio.  La exhortaci\u00f3n a ser \\\"fuerte y silencioso\\\" y la comparaci\u00f3n con el volc\u00e1n Taal refuerzan la imagen de un h\u00e9roe contenido pero poderoso.  No hay elementos de humor, s\u00e1tira o iron\u00eda que sugieran una intenci\u00f3n c\u00f3mica.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.18234778350254274,
+      "grounding_metadata": null,
+      "index": 1,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico.  M\u00e1s bien, adopta un tono serio y elevado, utilizando un lenguaje formal y referencias hist\u00f3ricas y mitol\u00f3gicas.  Exalta la figura de Laong-Laan (seud\u00f3nimo de Jos\u00e9 Rizal), centr\u00e1ndose en temas como la gloria, la valent\u00eda y la lucha.  La exhortaci\u00f3n a la fuerza y el silencio, junto con la comparaci\u00f3n con el volc\u00e1n Taal, refuerzan la imagen de un h\u00e9roe nacionalista.  No hay elementos de humor, s\u00e1tira o iron\u00eda que sugieran una intenci\u00f3n c\u00f3mica. El estilo es m\u00e1s bien \u00e9pico y declamatorio.  Aunque la menci\u00f3n de San Nicol\u00e1s y Sampalok podr\u00eda parecer fuera de lugar, estos elementos parecen contribuir a la atm\u00f3sfera general de misticismo y no a un efecto humor\u00edstico.  La estructura del poema, con sus rimas y m\u00e9trica regulares, tambi\u00e9n se aleja de lo que se esperar\u00eda de un poema c\u00f3mico.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.22769666399274555,
+      "grounding_metadata": null,
+      "index": 2,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico. M\u00e1s bien, adopta un tono serio y elevado, utilizando un lenguaje formal y referencias hist\u00f3ricas y mitol\u00f3gicas (Laong-Laan). El tema central gira en torno a la gloria, la fuerza, la perseverancia y el liderazgo, m\u00e1s que al humor o la comedia. Se ensalza la figura de Laong-Laan y se le insta a ser fuerte y silencioso, imitando la fuerza del volc\u00e1n Taal. La estructura del poema, con sus rimas y m\u00e9trica, refuerza la solemnidad del mensaje. No hay elementos de iron\u00eda, sarcasmo, absurdo o juego de palabras que sugieran una intenci\u00f3n humor\u00edstica. El poema busca inspirar y motivar, no provocar la risa.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.18298271641586766,
+      "grounding_metadata": null,
+      "index": 3,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico. M\u00e1s bien, adopta un tono serio y elevado, utilizando un lenguaje formal y referencias hist\u00f3ricas y mitol\u00f3gicas. El poema alaba a \\\"Laong-Laan\\\" (un seud\u00f3nimo de Jos\u00e9 Rizal, h\u00e9roe nacional filipino) y lo exhorta a ser fuerte y silencioso como el volc\u00e1n Taal.  La imaginer\u00eda del poema, con referencias a \u00eddolos de barro, lauros, espinas, y la lucha por la vida, sugiere temas de hero\u00edsmo, perseverancia y la importancia de la acci\u00f3n frente a la adversidad. El estilo del poema es declamatorio y busca inspirar, no provocar la risa. No hay elementos de humor, s\u00e1tira, o iron\u00eda que sugieran una intenci\u00f3n c\u00f3mica.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.1595647279606309,
+      "grounding_metadata": null,
+      "index": 4,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 857,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 857
+      }
+    ],
+    "prompt_token_count": 294,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 294
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 1151,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "no",
+      "reason": "El poema no es c\u00f3mico, sino m\u00e1s bien serio y heroico en tono.  Utiliza un lenguaje elevado y referencias hist\u00f3ricas/culturales (Laong-Laan, San Nicol\u00e1s, Sampalok, Taal) para invocar un sentido de orgullo, fuerza y perseverancia. El poema exhorta a Laong-Laan a ser fuerte y silencioso, como el volc\u00e1n Taal, y a no moldear estatuas ni erigir altares en vano.  Describe la vida como una lucha y enfatiza la importancia de la perseverancia. Estos temas no son c\u00f3micos, sino que reflejan una seria contemplaci\u00f3n sobre la vida y el hero\u00edsmo."
+    }
+  ]
+}

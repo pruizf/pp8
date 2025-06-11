@@ -1,0 +1,23 @@
+{
+  "id": "8c222ddbc4f246d289ccdf0b8ce4048b",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 81,
+    "total_tokens": 172
+  },
+  "created": 1749671327,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"All\u00ed, donde el sol con su luz m\u00e1s pura\\nBrilla en el lago de cristal sereno,\\nY en la espesura\\nEl ruise\u00f1or suspira su ternura,\\nAll\u00ed, entre flores y sombras, el destino\\nMe depar\u00f3 un instante de ventura.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

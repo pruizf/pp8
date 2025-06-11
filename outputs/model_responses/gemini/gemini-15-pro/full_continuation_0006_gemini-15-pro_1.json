@@ -1,0 +1,78 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Era un reloj de sol mal encarado.\\n\u00c9rase un elefante boca arriba,\\n\u00c9rase una nariz say\u00f3n y escriba,\\nUn Ovidio Nas\u00f3n mal narigado.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": {
+        "citations": [
+          {
+            "end_index": 166,
+            "license": null,
+            "publication_date": null,
+            "start_index": 42,
+            "title": null,
+            "uri": "https://github.com/giorno-gio/ANDROID2022"
+          }
+        ]
+      },
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.025281722729022685,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 52,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 52
+      }
+    ],
+    "prompt_token_count": 113,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 113
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 165,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Era un reloj de sol mal encarado.\n\u00c9rase un elefante boca arriba,\n\u00c9rase una nariz say\u00f3n y escriba,\nUn Ovidio Nas\u00f3n mal narigado."
+    }
+  ]
+}

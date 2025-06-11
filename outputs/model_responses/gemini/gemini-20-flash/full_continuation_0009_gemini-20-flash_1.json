@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[\n  {\n    \"judgement\": \"s\u00ed\",\n    \"continuation\": \"con un hipo glacial, sacud\u00eda su borracha\\ncabezota, gimiendo cantares diferentes.\\nYo pensaba en la ninfa de eb\u00farneas, transparentes\\nalas, que en las noches tibias del Indost\u00e1n se empacha\\nde opio... \u00a1Oh, la princesa! \u00a1Su gesto! \u00a1Y sus cabellos!\\n\u00a1Oh, la rara perversi\u00f3n de sus encajes ricos!\\n\u00a1Y el exotismo cruel de sus heliotropos bellos!... \\nYo so\u00f1aba en la reina de Saba, y en sus mirtos...\"\n  }\n]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.559917238023546,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.0-flash",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 144,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 144
+      }
+    ],
+    "prompt_token_count": 133,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 133
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 277,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "con un hipo glacial, sacud\u00eda su borracha\ncabezota, gimiendo cantares diferentes.\nYo pensaba en la ninfa de eb\u00farneas, transparentes\nalas, que en las noches tibias del Indost\u00e1n se empacha\nde opio... \u00a1Oh, la princesa! \u00a1Su gesto! \u00a1Y sus cabellos!\n\u00a1Oh, la rara perversi\u00f3n de sus encajes ricos!\n\u00a1Y el exotismo cruel de sus heliotropos bellos!... \nYo so\u00f1aba en la reina de Saba, y en sus mirtos..."
+    }
+  ]
+}

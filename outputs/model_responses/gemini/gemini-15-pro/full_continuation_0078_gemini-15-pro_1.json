@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"y en la lid fiera el peso rudo de tu brava\\nmano, dej\u00f3 tendidos a tus pies los fuertes cuerpos,\\ncomo en el campo yertos, cuando el turbi\u00f3n desata\\nsu furia, caen tronchados por el rayo los robles\\nque en la monta\u00f1a altivos descuellan soberbios.\\nEl eco de la lucha reson\u00f3 en los \u00e1mbitos\\ndel cielo, y el Averno tembl\u00f3 con sus horrores\\nal golpe imponente de tu brazo denodado.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.601120940909898,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 121,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 121
+      }
+    ],
+    "prompt_token_count": 143,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 143
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 264,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "y en la lid fiera el peso rudo de tu brava\nmano, dej\u00f3 tendidos a tus pies los fuertes cuerpos,\ncomo en el campo yertos, cuando el turbi\u00f3n desata\nsu furia, caen tronchados por el rayo los robles\nque en la monta\u00f1a altivos descuellan soberbios.\nEl eco de la lucha reson\u00f3 en los \u00e1mbitos\ndel cielo, y el Averno tembl\u00f3 con sus horrores\nal golpe imponente de tu brazo denodado."
+    }
+  ]
+}

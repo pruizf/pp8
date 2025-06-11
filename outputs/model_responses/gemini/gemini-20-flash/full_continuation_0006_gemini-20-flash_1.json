@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[\n  {\n    \"judgement\": \"s\u00ed\",\n    \"continuation\": \"era un reloj de sol mal encarado,\\n\u00e9rase una pir\u00e1mide negativa,\\n\u00e9rase un elefante boca arriba,\\nera Ovidio Nas\u00f3n m\u00e1s narizado.\\n\\n\u00c9rase un espol\u00f3n de una galera,\\n\u00e9rase una pir\u00e1mide de Egipto,\\nlas doce Tribus de narices era;\\n\\n\u00e9rase un naric\u00edsimo infinito,\\nmuch\u00edsimo nariz, nariz tan fiera\\nque en la cara de An\u00e1s fuera delito.\"\n  }\n]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.012991141872245725,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.0-flash",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 119,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 119
+      }
+    ],
+    "prompt_token_count": 113,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 113
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 232,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "era un reloj de sol mal encarado,\n\u00e9rase una pir\u00e1mide negativa,\n\u00e9rase un elefante boca arriba,\nera Ovidio Nas\u00f3n m\u00e1s narizado.\n\n\u00c9rase un espol\u00f3n de una galera,\n\u00e9rase una pir\u00e1mide de Egipto,\nlas doce Tribus de narices era;\n\n\u00e9rase un naric\u00edsimo infinito,\nmuch\u00edsimo nariz, nariz tan fiera\nque en la cara de An\u00e1s fuera delito."
+    }
+  ]
+}

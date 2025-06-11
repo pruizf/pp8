@@ -1,0 +1,75 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"T\u00fa con un ojo, yo bizco del otro,\\nt\u00fa con la sart\u00e9n, yo sin el mango,\\nt\u00fa a las diez en punto, yo a las ocho,\\nt\u00fa de mal genio, yo con desparpajo.\"}, {\"judgement\": \"s\u00ed\", \"continuation\": \"T\u00fa eres mi media naranja, yo tu gajo,\\nT\u00fa me completas, yo te hago un apa\u00f1o,\\nJuntos formamos un extra\u00f1o cortejo,\\nUn par de locos, un perfecto desbarajuste.\"}, {\"judgement\": \"s\u00ed\", \"continuation\": \"T\u00fa en tu castillo, yo en mi caba\u00f1a,\\nt\u00fa con zapatos, yo con alpargatas,\\nt\u00fa la princesa, yo el villano,\\npero al final, los dos somos ratas.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.3444010343165756,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 173,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 173
+      }
+    ],
+    "prompt_token_count": 119,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 119
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 292,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "T\u00fa con un ojo, yo bizco del otro,\nt\u00fa con la sart\u00e9n, yo sin el mango,\nt\u00fa a las diez en punto, yo a las ocho,\nt\u00fa de mal genio, yo con desparpajo."
+    },
+    {
+      "judgement": "s\u00ed",
+      "continuation": "T\u00fa eres mi media naranja, yo tu gajo,\nT\u00fa me completas, yo te hago un apa\u00f1o,\nJuntos formamos un extra\u00f1o cortejo,\nUn par de locos, un perfecto desbarajuste."
+    },
+    {
+      "judgement": "s\u00ed",
+      "continuation": "T\u00fa en tu castillo, yo en mi caba\u00f1a,\nt\u00fa con zapatos, yo con alpargatas,\nt\u00fa la princesa, yo el villano,\npero al final, los dos somos ratas."
+    }
+  ]
+}

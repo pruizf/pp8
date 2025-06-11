@@ -1,0 +1,23 @@
+{
+  "id": "ef8560f7ab87476985b955f03d5e5eb6",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 54,
+    "total_tokens": 151
+  },
+  "created": 1749671658,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"m\u00e1s que el tiempo de mi vida fugaz?\\n\u00bfPor qu\u00e9 tu sombra es eterna y hermosa,\\ncuando yo soy polvo, luz y nada m\u00e1s?\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

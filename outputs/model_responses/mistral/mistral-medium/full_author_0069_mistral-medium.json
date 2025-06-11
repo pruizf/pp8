@@ -1,0 +1,23 @@
+{
+  "id": "f466313599dd4de187ca73a8a9355f50",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 23,
+    "total_tokens": 256
+  },
+  "created": 1749671481,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Francisco de Quevedo\",\n  \"century\": 17\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

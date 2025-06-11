@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-BhJ31qCKKWepp20cWbpKw3d3AsoKk",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"tierra, fuego, aire, agua le suplica,\\npues en piedad, valor y fe se aplica,\\nal Dios servido y al demonio huido.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749661023,
+  "model": "gpt-4.1-2025-04-14",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_51e1070cf2",
+  "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 92,
+    "total_tokens": 142,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

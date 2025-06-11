@@ -1,0 +1,23 @@
+{
+  "id": "a6371595ec2f45e28edf4755a1d82989",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 65,
+    "total_tokens": 156
+  },
+  "created": 1749671196,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00a1Quiero en tu boca de frescas azucenas\\nmi alma derramar en besos gozosos,\\ny en tu mirada de claros fulgores\\nperderme en el infinito de tus ojos!\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

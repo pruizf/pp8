@@ -1,0 +1,23 @@
+{
+  "id": "15ed2c8a03f6423b9aaa73c2ab9a873e",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 119,
+    "total_tokens": 212
+  },
+  "created": 1749670857,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"con un sayo de cuero y una capa, / que a un lado la espada y al otro el taco, / y el sombrero a la faldriquera, / y la capa a la espalda, / y el sayo a la espalda, / y la espada a la espalda, / y el taco a la espalda, / y el sombrero a la espalda, / y la faldriquera a la espalda, / y el valent\u00f3n a la espalda.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

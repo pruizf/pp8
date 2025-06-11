@@ -1,0 +1,23 @@
+{
+  "id": "0a2b6d0ff60b4add8e4bebf9c4470381",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 97,
+    "total_tokens": 199
+  },
+  "created": 1749671603,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"los uni\u00f3 en sagrado y eterno lazo,\\nella sinti\u00f3 el peso de un amor callado,\\ncomo un sue\u00f1o que al fin se hace abrazo.\\nMas la luna, testigo de su dicha,\\ncon su luz plateada los cubri\u00f3,\\ny en el cielo, la noche m\u00e1s propicia,\\nles susurr\u00f3 promesas de pasi\u00f3n y amor.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

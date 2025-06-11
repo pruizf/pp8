@@ -1,0 +1,23 @@
+{
+  "id": "db77033e0f3542bba38ede76d49358c4",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 24,
+    "total_tokens": 255
+  },
+  "created": 1749671251,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Gaspar N\u00fa\u00f1ez de Arce\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

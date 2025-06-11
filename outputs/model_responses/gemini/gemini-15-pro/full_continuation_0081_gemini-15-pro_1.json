@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"que en la tierra se escucha, y el encanto\\nde ang\u00e9licas armon\u00edas, cuyo llanto\\ninterrumpe en la lira, cuyo canto\\ncelebra con divino y tierno llanto.\\n\\nSi al cielo sube absorto, all\u00ed del manto\\nde Mar\u00eda, el favor, con dulce espanto,\\nrecibe en premio de su fe y su encanto.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.5806363561879033,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 92,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 92
+      }
+    ],
+    "prompt_token_count": 121,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 121
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 213,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "que en la tierra se escucha, y el encanto\nde ang\u00e9licas armon\u00edas, cuyo llanto\ninterrumpe en la lira, cuyo canto\ncelebra con divino y tierno llanto.\n\nSi al cielo sube absorto, all\u00ed del manto\nde Mar\u00eda, el favor, con dulce espanto,\nrecibe en premio de su fe y su encanto."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[\n  {\n    \"judgement\": \"s\u00ed\",\n    \"continuation\": \"Y as\u00ed, cual torbellino que serena,\\nllegar\u00e9 hasta tu lecho, do me inflamo,\\ncon el alma desnuda, que proclamo\\ntu imperio eterno, due\u00f1a de mi pena.\\n\\nNo importa el qu\u00e9 dir\u00e1n, ni la censura\\nde aquellos que en el amar no hallan ventura,\\nmas solo el fr\u00edo c\u00e1lculo y el provecho.\\n\\nNosotros, cual amantes decididos,\\nforjaremos un mundo de latidos,\\ny as\u00ed, callaremos de la duda el hecho.\"\n  }\n]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.6512607150607639,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.0-flash",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 135,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 135
+      }
+    ],
+    "prompt_token_count": 112,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 112
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 247,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Y as\u00ed, cual torbellino que serena,\nllegar\u00e9 hasta tu lecho, do me inflamo,\ncon el alma desnuda, que proclamo\ntu imperio eterno, due\u00f1a de mi pena.\n\nNo importa el qu\u00e9 dir\u00e1n, ni la censura\nde aquellos que en el amar no hallan ventura,\nmas solo el fr\u00edo c\u00e1lculo y el provecho.\n\nNosotros, cual amantes decididos,\nforjaremos un mundo de latidos,\ny as\u00ed, callaremos de la duda el hecho."
+    }
+  ]
+}

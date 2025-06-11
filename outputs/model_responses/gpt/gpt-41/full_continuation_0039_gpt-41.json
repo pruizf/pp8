@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-BhIWbqrIaTQscD1BrurwlnL6wIBzH",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00bfqu\u00e9 premio dar\u00e1 al que la encendida\\nira de Aquiles parte y embarc\u00e1se,\\nsalvando de mil muertes a tom\u00e1se\\nde Patroclo la c\u00f3ncava guarida?\\n\\n\u00bfO qu\u00e9 galard\u00f3n, qu\u00e9 aplauso digno hallarse\\npodr\u00e1 para tal hecho y tal osad\u00eda,\\nque a vida y honra iguales hacen fama?\\n\\nD\u00edgalo Eneas, pues de Troya alzarse\\nvio en hombros la esperanza, y en su armada\\nal mundo dio otra vez Troya en su llama.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749659013,
+  "model": "gpt-4.1-2025-04-14",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_51e1070cf2",
+  "usage": {
+    "completion_tokens": 141,
+    "prompt_tokens": 86,
+    "total_tokens": 227,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

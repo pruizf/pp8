@@ -1,0 +1,23 @@
+{
+  "id": "6e68d4ee16f444a981c07b9ac721a42c",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 107,
+    "total_tokens": 202
+  },
+  "created": 1749671467,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Basta de pasear con el paraguas, / y de cazar con el perro mojado, / y de comer con el mantel manchado, / y de dormir con la almohada tras. / Basta de ver el campo tan hermoso, / y de oler el pan reci\u00e9n horneado, / y de escuchar el canto del ruise\u00f1or, / y de sentir el sol tan caluroso.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

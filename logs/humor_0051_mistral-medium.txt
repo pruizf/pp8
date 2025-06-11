@@ -1,0 +1,31 @@
+¿Es cómico el poema siguiente? ¿Por qué?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
+
+La longitud de la respuesta debe ser de 200 palabras.
+
+
+
+La erupción
+
+Hierve la sangre en las hinchadas venas,
+Fuego brotar parecen las mejillas,
+Se doblan hacía el suelo las rodillas
+Y el hombre más audaz respira apenas.
+
+Rompiera, a hallarse preso, sus cadenas,
+Y de valor hiciera maravillas;
+Pero siente en el cuerpo unas cosquillas
+Que vértigo le dan y angustia y penas.
+
+Arroja espuma su entreabierta boca,
+Retuércese en las sienes el cabello,
+Todo le hiela y todo le sofoca;
+
+Su bronco respirar es ya resuello...
+Rompe al fin la erupción, y sólo toca
+Un grano en la nariz y otro en el cuello.

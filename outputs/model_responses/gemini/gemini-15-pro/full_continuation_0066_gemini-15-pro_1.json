@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Leda... Rodr\u00edguez\\nT\u00edndaro duerme, pero s\u00e9 discreta,\\nQue J\u00fapiter acecha tu decoro,\\nY si el amor de Europa le hizo toro,\\nBuscar\u00e1 para el tuyo nueva treta.\\n\\nNo es un cisne feliz, ni un \u00e1guila fiera,\\nNi un toro de lujuria y de poder,\\nEs el verso alado que ha de traer\\nTu nombre a la inmortal primavera.\\n\\nLeda... Rodr\u00edguez,\\ntuya ser\u00e1 la gloria\\nDe ascender al Olimpo en alas de cristalino verso,\\nDonde los dioses tejen un concierto\\nY tu nombre se une a su memoria.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.3609108502351785,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 158,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 158
+      }
+    ],
+    "prompt_token_count": 118,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 118
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 276,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Leda... Rodr\u00edguez\nT\u00edndaro duerme, pero s\u00e9 discreta,\nQue J\u00fapiter acecha tu decoro,\nY si el amor de Europa le hizo toro,\nBuscar\u00e1 para el tuyo nueva treta.\n\nNo es un cisne feliz, ni un \u00e1guila fiera,\nNi un toro de lujuria y de poder,\nEs el verso alado que ha de traer\nTu nombre a la inmortal primavera.\n\nLeda... Rodr\u00edguez,\ntuya ser\u00e1 la gloria\nDe ascender al Olimpo en alas de cristalino verso,\nDonde los dioses tejen un concierto\nY tu nombre se une a su memoria."
+    }
+  ]
+}

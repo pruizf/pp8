@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-BhJ5Za6O9SGQLzx0jnaxPbIlcFdBF",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"remonta el pensamiento, raudo y fuerte,\\npara buscar el sol tras de la muerte,\\no descubrir del ser el hondo arcano,\\ne ir de la sombra al porvenir lejano\\ny del caos de la vida a la gran suerte.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749661181,
+  "model": "gpt-4.1-2025-04-14",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_799e4ca3f1",
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 94,
+    "total_tokens": 162,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

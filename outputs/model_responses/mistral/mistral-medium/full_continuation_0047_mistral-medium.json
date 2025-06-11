@@ -1,0 +1,23 @@
+{
+  "id": "ca2175cc7b6045c1851b7c3ec6d6bab4",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 108,
+    "total_tokens": 207
+  },
+  "created": 1749671248,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Sigue tu camino sin miedo ni prisa,\\nque el tiempo es testigo de tu grandeza.\\nLa luna sigue brillante y serena,\\nindiferente a la vana terquedad.\\n\\nNo son los ladridos lo que importa,\\nsino el eco de tu voz en la noche.\\nQue tu luz, como ella, sea constante,\\nun faro en la sombra que nunca se apague.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

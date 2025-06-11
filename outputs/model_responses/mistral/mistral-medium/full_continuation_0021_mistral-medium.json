@@ -1,0 +1,23 @@
+{
+  "id": "d6364caeedf7446798234ff0cda3809b",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 180,
+    "total_tokens": 277
+  },
+  "created": 1749671010,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00bfEres acaso el sue\u00f1o que me mece, / dulce ilusi\u00f3n de un alma enamorada, / o eres la verdad que en luz dorada / mi ser confuso y errante enderece? / \u00bfEres la fe que en mi dolor florece, / o el eco de una voz ya olvidada? / \u00a1Oh, dime qui\u00e9n eres, sombra amada, / que en mi noche oscura luz me ofreces! / Mas no me respondes, y en tu vuelo / te pierdes como el humo en la ma\u00f1ana, / dejando en mi alma un vac\u00edo anhelo. / \u00bfSer\u00e1s la muerte, que con dulce enga\u00f1o / me arrulla en brazos de su eterna calma, / o el nuevo d\u00eda de un eterno sue\u00f1o?\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

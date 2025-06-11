@@ -1,0 +1,23 @@
+{
+  "id": "36399e94e5094a8fa3689aea0522325e",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 109,
+    "completion_tokens": 191,
+    "total_tokens": 300
+  },
+  "created": 1749671444,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Es la mujer cadena que nos ata, / y a que desde el nacer nos condenamos: / unos por penitencia la buscamos, / otros por galard\u00f3n la merecemos. / Es la mujer tormento que padecemos, / y a que desde el nacer nos condenamos: / unos por penitencia la buscamos, / otros por galard\u00f3n la merecemos. / Es la mujer dolor que nos acompa\u00f1a, / y a que desde el nacer nos condenamos: / unos por penitencia la buscamos, / otros por galard\u00f3n la merecemos. / Es la mujer la muerte que nos da\u00f1a, / y a que desde el nacer nos condenamos: / unos por penitencia la buscamos, / otros por galard\u00f3n la merecemos.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

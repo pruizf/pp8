@@ -1,0 +1,23 @@
+{
+  "id": "581e91e10e4842bb862908a1523d70f4",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 124,
+    "total_tokens": 214
+  },
+  "created": 1749671144,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas no te asombres si al bajar te encuentras\\ncon la tierra que te vio nacer,\\nque aunque el cielo te llame con sus cuitas,\\nla jaula de oro es tu lugar.\\n\\nNo hay libertad sin ataduras ciertas,\\nni vuelo eterno sin volver,\\nque hasta el sol m\u00e1s brillante en su carrera\\nhalla en la noche su deber.\\n\\nAs\u00ed, p\u00e1jaro de luz y trino,\\ncanta, pero no olvides el camino.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

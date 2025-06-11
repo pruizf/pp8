@@ -1,0 +1,23 @@
+{
+  "id": "497c647b10db41ca9f41f1308726c606",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 92,
+    "completion_tokens": 100,
+    "total_tokens": 192
+  },
+  "created": 1749671710,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00a1Qu\u00e9 versos de pasi\u00f3n y de dolor!\\nSon risas y son l\u00e1grimas ardientes,\\nson ecos de un alma que se siente\\nherida por el dardo del amor.\\n\\nPero nadie ha sabido expresar\\nese fuego que quema y no se apaga,\\nese anhelo que el alma nos amaga\\ny nos hace so\u00f1ar y suspirar.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

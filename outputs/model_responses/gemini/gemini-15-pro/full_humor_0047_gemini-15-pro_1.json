@@ -1,0 +1,183 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Ladrar a la luna\\\" no es c\u00f3mico, sino que tiene un tono serio y reflexivo.  Expresa un mensaje de aliento y perseverancia ante la envidia y los ataques de otros.  Utiliza la met\u00e1fora de los perros ladrando a la luna para ilustrar la insignificancia de las cr\u00edticas malintencionadas frente al valor propio y el talento.  Adem\u00e1s, emplea im\u00e1genes como la del Escorial para simbolizar la fortaleza interior del individuo.  El refr\u00e1n final \\\"Se apedrean las plantas que dan fruto\\\" refuerza la idea de que las cr\u00edticas suelen dirigirse hacia aquellos que destacan por sus logros. En resumen, el poema se centra en temas como la resiliencia, la confianza en uno mismo y la importancia de ignorar las cr\u00edticas destructivas, temas que no son c\u00f3micos en naturaleza.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.14798604288408834,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Ladrar a la luna\\\" no es c\u00f3mico, sino que tiene un tono inspirador y de autoafirmaci\u00f3n. Exhorta al lector a no desanimarse ante la envidia y los celos, utilizando la met\u00e1fora de los perros que ladran a la luna, la cual permanece impasible en el cielo. El poema argumenta que los ataques y las cr\u00edticas son, a menudo, se\u00f1ales de que se est\u00e1 haciendo algo valioso, al igual que las plantas que dan fruto son las que reciben las pedradas. En lugar de ser c\u00f3mico, el poema busca animar y fortalecer al lector frente a la adversidad, record\u00e1ndole su propio valor y la insignificancia de las cr\u00edticas infundadas.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.09055167436599731,
+      "grounding_metadata": null,
+      "index": 1,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Ladrar a la luna\\\" no es c\u00f3mico, sino que tiene un tono inspirador y de autoafirmaci\u00f3n. El poema utiliza la met\u00e1fora de los perros ladrando a la luna para representar la envidia y los celos de aquellos que intentan derribar al sujeto del poema. La luna, impasible ante los ladridos, simboliza la grandeza y la seguridad en s\u00ed mismo del sujeto. El poema argumenta que la envidia y los celos son in\u00fatiles y que el talento del sujeto, comparado con el Escorial, es inquebrantable.  La referencia a las plantas que dan fruto y que son apedreadas refuerza la idea de que el \u00e9xito a menudo atrae la envidia, pero que no debe desanimar al sujeto. En general, el poema transmite un mensaje de resiliencia, perseverancia y confianza en el propio talento. No hay elementos humor\u00edsticos ni intentos de provocar la risa. El lenguaje es elevado y el tema es serio.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.1142343293636217,
+      "grounding_metadata": null,
+      "index": 2,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Ladrar a la luna\\\" no es c\u00f3mico, sino que tiene un tono serio y reflexivo.  Expresa un mensaje de aliento y perseverancia ante la envidia y las adversidades.  Utiliza la met\u00e1fora de los perros ladrando a la luna para ilustrar la insignificancia de los ataques de quienes intentan menoscabar el talento y el \u00e9xito del sujeto del poema.  El autor anima a su interlocutor a no desfallecer ante las cr\u00edticas y a seguir adelante, record\u00e1ndole que las personas que dan fruto, como las plantas, son las que suelen ser objeto de ataques, mientras que aquellos que son est\u00e9riles pasan desapercibidos.  En resumen, el poema se centra en temas como la resiliencia, la perseverancia y el valor del propio talento frente a la envidia, por lo que su prop\u00f3sito es inspirar y motivar, no provocar la risa.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.189886937687053,
+      "grounding_metadata": null,
+      "index": 3,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema \\\"Ladrar a la luna\\\" no es c\u00f3mico, sino que tiene un tono serio y reflexivo. Se centra en temas como la envidia, la perseverancia ante la adversidad y el valor del trabajo propio. El hablante l\u00edrico anima a alguien a no desanimarse por las cr\u00edticas o los intentos de derribarlo, utilizando la met\u00e1fora de los perros que ladran a la luna, que permanece indiferente.  El poema argumenta que las personas que generan frutos, como el \u00e1rbol que da frutos, son las que suelen ser objeto de ataques, mientras que aquellos que no producen nada (el \u00e1rbol est\u00e9ril) son ignorados.  En lugar de humor, el poema transmite un mensaje de resistencia y autoafirmaci\u00f3n, utilizando un lenguaje elevado y recursos literarios como la met\u00e1fora y la ret\u00f3rica.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.10929253826970639,
+      "grounding_metadata": null,
+      "index": 4,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 949,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 949
+      }
+    ],
+    "prompt_token_count": 256,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 256
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 1205,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "no",
+      "reason": "El poema \"Ladrar a la luna\" no es c\u00f3mico, sino que tiene un tono serio y reflexivo.  Expresa un mensaje de aliento y perseverancia ante la envidia y los ataques de otros.  Utiliza la met\u00e1fora de los perros ladrando a la luna para ilustrar la insignificancia de las cr\u00edticas malintencionadas frente al valor propio y el talento.  Adem\u00e1s, emplea im\u00e1genes como la del Escorial para simbolizar la fortaleza interior del individuo.  El refr\u00e1n final \"Se apedrean las plantas que dan fruto\" refuerza la idea de que las cr\u00edticas suelen dirigirse hacia aquellos que destacan por sus logros. En resumen, el poema se centra en temas como la resiliencia, la confianza en uno mismo y la importancia de ignorar las cr\u00edticas destructivas, temas que no son c\u00f3micos en naturaleza."
+    }
+  ]
+}

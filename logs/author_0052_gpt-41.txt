@@ -1,0 +1,28 @@
+¿Sabes quién es el autor o autora del poema siguiente?
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "author": "nombre y apellidos del autor o autora"
+  "century": "siglo en el que vivió, en números arábigos"
+}
+
+
+
+No hay regla sin excepción
+
+Pasó ya la estación de los amores
+Y la edad de los sueños placentera;
+Pasó la deliciosa primavera,
+Y con ella los frutos y las flores.
+
+Pasarán de la suerte los favores
+Y de la vida la gentil quimera,
+Como pasan, cruzando por la esfera,
+Relámpagos de fuego brilladores.
+
+También pasaron los instantes puros
+En que el alma a sus dichas no halló tasa,
+Ni vio para su afán diques ni muros;
+
+Todo, al cabo, pasó; sólo no pasa
+Una moneda falsa de dos duros
+Que tengo hace tres meses en mi casa.

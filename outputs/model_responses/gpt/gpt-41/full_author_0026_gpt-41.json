@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-BhIPEh4ScBpYbcRDbCUfcZJ1HhpnC",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Juana In\u00e9s de la Cruz\",\n  \"century\": \"17\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749658556,
+  "model": "gpt-4.1-2025-04-14",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_51e1070cf2",
+  "usage": {
+    "completion_tokens": 23,
+    "prompt_tokens": 220,
+    "total_tokens": 243,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

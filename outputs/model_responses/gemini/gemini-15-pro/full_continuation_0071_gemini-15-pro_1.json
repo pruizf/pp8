@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Yo declaro guerra, y mi furor se anega;\\nromper las armas, Apolo, y que se diga\\nque yo, que soy de tu familia propia,\\nsi en la palestra el lauro se me niega,\\nla pluma es rayo celestial que env\u00eda\\ncontra la envidia mi justicia agravia.\\n\\n\u00bfCu\u00e1l es el premio de un trabajo inmenso\\nque roba el tiempo, la quietud, la vida,\\nsi no es el fruto de su dulce esencia?\\n\u00bfQui\u00e9n, en la arena fatigado y mudo,\\ncorre sin premio, o sin corona ostenta\\nsus miembros rotos y su frente herida?\\n\\nSi el que trabaja y no halla galard\u00f3n,\\nsi el que madruga s\u00f3lo ve la escarcha,\\nsi el que se afana da a su cuerpo carga,\\ny si en la cosecha niega el cielo el don,\\n\u00bfqui\u00e9n sustentar podr\u00e1 su d\u00e9bil vida,\\no qui\u00e9n errar podr\u00e1 por yerma playa?\\n\\n\u00a1Oh, desdichado del ingenio agudo\\nque, avaro siempre del trabajo ajeno,\\nmira con odio el celestial dise\u00f1o\\ny escribe en prosa, numeroso y rudo!\\n\u00bfQu\u00e9 importa al mundo su rigor est\u00e9ril,\\nsi el cielo al fin no da su premio pleno?\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.7927666882199232,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 293,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 293
+      }
+    ],
+    "prompt_token_count": 131,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 131
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 424,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Yo declaro guerra, y mi furor se anega;\nromper las armas, Apolo, y que se diga\nque yo, que soy de tu familia propia,\nsi en la palestra el lauro se me niega,\nla pluma es rayo celestial que env\u00eda\ncontra la envidia mi justicia agravia.\n\n\u00bfCu\u00e1l es el premio de un trabajo inmenso\nque roba el tiempo, la quietud, la vida,\nsi no es el fruto de su dulce esencia?\n\u00bfQui\u00e9n, en la arena fatigado y mudo,\ncorre sin premio, o sin corona ostenta\nsus miembros rotos y su frente herida?\n\nSi el que trabaja y no halla galard\u00f3n,\nsi el que madruga s\u00f3lo ve la escarcha,\nsi el que se afana da a su cuerpo carga,\ny si en la cosecha niega el cielo el don,\n\u00bfqui\u00e9n sustentar podr\u00e1 su d\u00e9bil vida,\no qui\u00e9n errar podr\u00e1 por yerma playa?\n\n\u00a1Oh, desdichado del ingenio agudo\nque, avaro siempre del trabajo ajeno,\nmira con odio el celestial dise\u00f1o\ny escribe en prosa, numeroso y rudo!\n\u00bfQu\u00e9 importa al mundo su rigor est\u00e9ril,\nsi el cielo al fin no da su premio pleno?"
+    }
+  ]
+}

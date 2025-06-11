@@ -1,0 +1,16 @@
+¿Sabes cómo continúa el poema siguiente?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no",
+  "continuation": "continuación del poema"
+}
+
+
+
+Soneto
+
+Entré a comprar turrón, cuando un zapato			
+se me quedó enganchado en la cortina;			
+la confitera con su voz divina			
+me dijo: «Amigo, le cogió a usté el gato»			

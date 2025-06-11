@@ -1,0 +1,34 @@
+¿Es cómico el poema siguiente? ¿Por qué?
+
+Da una respuesta en JSON con la siguiente estructura:
+{
+  "judgement": "sí|no|incierto",
+  "reason": "razón de la respuesta"
+}
+
+La longitud de la respuesta debe ser de 200 palabras.
+
+
+
+Oración fúnebre
+
+Murió no sé en qué pueblo una señora,
+Y siguiendo costumbre inveterada,
+Inundóse de gente la morada,
+Amigos de illo tempore, o de ahora.
+
+-¿Quién es, dijo un galán, aquel que llora?
+-El viudo de la joven malograda.
+-¿Y esa mujer de luto?
+-Su cuñada.
+
+-¿Y aquella del rincón?
+-La peinadora.
+
+-¿Y ése que de una mesa en el testero
+A cuantos entran «¿Cómo va?», pregunta?
+-Debe ser el doctor, a lo que infiero.
+
+-¿Y aquél que está sentado a la otra punta?
+-¿Cuál, aquel que parece un majadero?
+¡Fue la debilidad de la difunta!

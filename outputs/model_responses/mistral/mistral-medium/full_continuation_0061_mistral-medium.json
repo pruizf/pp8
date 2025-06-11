@@ -1,0 +1,23 @@
+{
+  "id": "c22d6fba55934d9fabe2bef4e151aaad",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 73,
+    "total_tokens": 173
+  },
+  "created": 1749671373,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Una gota de amor, un rayo de luna,\\nuna pizca de sue\u00f1os y un poco de fortuna.\\nRemueve con un suspiro y bebe despacio,\\nque el n\u00e9ctar de los dioses es puro y escaso.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

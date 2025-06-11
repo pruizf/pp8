@@ -1,0 +1,23 @@
+{
+  "id": "c3cb6919c29f466badce88eb1868accd",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 24,
+    "total_tokens": 230
+  },
+  "created": 1749671107,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Garcilaso de la Vega\",\n  \"century\": 16\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

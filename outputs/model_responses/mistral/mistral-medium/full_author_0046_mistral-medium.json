@@ -1,0 +1,23 @@
+{
+  "id": "0a63f52a935248d7a2956f6b0290450e",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 23,
+    "total_tokens": 254
+  },
+  "created": 1749671243,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Gabriela Mistral\",\n  \"century\": 20\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

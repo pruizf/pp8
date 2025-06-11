@@ -27,6 +27,20 @@ class HumorResponse(BaseModel):
   judgement: str
   reason: str
 
+class ContinuationResponse(BaseModel):
+  """
+  Model for continuation response.
+  """
+  judgement: str
+  continuation: str
+  
+class AuthorResponse(BaseModel):
+  """
+  Model for author response.
+  """
+  author: str 
+  century: int
+
 
 def get_gemini_response(gclient, model, prompt, cf, call_type):
   """
@@ -41,13 +55,21 @@ def get_gemini_response(gclient, model, prompt, cf, call_type):
   Returns:
       tuple: A tuple containing the humor response and the response time in seconds.
   """
+  # chose schema to populate json response
+  if call_type == "continuation":
+    response_class = ContinuationResponse
+  elif call_type == "author":
+    response_class = AuthorResponse
+  else:
+    response_class = HumorResponse
+
   t1 = time.time()
   completion = gclient.models.generate_content(
     model=model,
     contents=prompt,    
     config=genai.types.GenerateContentConfig(
       response_mime_type="application/json",
-      response_schema=list[HumorResponse],
+      response_schema=list[response_class],
       temperature=cf.gemini_config["temperature"],
       candidate_count=cf.gemini_config["number_of_completions_humor"] \
         if call_type == "humor" else cf.gemini_config["number_of_completions_general"],

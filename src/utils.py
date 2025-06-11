@@ -254,7 +254,7 @@ def get_judgement_info_for_dir(dname, max_choices=cf.max_choices_for_textometry)
 
 
 def postprocess_full_into_individual_responses(cf, dir_to_postpro, model):
-  """re
+  """
   Post-process the full response into individual responses.
 
   Args:
@@ -275,7 +275,7 @@ def postprocess_full_into_individual_responses(cf, dir_to_postpro, model):
     
     # get the related txt name (poem ID from the original filename)
     # needed for code that writes individual responses
-    example_number= re.search(r"_(\d{2,}+)_", fn).group(1)
+    example_number= re.search(r"_(\d{2,})_", fn).group(1)
     assert len(example_number) > 0    
     txt_for_resp = [x for x in os.listdir(cf.corpus_dir) if re.search(rf"{example_number}.txt", x)][0]  
 

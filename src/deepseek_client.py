@@ -252,6 +252,8 @@ def parse_args():
   parser.add_argument("--check_for_suffix", "-c", action="store_true")
   parser.add_argument("--sleep", "-s", type=int, default=2,)
   return parser.parse_args()
+
+
 if __name__ == "__main__":
   for modu in cf, pr, ut:
     reload(modu)
@@ -313,7 +315,7 @@ if __name__ == "__main__":
       poem_text = ut.get_poem_text_by_fn(os.path.join(cf.corpus_dir, fn))
       for call_type in cf.call_types:
         # only get author and continuation once
-        if completion_suffix >=2 and call_type != "humor":
+        if int(completion_suffix) >= 2 and call_type != "humor":
           continue
         resp_time_df = process_openai_response(
           oa_client, model, cf, fn, poem_text, call_type, suffix=completion_suffix)

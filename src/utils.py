@@ -141,12 +141,15 @@ def get_author_info_for_dir(dname):
           clean_text = re.sub(re.compile(r"^.*\{", re.DOTALL), r"{", f.read())
           clean_text = re.sub(re.compile(r"\}.*$", re.DOTALL), r"}", clean_text)
           auth_info = json.loads(clean_text)
+      # For Gemini responses, auth_info is a list of dicts
+      if type(auth_info) is list:
+        auth_info = auth_info[0]
       au_name = auth_info["author"].strip()
       # if "Juana" in au_name:
       #   breakpoint()
       century = clean_century(str(auth_info["century"]).strip())
       # assign majority class if 
-      if century == "desconocido":
+      if century.lower() in ("desconocido", "no disponible"):
         print(f"  - Warning: unknown century for {au_name} in {fname}, assign 19")
         century = 19
       try:
@@ -161,7 +164,10 @@ def get_author_info_for_dir(dname):
           except Exception as e:
             # get only first numeral
             first_century = re.sub(r"[\s-].*", "", century)
-            century = int(roman.fromRoman(first_century))
+            if first_century.isdigit():
+              century = int(first_century)
+            else:
+              century = int(roman.fromRoman(first_century))
           #print(f"Fixed error with century conversion: {e}")
     infos[os.path.basename(fname)] = [au_name, century]
     #print(auth_info)
@@ -234,8 +240,11 @@ def get_judgement_info_for_dir(dname, max_choices=cf.max_choices_for_textometry)
       except json.decoder.JSONDecodeError as e:
         with open(os.path.join(dname, fname), "r", encoding="utf-8") as f:
           clean_text = re.sub(re.compile(r"^.*\{", re.DOTALL), r"{", f.read())
+          clean_text = re.sub(re.compile(r"\}.*$", re.DOTALL), r"}", clean_text)
           humor_info = json.loads(clean_text)
-        
+      # if humor_info is list take first element
+      if type(humor_info) is list:
+        humor_info = humor_info[0]
       judgement = normalize_judgement(humor_info["judgement"].lower().strip())
       assert judgement in cf.judgements_orig, f"Judgement {judgement} not in possible original judgements."
       #TODO make configurable in config module and with keyword argument

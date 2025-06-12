@@ -351,7 +351,7 @@ if __name__ == "__main__":
       poem_text = ut.get_poem_text_by_fn(os.path.join(cf.corpus_dir, fn))
       for call_type in cf.call_types:
         # only get author and continuation once
-        if int(completion_suffix) >= 2 and call_type != "humor":
+        if False and int(completion_suffix) >= 2 and call_type != "humor":
           print("  - Skipping", call_type, "for", fn, "and", model)
           continue
         resp_time_df = process_anthropic_response(

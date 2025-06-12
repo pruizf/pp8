@@ -55,9 +55,9 @@ mistral_config = {
 # Anthropic -------------------------------------------------------------------
 anthropic_models_actual_versions = {'claude-3-5-sonnet-latest': 'claude-3-5-sonnet-20241022', 'claude-3-5-haiku-latest': 'claude-3-5-haiku-20241022'}
 #anthropic_models = ['claude-sonnet-latest', 'claude-3-5-haiku-latest']
-anthropic_models = ['claude-sonnet-4-20250514']
+#anthropic_models = ['claude-sonnet-4-20250514']
 #anthropic_models = ['claude-3-5-haiku-latest']
-#anthropic_models = ['claude-3-5-sonnet-latest']
+anthropic_models = ['claude-3-5-sonnet-latest']
 anthropic_config = {
   "temperature": 1,
   "max_tokens": 500,

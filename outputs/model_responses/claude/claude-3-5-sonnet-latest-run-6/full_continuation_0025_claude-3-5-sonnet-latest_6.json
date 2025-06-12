@@ -1,0 +1,23 @@
+{
+  "id": "msg_01H6N5ESeQL9PHnnE2qHVSry",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"T\u00fa con tu Juan Tenorio, yo sin bota,\\nt\u00fa con tus dos lunares, yo con uno,\\nt\u00fa nadando en aceite, yo en pelota,\\nt\u00fa pensando en los dos, yo en ninguno.\\n\\nT\u00fa con tu aristocracia, yo plebeyo,\\nt\u00fa en tu costoso lecho, yo en el suelo,\\nt\u00fa una mujer sublime, yo tan feo.\\n\\nT\u00fa descendiente de \u00e1ngel, yo de ateo;\\nt\u00fa mirando a la tierra, yo hacia el cielo...\\n\u00a1Y pensar que te quiero y que me quieres!\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 128,
+    "output_tokens": 173,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

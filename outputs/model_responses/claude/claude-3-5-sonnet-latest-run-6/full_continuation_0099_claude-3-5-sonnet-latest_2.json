@@ -1,0 +1,23 @@
+{
+  "id": "msg_016cC2LpuF79WACmwgproVeW",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que entre juncos deslizas tu corriente!\\n\u00a1Oh campo, dulce campo!, fiel amante\\nque curas mi dolor cuando estoy ausente,\\nt\u00fa solo con tus risas y tus flores\\nme das la calma y quitas los dolores.\"\n}\n\nEste es un poema de Jos\u00e9 Mar\u00eda Gabriel y Gal\u00e1n titulado \"El campo\". El poema completo es una alabanza a la naturaleza y el campo como refugio y consuelo para el alma.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 132,
+    "output_tokens": 136,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

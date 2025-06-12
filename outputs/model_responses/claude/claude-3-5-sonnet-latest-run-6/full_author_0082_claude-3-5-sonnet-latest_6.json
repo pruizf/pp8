@@ -1,0 +1,23 @@
+{
+  "id": "msg_015bP8TXrFm7Cpw9qsLZWrQc",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Jos\u00e9 Joaqu\u00edn de Olmedo\",\n  \"century\": \"19\"\n}\n\nEste soneto fue escrito por Jos\u00e9 Joaqu\u00edn de Olmedo (1780-1847), poeta ecuatoriano, y est\u00e1 dedicado a Jos\u00e9 de La Mar, quien fue presidente del Per\u00fa. El poema forma parte de la literatura hispanoamericana del per\u00edodo de la Independencia.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 260,
+    "output_tokens": 95,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

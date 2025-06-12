@@ -1,0 +1,23 @@
+{
+  "id": "msg_01NoTvPPTzb7mCDycKT2Gd6k",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Pronto el veneno de la vil petaca\nvuestro cerebro sin cesar borra;\nla muerte os busca, y el demonio os corra\ny os mate de una vez la gran carraca.\n\nFuera de aqu\u00ed, canalla vil y flaca,\nque mi tabaco sin cesar se ahorra;\nidos al diablo que os condene y morra,\npues ya mi bolsa se qued\u00f3 tan flaca.\"\n}\n\nEste es un soneto sat\u00edrico del poeta mexicano Manuel M. Flores (1840-1885), donde critica a los amigos que constantemente le piden tabaco sin reciprocar.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 124,
+    "output_tokens": 169,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

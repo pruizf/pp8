@@ -1,0 +1,23 @@
+{
+  "id": "msg_015FTqsyWRkhFmDdYAYorXeB",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"aun a los m\u00e1s agudos y m\u00e1s viejos;\\nya todos son iguales los espejos,\\ny toda en ellos la raz\u00f3n perdida.\\nPero no de su golpe la memoria\\ndeforme quiso, pues la misma pena\\nhoy es de sus afectos dulce historia.\\nSin luz su mente, como el cuerpo, llena\\nde horror sagrado, nos dej\u00f3 en su gloria\\npartido el coraz\u00f3n con Magdalena.\"\n}\n\nEste es un soneto de Sor Juana In\u00e9s de la Cruz titulado \"En la muerte del excelent\u00edsimo se\u00f1or Marqu\u00e9s de Mancera\".",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 128,
+    "output_tokens": 181,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

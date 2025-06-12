@@ -1,0 +1,23 @@
+{
+  "id": "msg_017Bt4QmuYh6o7XojuBAK2Vd",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"De su osado chirumen huye y trueca\nen prosa vil su poes\u00eda de raso;\ny al revolar de su plumaje escaso\nel aire enturbia y el ambiente seca.\n\nDa a sus libros un tinte funerario\ny entre ellos vive como en mausoleo,\nde carcomidas rimas relicario.\n\n\u00a1Pobre rat\u00f3n, cu\u00e1n \u00e1rido te veo,\nrecitando tu m\u00edstico breviario\nsin gracia, sin amor y sin deseo!\"\n}\n\n[Este es un soneto de Manuel Gonz\u00e1lez Prada, poeta peruano]",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 123,
+    "output_tokens": 165,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

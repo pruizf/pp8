@@ -1,0 +1,23 @@
+{
+  "id": "msg_019LRr1BYNxc6LFPHBwkGHu3",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Rub\u00e9n Dar\u00edo\",\n  \"century\": \"19\"\n}\n\nEl poema es de Rub\u00e9n Dar\u00edo (1867-1916), poeta nicarag\u00fcense considerado el m\u00e1ximo representante del modernismo literario en lengua espa\u00f1ola. Este soneto est\u00e1 dedicado a Ram\u00f3n del Valle-Incl\u00e1n, quien cre\u00f3 el personaje del Marqu\u00e9s de Bradom\u00edn.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 310,
+    "output_tokens": 100,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

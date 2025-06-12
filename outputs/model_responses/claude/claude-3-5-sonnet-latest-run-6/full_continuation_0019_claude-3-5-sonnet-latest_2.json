@@ -1,0 +1,23 @@
+{
+  "id": "msg_01VpQPbUGnqNZtFRkf1QcJBi",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"en el caf\u00e9 hablar\u00e1s con alto anhelo;\\npol\u00edtico ser\u00e1s de contra pelo,\\ny el sombrero torcido.\\n\\nA los templos ir\u00e1s por ceremonia;\\nhablar\u00e1s de virtud con iron\u00eda;\\nde Voltaire copiar\u00e1s la parsimonia;\\n\\nY con aire doctoral\\ndir\u00e1s que el que no sabe geometr\u00eda\\nno puede ser moral.\"\n}\n\nEste es un poema sat\u00edrico del siglo XIX titulado \"El Liberal\" o \"Receta para ser liberal\", atribuido a diversos autores, que critica ir\u00f3nicamente el comportamiento superficial de los llamados \"liberales\" de la \u00e9poca.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 128,
+    "output_tokens": 176,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

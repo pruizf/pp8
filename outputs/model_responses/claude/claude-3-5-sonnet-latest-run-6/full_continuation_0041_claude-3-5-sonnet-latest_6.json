@@ -1,0 +1,23 @@
+{
+  "id": "msg_01M7BzNaAirshyYiHojeLoAy",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00a1Y tus sienes ce\u00f1ir de nardos y rosas,\\nque expiren de placer entre mis besos;\\ny deshacerme en \u00e9xtasis, y presos\\ndejar tus labios con mis labios rojos!\\n\\n\u00a1Quiero arrullar, con m\u00fasicas extra\u00f1as,\\ntus sentidos y luego adormecerte;\\ny en tu seno despu\u00e9s, hasta la muerte,\\nderramar el raudal de mis entra\u00f1as!\"\n}\n\nEste es un poema de Manuel Gonz\u00e1lez Prada, poeta peruano del siglo XIX, titulado \"Anhelos\" que forma parte de su obra \"Min\u00fasculas\" (1901).",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 117,
+    "output_tokens": 187,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

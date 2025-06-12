@@ -1,0 +1,23 @@
+{
+  "id": "msg_01FmGBy6nCXUztWeWce6fLzk",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Sentir c\u00f3mo se apaga y se resbala,\\nVerla morir sin poder detenerla;\\nY al cabo de la vida, conocerla\\nCuando ya es imposible recobrarla.\"\n}\n\nEste es un soneto completo de Manuel Guti\u00e9rrez N\u00e1jera, poeta mexicano del siglo XIX. El poema refleja la fugacidad de la felicidad y c\u00f3mo a veces solo llegamos a comprenderla cuando ya la hemos perdido.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 123,
+    "output_tokens": 138,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

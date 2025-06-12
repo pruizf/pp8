@@ -1,0 +1,23 @@
+{
+  "id": "msg_01TEqnPoFm25hG2soFBNvKTV",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Vi que la duda audaz todo lo mida,\\nque la raz\u00f3n se pierde en vago viento,\\ny que es en nuestra mente el sentimiento\\nantorcha por las sombras escondida.\\n\\nMas cuando ya mi esp\u00edritu cansado\\nse hund\u00eda en el escepticismo helado,\\nsurgiste t\u00fa, visi\u00f3n dulce y bendita;\\n\\ny en tus ojos le\u00ed con embeleso\\nlo que vale un amor, lo que es un beso,\\ny todo lo que un alma necesita.\"\n}\n\nEste es un soneto del poeta mexicano Manuel Guti\u00e9rrez N\u00e1jera (1859-1895), uno de los principales representantes del modernismo hispanoamericano.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 121,
+    "output_tokens": 198,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

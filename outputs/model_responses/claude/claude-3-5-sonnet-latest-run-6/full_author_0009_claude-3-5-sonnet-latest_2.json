@@ -1,0 +1,23 @@
+{
+  "id": "msg_016HiZKV4WqkYycobW5hG9UF",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Julio Herrera y Reissig\",\n  \"century\": \"19\"\n}\n\nJulio Herrera y Reissig fue un poeta uruguayo que vivi\u00f3 entre 1875 y 1910. Es considerado uno de los principales representantes del modernismo hispanoamericano y este soneto es caracter\u00edstico de su estilo decadentista y simbolista.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 306,
+    "output_tokens": 95,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

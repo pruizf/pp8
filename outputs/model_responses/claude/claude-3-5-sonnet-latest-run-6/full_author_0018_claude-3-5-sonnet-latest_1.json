@@ -1,0 +1,23 @@
+{
+  "id": "msg_01NmGRvPmMFpCSEhgSS84T5c",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Jos\u00e9 Iglesias de la Casa\",\n  \"century\": \"18\"\n}\n\nEste soneto, conocido como \"Soneto del fresco\", es una obra del poeta espa\u00f1ol Jos\u00e9 Iglesias de la Casa (1748-1791), quien fue un sacerdote y poeta del periodo neocl\u00e1sico espa\u00f1ol. Es famoso por su uso repetitivo y humor\u00edstico de la palabra \"fresco\" y sus variantes, que aparece 14 veces en el poema.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 261,
+    "output_tokens": 119,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "msg_01MFT6ccNfFdzGTen1Kz8bRu",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"llegaste a la marm\u00f3rea fuente oscura,\\nque al reflejar tu l\u00e1nguida figura\\nmezcl\u00f3 sus aguas con tus l\u00e1grimas amantes.\\nY al ver tus tristes ojos apagados,\\ntus mejillas sin rosas y sin vida,\\ny tus cabellos de oro deslustrados,\\nla linfa, por tu pena conmovida,\\nte dijo con sus ecos argentados:\\n\u00a1Tambi\u00e9n las fuentes lloran, mi querida!\"\n}\n\nEste es el soneto \"La Fuente\" de Manuel Guti\u00e9rrez N\u00e1jera, un poeta mexicano del siglo XIX.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 127,
+    "output_tokens": 179,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

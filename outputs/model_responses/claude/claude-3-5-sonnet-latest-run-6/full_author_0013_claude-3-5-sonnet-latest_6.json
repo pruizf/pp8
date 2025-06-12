@@ -1,0 +1,23 @@
+{
+  "id": "msg_01KKvQEksxLNHTQiChZmb9M2",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Jos\u00e9 Selgas Carrasco\",\n  \"century\": \"19\"\n}\n\nEl poema es un soneto del poeta espa\u00f1ol Jos\u00e9 Selgas Carrasco (1822-1882), escritor murciano del Romanticismo espa\u00f1ol que destac\u00f3 tanto en la poes\u00eda como en la prosa. Fue miembro de la Real Academia Espa\u00f1ola y es conocido por sus obras l\u00edricas de car\u00e1cter costumbrista y sentimental.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 277,
+    "output_tokens": 112,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

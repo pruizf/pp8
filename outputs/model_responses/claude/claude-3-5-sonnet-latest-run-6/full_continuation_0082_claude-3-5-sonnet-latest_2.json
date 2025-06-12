@@ -1,0 +1,23 @@
+{
+  "id": "msg_01LmH1xWmZh3p7qngXkSqPsh",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"ante la turba de naciones vanas\\nque deslumbradas con haza\u00f1as vanas,\\nte proclamaban b\u00e1rbaro insolente.\\nGloria fue tuya dividir el mundo\\ncon Alejandro, y conseguir que el hombre\\nte igualase al Maced\u00f3n guerrero;\\nmas fue mayor tu gloria, sin segundo,\\ncuando olvidando tu sangriento nombre\\nfuiste de paz el instructor primero.\"\n}\n\nEste es el soneto \"A Tupac Amaru\" de Juan P\u00edo Mont\u00fafar, un poema que rinde homenaje al l\u00edder ind\u00edgena peruano Jos\u00e9 Gabriel Condorcanqui, conocido como T\u00fapac Amaru II.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 121,
+    "output_tokens": 194,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

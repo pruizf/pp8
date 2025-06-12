@@ -1,0 +1,23 @@
+{
+  "id": "msg_016Q1zqQmoqvdVTPzCMjJ5op",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Del Marqu\u00e9s de Velada me inquieta\\nver cu\u00e1n despacio va por la subida,\\ny Portalegre, con rienda detenida,\\nno s\u00e9 si es cortesano o si es poeta.\\n\\nCu\u00e1l acude a Palacio muy temprano\\ny cu\u00e1l pretende a fuerza de dinero\\nlo que debiera hacer el Rey de mano.\\n\\nYo r\u00edo cuando veo alg\u00fan cordero\\nque deja su manada en el verano\\npor venirse al tumulto matadero.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 127,
+    "output_tokens": 156,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

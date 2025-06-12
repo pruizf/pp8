@@ -1,0 +1,23 @@
+{
+  "id": "msg_01XYNMidwz71LL2mcUmv9nhG",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Francisco de Quevedo y Villegas\",\n  \"century\": \"17\"\n}\n\nEste soneto con estrambote es obra de Francisco de Quevedo, poeta espa\u00f1ol del Siglo de Oro. El poema es una s\u00e1tira que juega con nombres de lugares espa\u00f1oles para criticar a una actriz de la \u00e9poca llamada Josefa Vaca.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 310,
+    "output_tokens": 97,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

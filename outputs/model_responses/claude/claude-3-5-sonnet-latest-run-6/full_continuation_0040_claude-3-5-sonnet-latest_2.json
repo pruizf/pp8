@@ -1,0 +1,23 @@
+{
+  "id": "msg_01XJ6Jcdb349gmnQynZcAEmn",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"En vano mi raz\u00f3n embravecida\nquiso entender el mundanal concento,\nhasta que al fin, en celestial momento,\nme ilumin\u00f3 el fulgor de tu mirada.\n\nY entonces comprend\u00ed que en este suelo\nhay algo que refleja lo del cielo:\nel amor, sol del alma indefinida;\n\ny que en la luz de unos hermosos ojos\nest\u00e1n, para calmar nuestros enojos,\nlos m\u00e1s dulces misterios de la vida.\"\n}\n\nEste es un soneto del poeta mexicano Manuel Guti\u00e9rrez N\u00e1jera (1859-1895).",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 121,
+    "output_tokens": 165,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

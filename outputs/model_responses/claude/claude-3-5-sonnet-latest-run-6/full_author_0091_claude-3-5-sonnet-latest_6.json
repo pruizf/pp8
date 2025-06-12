@@ -1,0 +1,23 @@
+{
+  "id": "msg_01TMQMjxrzaVLE9XN9DT1cwK",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Francisco de Figueroa\",\n  \"century\": \"16\"\n}\n\nEste soneto pertenece a Francisco de Figueroa (1530-1588), poeta espa\u00f1ol del Siglo de Oro conocido tambi\u00e9n como \"El Divino\". Fue un representante destacado de la poes\u00eda renacentista espa\u00f1ola y contempor\u00e1neo de otros grandes poetas como Garcilaso de la Vega.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 251,
+    "output_tokens": 104,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

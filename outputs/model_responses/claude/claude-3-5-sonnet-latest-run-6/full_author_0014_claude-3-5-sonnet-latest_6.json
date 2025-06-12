@@ -1,0 +1,23 @@
+{
+  "id": "msg_01Dj7bPojJ57HvSiUEr7YvgM",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Jos\u00e9 Joaqu\u00edn de Mora\",\n  \"century\": \"19\"\n}\n\nEste es un soneto humor\u00edstico escrito por Jos\u00e9 Joaqu\u00edn de Mora (1783-1864), escritor, educador y pol\u00edtico espa\u00f1ol que vivi\u00f3 durante el siglo XIX. Mora fue un autor prol\u00edfico que escribi\u00f3 tanto poes\u00eda seria como humor\u00edstica, y este soneto pertenece a su vertiente m\u00e1s l\u00fadica.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 272,
+    "output_tokens": 110,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

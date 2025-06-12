@@ -1,0 +1,23 @@
+{
+  "id": "msg_017VAzwjgWvWcAkSrh6aaddM",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"con los hombres altivo y pendenciero;\\nhablar\u00e1s de pol\u00edtica y gobierno,\\ny votar\u00e1s al c\u00f3digo aplaudido.\\n\\nSi alguno te replica, d\u00ed que miente;\\nno sufras que otro opine diferente;\\nhabla de garant\u00edas y derechos;\\n\\ny con gritos y fieros ademanes,\\ninsulta a los serviles y pasteleros,\\ny ser\u00e1s liberal... como hay muchos hechos.\"\n}\n\nEste es un soneto sat\u00edrico del siglo XIX atribuido a Juan Nicasio Gallego que critica el falso liberalismo y la superficialidad de algunos que se llamaban liberales en aquella \u00e9poca.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 128,
+    "output_tokens": 185,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

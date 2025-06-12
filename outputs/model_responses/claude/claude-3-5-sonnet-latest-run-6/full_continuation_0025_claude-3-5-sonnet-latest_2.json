@@ -1,0 +1,23 @@
+{
+  "id": "msg_013rGhaC26U95q1oEPEijCMV",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"T\u00fa que rascas el cielo con pelota,\\nyo que lo tapo con papel de embudo,\\nt\u00fa que dices que s\u00ed cuando se nota,\\nyo que digo que no cuando lo dudo.\\n\\nT\u00fa que vives del aire, yo del vino,\\nt\u00fa que comes pasteles, yo rosquillas,\\nt\u00fa que viajas en metro, yo en pepino.\\n\\nT\u00fa que juegas a monjas, yo a guerrillas,\\nt\u00fa que rezas a un santo, yo a un molino:\\n\u00a1qu\u00e9 pareja de bobos y bobillas!\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 128,
+    "output_tokens": 168,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

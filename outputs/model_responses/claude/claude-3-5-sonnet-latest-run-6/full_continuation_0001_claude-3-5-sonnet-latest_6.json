@@ -1,0 +1,23 @@
+{
+  "id": "msg_011FyqyFNoqGM5EakDcWfogZ",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"El t\u00e9 que tomo yo con mi Ping-pong\\nen las ma\u00f1anas del florido spring,\\ny que me deja todo el day con swing\\ny un dulce bienestar de ping y pong.\\n\\nPor eso admiro a Lao Ts\u00e9 y a Fu-Manch\u00fa,\\ny al viejo Kong-fu-Ts\u00e9, que fue el m\u00e1s magno\\nde los hijos del C\u00e9leste Pa\u00eds;\\n\\ny cuando en el sill\u00f3n estoy ya ex-sang\u00fce,\\ntomo mi taza del brebaje stagno\\ny exclamo convencido: \\\"\u00a1Chop-suey, yes!\\\"\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 125,
+    "output_tokens": 179,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

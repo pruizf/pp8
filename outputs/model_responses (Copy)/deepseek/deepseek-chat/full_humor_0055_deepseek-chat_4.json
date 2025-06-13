@@ -1,0 +1,36 @@
+{
+  "id": "e103e849-9325-4a06-9ce4-7fd128682175",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema 'Idilio' presenta elementos c\u00f3micos a trav\u00e9s de la descripci\u00f3n de situaciones y personajes que, aunque est\u00e1n enmarcados en un contexto po\u00e9tico y rom\u00e1ntico, terminan en una escena absurda y risible. La aparici\u00f3n de Tisbe, descrita inicialmente como una figura tr\u00e1gica y enamorada, culmina en una acci\u00f3n inesperada y desenfadada (soltar la manta y quedarse 'en pelota'), que rompe con la solemnidad del inicio. Este contraste entre lo elevado del lenguaje y la situaci\u00f3n final, junto con la descripci\u00f3n detallada y un tanto exagerada del pie de Tisbe, contribuye al efecto c\u00f3mico del poema. La comicidad surge de la sorpresa y la incongruencia, elementos clave en la humor\u00edstica literaria.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566399,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 202,
+    "prompt_tokens": 253,
+    "total_tokens": 455,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 61
+  }
+}

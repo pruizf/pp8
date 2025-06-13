@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKyxwffzNojr9oDtgyDKbndzvNKZ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Rub\u00e9n Dar\u00edo\",\n  \"century\": \"20\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162475,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 20,
+    "prompt_tokens": 216,
+    "total_tokens": 236
+  }
+}

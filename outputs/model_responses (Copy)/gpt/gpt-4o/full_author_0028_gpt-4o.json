@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKw7eCX2gjjYIN62SUfgSYpT1J46",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Carolina Coronado\",\n  \"century\": \"19\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162299,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_888385ccad",
+  "usage": {
+    "completion_tokens": 20,
+    "prompt_tokens": 215,
+    "total_tokens": 235
+  }
+}

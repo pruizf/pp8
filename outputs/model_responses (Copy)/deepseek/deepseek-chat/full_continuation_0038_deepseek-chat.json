@@ -1,0 +1,36 @@
+{
+  "id": "3139bb95-b409-4456-be3b-26a9818b0316",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Es una sombra que en mi pecho habita,\\nuna voz que en el silencio grita,\\nun fantasma que no puedo olvidar,\\nque vuelve a m\u00ed sin cesar.\\n\\nAunque quiera, no puedo huir,\\nde este dolor que vuelve a surgir,\\nporque en tu nombre, Julio, vive,\\ny en mi memoria siempre sigue.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555095,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 109,
+    "total_tokens": 217,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 45
+  }
+}

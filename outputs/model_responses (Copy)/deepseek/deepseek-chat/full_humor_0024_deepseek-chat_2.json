@@ -1,0 +1,36 @@
+{
+  "id": "bb45e32d-6581-465b-aec6-66fdf7f3e63c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un lenguaje juguet\u00f3n y una estructura que juega con las expectativas del lector, combinando instrucciones aparentemente serias sobre c\u00f3mo escribir un soneto con rimas y palabras inesperadas que generan humor. El uso de palabras como 'chusco', 'chasco', y 'pedrusco', junto con la auto-referencia y la conclusi\u00f3n despreocupada del autor ('\u00a1y me qued\u00e9 tan fresco!'), contribuyen a un tono c\u00f3mico. Adem\u00e1s, la mezcla de un tema tradicionalmente serio como la poes\u00eda con un enfoque ligero y autocr\u00edtico refuerza la intenci\u00f3n humor\u00edstica del poema.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556369,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 168,
+    "prompt_tokens": 256,
+    "total_tokens": 424,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 64
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[\n  {\n    \"judgement\": \"s\u00ed\",\n    \"continuation\": \"que ya es raz\u00f3n, que ya tras tanto halago\\nno te entregues ciego a un nuevo enga\u00f1o.\\nQue el tiempo pasa, y con rigor severo\\nlas flores marchita del ameno prado,\\ny vuelve mustio y triste al caminante\\nque alegre un d\u00eda peregrin\u00f3 amante.\"\n  }\n]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.5255404461871137,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.0-flash",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 91,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 91
+      }
+    ],
+    "prompt_token_count": 117,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 117
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 208,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "que ya es raz\u00f3n, que ya tras tanto halago\nno te entregues ciego a un nuevo enga\u00f1o.\nQue el tiempo pasa, y con rigor severo\nlas flores marchita del ameno prado,\ny vuelve mustio y triste al caminante\nque alegre un d\u00eda peregrin\u00f3 amante."
+    }
+  ]
+}

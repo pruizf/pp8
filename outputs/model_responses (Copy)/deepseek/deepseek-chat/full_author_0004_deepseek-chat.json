@@ -1,0 +1,36 @@
+{
+  "id": "d3f4e6ae-75fb-4f95-be18-61c9f3c7196d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Francisco de Quevedo\",\n  \"century\": 17\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554030,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 26,
+    "prompt_tokens": 279,
+    "total_tokens": 305,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 215
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "e408aa9a-af53-4787-9695-8d293454c9ea",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y aunque veo el peligro de que muero,\\nno hallo en mi coraz\u00f3n fuerza ni arte\\npara dejar de amarte en este infierno.\\n\\nAs\u00ed, en medio del llanto y del tormento,\\nmi vida se consume y se deshace,\\npor un amor que es mi \u00fanico sustento.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559812,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 111,
+    "total_tokens": 202,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 47
+  }
+}

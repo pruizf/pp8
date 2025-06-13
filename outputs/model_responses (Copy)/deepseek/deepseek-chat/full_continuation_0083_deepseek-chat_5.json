@@ -1,0 +1,36 @@
+{
+  "id": "87d12fac-8753-4ca1-a504-2ee4dfa349f6",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"rama del \u00e1rbol que el tiempo deshoja,\\nmas en tu frente la virtud aloja\\nun jard\u00edn de pureza y luz gloriosa.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572592,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 54,
+    "prompt_tokens": 124,
+    "total_tokens": 178,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 60
+  }
+}

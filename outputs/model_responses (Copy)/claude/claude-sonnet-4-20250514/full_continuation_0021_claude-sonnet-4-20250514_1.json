@@ -1,0 +1,23 @@
+{
+  "id": "msg_01DHUXkvUmrxq2DNbHywW9H4",
+  "content": [
+    {
+      "citations": null,
+      "text": "```json\n{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00bfEres acaso el alma que padeces\\nen otro mundo, y compasiva ahora\\nvienes a consolar al que te adora\\ny por tu amor suspira y desfalleces?\\n\\n\u00bfO eres tal vez mi propia fantas\u00eda,\\nhija de mi penar y mi tristeza,\\nque en forma de mujer se me presenta?\\n\\nMas sea lo que fuere, alma m\u00eda,\\nfantasma de mi amor o mi belleza,\\n\u00a1bendita seas t\u00fa que me contentas!\u00bb\"\n}\n```",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-4-20250514",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 134,
+    "output_tokens": 161,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

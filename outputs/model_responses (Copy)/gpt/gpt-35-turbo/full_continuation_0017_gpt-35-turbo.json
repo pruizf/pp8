@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKlBQsd1b74TqXSR2Up6d7hsGRYM",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Sigue con tu faz tan conocida, MAS\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161621,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 28,
+    "prompt_tokens": 126,
+    "total_tokens": 154
+  }
+}

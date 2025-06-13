@@ -1,0 +1,36 @@
+{
+  "id": "a6e47845-d1b7-4730-8235-90424102bef8",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presenta un tono agresivo y despectivo hacia su sujeto, utilizando lenguaje ofensivo y estereotipos negativos. La comicidad generalmente requiere un tono m\u00e1s ligero, juego de palabras, o situaciones absurdas que provocan risa. Aqu\u00ed, el lenguaje es m\u00e1s confrontacional y serio, centr\u00e1ndose en insultos y cr\u00edticas duras en lugar de buscar el humor. Adem\u00e1s, el contexto hist\u00f3rico y religioso del poema sugiere una intenci\u00f3n m\u00e1s de denuncia o ataque que de entretener o hacer re\u00edr. Por lo tanto, no se considera c\u00f3mico, sino m\u00e1s bien un ejemplo de s\u00e1tira agresiva o invectiva.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567025,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 173,
+    "prompt_tokens": 255,
+    "total_tokens": 428,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 63
+  }
+}

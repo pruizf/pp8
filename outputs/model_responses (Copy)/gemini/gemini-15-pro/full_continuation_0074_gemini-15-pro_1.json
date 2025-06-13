@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Con lengua viperina, fiera y leve,\\nultraja al cielo, y con aliento febe\\ninsulta a Jove, y a Febo, y a Juno.\\n\\nEste infame, que al mundo desconsuela,\\nciega al vulgo, y con su voz meliflua\\nle halaga y enga\u00f1a, y al fin le desconsuela.\\n\\n\u00c9l es quien siembra la ciza\u00f1a y la hierba\\nen el campo del Se\u00f1or, y con su huella\\nborra la ley divina, y la conturba.\\n\\n\u00c9l es quien vende al justo, y al imp\u00edo\\nlibra del da\u00f1o, y con su mano imp\u00eda\\nperturba el mundo, y lo conturba.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.3650439032192888,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 174,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 174
+      }
+    ],
+    "prompt_token_count": 118,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 118
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 292,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Con lengua viperina, fiera y leve,\nultraja al cielo, y con aliento febe\ninsulta a Jove, y a Febo, y a Juno.\n\nEste infame, que al mundo desconsuela,\nciega al vulgo, y con su voz meliflua\nle halaga y enga\u00f1a, y al fin le desconsuela.\n\n\u00c9l es quien siembra la ciza\u00f1a y la hierba\nen el campo del Se\u00f1or, y con su huella\nborra la ley divina, y la conturba.\n\n\u00c9l es quien vende al justo, y al imp\u00edo\nlibra del da\u00f1o, y con su mano imp\u00eda\nperturba el mundo, y lo conturba."
+    }
+  ]
+}

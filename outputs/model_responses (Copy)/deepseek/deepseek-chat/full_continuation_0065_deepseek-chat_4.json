@@ -1,0 +1,36 @@
+{
+  "id": "9cd47f2b-3b12-48b5-aafb-91c573def761",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Es cadena que al alma encadenamos,\\nY es de hierro, aunque oro nos parece;\\nEs laberinto en que nos perdemos,\\nY es mar en que, sin fondo, perecemos.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566748,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 133,
+    "total_tokens": 201,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 5
+  }
+}

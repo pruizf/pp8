@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKmrDnlz4HcaktSmrQetWhgzW8q0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y at\u00f3nito volv\u00ed la cara\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161725,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 111,
+    "total_tokens": 138
+  }
+}

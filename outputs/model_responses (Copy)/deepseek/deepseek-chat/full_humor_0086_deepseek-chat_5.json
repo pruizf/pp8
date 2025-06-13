@@ -1,0 +1,36 @@
+{
+  "id": "c3c60318-6239-4011-a85d-65a71b87a4e8",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presenta un tono m\u00e1s tr\u00e1gico y angustioso que c\u00f3mico, centr\u00e1ndose en temas de sufrimiento, miedo y desesperaci\u00f3n. La narrativa describe un sue\u00f1o perturbador donde el hablante es atacado por una piedra, enfrenta a una fiera, y lucha con una espada que le causa dolor, culminando en un sentimiento de desesperaci\u00f3n por el miedo a la muerte. Estas im\u00e1genes y emociones no son t\u00edpicas de la comedia, que generalmente busca provocar risa o alegr\u00eda a trav\u00e9s de situaciones lighthearted, exageraciones, o juegos de palabras. Por lo tanto, el juicio es que el poema no es c\u00f3mico, sino m\u00e1s bien una expresi\u00f3n de tormento emocional.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572665,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 187,
+    "prompt_tokens": 248,
+    "total_tokens": 435,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 56
+  }
+}

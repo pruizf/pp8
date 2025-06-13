@@ -1,0 +1,36 @@
+{
+  "id": "c62727c7-d7c0-4534-8207-be5c7b1f72f1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"El mayor dolor es cuando en sue\u00f1os,\\ncreyendo hallar la dicha que se anhela,\\nse abrazan las sombras de la esperanza,\\ny al despertar, se encuentra solo la realidad.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566382,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 114,
+    "total_tokens": 184,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 50
+  }
+}

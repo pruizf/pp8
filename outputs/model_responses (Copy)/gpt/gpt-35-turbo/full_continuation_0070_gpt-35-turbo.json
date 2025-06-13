@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKpzwyrWvX39FIk5zz4ZqUst3mT6",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y a Villa-fronda ver\u00e1s por su alma.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161919,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 28,
+    "prompt_tokens": 112,
+    "total_tokens": 140
+  }
+}

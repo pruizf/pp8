@@ -1,0 +1,36 @@
+{
+  "id": "b983760c-04af-42d6-9584-e92bc358c1bc",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un tono ir\u00f3nico y juega con las contradicciones y estereotipos sobre el matrimonio y las mujeres, lo que puede resultar c\u00f3mico para algunos lectores. La exageraci\u00f3n en la descripci\u00f3n de las mujeres como 'prisi\u00f3n', 'abismo', y '\u00eddolo' junto con la conclusi\u00f3n inesperada de que despu\u00e9s de decidirse por una, 'te gustan todas', sugiere una cr\u00edtica humor\u00edstica a las actitudes hacia el matrimonio y la monogamia. El uso de contrastes y la ruptura de expectativas al final del poema refuerzan su car\u00e1cter c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566734,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 159,
+    "prompt_tokens": 258,
+    "total_tokens": 417,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 2
+  }
+}

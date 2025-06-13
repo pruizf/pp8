@@ -1,0 +1,36 @@
+{
+  "id": "f721a88e-f461-40f2-b592-5ee201fc8baa",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien de evocar im\u00e1genes v\u00edvidas y emociones a trav\u00e9s de su lenguaje po\u00e9tico y sus preguntas ret\u00f3ricas. El tono del poema es m\u00e1s contemplativo y melanc\u00f3lico, centr\u00e1ndose en la observaci\u00f3n de la naturaleza y los sentimientos de p\u00e9rdida y ausencia. La estructura y el contenido del poema sugieren un prop\u00f3sito serio o reflexivo, m\u00e1s que humor\u00edstico. Adem\u00e1s, el uso de preguntas ret\u00f3ricas y la descripci\u00f3n de escenas naturales no son t\u00edpicamente utilizados para generar risa o diversi\u00f3n, sino para invitar al lector a reflexionar sobre los temas presentados.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566462,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 248,
+    "total_tokens": 424,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 56
+  }
+}

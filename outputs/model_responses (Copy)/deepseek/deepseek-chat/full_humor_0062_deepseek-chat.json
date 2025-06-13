@@ -1,0 +1,36 @@
+{
+  "id": "afa7885f-9f2f-4198-8b80-1d785b656ac4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un lenguaje exagerado y situaciones hiperb\u00f3licas para criticar de manera humor\u00edstica a un cr\u00edtico, jugando con las palabras y las expectativas del lector. La repetici\u00f3n de frases como 'sabe Dios cu\u00e1ndo' y 'sabe Dios c\u00f3mo', junto con la descripci\u00f3n de un 'paliz\u00f3n de tomo y lomo', crea un tono c\u00f3mico al exagerar la reacci\u00f3n del poeta ante la cr\u00edtica. Adem\u00e1s, el uso de t\u00e9rminos como 'rom\u00f3', 'hip\u00f3crita', 'gandul' y 'nefando' de manera ir\u00f3nica, junto con el juego de palabras final sobre 'ip\u00f3crita sin hache', refuerza la intenci\u00f3n humor\u00edstica del poema. La combinaci\u00f3n de estos elementos ling\u00fc\u00edsticos y ret\u00f3ricos hace que el poema sea percibido como c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555770,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 213,
+    "prompt_tokens": 260,
+    "total_tokens": 473,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 196
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKuWNZvH0zbW6UMlsPuoRm5RqelG",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"mas al besar su pie con gran recato,\\r\\nmodesta, descendi\u00f3 Justina china,\\r\\ny cual si fuera un cl\u00e9rico o latina,\\r\\nme impuso con la mano un alegato.\\r\\n No es bueno que se atreva a tanto vuelo\\r\\nvuestra testa, por cierto, peregrina,\\r\\nni que ultraje los mares de mi suelo.\\r\\n Y cuando os vea yo, si al sol camina,\\r\\np\u00edsenme cielos, y si en paz se huela,\\r\\nla sa\u00f1a, el viento y el albor del suelo.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162200,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_888385ccad",
+  "usage": {
+    "completion_tokens": 143,
+    "prompt_tokens": 92,
+    "total_tokens": 235
+  }
+}

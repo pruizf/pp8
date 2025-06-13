@@ -1,0 +1,23 @@
+{
+  "id": "msg_01E3ff5CpwS85zwm2umJ6bUc",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Manuel Guti\u00e9rrez N\u00e1jera\",\n  \"century\": \"19\"\n}\n\nEl poema \"El amor ideal\" fue escrito por el poeta mexicano Manuel Guti\u00e9rrez N\u00e1jera (1859-1895), quien fue un importante representante del modernismo latinoamericano. El poema es caracter\u00edstico de su estilo, que combina el romanticismo con toques de humor y s\u00e1tira, como se puede apreciar especialmente en el \u00faltimo terceto.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 275,
+    "output_tokens": 121,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

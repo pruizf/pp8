@@ -1,0 +1,36 @@
+{
+  "id": "0ada5ee0-3caa-42e1-be5c-b9f40dd2a3a3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Agrega luego, con mano generosa,\\nUna pizca de risa y otra de llanto,\\nUn suspiro de amor, un grito de espanto,\\nY revuelve con fuerza misteriosa.\\n\\nDespu\u00e9s, con cuidado y devoci\u00f3n,\\nSirve en copas de luz y sombra pura,\\nPara que cada bebedor, en su locura,\\nEncuentre su propia inspiraci\u00f3n.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749571931,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 126,
+    "total_tokens": 245,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 62
+  }
+}

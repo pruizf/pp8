@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dL2GNfiJCh30yu24UMeGWes5bNOw",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"se doma, en su arrebatada ira rica, por \u00e9l, de tal virtud la fama aplica al mar, que estima en nada su ruido. En sus grandes acciones ha mostrado del suelo y de la mar la potestad, pues de estos elementos se ha ense\u00f1orado; entre tantas victorias y verdad que con nombre de Santo le ha ilustrado la espada ha tenido en santidad.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162680,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 92,
+    "total_tokens": 186
+  }
+}

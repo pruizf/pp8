@@ -1,0 +1,36 @@
+{
+  "id": "f55d9140-32ab-4c4f-8979-6b2d287ac3fd",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien l\u00edrico y descriptivo. Utiliza un lenguaje po\u00e9tico y metaf\u00f3rico para describir la belleza de la naturaleza y de una persona, comparando elementos como el sol, la luna, y las rosas con caracter\u00edsticas humanas. La elecci\u00f3n de palabras como 'fuego', 'nieve', 'auro', y 'resplandores' sugiere un tono serio y admirativo, enfocado en la belleza y la emoci\u00f3n est\u00e9tica m\u00e1s que en el humor. Adem\u00e1s, la estructura y el ritmo del poema est\u00e1n dise\u00f1ados para evocar im\u00e1genes v\u00edvidas y emociones profundas, no para provocar risa o diversi\u00f3n. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, los elementos clave que definen un texto como c\u00f3mico (como la iron\u00eda, el sarcasmo, o situaciones absurdas) no est\u00e1n presentes en este poema.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749558596,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 233,
+    "prompt_tokens": 237,
+    "total_tokens": 470,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 45
+  }
+}

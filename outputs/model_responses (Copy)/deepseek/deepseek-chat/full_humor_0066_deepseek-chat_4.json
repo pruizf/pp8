@@ -1,0 +1,36 @@
+{
+  "id": "a79206b5-51ec-430c-9370-aef06ee2c3d4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"El poema 'Leda... Rodr\u00edguez' juega con referencias mitol\u00f3gicas y un lenguaje elaborado que puede ser interpretado de m\u00faltiples maneras. La comicidad no es evidente a primera vista, ya que el tono parece m\u00e1s serio y reflexivo, utilizando figuras como J\u00fapiter y Europa para explorar temas de amor y enga\u00f1o. Sin embargo, el \u00faltimo verso, 'Fingido cisne y verdadero ganso', introduce un giro inesperado que podr\u00eda ser visto como c\u00f3mico por su contraste con el resto del poema y por la imagen rid\u00edcula que evoca. La comicidad, por tanto, depende en gran medida de la interpretaci\u00f3n del lector y de su familiaridad con las referencias mitol\u00f3gicas utilizadas. En resumen, mientras que el poema no es abiertamente c\u00f3mico, contiene elementos que pueden ser apreciados como humor\u00edsticos en un contexto espec\u00edfico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566765,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 220,
+    "prompt_tokens": 255,
+    "total_tokens": 475,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 63
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "db91faa7-8355-4efb-8e1f-9af87c7175b0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"frescos rayos de luz matutina,\\ny en el aire flotaba una frescura divina.\\nLa vi sonre\u00edr, fresca como el roc\u00edo,\\nba\u00f1ada en luz, bajo el fresco cielo est\u00edo.\\nFresca brisa jugaba con su vestido ligero,\\nmientras camin\u00e1bamos por el sendero.\\nFresca era la ma\u00f1ana, fresca su mirada,\\nen el fresco prado, nuestra amorosa jornada.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556213,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 128,
+    "prompt_tokens": 117,
+    "total_tokens": 245,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 53
+  }
+}

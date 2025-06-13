@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Triste, pens\u00e9 en tu vida, en tu alma de marino,\\nen tus ojos azules, profundos y tranquilos,\\ny en tu elegante y noble y extra\u00f1o destino.\\n\\nQuise evocar tu imagen espiritual,\\npero todo era fr\u00edo, silencio y abandono.\\nS\u00f3lo el eco de un cisne en el lago oto\u00f1al\\nme tra\u00eda tu nombre con triste emoci\u00f3n.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.7845788209334664,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 92,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 92
+      }
+    ],
+    "prompt_token_count": 136,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 136
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 228,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Triste, pens\u00e9 en tu vida, en tu alma de marino,\nen tus ojos azules, profundos y tranquilos,\ny en tu elegante y noble y extra\u00f1o destino.\n\nQuise evocar tu imagen espiritual,\npero todo era fr\u00edo, silencio y abandono.\nS\u00f3lo el eco de un cisne en el lago oto\u00f1al\nme tra\u00eda tu nombre con triste emoci\u00f3n."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKy8H9wXLkGH2wxl3zXisVR7CgQe",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Jos\u00e9 Mart\u00ed\",\n  \"century\": \"19\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162424,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 18,
+    "prompt_tokens": 224,
+    "total_tokens": 242
+  }
+}

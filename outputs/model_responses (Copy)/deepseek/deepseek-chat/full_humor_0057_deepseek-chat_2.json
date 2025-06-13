@@ -1,0 +1,36 @@
+{
+  "id": "e71c0ff8-66b9-4fad-84a9-f22d7035ac31",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien reflexivo y descriptivo. Utiliza im\u00e1genes de la naturaleza y situaciones que evocan emociones como el terror, la tristeza y la melancol\u00eda, en lugar de buscar provocar risa o diversi\u00f3n. La estructura y el lenguaje empleados son t\u00edpicos de la poes\u00eda l\u00edrica, que busca expresar sentimientos y pensamientos profundos, no humor. Adem\u00e1s, el tono general del poema es serio y contemplativo, lo que refuerza la idea de que su prop\u00f3sito no es c\u00f3mico. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, los elementos presentes en el poema no sugieren que est\u00e9 dise\u00f1ado para ser humor\u00edstico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749557287,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 189,
+    "prompt_tokens": 248,
+    "total_tokens": 437,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 56
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "msg_011ucngrhcZTeueHC6oDtF58",
+  "content": [
+    {
+      "citations": null,
+      "text": "```json\n{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que en loco amor tu libertad has puesto,\\ny en vez de caminar alegre y presto\\nvas dando tumbos por ajeno suelo.\\n\\n\u00bfAd\u00f3nde vas? \u00bfQu\u00e9 ciega fantas\u00eda\\nte lleva en pos de huyente hermosura?\\nMira que es vana toda tu porf\u00eda.\\n\\nTorna en ti, sin ventura, y la locura\\nque te despe\u00f1a deja, que alg\u00fan d\u00eda\\nver\u00e1s cu\u00e1n poco duran las venturas.\"\n}\n```",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-4-20250514",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 121,
+    "output_tokens": 157,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

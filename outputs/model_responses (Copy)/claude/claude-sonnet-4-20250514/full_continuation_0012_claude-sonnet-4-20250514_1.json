@@ -1,0 +1,23 @@
+{
+  "id": "msg_012WZ7cRpCarXYNSTTBaUSuB",
+  "content": [
+    {
+      "citations": null,
+      "text": "```json\n{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y en vez de arder en f\u00fanebres despojos,\\nardi\u00f3 en cenizas bellas para los ojos,\\ny durmi\u00f3 en paz la llama antes ardida.\\nOh llama que en sutil materia ardiste,\\ntanto por artificio del desvelo\\nque a la materia que ocupaste, honraste.\\nPoco tiempo moraste,\\nmucho en el tiempo que mortal viviste,\\ny lo que permanece es lo que fuiste.\"\n}\n```",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-4-20250514",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 128,
+    "output_tokens": 143,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

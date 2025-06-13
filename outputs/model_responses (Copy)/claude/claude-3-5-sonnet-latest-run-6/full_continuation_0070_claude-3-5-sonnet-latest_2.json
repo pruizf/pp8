@@ -1,0 +1,23 @@
+{
+  "id": "msg_01MAo1hZmb6fsL1jSi5cjJqM",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"No en tu locura tu ambici\u00f3n se emplea,\\nque es Villa-franca la belleza vana,\\ny ser\u00e1 Villa-vieja, aunque liviana,\\nVilla-lobos despu\u00e9s, que te posea.\\n\\nNo des lugar que la vejez cansada\\nte halle en el ocio de tu edad florida,\\nde propios y de extra\u00f1os despreciada;\\n\\nMira que es breve el curso de tu vida:\\nsi Villa-hermosa quieres ser llamada,\\ns\u00e9 desde luego Villa-convertida.\"\n}\n\nEste es un soneto completo de Francisco de Quevedo, una s\u00e1tira dirigida a una actriz llamada Josefa Vaca, donde juega con nombres de poblaciones para criticar la vanidad y el paso del tiempo.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 132,
+    "output_tokens": 208,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

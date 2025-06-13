@@ -1,0 +1,23 @@
+{
+  "id": "msg_01XkmfR3iQhZTcYRNbi19G49",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Teme al dios que en los cielos interpreta\\nLa voz del rayo y el clar\u00edn sonoro,\\nNo sea que, trocado en cisne de oro,\\nTe d\u00e9 un abrazo en forma de saeta.\\n\\nHuye del lago azul, donde navega\\nLa flotilla de cisnes, y en la vega\\nNo te duermas al sol de mediod\u00eda,\\n\\nPues si el dios cazador te halla dormida,\\nDe tus sue\u00f1os ser\u00e1s la prometida\\nY madre de una extra\u00f1a geometr\u00eda.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 129,
+    "output_tokens": 167,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

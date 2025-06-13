@@ -1,0 +1,36 @@
+{
+  "id": "1383de7e-a5bb-4ca3-84f9-27462b8c48d2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presenta un tono agresivo y despectivo hacia su sujeto, utilizando lenguaje ofensivo y estereotipos negativos. La comicidad generalmente se asocia con la ligereza, el ingenio y la intenci\u00f3n de provocar risa, elementos que est\u00e1n ausentes en este texto. En su lugar, el poema parece estar motivado por el desprecio y la denigraci\u00f3n, lo que lo aleja de cualquier interpretaci\u00f3n c\u00f3mica. Adem\u00e1s, el uso de referencias religiosas y culturales de manera peyorativa refuerza la seriedad y la carga negativa del mensaje, en lugar de aligerarlo o hacerlo humor\u00edstico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572314,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 167,
+    "prompt_tokens": 255,
+    "total_tokens": 422,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 63
+  }
+}

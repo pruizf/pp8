@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKvnz3i1iRyUUbo2uWqSvnTsQgIA",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Juan Bosc\u00e1n\",\n  \"century\": \"XVI\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162279,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 21,
+    "prompt_tokens": 220,
+    "total_tokens": 241
+  }
+}

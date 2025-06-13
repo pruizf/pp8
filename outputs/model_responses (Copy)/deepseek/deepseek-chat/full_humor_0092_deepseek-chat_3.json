@@ -1,0 +1,36 @@
+{
+  "id": "a482e07e-72c6-4372-9170-c4dca0dfba0c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien rom\u00e1ntico o l\u00edrico, centr\u00e1ndose en temas como el amor, la resistencia y la naturaleza de los sentimientos humanos. El lenguaje utilizado es po\u00e9tico y metaf\u00f3rico, con referencias a materiales como el m\u00e1rmol y el diamante para describir cualidades emocionales, lo que sugiere una seriedad en su tono y prop\u00f3sito. La estructura y el estilo del poema est\u00e1n m\u00e1s alineados con la tradici\u00f3n l\u00edrica que con la comedia, careciendo de elementos t\u00edpicos del humor como la iron\u00eda, el sarcasmo o situaciones absurdas. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, las caracter\u00edsticas predominantes del poema apuntan hacia una interpretaci\u00f3n no c\u00f3mica.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561830,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 200,
+    "prompt_tokens": 241,
+    "total_tokens": 441,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 49
+  }
+}

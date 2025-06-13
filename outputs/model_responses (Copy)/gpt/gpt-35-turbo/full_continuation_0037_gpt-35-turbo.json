@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKmwUtk0n7J1DiiML3r7begstYvB",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"hacia la meta que me acerca a ti; pero el sol ardiente del verano tan implacable se convierte en invierno, la lluvia en tu mirada, y el ardor se apaga. Sin embargo, mi coraz\u00f3n sigue buscando la llama que enciendas de nuevo para fundirnos en un solo abrazo.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161730,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 93,
+    "prompt_tokens": 100,
+    "total_tokens": 193
+  }
+}

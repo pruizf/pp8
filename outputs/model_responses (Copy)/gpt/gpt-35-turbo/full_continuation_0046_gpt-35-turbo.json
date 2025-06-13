@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKnegx9bDzyE5OSxGOyIa6Zhfw5c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Honda revoluci\u00f3n: ya s\u00e9 que vienes\\nNo por injusta ley, no por acaso,\\nsino porque providencial traspaso\\nla voluntad de Dios llevas en rehenes\\n\\nTu coraje y tu fe, lucha constante\\nlo que mueve tus pasos en el camino\\npor un mundo mejor, sin desatino\\ndonde todos vivamos en armon\u00eda\" \n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161774,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 100,
+    "total_tokens": 204
+  }
+}

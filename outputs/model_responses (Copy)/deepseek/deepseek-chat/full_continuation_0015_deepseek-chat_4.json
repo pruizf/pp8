@@ -1,0 +1,36 @@
+{
+  "id": "ab666385-329e-4f0f-863a-cccabcc4a12a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y al volverme, mir\u00e9 con desatino,\\nviendo que el gato era de la vecina,\\nque con su risa, clara y cristalina,\\ndijo: \u00abPerdone ust\u00e9, fue sin quererlo\u00bb.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749565082,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 123,
+    "total_tokens": 200,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 59
+  }
+}

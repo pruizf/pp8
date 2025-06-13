@@ -1,0 +1,36 @@
+{
+  "id": "bed7df61-df89-4e96-8c3f-300319157bfe",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo siento, no tengo informaci\u00f3n sobre la continuaci\u00f3n de este poema en particular. Podr\u00eda ser parte de una obra menos conocida o de un autor espec\u00edfico cuyo trabajo no est\u00e1 ampliamente documentado en las fuentes a las que tengo acceso.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561134,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 131,
+    "total_tokens": 205,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 3
+  }
+}

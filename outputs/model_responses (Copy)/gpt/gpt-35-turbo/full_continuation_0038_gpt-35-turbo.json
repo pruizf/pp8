@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKn1VhMLaHa5uVhRwRIbmOTEltJ1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"hoy, ante tu presencia, lo repito. La imagen de aquel crimen condenado, del espectro del hombre degollado, que por las noches en mi alcoba habito.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161735,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 98,
+    "total_tokens": 158
+  }
+}

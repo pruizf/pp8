@@ -1,0 +1,23 @@
+{
+  "id": "msg_01HEAKLPVJinXFxqcxM3N74u",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Teresa de la Parra\",\n  \"century\": \"20\"\n}\n\nTeresa de la Parra (1889-1936) fue una escritora venezolana conocida principalmente por sus novelas \"Ifigenia\" y \"Memorias de Mam\u00e1 Blanca\". Este soneto forma parte de su obra po\u00e9tica, aunque es menos conocida que su prosa.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 249,
+    "output_tokens": 95,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

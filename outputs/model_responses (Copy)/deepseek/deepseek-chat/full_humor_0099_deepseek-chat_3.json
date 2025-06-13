@@ -1,0 +1,36 @@
+{
+  "id": "98945117-ff9f-4b07-9e5d-c8a4e6e67cc3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado tiene un tono l\u00edrico y melanc\u00f3lico, centrado en la belleza de la naturaleza y los sentimientos de p\u00e9rdida y nostalgia. No contiene elementos t\u00edpicos de la comedia, como el humor, la iron\u00eda o la s\u00e1tira. En cambio, se enfoca en la descripci\u00f3n po\u00e9tica de paisajes y emociones profundas, lo que lo aleja de lo c\u00f3mico. La referencia a Damoetas y Amarante, figuras tradicionales de la poes\u00eda pastoril, refuerza este tono serio y contemplativo. Por lo tanto, aunque el poema es rico en im\u00e1genes y emociones, no se puede considerar c\u00f3mico debido a su tono y tema.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749562079,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 177,
+    "prompt_tokens": 247,
+    "total_tokens": 424,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 55
+  }
+}

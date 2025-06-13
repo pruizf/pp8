@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dL1EkdW5OBz8rZo2nLI7hRxNu81e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"F\u00e9lix Lope de Vega y Carpio\",\n  \"century\": \"17\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162616,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_888385ccad",
+  "usage": {
+    "completion_tokens": 26,
+    "prompt_tokens": 241,
+    "total_tokens": 267
+  }
+}

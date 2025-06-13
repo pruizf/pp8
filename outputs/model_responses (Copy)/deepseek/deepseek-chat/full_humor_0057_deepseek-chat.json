@@ -1,0 +1,36 @@
+{
+  "id": "7b4c750c-ca86-4f3c-b749-3e0f09207b42",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien de evocar im\u00e1genes v\u00edvidas y emociones a trav\u00e9s de su lenguaje po\u00e9tico y sus preguntas ret\u00f3ricas. El tono del poema es m\u00e1s contemplativo y melanc\u00f3lico, centr\u00e1ndose en la observaci\u00f3n de la naturaleza y los fen\u00f3menos naturales como met\u00e1foras de experiencias humanas. La estructura y el contenido del poema sugieren un prop\u00f3sito serio o reflexivo, m\u00e1s que humor\u00edstico. Adem\u00e1s, el final del poema, que juega con la expectativa del lector al revelar que el narrador tampoco ha visto lo que describe, podr\u00eda interpretarse como ingenioso, pero no necesariamente c\u00f3mico en el sentido tradicional. Por lo tanto, aunque el poema puede contener elementos de ingenio o iron\u00eda, su tono general y su intenci\u00f3n no parecen estar dirigidos a provocar risa o ser percibidos como c\u00f3micos.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555640,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 232,
+    "prompt_tokens": 248,
+    "total_tokens": 480,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 184
+  }
+}

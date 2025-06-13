@@ -1,0 +1,36 @@
+{
+  "id": "3dc34747-5426-4792-a2d1-31b79520152c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta elementos c\u00f3micos a trav\u00e9s de la exageraci\u00f3n y la iron\u00eda, especialmente en la descripci\u00f3n del personaje Brabo y su reacci\u00f3n exagerada a su propio soneto. El uso de t\u00e9rminos como 'semiparto, posma94 y prolijo' para describir el soneto, junto con la respuesta colectiva 'Brabo, Brabo' al final, que sugiere un reconocimiento ir\u00f3nico de la autor\u00eda del 'fatal soneto', contribuyen a un tono humor\u00edstico. Adem\u00e1s, la referencia a figuras literarias como Lope y Moreto en un contexto que parece ridiculizar la pretensi\u00f3n de Brabo de igualarlos, a\u00f1ade una capa de s\u00e1tira que refuerza la comicidad del poema.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556260,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 185,
+    "prompt_tokens": 273,
+    "total_tokens": 458,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 17
+  }
+}

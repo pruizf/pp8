@@ -25,7 +25,10 @@ resp_time_df = os.path.join(resp_time_dir, "response_times_df.tsv")
 call_types = {"humor": "humor", "continuation": "continuation", "author": "author"}
 
 model_list = ["gpt-4o-mini"]#, "mistral-small", "mistral-large-latest_", "gpt-3.5-turbo", "gpt-4o"]
-model_list_for_clf = ["gpt-4o-mini", "mistral-small", "mistral-large-latest_", "gpt-3.5-turbo", "gpt-4o", "gpt-3.5"]
+model_list_for_clf = ["gpt-4o-mini",
+                      "mistral-small", "mistral-large-latest_",
+                      "gpt-3.5-turbo", "gpt-4o", "gpt-3.5",
+                      "claude-3-5-haiku-latest", "claude-3-5-sonnet-latest"]
 model_list_for_postpro = ["gpt-4o-mini"]
 
 

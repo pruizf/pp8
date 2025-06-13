@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKvzWAfJPXShreBPuEoJPqs2PBL7",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y es m\u00e1s visto que un fraile perseguido: \\ncomo pulga de fraile est\u00e1 en las pajas, \\nos cuelga la chorrera y las hilazas \\nde su frayle morcillo bien te\u00f1ido.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162291,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 96,
+    "total_tokens": 163
+  }
+}

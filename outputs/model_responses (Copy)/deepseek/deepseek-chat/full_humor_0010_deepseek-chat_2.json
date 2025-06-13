@@ -1,0 +1,36 @@
+{
+  "id": "6c8eb2dd-a09c-413f-8a7e-edfee597db85",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"El poema presenta un lenguaje complejo y juegos de palabras que pueden ser interpretados como c\u00f3micos por algunos lectores debido a su ingenio y la posible iron\u00eda en su estructura y contenido. Sin embargo, la comicidad no es universal y puede depender del conocimiento del lector sobre el contexto hist\u00f3rico y literario del poema, as\u00ed como de su apreciaci\u00f3n personal del humor. La ambig\u00fcedad en el tono y la intenci\u00f3n del autor hace que sea incierto clasificarlo definitivamente como c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555968,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 253,
+    "total_tokens": 386,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 61
+  }
+}

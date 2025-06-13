@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Rico eres, s\u00ed, rico de dinero,\\nMas pobre, muy pobre de alegr\u00eda;\\nTe falta el tesoro verdadero\\nQue da a la vida savia y val\u00eda.\\n\\nRico eres, s\u00ed, rico de dinero\\nY el mundo entero lo sabe ya,\\nMas ignoras el goce certero\\nQue da al esp\u00edritu la poes\u00eda.\\n\\nRico eres, s\u00ed, rico de dinero\\nY te llaman dichoso por doquier,\\nMas padeces del mal m\u00e1s severo:\\nNo saber amar, no saber creer.\\n\\nRico eres, s\u00ed, rico de dinero,\\n\u00a1Es tu empe\u00f1o rid\u00edculo, camueso!\\nYo pudiera admirarte y aun quererte,\\nMaldecirte tal vez y aborrecerte;\\nEnvidiarte..., \u00a1jam\u00e1s!, no doy en eso.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.38086191813151044,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 192,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 192
+      }
+    ],
+    "prompt_token_count": 124,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 124
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 316,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Rico eres, s\u00ed, rico de dinero,\nMas pobre, muy pobre de alegr\u00eda;\nTe falta el tesoro verdadero\nQue da a la vida savia y val\u00eda.\n\nRico eres, s\u00ed, rico de dinero\nY el mundo entero lo sabe ya,\nMas ignoras el goce certero\nQue da al esp\u00edritu la poes\u00eda.\n\nRico eres, s\u00ed, rico de dinero\nY te llaman dichoso por doquier,\nMas padeces del mal m\u00e1s severo:\nNo saber amar, no saber creer.\n\nRico eres, s\u00ed, rico de dinero,\n\u00a1Es tu empe\u00f1o rid\u00edculo, camueso!\nYo pudiera admirarte y aun quererte,\nMaldecirte tal vez y aborrecerte;\nEnvidiarte..., \u00a1jam\u00e1s!, no doy en eso."
+    }
+  ]
+}

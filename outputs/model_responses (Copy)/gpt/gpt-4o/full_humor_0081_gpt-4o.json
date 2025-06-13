@@ -1,0 +1,69 @@
+{
+  "id": "chatcmpl-9dL2N0I46Tec8RwobEqApWJiazKsD",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema que se presenta no es c\u00f3mico, sino que tiene un tono solemne y religioso. El texto describe la figura de San Isidro, un santo agricultor que recibe la ayuda divina de \u00e1ngeles mientras trabaja en los campos de Madrid. La estructura del poema y su lenguaje elevan las acciones de Isidro a asuntos de fe y misticismo, destacando su devoci\u00f3n y el favor recibido de lo celestial. Estos elementos son m\u00e1s t\u00edpicos de poes\u00eda religiosa y devocional que de la poes\u00eda de car\u00e1cter humor\u00edstico. No hay juegos de palabras, iron\u00edas, ni situaciones inveros\u00edmiles que se esperar\u00edan en un poema c\u00f3mico. En lugar de provocar risa, el poema busca inspirar admiraci\u00f3n y respeto hacia el santo y sus virtudes.\" \n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 1,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no se considera c\u00f3mico. Presenta un tono serio y reverente, enfocado en la figura de San Isidro y su devoci\u00f3n religiosa. Utiliza un lenguaje elevado y po\u00e9tico para describir los actos milagrosos de San Isidro y la intervenci\u00f3n de \u00e1ngeles. El tema principal es la santidad y la recompensa celestial por la fe y el trabajo, lo cual dista mucho del humor. No hay elementos que sugieran iron\u00eda, sarcasmo, juegos de palabras humor\u00edsticos o situaciones absurdas que t\u00edpicamente se asocian con la comicidad. En lugar de buscar una respuesta humor\u00edstica, el poema pretende evocar admiraci\u00f3n y respeto por la figura hist\u00f3rica y religiosa de San Isidro, exaltando sus virtudes y sus logros espirituales. Todo esto lleva a la conclusi\u00f3n de que el prop\u00f3sito del poema no es el de hacer re\u00edr, sino m\u00e1s bien inspirar devoci\u00f3n y reverencia.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 2,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no tiene caracter\u00edsticas de una obra c\u00f3mica. En lugar de eso, es un poema que tiene un tono serio y reverencial. Habla sobre San Isidro, el santo patrono de los agricultores, y sus actos milagrosos, espec\u00edficamente los \u00e1ngeles que lo ayudaron en el campo. El lenguaje utilizado es elevado y laudatorio, lo cual es apropiado para un tema religioso y devocional. Los elementos de humor, s\u00e1tira o burla que caracterizan la poes\u00eda c\u00f3mica no est\u00e1n presentes. El poema m\u00e1s bien busca inspirar respeto y admiraci\u00f3n por la figura santa, en vez de provocar risa o entretenimiento ligero. Adem\u00e1s, la estructura del poema, con sus estrofas bien construidas y rimas consonantes, es t\u00edpica de la poes\u00eda l\u00edrica y no de la poes\u00eda c\u00f3mica. Por estas razones, se puede concluir que el poema no tiene intenciones c\u00f3micas y est\u00e1 m\u00e1s dirigido a enaltecer y rendir homenaje a la figura de San Isidro.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 3,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presenta un tono serio y reverencial hacia San Isidro, el santo patrono de los agricultores de Madrid. A trav\u00e9s de un lenguaje formal y elevado, describe la ayuda celestial que recibe el santo mientras trabaja en el campo, ensalzando su humildad y devoci\u00f3n. La presencia de \u00e1ngeles y la referencia a la Monarqu\u00eda celestial indican un tema religioso y espiritual, alejando al poema de cualquier intento de humor. No hay elementos de iron\u00eda, sarcasmo, exageraci\u00f3n l\u00fadica o situaciones absurdas que t\u00edpicamente caracterizan a un poema c\u00f3mico. En su lugar, se trata de una composici\u00f3n que busca elevar espiritualmente al lector y celebrar la piedad y el sacrificio de Isidro. Por lo tanto, no puede considerarse c\u00f3mico en ning\u00fan sentido.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 4,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico en naturaleza, sino que parece ser un elogio solemne a San Isidro, el santo patrono de los agricultores de Madrid. La estructura del poema, su lenguaje y las im\u00e1genes que utiliza (como la intervenci\u00f3n divina de los \u00e1ngeles en las labores del campo) est\u00e1n m\u00e1s alineadas con un tono de reverencia y admiraci\u00f3n que con uno de humor. En particular, el uso de t\u00e9rminos elevados y la tem\u00e1tica religiosa y devocional refuerzan este tono grave y respetuoso. El poema celebra la vida y los milagros de San Isidro y destaca su humildad y el favor divino que recibi\u00f3, lo cual tiende a ser m\u00e1s conmovedor y exaltador, en lugar de c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162687,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 942,
+    "prompt_tokens": 206,
+    "total_tokens": 1148
+  }
+}

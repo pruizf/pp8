@@ -1,0 +1,36 @@
+{
+  "id": "4e60619c-74cc-444a-adce-750b5eb0c79a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00bfEres acaso la ilusi\u00f3n que creces\\nen el alma que sue\u00f1a y que te adora,\\no eres la luz que el destino atesora\\npara el que sufre y que jam\u00e1s feneces?\\n\\n\u00a1Oh, s\u00e9 quien seas, no te apartes de m\u00ed,\\nque en tu presencia el dolor se desvanece,\\ny en mi pecho renace la alegr\u00eda!\\n\\nSi eres un sue\u00f1o, no me despiertes,\\nd\u00e9jame en este \u00e9xtasis vivir,\\nque es la \u00fanica verdad que yo quer\u00eda.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749565306,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 147,
+    "prompt_tokens": 122,
+    "total_tokens": 269,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 58
+  }
+}

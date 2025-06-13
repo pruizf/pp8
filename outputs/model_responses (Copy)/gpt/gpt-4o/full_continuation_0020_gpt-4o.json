@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKvBkJNyeY1EmU2IOkMaBuoYHpkg",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"le nombro en persecuci\u00f3n del cuarto.\\nEn saz\u00f3n de maduro est\u00e1 su parto\\nQue teme en encavarse en duermevijo.\\n\\nAprovechado est\u00e1 de sexto Brabo\\nLo m\u00e1ismo de aqu\u00e9l que est\u00e1 delante,\\ndulce por ver a su rigor y agravio;\\n\\nY as\u00ed me he de librar deste maleante,\\nque xug\u00e1ndome el cr\u00e9dito y el bravo,\\nse lleva el eloh\u00edm que no fu\u00e9 amante.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162241,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_888385ccad",
+  "usage": {
+    "completion_tokens": 119,
+    "prompt_tokens": 109,
+    "total_tokens": 228
+  }
+}

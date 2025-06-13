@@ -1,0 +1,36 @@
+{
+  "id": "3199f501-ab2e-45fb-9d52-8d2e68c971e1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un lenguaje coloquial y situaciones absurdas, como la descripci\u00f3n de una batalla con detalles c\u00f3micos (por ejemplo, 'Treinta soldados en tres mil galeras' y 'dio la playa m\u00e1s moros que veneras'), que exageran la realidad para provocar risa. Adem\u00e1s, el di\u00e1logo entre los personajes est\u00e1 lleno de juegos de palabras y malentendidos, como 'Cagalarache' y 'Alfalarache', que contribuyen al tono humor\u00edstico. La menci\u00f3n de 'pedorreras' y 'c\u00e1maras de popa' a\u00f1ade un elemento de humor escatol\u00f3gico, que es un recurso c\u00f3mico cl\u00e1sico. Por lo tanto, el poema puede ser considerado c\u00f3mico debido a su uso de la exageraci\u00f3n, los juegos de palabras y el humor escatol\u00f3gico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555751,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 210,
+    "prompt_tokens": 271,
+    "total_tokens": 481,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 15
+  }
+}

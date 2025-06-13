@@ -1,0 +1,23 @@
+{
+  "id": "msg_01VQS7qXqZFHNAf7jY5iJ4tw",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Carlos Murciano\",\n  \"century\": \"20\"\n}\n\nEste soneto es obra del poeta espa\u00f1ol Carlos Murciano (nacido en 1931 en Arcos de la Frontera, C\u00e1diz). Es un poeta, cr\u00edtico literario y m\u00fasico que contin\u00faa vivo y que ha desarrollado su obra principalmente durante la segunda mitad del siglo XX y principios del XXI.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 276,
+    "output_tokens": 104,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

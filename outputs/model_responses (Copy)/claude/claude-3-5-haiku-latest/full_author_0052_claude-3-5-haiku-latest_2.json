@@ -1,0 +1,23 @@
+{
+  "id": "msg_013BhuUNyVJGV13TJMKg9rsA",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Mariano Jos\u00e9 de Larra\",\n  \"century\": \"19\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 262,
+    "output_tokens": 29,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

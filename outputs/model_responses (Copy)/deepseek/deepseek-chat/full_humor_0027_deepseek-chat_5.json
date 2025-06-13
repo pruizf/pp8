@@ -1,0 +1,36 @@
+{
+  "id": "b1a4723b-376f-40cd-91ca-1c23d3719d99",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta un tono sat\u00edrico y burlesco, utilizando exageraciones y comparaciones absurdas para ridiculizar a figuras hist\u00f3ricas y literarias. El uso de t\u00e9rminos como 'zoquetes', 'orates', y 'monigotes' para describir a oradores y figuras respetadas, junto con la elevaci\u00f3n ir\u00f3nica de 'Fray Blas' y 'mozalbetes', sugiere una intenci\u00f3n c\u00f3mica. Adem\u00e1s, la estructura del soneto, tradicionalmente asociada con temas serios y amorosos, contrasta con el contenido humor\u00edstico, lo que a\u00f1ade una capa adicional de iron\u00eda y comicidad. La referencia final a 'los ZOTES' como una supuesta 'gloria' es claramente una broma, reforzando el car\u00e1cter c\u00f3mico del poema.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749570890,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 202,
+    "prompt_tokens": 265,
+    "total_tokens": 467,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 9
+  }
+}

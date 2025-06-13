@@ -1,0 +1,23 @@
+{
+  "id": "msg_013xeoY1hDuTcL4RkTP9z24U",
+  "content": [
+    {
+      "citations": null,
+      "text": "Bas\u00e1ndome en el estilo y contenido del poema, puedo identificar que este soneto corresponde a Gustavo Adolfo B\u00e9cquer, un poeta espa\u00f1ol del siglo XIX. Aqu\u00ed est\u00e1 la respuesta en el formato JSON solicitado:\n\n{\n  \"author\": \"Gustavo Adolfo B\u00e9cquer\",\n  \"century\": \"19\"\n}\n\nEl poema tiene caracter\u00edsticas t\u00edpicas de B\u00e9cquer: un soneto con rima consonante, un tono rom\u00e1ntico y reflexivo sobre el amor y el dolor, con un lenguaje l\u00edrico y metaf\u00f3rico.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 261,
+    "output_tokens": 143,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

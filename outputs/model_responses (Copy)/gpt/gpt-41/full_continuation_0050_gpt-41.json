@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-BhIY851ikeIWQrMrtNoGnkVXJT29S",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"El parque estaba gris, y el aire era agudo\\ncomo un reproche antiguo y melanc\u00f3licamente\\ndeambulaban las hojas al soplo indiferente\\ndel tiempo, del hast\u00edo, del tedio, del desnudo\\nresplandor que declina. Entre los setos largos\\nmor\u00edan p\u00e1lidos los cisnes, y los claros\\nespejos se quebraban de nostalgia y de olvido.\\nY al Marqu\u00e9s, sombra ilustre de los parques antiguos,\\nle brindo el oro mustio de estos versos fatigados,\\nay, como oto\u00f1o, tristes, y como \u00e9l, vencidos.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749659108,
+  "model": "gpt-4.1-2025-04-14",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_51e1070cf2",
+  "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 115,
+    "total_tokens": 264,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

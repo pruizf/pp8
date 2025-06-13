@@ -1,0 +1,36 @@
+{
+  "id": "1f52830b-85a0-42ed-a68e-3c10517fa1df",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"M\u00e1s all\u00e1 de la frente, en el profundo abismo\\nque forman tus pupilas, negras como la noche,\\nveo arder el fuego de un amor sin nombre,\\nun amor que consume, que no conoce l\u00edmites.\\n\\nEn tus labios, cerrados como un cofre de oro,\\nse guardan los secretos de tu alma atormentada,\\nsecretos que el viento susurra en la monta\u00f1a,\\npero que nadie entiende, nadie m\u00e1s que la nada.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555304,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 121,
+    "total_tokens": 259,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 121
+  }
+}

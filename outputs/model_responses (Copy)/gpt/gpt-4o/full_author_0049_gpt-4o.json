@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKyWh2dLU37DLvuuG2iP4DedaMOi",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Leopoldo Lugones\",\n  \"century\": 20\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162448,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 21,
+    "prompt_tokens": 242,
+    "total_tokens": 263
+  }
+}

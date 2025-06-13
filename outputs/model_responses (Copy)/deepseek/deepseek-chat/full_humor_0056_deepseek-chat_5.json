@@ -1,0 +1,36 @@
+{
+  "id": "d7b9620a-cec9-4a98-baf0-a64000c576db",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema 'La recompensa' presenta un contraste entre la descripci\u00f3n rom\u00e1ntica y detallada del entorno natural y la mansi\u00f3n hechicera, y el desenlace inesperado y abrupto en el que el narrador recibe un bofet\u00f3n de Laura. Este giro inesperado, que rompe con la expectativa creada por la descripci\u00f3n previa, introduce un elemento de sorpresa y humor. La situaci\u00f3n c\u00f3mica surge de la discrepancia entre el tono elevado y po\u00e9tico de la mayor parte del poema y el final prosaico y violento. Adem\u00e1s, la manera en que se describe el bofet\u00f3n, 'de cuello vuelto', a\u00f1ade un toque de exageraci\u00f3n que refuerza el efecto c\u00f3mico. Por lo tanto, el poema puede ser considerado c\u00f3mico debido a su uso del contraste y la sorpresa para generar risa.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749571766,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 220,
+    "prompt_tokens": 258,
+    "total_tokens": 478,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 2
+  }
+}

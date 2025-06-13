@@ -1,0 +1,23 @@
+{
+  "id": "msg_019KyGsZcWDCdKovmbDnni6u",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Jos\u00e9 Mar\u00eda Gabriel y Gal\u00e1n\",\n  \"century\": \"19\"\n}\n\nEste soneto titulado \"Amor prisionero\" fue escrito por el poeta espa\u00f1ol Jos\u00e9 Mar\u00eda Gabriel y Gal\u00e1n (1870-1905), quien vivi\u00f3 entre los siglos XIX y XX, aunque su producci\u00f3n literaria principal se desarroll\u00f3 en el siglo XIX.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 264,
+    "output_tokens": 90,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

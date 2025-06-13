@@ -1,0 +1,36 @@
+{
+  "id": "60ad979d-4817-40cc-9a3f-1bff6ca57fc5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un tono ir\u00f3nico y juega con las contradicciones y estereotipos sobre el matrimonio y las mujeres, lo que puede resultar c\u00f3mico para algunos lectores. La exageraci\u00f3n en la descripci\u00f3n de las mujeres como 'prisi\u00f3n', 'abismo', y '\u00eddolo' junto con el giro final que sugiere una preferencia por la variedad despu\u00e9s de comprometerse con una, introduce un elemento de humor negro y sarcasmo. Este contraste entre la solemnidad del tema y la ligereza del tratamiento, junto con la sorpresa del final, contribuye a su comicidad. Sin embargo, el humor puede ser subjetivo y no todos los lectores podr\u00edan encontrarlo c\u00f3mico, especialmente dependiendo de sus perspectivas personales sobre el matrimonio y las relaciones de g\u00e9nero.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749560930,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 200,
+    "prompt_tokens": 258,
+    "total_tokens": 458,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 2
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "f2249a32-6e9d-495c-b873-65dc31b906f9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta un tono ir\u00f3nico y sat\u00edrico al enumerar una serie de posesiones y preferencias que, en conjunto, pintan un retrato exageradamente modesto y peculiar del hablante. La menci\u00f3n de objetos cotidianos elevados a la categor\u00eda de devociones o emblemas, como 'el Cristo del Zapato' o 'la Virgen de Cortina', junto con la declaraci\u00f3n de que su 'm\u00fasica toda es un silbato', contribuyen a un efecto c\u00f3mico. Adem\u00e1s, la afirmaci\u00f3n final de que 'nunca he asistido a una retreta' parece ser una observaci\u00f3n absurda que refuerza la naturaleza humor\u00edstica del poema. La combinaci\u00f3n de lo sagrado con lo mundano, y la presentaci\u00f3n de una vida extremadamente simplificada con un aire de solemnidad, crea un contraste c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749564918,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 213,
+    "prompt_tokens": 256,
+    "total_tokens": 469,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 64
+  }
+}

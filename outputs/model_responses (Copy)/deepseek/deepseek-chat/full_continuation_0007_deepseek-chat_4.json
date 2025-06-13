@@ -1,0 +1,36 @@
+{
+  "id": "bb2e0182-9336-4acc-9760-c5657a611aee",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"donde con su destreza y su ma\u00f1a,\\nno hubo quien le igualara en la haza\u00f1a,\\ndejar sin narices al tirano.\\nAll\u00ed su fama crece y se engrandece,\\nporque en justa o en reyerta,\\nsiempre su espada diestra\\nhace que el miedo en los valientes cese.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749564667,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 119,
+    "total_tokens": 223,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 55
+  }
+}

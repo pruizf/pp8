@@ -1,0 +1,23 @@
+{
+  "id": "msg_01W72PCt8MMT4rVd6wvT9uNh",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"De su fe conjugal registradora\\ncon m\u00e1s instrumentos que un partido,\\nsi bien su testimonio es tan dormido\\nque a su cr\u00e9dito el sue\u00f1o no desdora.\\n\\nDe vuestras travesuras, do\u00f1a Justa,\\ndon Diego es un archivo, que lo sabe,\\ny no lo ignora, aunque de manso gusta.\\n\\nAunque es marido de notable llave,\\ny vos se\u00f1ora de la vida angusta,\\ntodo se sabe, pero nada es grave.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 124,
+    "output_tokens": 152,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

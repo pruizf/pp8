@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKoJUSjuOApnwzlBusv9bUuzRYRB",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"De buena gana yo los a\u00f1os buenos diera, por asegurar este bien ya ganado: pues mejor es pasar por un extremo que siempre parar en el medio estado.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161815,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 103,
+    "total_tokens": 158
+  }
+}

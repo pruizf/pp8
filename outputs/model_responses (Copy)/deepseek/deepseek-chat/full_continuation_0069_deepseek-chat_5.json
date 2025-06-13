@@ -1,0 +1,36 @@
+{
+  "id": "07b28ab2-0252-4ef6-ba6d-2521fdf55714",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"No se desvele, no se descomponga,\\nque el sue\u00f1o es vida y el velar es muerte;\\nno d\u00e9 que hablar, que es peor suerte,\\ny en su casa la silla no se ahonda.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572182,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 126,
+    "total_tokens": 198,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 62
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKukwgumD9jKe24Cuct9ep3QF2Jf",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"El vicio os pudre el alma y os atraca\\nm\u00e1s que vivir en queja y en demorra;\\nm\u00e1s que jurar la especie m\u00e1s perorra,\\npara fumar ni hay ley ni hay dios que os saque.\\n\\nEl muy brib\u00f3n y la vil cigarrera\\ncuando han chupado ya toda la noche,\\ncon pretensi\u00f3n de reclamar su noche\\nlanzan humo peor que una caldera.\\n\\nPitillos mil os he comprado a docenas;\\nvais a por m\u00e1s y el humo os da pegones,\\nten\u00e9is sed de Stalin y Beethoven.\\nLa garganta os cuelga cual cadenas.\\n\\nA varios amigos tronados:\\nEl vicio os pudre el alma y os atraca\\nm\u00e1s que vivir en queja y en demorra;\\nm\u00e1s que jurar la especie m\u00e1s perorra,\\n\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162214,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_888385ccad",
+  "usage": {
+    "completion_tokens": 193,
+    "prompt_tokens": 102,
+    "total_tokens": 295
+  }
+}

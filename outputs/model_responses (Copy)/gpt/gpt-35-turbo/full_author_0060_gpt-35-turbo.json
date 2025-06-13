@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKp3w67i270tCtHFLWr8nF28APSW",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Francisco de Quevedo\",\n  \"century\": \"XVII\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161861,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 24,
+    "prompt_tokens": 235,
+    "total_tokens": 259
+  }
+}

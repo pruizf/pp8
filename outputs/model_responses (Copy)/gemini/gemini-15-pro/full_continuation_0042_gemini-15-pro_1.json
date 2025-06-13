@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"ama la col rizada, el nabo audaz y el esp\u00e1rrago\\npueril, mas no al ma\u00edz, que es blando, ni a la espinaca, que es vana.\\nTriunfante en el esti\u00e9rcol, sue\u00f1a con el trigo,\\nsus espigas erizadas como yelmos de guerra.\\n\\nAma la tierra arcillosa, que es densa y compacta,\\ny la turba, de la que extrae un jugo oscuro.\\nAcaricia los surcos profundos, huecos y amplios,\\ndonde se pudren las ra\u00edces secas, alimento de las simientes.\\n\\nSiembra con mano experta, esparciendo las semillas\\ncomo un mago que lanza sus conjuros,\\nluego aguarda pacientemente a que la tierra d\u00e9 fruto,\\ncomo un alquimista que espera su oro.\\n\\nY cuando al fin la cosecha brota, abundante y vigorosa,\\nse regocija como un padre ante sus hijos,\\ny agradece a la tierra, su madre nutricia,\\nel don de la vida que le ha concedido.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.8085603950437436,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 242,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 242
+      }
+    ],
+    "prompt_token_count": 134,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 134
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 376,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "ama la col rizada, el nabo audaz y el esp\u00e1rrago\npueril, mas no al ma\u00edz, que es blando, ni a la espinaca, que es vana.\nTriunfante en el esti\u00e9rcol, sue\u00f1a con el trigo,\nsus espigas erizadas como yelmos de guerra.\n\nAma la tierra arcillosa, que es densa y compacta,\ny la turba, de la que extrae un jugo oscuro.\nAcaricia los surcos profundos, huecos y amplios,\ndonde se pudren las ra\u00edces secas, alimento de las simientes.\n\nSiembra con mano experta, esparciendo las semillas\ncomo un mago que lanza sus conjuros,\nluego aguarda pacientemente a que la tierra d\u00e9 fruto,\ncomo un alquimista que espera su oro.\n\nY cuando al fin la cosecha brota, abundante y vigorosa,\nse regocija como un padre ante sus hijos,\ny agradece a la tierra, su madre nutricia,\nel don de la vida que le ha concedido."
+    }
+  ]
+}

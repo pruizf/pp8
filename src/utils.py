@@ -262,7 +262,23 @@ def get_judgement_info_for_dir(dname, max_choices=cf.max_choices_for_textometry)
   return judgements_postpro, judgements_by_prefix
 
 
-def postprocess_full_into_individual_responses(cf, dir_to_postpro, model):
+def clean_up_json_response(s):
+  """
+  Clean up a JSON response string by removing non-json content
+  
+  Args:
+      s (str): The JSON response string to clean.
+  
+  Returns:
+      str: The cleaned JSON response string.
+  """
+  # remove the prefix and suffix that are not part of the JSON
+  s = s.replace("Aquí tienes la respuesta en JSON:\n\n", "")
+  s = s.replace("Aquí está mi respuesta en JSON:\n\n", "")
+  s = re.sub(r"^[^{]+\{", "{", s, flags=re.DOTALL)
+  return s
+
+def postprocess_full_into_individual_responses(cf, dir_to_postpro, model, model_type="gpt"):
   """
   Post-process the full response into individual responses.
 
@@ -289,9 +305,8 @@ def postprocess_full_into_individual_responses(cf, dir_to_postpro, model):
     txt_for_resp = [x for x in os.listdir(cf.corpus_dir) if re.search(rf"{example_number}.txt", x)][0]  
 
     # write individual responses
-    for idx, resp in enumerate(full_resp["choices"]):
-      # extract content to write to individual response files
-      jresp = json.loads(resp["message"]["content"])
+    if "claude" in model:
+      jresp = json.loads(clean_up_json_response(full_resp["content"][0]["text"]))
       judgement_orig = jresp["judgement"].lower().strip()
       judgement = normalize_judgement(judgement_orig)
       assert judgement in cf.judgements_orig, f"Judgement {judgement} not in possible original judgements."
@@ -299,9 +314,32 @@ def postprocess_full_into_individual_responses(cf, dir_to_postpro, model):
       out_json = {}
       out_json["judgement"] = judgement
       out_json["reason"] = reason
+      choice_number_re = re.search(r"full_humor_\d{4}_.+_(\d)\.json", fn)
+      #breakpoint()
+      if choice_number_re is None:
+        choice_number = 1
+      else:
+        #breakpoint()
+        choice_number = int(choice_number_re.group(1))
+      resp_fn = cf.response_filename_tpl_js.format(
+        poem_id=txt_for_resp.replace(".txt", ""), model=model.replace(".", ""), choiceNbr=choice_number)
+      resp_fn = os.path.join(cf.response_dir + os.sep + model_type, model.replace(".", ""), resp_fn)
+      with open(resp_fn, "w") as f:
+        json.dump(out_json, f, indent=2, ensure_ascii=False)
+    else:
+      for idx, resp in enumerate(full_resp["choices"]):
+        # extract content to write to individual response files
+        jresp = json.loads(resp["message"]["content"])
+        judgement_orig = jresp["judgement"].lower().strip()
+        judgement = normalize_judgement(judgement_orig)
+        assert judgement in cf.judgements_orig, f"Judgement {judgement} not in possible original judgements."
+        reason = jresp["reason"].strip()
+        out_json = {}
+        out_json["judgement"] = judgement
+        out_json["reason"] = reason
       # write out
       resp_fn = cf.response_filename_tpl_js.format(
         poem_id=txt_for_resp.replace(".txt", ""), model=model.replace(".", ""), choiceNbr=idx+1)
-      resp_fn = os.path.join(cf.response_dir + os.sep + "gpt", model.replace(".", ""), resp_fn)
+      resp_fn = os.path.join(cf.response_dir + os.sep + model_type, model.replace(".", ""), resp_fn)
       with open(resp_fn, "w") as f:
         json.dump(out_json, f, indent=2, ensure_ascii=False)

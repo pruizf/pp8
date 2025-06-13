@@ -1,0 +1,36 @@
+{
+  "id": "7f1b0224-07a0-4e99-9c37-d022b4213633",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas no al pat\u00e1n que en vano el surco ara\u00f1a,\\nni al necio que en el barbecho se recrea,\\nque s\u00f3lo en la labor la gloria se lee,\\ny en el sudor del surco, la haza\u00f1a.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556875,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 132,
+    "total_tokens": 210,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 4
+  }
+}

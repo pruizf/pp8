@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKq4FYOlASrJHLUmoIHAUnzlJOXk",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y que al mayor del Orbe el mar navega, escuadras finge y miedo a Grecia env\u00eda. Dura poniente y a la Lira env\u00eda saetas; Tit\u00f3n quiere encender vega.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161924,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 122,
+    "total_tokens": 189
+  }
+}

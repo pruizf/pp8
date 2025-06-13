@@ -1,0 +1,36 @@
+{
+  "id": "ec51b86f-d724-4289-b29b-164e5a3dd70e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien de expresar emociones profundas y contrastes emocionales a trav\u00e9s de im\u00e1genes po\u00e9ticas. El lenguaje utilizado es elevado y metaf\u00f3rico, centr\u00e1ndose en temas como el amor, el dolor y la naturaleza, lo cual es t\u00edpico de la poes\u00eda l\u00edrica m\u00e1s que de la comedia. La estructura y el tono del poema sugieren una seriedad y una intensidad emocional que no se alinea con lo que generalmente se considera c\u00f3mico. Adem\u00e1s, los elementos como 'tormento', 'llanto', y 'triste acento' refuerzan la idea de que el poema busca conmover al lector m\u00e1s que hacerlo re\u00edr. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, las caracter\u00edsticas predominantes del poema apuntan hacia una interpretaci\u00f3n seria m\u00e1s que c\u00f3mica.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556507,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 226,
+    "prompt_tokens": 251,
+    "total_tokens": 477,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 187
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "9687cc8d-d496-4b27-832b-663f0a1a62a5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"huye el poeta a solas con su melancol\u00eda,\\ny en la quietud del campo, bajo la noche fr\u00eda,\\nencuentra en las estrellas sus m\u00e1s fieles placeres.\\n\\nAll\u00ed, donde el silencio es rey y se\u00f1or\u00edo,\\ndonde el tiempo parece detenerse en su br\u00edo,\\nel alma del poeta con los cielos conversa.\\n\\nY en ese di\u00e1logo sublime y sin testigos,\\ndescubre las verdades de los antiguos libros,\\nque el viento le susurra con voz dulce y adversa.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567132,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 151,
+    "prompt_tokens": 136,
+    "total_tokens": 287,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 8
+  }
+}

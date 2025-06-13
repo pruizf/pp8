@@ -1,0 +1,36 @@
+{
+  "id": "1b29447f-4605-47dc-8b62-ab58377c9f50",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"De tu boca la miel y la dulzura,\\npara enga\u00f1arme y darme m\u00e1s tormento;\\nde tus manos la fuerza y el aliento,\\npara rendirme en dura coyuntura.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559781,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 115,
+    "total_tokens": 181,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 51
+  }
+}

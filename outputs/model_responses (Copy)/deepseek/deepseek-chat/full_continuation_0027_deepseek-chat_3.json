@@ -1,0 +1,36 @@
+{
+  "id": "b4ff4b9b-e3eb-4fd0-bbae-fea1552627fb",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y aunque su autor, de risa no ha podido, \\npor m\u00e1s que en su proeza se deleita, \\nque en la posteridad su nombre quede, \\ncomo en la fama, en burlas y en mercedes.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559673,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 120,
+    "total_tokens": 196,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 56
+  }
+}

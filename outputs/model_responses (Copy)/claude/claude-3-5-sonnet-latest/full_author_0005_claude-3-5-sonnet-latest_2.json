@@ -1,0 +1,23 @@
+{
+  "id": "msg_01SoTsD4oqXVQvoJkG3rrriM",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Rafael Pombo\",\n  \"century\": \"19\"\n}\n\nEste poema aliterado (todos los versos comienzan con la letra 'r') es un soneto del poeta colombiano Rafael Pombo (1833-1912), conocido por sus obras tanto para adultos como para ni\u00f1os. Este poema en particular es un ejemplo de su capacidad para jugar con el lenguaje y crear efectos sonoros especiales.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 255,
+    "output_tokens": 109,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

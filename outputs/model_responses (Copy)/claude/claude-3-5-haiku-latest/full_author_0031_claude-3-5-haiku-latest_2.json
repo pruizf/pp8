@@ -1,0 +1,23 @@
+{
+  "id": "msg_011WzqCgSk5m4z6UcqWnjJah",
+  "content": [
+    {
+      "citations": null,
+      "text": "Bas\u00e1ndome en el estilo y la estructura del soneto, as\u00ed como en su lenguaje, puedo identificar que este es un poema de Lope de Vega, un importante poeta espa\u00f1ol del Siglo de Oro.\n\n{\n  \"author\": \"Lope de Vega\",\n  \"century\": \"17\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 265,
+    "output_tokens": 83,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "a27348a6-3e38-4fc2-982c-ec01840eb2a5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"al mismo tiempo que de sepultura,\\n\u00bfqu\u00e9 mucho que en tus versos se consigne\\nque eres del sol de Espa\u00f1a lumbre pura,\\ny que en tus obras vivas eternamente,\\ncomo en su centro, la mayor esfera,\\ny que, cual F\u00e9nix, renazcas de tu muerte,\\npara que en ti la admiraci\u00f3n no muera?\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749560196,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 121,
+    "total_tokens": 224,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 57
+  }
+}

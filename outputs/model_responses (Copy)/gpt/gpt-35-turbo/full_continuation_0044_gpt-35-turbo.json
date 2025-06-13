@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKnSUjoW7SVW5XtkANhonIZgqh2x",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"de la llama que el astro enciende; el seno de las grutas se ilumina con una aurora c\u00e1lida, en que disuelto, fundi\u00e9ndose en los \u00e1ureos reflejos, el seco barniz se hinche cual oro azul nubes de luz c\u00e1ndida extienden y la morada cubre de esplendores quietos.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161762,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 107,
+    "total_tokens": 209
+  }
+}

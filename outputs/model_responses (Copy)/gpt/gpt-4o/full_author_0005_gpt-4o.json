@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKtXC0YZhcq3NJhowl7dHrlkrrZW",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Francisco de As\u00eds de Icaza y Be\u00f1a\",\n  \"century\": \"XIX\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162139,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 28,
+    "prompt_tokens": 209,
+    "total_tokens": 237
+  }
+}

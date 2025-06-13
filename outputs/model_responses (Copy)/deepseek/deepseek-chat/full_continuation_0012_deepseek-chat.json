@@ -1,0 +1,36 @@
+{
+  "id": "77bd2899-c898-4248-bae0-d3764f8be2cd",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y en su lugar, la noche ha extendido su manto,\\nfr\u00edo y oscuro, sobre el mundo antes brillante.\\nLas estrellas, t\u00edmidas, apenas se atreven a mirar,\\nmientras la luna, solitaria, sigue su camino indiferente.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554274,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 82,
+    "prompt_tokens": 123,
+    "total_tokens": 205,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 123
+  }
+}

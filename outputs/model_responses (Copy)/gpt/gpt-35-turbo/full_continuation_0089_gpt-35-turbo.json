@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKrsh5aKz48MCHGf0d7x0Ak6txgc",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"sigo viendo el mundo en su quebranto, con luto, con blas\u00f3n y con quebranto, sin alas para huir ni pensamiento.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162036,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 51,
+    "prompt_tokens": 115,
+    "total_tokens": 166
+  }
+}

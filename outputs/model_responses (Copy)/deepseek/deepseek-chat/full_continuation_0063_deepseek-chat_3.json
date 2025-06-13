@@ -1,0 +1,36 @@
+{
+  "id": "06868f97-0619-4ad6-a8d9-afe9cae71eaf",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Baila sin alma, sin amor, sin fe,\\nMueve los pies al comp\u00e1s del azar,\\nY en cada paso que da al avanzar,\\nParece que dice: '\u00a1M\u00edrame, m\u00edrame!'\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749560873,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 73,
+    "prompt_tokens": 112,
+    "total_tokens": 185,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 48
+  }
+}

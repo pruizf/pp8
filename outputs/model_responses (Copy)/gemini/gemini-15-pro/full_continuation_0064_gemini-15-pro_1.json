@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Te acuerdas de m\u00ed, en la ciudad eterna,\\nDonde la historia vive y respira a\u00fan,\\nY el arte antiguo con el nuevo alterna,\\nY el alma siente un celestial desd\u00e9n\\n\\nPor lo terreno y lo que al mundo aferra,\\nPiensa que hay otro ser que te venera,\\nY que en tus dichas goza y en tus penas.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.3863392282039561,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 94,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 94
+      }
+    ],
+    "prompt_token_count": 120,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 120
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 214,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Te acuerdas de m\u00ed, en la ciudad eterna,\nDonde la historia vive y respira a\u00fan,\nY el arte antiguo con el nuevo alterna,\nY el alma siente un celestial desd\u00e9n\n\nPor lo terreno y lo que al mundo aferra,\nPiensa que hay otro ser que te venera,\nY que en tus dichas goza y en tus penas."
+    }
+  ]
+}

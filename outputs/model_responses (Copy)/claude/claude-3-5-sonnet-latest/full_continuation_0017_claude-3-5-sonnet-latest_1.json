@@ -1,0 +1,23 @@
+{
+  "id": "msg_01X3FZdRkZA5XXukwjWEyfhy",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Por M\u00c1S que digas M\u00c1S, no dir\u00e1s M\u00c1S\\nque el M\u00c1S que yo prometo, y si despu\u00e9s\\nel M\u00c1S se vuelve menos, culpa es\\nde quien promete M\u00c1S sin poder M\u00c1S.\\n\\nM\u00c1S vale prometer menos y dar M\u00c1S\\nque no prometer M\u00c1S y dar despu\u00e9s\\nmenos, porque quien da menos en vez\\nde M\u00c1S, se queda al fin sin M\u00c1S ni M\u00c1S.\\n\\nPor eso, amigo M\u00c1S, no pido M\u00c1S\\nque lo justo no M\u00c1S, pues como ves,\\nni t\u00fa ni yo podemos dar ya M\u00c1S.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 156,
+    "output_tokens": 210,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

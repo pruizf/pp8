@@ -1,0 +1,36 @@
+{
+  "id": "cf77b129-1ff2-40d4-8804-a922c71a8e86",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00c9se es mi mal. So\u00f1ar. La carne roe\\ncomo un gusano, en la prisi\u00f3n obscura\\ndel cuerpo, el alma triste, que no apura\\nm\u00e1s luz que la que el ciego encarcelado ve.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749557072,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 77,
+    "prompt_tokens": 129,
+    "total_tokens": 206,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 1
+  }
+}

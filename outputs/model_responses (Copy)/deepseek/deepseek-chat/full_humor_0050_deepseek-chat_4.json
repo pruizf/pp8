@@ -1,0 +1,36 @@
+{
+  "id": "0f8203dd-51bc-48cb-b57d-9ca4bb8481b9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado, 'Soneto Autumnal al Marqu\u00e9s de Bradom\u00edn', no parece tener la intenci\u00f3n de ser c\u00f3mico. Su tono es m\u00e1s bien melanc\u00f3lico y reflexivo, con referencias a la estaci\u00f3n del oto\u00f1o, un Versalles 'doliente', y elementos como un 'm\u00e1rmol desnudo' y una 'paloma' que pas\u00f3 de repente, que evocan una sensaci\u00f3n de tristeza o nostalgia. Adem\u00e1s, el lenguaje utilizado es po\u00e9tico y elevado, con un estilo que se asemeja al modernismo literario, lo que no es t\u00edpico de la comedia. La menci\u00f3n del Marqu\u00e9s de Bradom\u00edn, un personaje conocido por su car\u00e1cter decadente y rom\u00e1ntico en la literatura de Valle-Incl\u00e1n, tambi\u00e9n refuerza la seriedad y el tono no c\u00f3mico del poema. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, los elementos presentes en el poema sugieren que no fue escrito con la intenci\u00f3n de ser c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566252,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 255,
+    "prompt_tokens": 297,
+    "total_tokens": 552,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 41
+  }
+}

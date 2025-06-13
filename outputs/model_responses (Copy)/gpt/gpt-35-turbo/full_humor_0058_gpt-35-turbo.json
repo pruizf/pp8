@@ -1,0 +1,69 @@
+{
+  "id": "chatcmpl-9dKolTca1KUtrnuASgSlx30xnViSM",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"S\u00ed, el poema es c\u00f3mico. Se burla de las convenciones y formalidades que rodean a los funerales, mostrando las absurdas interacciones entre los personajes que asisten al velorio. La iron\u00eda y la forma en que se presentan los diferentes personajes y sus roles en la escena dan un tono humor\u00edstico y sarc\u00e1stico al poema. Adem\u00e1s, la \u00faltima l\u00ednea remata con un giro inesperado que a\u00f1ade un toque de comedia a la situaci\u00f3n. En general, la disposici\u00f3n de los personajes y sus di\u00e1logos crean un efecto c\u00f3mico en la lectura del poema.\" \n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 1,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico debido a la iron\u00eda y sarcasmo presentes en la descripci\u00f3n de los personajes y la situaci\u00f3n. Se burla de las convenciones sociales y de las hipocres\u00edas presentes en un funeral. El tono es sat\u00edrico y la forma en que se presentan los di\u00e1logos y las descripciones de los personajes generan un efecto humor\u00edstico. La exageraci\u00f3n y la cr\u00edtica social impl\u00edcita en el poema lo hacen c\u00f3mico para algunos lectores.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 2,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico debido a la iron\u00eda y el tono sarc\u00e1stico que utiliza para describir la escena de un funeral. Utiliza una estructura rimada y m\u00e9trica, t\u00edpica de la poes\u00eda humor\u00edstica, y juega con la absurdidad de las interacciones sociales en un momento tan solemne como un funeral. La descripci\u00f3n de los personajes de manera caricaturesca y exagerada contribuye a la comicidad del poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 3,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque presenta de manera ir\u00f3nica y sarc\u00e1stica la situaci\u00f3n de un funeral, con personajes que no parecen estar completamente comprometidos con el duelo. La descripci\u00f3n de los personajes y sus interacciones durante el velorio, utilizando un lenguaje formal pero con tintes de ridiculizaci\u00f3n, genera un efecto humor\u00edstico en el lector. Adem\u00e1s, la revelaci\u00f3n final sobre el personaje sentado en la otra punta a\u00f1ade un giro inesperado que refuerza el tono c\u00f3mico del poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 4,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque utiliza un tono sarc\u00e1stico y humor\u00edstico al describir la escena de un funeral. Se burla de la hipocres\u00eda y las actitudes superficiales de los asistentes, lo cual puede resultar gracioso para algunos lectores. La iron\u00eda presente en las respuestas de los personajes y la forma en que se revelan las verdaderas intenciones detr\u00e1s de las preguntas hacen que el poema tenga un tono humor\u00edstico a pesar de tratar un tema serio como la muerte.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161843,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 692,
+    "prompt_tokens": 259,
+    "total_tokens": 951
+  }
+}

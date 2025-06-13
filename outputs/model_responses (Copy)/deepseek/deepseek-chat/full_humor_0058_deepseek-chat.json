@@ -1,0 +1,36 @@
+{
+  "id": "f40afdf4-7785-4cbd-b6c9-5c3ce9115401",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un tono ligero y situaciones absurdas para describir un funeral, lo cual es inusual y puede resultar c\u00f3mico. La interacci\u00f3n entre los personajes, especialmente la \u00faltima l\u00ednea que sugiere que el 'majadero' fue 'la debilidad de la difunta', introduce un elemento de humor negro. La estructura de preguntas y respuestas r\u00e1pidas, junto con la descripci\u00f3n de los asistentes al funeral de manera casi caricaturesca, contribuye a la comicidad del poema. Adem\u00e1s, el contraste entre la solemnidad esperada en un funeral y la trivialidad de las conversaciones presentadas a\u00f1ade una capa de iron\u00eda que puede ser interpretada como humor\u00edstica.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555665,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 272,
+    "total_tokens": 447,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 208
+  }
+}

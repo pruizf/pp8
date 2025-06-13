@@ -1,0 +1,36 @@
+{
+  "id": "8a3c5c0f-40ac-4a6f-911c-6ff0590d1d2d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien l\u00edrico y emotivo. Utiliza un lenguaje po\u00e9tico y metaf\u00f3rico para expresar sentimientos profundos y contrastes emocionales, como el amor y el dolor. La estructura y el contenido del poema se alinean m\u00e1s con la tradici\u00f3n de la poes\u00eda amorosa y pastoral, donde los elementos naturales se personifican para reflejar los estados emocionales del hablante. No hay elementos t\u00edpicos del humor, como juegos de palabras, iron\u00eda o situaciones absurdas, que suelen encontrarse en la poes\u00eda c\u00f3mica. Por lo tanto, el juicio es que el poema no es c\u00f3mico, sino que busca conmover al lector a trav\u00e9s de su belleza l\u00edrica y su profundidad emocional.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749558239,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 202,
+    "prompt_tokens": 251,
+    "total_tokens": 453,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 59
+  }
+}

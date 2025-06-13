@@ -1,0 +1,36 @@
+{
+  "id": "ad73de78-fe37-4ee8-a8aa-d94f50f2ff5e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado, un soneto, no parece tener la intenci\u00f3n de ser c\u00f3mico. Su lenguaje es elevado y metaf\u00f3rico, centr\u00e1ndose en temas como la libertad, la fama y lo divino, utilizando im\u00e1genes como un p\u00e1jaro canario que vuela alto como un \u00e1guila y referencias a Helicona, la monta\u00f1a sagrada de las musas en la mitolog\u00eda griega. El tono es m\u00e1s bien serio y contemplativo, alej\u00e1ndose de los elementos t\u00edpicos del humor, como la iron\u00eda, el sarcasmo o lo absurdo. Adem\u00e1s, la estructura formal del soneto, con su m\u00e9trica y rima estrictas, suele asociarse con temas m\u00e1s graves o rom\u00e1nticos que con la comedia. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, las caracter\u00edsticas predominantes del poema sugieren que no est\u00e1 destinado a ser c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554981,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 227,
+    "prompt_tokens": 233,
+    "total_tokens": 460,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 169
+  }
+}

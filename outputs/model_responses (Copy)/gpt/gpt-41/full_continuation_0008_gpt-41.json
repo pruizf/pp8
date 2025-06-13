@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-BhIMX64O6Mdgadg7i796ZJCy9OJFp",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Pero el hogar resiste y no se agarra\\ntu soplo, viento, al coraz\u00f3n deshecho.\\nAfuera, todo es ruina y desconchecho,\\ndentro, la paz alumbra y se desgarra.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749658389,
+  "model": "gpt-4.1-2025-04-14",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_a1102cf978",
+  "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 106,
+    "total_tokens": 173,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

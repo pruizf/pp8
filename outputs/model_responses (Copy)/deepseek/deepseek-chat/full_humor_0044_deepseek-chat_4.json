@@ -1,0 +1,36 @@
+{
+  "id": "f8878590-e1ce-4673-b001-ab96ba487b76",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Idilio salvaje \u2013 IV' no es c\u00f3mico debido a su tono serio y melanc\u00f3lico, que evoca im\u00e1genes de una estepa maldita, vientos que cantan como m\u00fasica divina, y un beso solitario. La descripci\u00f3n de los ojos como 'un dardo negro de pasi\u00f3n y enojos' y la cabellera 'de india brava' destacada contra el sol muriente refuerzan una atm\u00f3sfera de intensidad emocional y belleza tr\u00e1gica, lejos de cualquier intento de humor o comicidad. La elecci\u00f3n de palabras y las im\u00e1genes utilizadas apuntan a una exploraci\u00f3n de sentimientos profundos y conflictivos, m\u00e1s que a provocar risa o diversi\u00f3n.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566063,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 183,
+    "prompt_tokens": 244,
+    "total_tokens": 427,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 52
+  }
+}

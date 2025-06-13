@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKmNLia2QiRAXl8Nfwjic3oo4BnF",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas cuando vuelvo a ver tu rostro bello,\\nse enciende en m\u00ed un fulgor que me ilumina,\\ny en medio de mi angustia me fascina,\\nnueva esperanza nace en mi desvelo.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161695,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 103,
+    "total_tokens": 172
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "f5f30cdc-218c-4ea8-adc3-317a0c00cbc1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas como soy de \u00e1nimo constante,\\nY en mi pecho no cabe la venganza,\\nTe contesto con risa y con bonanza,\\nAunque merecer\u00edas algo bastante.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555782,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 119,
+    "total_tokens": 182,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 55
+  }
+}

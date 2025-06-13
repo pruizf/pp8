@@ -1,0 +1,36 @@
+{
+  "id": "6ac95ce9-429b-489e-8ef0-5c16432c5d01",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Es c\u00e1rcel, mas no hay quien no quiera estar dentro; es infierno, mas no hay quien no descienda a \u00e9l. Es el dolor que todos buscamos, el mal que todos queremos, el peligro en que todos nos metemos, la guerra de que todos nos quejamos.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572064,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 86,
+    "prompt_tokens": 133,
+    "total_tokens": 219,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 128
+    },
+    "prompt_cache_hit_tokens": 128,
+    "prompt_cache_miss_tokens": 5
+  }
+}

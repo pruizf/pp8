@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKu5U0m7PGSsHlRYahLICaVF4mgd",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Luis Carlos L\u00f3pez\",\n  \"century\": \"20\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162173,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 19,
+    "prompt_tokens": 256,
+    "total_tokens": 275
+  }
+}

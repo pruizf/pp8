@@ -1,0 +1,23 @@
+{
+  "id": "msg_01AQWS4DCSP5ZkqxcPJ9dfH3",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"T\u00fa, que eres flor, no es bien que flor te vea\\nque en bot\u00f3n se qued\u00f3 por la ma\u00f1ana,\\ncuando la edad m\u00e1s verde y m\u00e1s lozana\\nte dio hermosura que el amor desea.\\n\\nNo aguardes a que el tiempo, que todo muda,\\nmalogre tu belleza y tus antojos,\\ny que a mejor vivir el alma acuda;\\n\\nque no podr\u00e1s despu\u00e9s abrir los ojos,\\ncuando te halles tan helada y muda,\\nque des horror a quien causabas enojos.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 132,
+    "output_tokens": 169,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-BgVeZaDJCmZu7oTacykRoNPw5WD5x",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"author\": \"Luis de G\u00f3ngora y Argote\", \"century\": \"17\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749471151,
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_62a23a81ef",
+  "usage": {
+    "completion_tokens": 20,
+    "prompt_tokens": 229,
+    "total_tokens": 249,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

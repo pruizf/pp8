@@ -1,0 +1,36 @@
+{
+  "id": "24a954dd-cc53-49fd-94d7-cee5b7f30ade",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Agrega luego, con mano cuidadosa,\\nUna pizca de risa y otra de llanto,\\nY un suspiro de amor, fresco y sonoro.\\nB\u00e1telo todo bajo la luna hermosa,\\nY s\u00edrvelo en la copa del encanto,\\nPara beber el n\u00e9ctar de los dioses.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555756,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 126,
+    "total_tokens": 224,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 62
+  }
+}

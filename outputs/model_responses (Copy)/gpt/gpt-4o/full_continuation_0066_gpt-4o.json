@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dL0cxGTawKkshdG7bqe8TdP3N3jf",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"No m\u00e1s en forma recta y de poeta\\nescoge batallar por tu tesoro:\\ncambiar\u00e1 los encantos de su loro\\npor furia celestial de su saeta.\\n\\nEntorna las pesta\u00f1as encendidas,\\nque ci\u00f1an tu hermosura los pavores\\nde su eterna avidez y tus heridas,\\nnutriendo su rencor de ruise\u00f1ores.\\n\\nDestruye con su boca tus guaridas\\nque la protecci\u00f3n guarda en sus flores.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162578,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 120,
+    "prompt_tokens": 96,
+    "total_tokens": 216
+  }
+}

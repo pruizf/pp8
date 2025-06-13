@@ -1,0 +1,23 @@
+{
+  "id": "msg_01QPJT1vSvU4mseTgnfgk74z",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Perder un pleito en que el honor depende,\\nNo encontrar una rima que hace falta,\\nVer que un necio a los puestos altos salta,\\nY que el m\u00e9rito al suelo se desciende;\\n\\nQue llueva sin cesar un mes entero,\\nTener un Don Preciso por amigo,\\nEsperar ocho d\u00edas un dinero;\\n\\nDe estos males, Se\u00f1ora, no lo niego,\\nCada cual es un b\u00e1rbaro enemigo;\\nPero el mayor de todos es ser ciego.\"\n}\n\nEl poema es un soneto del escritor espa\u00f1ol Jos\u00e9 Iglesias de la Casa (1748-1791).",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 122,
+    "output_tokens": 188,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

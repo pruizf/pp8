@@ -1,0 +1,23 @@
+{
+  "id": "msg_0145eAvahrecajUMH1W1n8En",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"al sol la c\u00e1ndida belleza entera,\ncuando ba\u00f1ada en la salada esfera\nla restituye al mar en tiempo breve.\nAs\u00ed, se\u00f1ora, la humildad presente,\nque de vos a vos misma se deriva\ny en vos misma se goza y se consiente,\nde la grandeza vuestra fue cautiva;\nque el don menor, si vuelve a su corriente,\nm\u00e1s gloria que se lleva es la que arriba.\"\n}\n\nEste es un soneto de Francisco de Quevedo titulado \"A una dama que daba audiencia por una reja, cubierta con una celos\u00eda\".",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 121,
+    "output_tokens": 175,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

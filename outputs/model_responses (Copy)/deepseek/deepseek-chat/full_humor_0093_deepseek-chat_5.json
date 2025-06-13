@@ -1,0 +1,36 @@
+{
+  "id": "7ca5794e-5552-4b65-b48a-ae019018ca4e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener un tono c\u00f3mico, sino m\u00e1s bien rom\u00e1ntico y melanc\u00f3lico. Utiliza un lenguaje po\u00e9tico tradicional, con temas como el amor no correspondido, el sufrimiento emocional y la esperanza de un futuro mejor despu\u00e9s de la muerte. Estos temas son tratados con seriedad y profundidad emocional, lo cual es contrario a lo que normalmente se esperar\u00eda en un poema c\u00f3mico. La estructura y el estilo del poema tambi\u00e9n reflejan un enfoque serio, con un uso cuidadoso del lenguaje y la m\u00e9trica que busca evocar emociones profundas en el lector, en lugar de provocar risa o diversi\u00f3n. Por lo tanto, bas\u00e1ndonos en el contenido, el tono y la intenci\u00f3n del poema, concluimos que no es c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572868,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 200,
+    "prompt_tokens": 238,
+    "total_tokens": 438,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 46
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKyTAp8IV4hvMs72fxuaH9HQwVLL",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Que oigo los fantasmas, p\u00e1lidos de olvido,\\nhacer resonar la ro\u00edda campana\\nllorando tristes recuerdos de la infancia,\\nque revuelven en mi viejo coraz\u00f3n.\\n\\nHermano, t\u00fa que tienes la luz, dime la m\u00eda.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162445,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_888385ccad",
+  "usage": {
+    "completion_tokens": 76,
+    "prompt_tokens": 105,
+    "total_tokens": 181
+  }
+}

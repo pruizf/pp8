@@ -1,0 +1,36 @@
+{
+  "id": "73549467-fdac-49ec-b25f-d5cf7f75f62e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"El poema mezcla elementos mitol\u00f3gicos con un tono que podr\u00eda interpretarse como ir\u00f3nico o sat\u00edrico, especialmente en la \u00faltima l\u00ednea donde se describe a J\u00fapiter como 'Fingido cisne y verdadero ganso'. Sin embargo, la comicidad no es expl\u00edcita y depende en gran medida de la interpretaci\u00f3n del lector y su familiaridad con los referentes mitol\u00f3gicos utilizados. La sutileza del humor y el uso de un lenguaje po\u00e9tico elevado pueden hacer que la comicidad no sea inmediatamente evidente para todos los lectores, lo que lleva a una calificaci\u00f3n de 'incierto' en cuanto a su naturaleza c\u00f3mica.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572081,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 162,
+    "prompt_tokens": 255,
+    "total_tokens": 417,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 63
+  }
+}

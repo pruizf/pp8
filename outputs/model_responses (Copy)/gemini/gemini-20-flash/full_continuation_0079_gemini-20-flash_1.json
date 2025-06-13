@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[\n  {\n    \"judgement\": \"s\u00ed\",\n    \"continuation\": \"le obedeci\u00f3 sumiso y humillado;\\nm\u00e1s que a las ondas, al furor guiado\\nde invidia, pudo ser siempre terrible.\\n\u00a1Oh, portento de amor m\u00e1s que de haza\u00f1a!\\n\u00a1Oh, prodigio que admira cielo y tierra!\\nRompe el hielo la fe, doma la entra\u00f1a\\ndel mar, y triunfa en la m\u00e1s dura guerra.\"\n  }\n]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.5052714171233,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.0-flash",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 108,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 108
+      }
+    ],
+    "prompt_token_count": 116,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 116
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 224,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "le obedeci\u00f3 sumiso y humillado;\nm\u00e1s que a las ondas, al furor guiado\nde invidia, pudo ser siempre terrible.\n\u00a1Oh, portento de amor m\u00e1s que de haza\u00f1a!\n\u00a1Oh, prodigio que admira cielo y tierra!\nRompe el hielo la fe, doma la entra\u00f1a\ndel mar, y triunfa en la m\u00e1s dura guerra."
+    }
+  ]
+}

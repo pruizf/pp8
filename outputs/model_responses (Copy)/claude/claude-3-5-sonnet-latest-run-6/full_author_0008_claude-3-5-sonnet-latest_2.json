@@ -1,0 +1,23 @@
+{
+  "id": "msg_01Ta728SRUcQ1eZfBj2Tq7Ca",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Francisco Javier Irazoki\",\n  \"century\": \"20\"\n}\n\nEste poema pertenece al poeta navarro Francisco Javier Irazoki, nacido en 1954 en Lesaka (Navarra). El poema hace referencia al tambi\u00e9n escritor navarro Miguel S\u00e1nchez-Ostiz y al Portal de Francia, una ubicaci\u00f3n en Pamplona.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 266,
+    "output_tokens": 101,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

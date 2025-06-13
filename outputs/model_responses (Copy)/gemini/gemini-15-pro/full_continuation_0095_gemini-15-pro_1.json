@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"\u00a1Qu\u00e9 tercetos de fuego, qu\u00e9 canciones!\\n\\nYo tambi\u00e9n, como todos, he sentido\\nla irresistible sed de los abismos\\ny he cantado al amor sin medida,\\nal amor, que es la fuente de los himnos,\\nque es la causa primera de las vidas,\\nque es el fin en que acaban los caminos.\\n\\nMas hoy, viendo mis sue\u00f1os imposibles,\\nlos sepulto en mi alma para siempre\\ny me vuelvo a la tierra, a sus perfiles,\\na buscar en sus sombras lo que duerme,\\nlo que vive en silencio entre los triles,\\nlo que calla y no llora eternamente.\\n\\nYo s\u00e9 que es vano el culto de la lira,\\nque los dioses se r\u00eden de los hombres,\\nque los hombres no saben lo que inspiran\\ny que el alma no encuentra eco en nombres.\\n\\nYo s\u00e9 que es vano el culto de la lira,\\nque es bald\u00edo el amor, que es vana el nombre.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.5831745836703263,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 227,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 227
+      }
+    ],
+    "prompt_token_count": 111,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 111
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 338,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "\u00a1Qu\u00e9 tercetos de fuego, qu\u00e9 canciones!\n\nYo tambi\u00e9n, como todos, he sentido\nla irresistible sed de los abismos\ny he cantado al amor sin medida,\nal amor, que es la fuente de los himnos,\nque es la causa primera de las vidas,\nque es el fin en que acaban los caminos.\n\nMas hoy, viendo mis sue\u00f1os imposibles,\nlos sepulto en mi alma para siempre\ny me vuelvo a la tierra, a sus perfiles,\na buscar en sus sombras lo que duerme,\nlo que vive en silencio entre los triles,\nlo que calla y no llora eternamente.\n\nYo s\u00e9 que es vano el culto de la lira,\nque los dioses se r\u00eden de los hombres,\nque los hombres no saben lo que inspiran\ny que el alma no encuentra eco en nombres.\n\nYo s\u00e9 que es vano el culto de la lira,\nque es bald\u00edo el amor, que es vana el nombre."
+    }
+  ]
+}

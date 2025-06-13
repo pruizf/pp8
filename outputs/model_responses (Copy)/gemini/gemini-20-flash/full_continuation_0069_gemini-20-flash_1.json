@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[\n  {\n    \"judgement\": \"s\u00ed\",\n    \"continuation\": \"Deje saya y basqui\u00f1a, que es divisa\\nde mujeres plebeyas; no pretenda\\nque su marido diga que la ofenda\\nquien la ve cual mujer que no es precisa.\\n\\nV\u00edstase de holand\u00e9s, p\u00f3ngase valona,\\nuse los tafetanes y los brocados,\\njub\u00f3n de seda, medias de Cambray.\\n\\nEn fin, Josefa, diga lo que suena,\\nque as\u00ed mujeres de pro son estimadas.\u00bb\\n\u2014\u00abTiene raz\u00f3n, marido; ya lo har\u00e9.\u00bb\"\n  }\n]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.629721421461839,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.0-flash",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 143,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 143
+      }
+    ],
+    "prompt_token_count": 125,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 125
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 268,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Deje saya y basqui\u00f1a, que es divisa\nde mujeres plebeyas; no pretenda\nque su marido diga que la ofenda\nquien la ve cual mujer que no es precisa.\n\nV\u00edstase de holand\u00e9s, p\u00f3ngase valona,\nuse los tafetanes y los brocados,\njub\u00f3n de seda, medias de Cambray.\n\nEn fin, Josefa, diga lo que suena,\nque as\u00ed mujeres de pro son estimadas.\u00bb\n\u2014\u00abTiene raz\u00f3n, marido; ya lo har\u00e9.\u00bb"
+    }
+  ]
+}

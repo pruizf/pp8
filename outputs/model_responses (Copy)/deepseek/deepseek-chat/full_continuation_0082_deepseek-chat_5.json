@@ -1,0 +1,36 @@
+{
+  "id": "c569c47c-2be1-497b-b56a-590617898a92",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"en medio de la noche m\u00e1s oscura,\\ncuando todos callaban, t\u00fa hablabas,\\ncuando todos temblaban, t\u00fa avanzabas,\\ncon la luz de tu alma, pura y ardiente.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572559,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 68,
+    "prompt_tokens": 116,
+    "total_tokens": 184,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 52
+  }
+}

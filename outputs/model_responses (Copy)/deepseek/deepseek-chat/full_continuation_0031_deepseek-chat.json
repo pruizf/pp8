@@ -1,0 +1,36 @@
+{
+  "id": "a99e6068-54ca-47bb-adaa-83632d1910a1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y aunque veo el peligro de que muero,\\nno hallo en mi coraz\u00f3n fuerza ni arte\\npara apartarme de este mal tan fiero.\\n\\nAs\u00ed como el piloto, que en su parte\\nve venir la tormenta y no la esquiva,\\nans\u00ed yo, que en amor tengo mi arte.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554883,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 111,
+    "total_tokens": 203,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 47
+  }
+}

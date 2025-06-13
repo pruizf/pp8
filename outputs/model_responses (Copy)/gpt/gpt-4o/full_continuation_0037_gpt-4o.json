@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKx0IwWsfNUvrjZd1VdBwMgJxHRr",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"lo siento, pero no s\u00e9 c\u00f3mo contin\u00faa este poema\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162354,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 27,
+    "prompt_tokens": 92,
+    "total_tokens": 119
+  }
+}

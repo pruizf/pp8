@@ -1,0 +1,36 @@
+{
+  "id": "734b741b-273b-46be-ada1-d6cd3ed7ee2b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"A\u00f1ade luego, con mano cuidadosa,\\nUna pizca de risa y otra de llanto,\\nUn suspiro de amor, un grito de espanto,\\nY remueve con cuchara sonorosa.\\n\\nDeja reposar bajo la luna llena,\\nHasta que el alba ti\u00f1a el horizonte,\\nY sirve en copas de cristal, al monte,\\nPara brindar por la belleza ajena.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566603,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 126,
+    "total_tokens": 252,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 62
+  }
+}

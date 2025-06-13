@@ -1,0 +1,23 @@
+{
+  "id": "msg_01XhRiCuUuVUjfQ5swBngb2h",
+  "content": [
+    {
+      "citations": null,
+      "text": "```json\n{\n  \"author\": \"Juli\u00e1n del Casal\",\n  \"century\": \"19\"\n}\n```",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-4-20250514",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 264,
+    "output_tokens": 33,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "msg_016pSjUVN94WQccY1QLK1oNc",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Francisco de Quevedo\",\n  \"century\": \"17\"\n}\n\nEste es un soneto t\u00edpico de Quevedo, con su caracter\u00edstico estilo ingenioso y sat\u00edrico, que juega con los conceptos de la vida del protagonista y su transformaci\u00f3n, rematando con una reflexi\u00f3n moral final, muy propio de su estilo literario barroco.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-haiku-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 271,
+    "output_tokens": 95,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

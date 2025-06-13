@@ -1,0 +1,23 @@
+{
+  "id": "msg_01G5V9qTUVG6gpg9d9vzBTXH",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"entre riberas de oloroso almizcle!\\n\u00a1Aves que alz\u00e1is el c\u00e1ntico anhelante!\\n\u00a1Fuentes sonoras de cristal que os quiebra!\\n\u00a1Sitios que am\u00e9 de ni\u00f1o, y que constante\\nmi coraz\u00f3n amante\\npor vosotros palpita en la tiniebla!\"\n}\n\nEste es un poema del escritor mexicano Manuel Jos\u00e9 Oth\u00f3n titulado \"Nostalgia\", que forma parte de sus poemas l\u00edricos. Es un soneto que expresa la a\u00f1oranza por los lugares de la infancia y la naturaleza.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 132,
+    "output_tokens": 170,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "f3e16f56-3185-41ce-94a7-0d7ef650008a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Retrato' no es c\u00f3mico, sino m\u00e1s bien melanc\u00f3lico y profundo. Describe con detalle y emoci\u00f3n la imagen de una persona marcada por el dolor y la experiencia de vida, utilizando un lenguaje po\u00e9tico y metaf\u00f3rico que evoca sentimientos de tristeza y resignaci\u00f3n. La elecci\u00f3n de palabras como 'dolor', 'horror', 'esc\u00e9ptica y doliente', y 'resignada' refuerza el tono serio y contemplativo del poema. Adem\u00e1s, la estructura y el ritmo del poema contribuyen a su car\u00e1cter reflexivo, alej\u00e1ndose de cualquier intenci\u00f3n humor\u00edstica o c\u00f3mica. Por lo tanto, el juicio es que no es c\u00f3mico, basado en el tono, el lenguaje y los temas abordados en el poema.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555291,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 201,
+    "prompt_tokens": 285,
+    "total_tokens": 486,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 221
+  }
+}

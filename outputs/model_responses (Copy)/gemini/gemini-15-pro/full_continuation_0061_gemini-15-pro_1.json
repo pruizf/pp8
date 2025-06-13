@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"A\u00f1ade una pizca de melancol\u00eda,\\nDos o tres gotas de hipocres\u00eda,\\nUna copita de impertinencia,\\nY un grano de fina iron\u00eda.\\n\\nRemueve bien, con gracia y br\u00edo,\\nY obtendr\u00e1s un n\u00e9ctar, te lo digo yo,\\nQue embriagar\u00e1 a los dioses del Olimpo,\\nY har\u00e1 so\u00f1ar a los mortales con su encanto.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.38617178109975964,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 104,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 104
+      }
+    ],
+    "prompt_token_count": 122,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 122
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 226,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "A\u00f1ade una pizca de melancol\u00eda,\nDos o tres gotas de hipocres\u00eda,\nUna copita de impertinencia,\nY un grano de fina iron\u00eda.\n\nRemueve bien, con gracia y br\u00edo,\nY obtendr\u00e1s un n\u00e9ctar, te lo digo yo,\nQue embriagar\u00e1 a los dioses del Olimpo,\nY har\u00e1 so\u00f1ar a los mortales con su encanto."
+    }
+  ]
+}

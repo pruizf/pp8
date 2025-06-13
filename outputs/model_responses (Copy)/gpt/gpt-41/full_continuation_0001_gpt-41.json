@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-BhIHUWZHlTPVCMDmZf327wHYBT4zp",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00a1Qu\u00e9 tonificante! Si el cherokee Bong\\ndiera el secreto al m\u00e9dico de Cheng,\\no si el doct\u00edsimo doctor Chen-Yeng\\nlo administrara en polvo, t\u00e9 o bomb\u00f3n!\\n\\nSaludablemente la salud se aumenta.\\nEn la mis\u00e9rrima existencia nuestra,\\nes lo m\u00e1s saludable que se encuentra.\\n\\nAdem\u00e1s, en la est\u00e9tica nos cuenta\\ncon los recursos de su ciencia adentra.\\n\u00a1Y qu\u00e9 sabor, qu\u00e9 aroma, qu\u00e9 fermenta!\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749658076,
+  "model": "gpt-4.1-2025-04-14",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_51e1070cf2",
+  "usage": {
+    "completion_tokens": 117,
+    "prompt_tokens": 94,
+    "total_tokens": 211,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

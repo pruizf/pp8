@@ -1,0 +1,36 @@
+{
+  "id": "7ab26976-8984-45ac-a37a-bba5c62fe38b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"le daba en premio y paga conocida\\nla ciudadana que mejor le agradase,\\ny aun la que fuese en todo a su voluntad,\\nporque en tan gran peligro y cortedad,\\nno se pod\u00eda dar mayor merced.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556797,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 109,
+    "total_tokens": 189,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 45
+  }
+}

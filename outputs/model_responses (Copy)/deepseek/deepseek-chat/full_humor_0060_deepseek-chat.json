@@ -1,0 +1,36 @@
+{
+  "id": "497940d9-112f-4396-acde-433a7a824ab5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Trabajo perdido' aborda temas profundos y existenciales como la b\u00fasqueda de la felicidad, el miedo a la p\u00e9rdida, la lucha contra la desgracia y la contradicci\u00f3n humana, los cuales son tratados con un tono serio y reflexivo. La estructura y el lenguaje utilizado por el autor no apuntan hacia la comedia o el humor, sino m\u00e1s bien hacia una reflexi\u00f3n melanc\u00f3lica sobre la condici\u00f3n humana. Adem\u00e1s, el uso de met\u00e1foras y la elecci\u00f3n de palabras como 'dicha', 'desgracia', 'perpetua sed', y 'racional' refuerzan esta seriedad. Por lo tanto, aunque el poema puede ser apreciado por su profundidad y belleza literaria, no se puede considerar c\u00f3mico debido a su tono y tem\u00e1tica.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555717,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 204,
+    "prompt_tokens": 242,
+    "total_tokens": 446,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 178
+  }
+}

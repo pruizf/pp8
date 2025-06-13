@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKvmfW562dc8dW6I2mUT9nh8hM1a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Goza mientras en fugitivo tiempo \\n dejas ya eterno en la memoria m\u00eda; \\n goza de amor la pr\u00f3spera alegr\u00eda \\n que en s\u00f3lo amor se halla su mejor ejemplo.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162278,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 91,
+    "total_tokens": 150
+  }
+}

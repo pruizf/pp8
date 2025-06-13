@@ -1,0 +1,23 @@
+{
+  "id": "msg_017HPtT8QAKrNb5ciNfDWEBV",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"O del recinto que ornament\u00f3 Trajana,\\nO del arco triunfal que al sol fulgura,\\nO del antiguo foro en la llanura,\\nO de la augusta v\u00eda Appia romana,\\n\\nSe detiene tu planta peregrina,\\nY elevas hasta el cielo la mirada\\nDonde el arte sus glorias eslabona,\\n\\nPiensa que el alma de tu patria hermana\\nAl pie de la bas\u00edlica sagrada\\nBesa el sepulcro que a su fe corona.\"\n}\n\nEste es un soneto de Antonio Caro titulado \"A un amigo residente en Roma\".",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 128,
+    "output_tokens": 185,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

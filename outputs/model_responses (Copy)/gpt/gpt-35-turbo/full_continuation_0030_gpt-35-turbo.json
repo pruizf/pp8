@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKmIzr1NUkkTnjsg7SGnwLx3r8gv",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Encaden\u00f3 mi cuello, apres\u00f3me, / y ciego y prisionero en mi mollera, / olvid\u00f3 la raz\u00f3n, y amor con ella.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161690,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 108,
+    "total_tokens": 164
+  }
+}

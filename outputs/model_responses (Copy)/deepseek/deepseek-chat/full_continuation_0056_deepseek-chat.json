@@ -1,0 +1,36 @@
+{
+  "id": "3301623d-b428-40cb-8c93-c67cdfc16f10",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"All\u00ed, entre flores que el amor cultiva,\\nSe escucha el dulce canto de las aves,\\nY el viento que en las hojas se derrama,\\nLleva en sus alas perfumes de oliva.\\n\\nEs el lugar donde mi alma vive,\\nDonde mis sue\u00f1os toman forma y vuelo,\\nY donde, en silencio, el tiempo olvida\\nSu paso, para no turbar este cielo.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555626,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 122,
+    "prompt_tokens": 116,
+    "total_tokens": 238,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 52
+  }
+}

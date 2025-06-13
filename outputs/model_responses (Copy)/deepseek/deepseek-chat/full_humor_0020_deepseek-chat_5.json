@@ -1,0 +1,36 @@
+{
+  "id": "ad6ca8b7-0427-41d7-8aa9-cd96c1bccd91",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta elementos c\u00f3micos a trav\u00e9s de la exageraci\u00f3n y la iron\u00eda, como la descripci\u00f3n de la voz del personaje como 'bronco-chillona, de botijo' y la situaci\u00f3n absurda en la que el personaje es celebrado por un soneto que, en realidad, es considerado 'fatal' por los dem\u00e1s. El uso de lenguaje coloquial y la construcci\u00f3n de una escena rid\u00edcula refuerzan el tono humor\u00edstico. Adem\u00e1s, el juego de palabras con el nombre 'Brabo' y la repetici\u00f3n c\u00f3mica de '\u00a1Bravo! \u00a1Bravo!' contribuyen a la percepci\u00f3n del poema como una pieza c\u00f3mica, jugando con las expectativas del lector y la realidad de la situaci\u00f3n descrita.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749570682,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 186,
+    "prompt_tokens": 273,
+    "total_tokens": 459,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 17
+  }
+}

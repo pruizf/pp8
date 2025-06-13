@@ -1,0 +1,36 @@
+{
+  "id": "e12104f5-d040-49d0-8db7-cb57197ac27a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"T\u00fa con la luna llena, yo con menguante,\\nt\u00fa con el mar brav\u00edo, yo con el r\u00edo,\\nt\u00fa con el viento fuerte, yo con el constante,\\nt\u00fa con el fuego ardiente, yo con el fr\u00edo.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559605,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 79,
+    "prompt_tokens": 124,
+    "total_tokens": 203,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 60
+  }
+}

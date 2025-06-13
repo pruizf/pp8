@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKmjXkk4e8ylbCAHijIhqZE2XmOQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Sigue tu vuelo alto y solitario, buscando en lo m\u00e1s alto tu consuelo, desafiando al destino y al desvelo, con alas fuertes y coraz\u00f3n ario.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161717,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 104,
+    "total_tokens": 165
+  }
+}

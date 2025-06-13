@@ -1,0 +1,36 @@
+{
+  "id": "979197a9-47dd-4970-9805-d5bb53a9e1a0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"con los hombres, fr\u00edo como un hielo; \\nno hables nunca de tu propio suelo, \\nni de tus padres, ni de tu apellido. \\nSi dices que eres pobre, \u00a1qu\u00e9 locura! \\nporque el mundo es un teatro de apariencia, \\ny aqu\u00ed lo que no es lindo, no se dura. \\nViste, pues, de moda y de elegancia, \\nque el h\u00e1bito, aunque simple, hace figura, \\ny da al hombre exterior la preferencia.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559400,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 140,
+    "prompt_tokens": 121,
+    "total_tokens": 261,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 57
+  }
+}

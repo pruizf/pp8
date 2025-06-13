@@ -1,0 +1,36 @@
+{
+  "id": "422060a7-b1ab-49b5-aa07-0ee574e2abe1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'El botijo' no es c\u00f3mico, sino m\u00e1s bien una oda l\u00edrica que celebra las cualidades de un objeto cotidiano, el botijo, compar\u00e1ndolo favorablemente con otras vasijas hist\u00f3ricas y culturalmente significativas. El tono del poema es serio y admirativo, enfoc\u00e1ndose en la capacidad del botijo para refrescar el agua y su presencia en la vida cotidiana. El lenguaje utilizado es po\u00e9tico y elevado, con referencias culturales y un uso de met\u00e1foras que no apuntan hacia la comicidad, sino hacia la apreciaci\u00f3n est\u00e9tica y funcional del objeto. La estructura y el ritmo del poema tambi\u00e9n contribuyen a un tono contemplativo m\u00e1s que humor\u00edstico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556343,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 247,
+    "total_tokens": 429,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 55
+  }
+}

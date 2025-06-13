@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKlUuzptit6qUeO3gxS4LasqzvYq",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Eres la fe que el alma fortalece, el aliento que en la sombra mora, la luz que en los abismos se colora, la estrella que en la noche resplandeces. Eres la voz que en sue\u00f1os me aconseja, la mano que en la duda me sostiene, la br\u00fajula que al rumbo me endereza. Eres la verdad que el error despeja, la calma que al tormento detiene, el verso que en la mente permanece.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161640,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 119,
+    "total_tokens": 252
+  }
+}

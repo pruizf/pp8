@@ -1,0 +1,36 @@
+{
+  "id": "1d3ca390-e078-4157-b960-f5798138fd61",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien profundamente reflexivo y espiritual. Su tono es serio y melanc\u00f3lico, centr\u00e1ndose en temas como la eternidad, la relaci\u00f3n con Dios, y la contemplaci\u00f3n de la vida y la muerte. El lenguaje utilizado es elevado y po\u00e9tico, con un uso de met\u00e1foras y simbolismos que apuntan a una exploraci\u00f3n de sentimientos y creencias profundas, m\u00e1s que a provocar risa o diversi\u00f3n. La estructura y el contenido del poema sugieren una intenci\u00f3n de conmover o inspirar al lector, m\u00e1s que de entretenerlo con humor. Por lo tanto, no se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561322,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 181,
+    "prompt_tokens": 288,
+    "total_tokens": 469,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 32
+  }
+}

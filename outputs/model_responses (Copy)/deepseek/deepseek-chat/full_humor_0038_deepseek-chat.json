@@ -1,0 +1,36 @@
+{
+  "id": "eb66cb36-4ca7-4921-81e9-61dded306b31",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado tiene un tono melanc\u00f3lico y reflexivo, centr\u00e1ndose en temas como el pasado, la naturaleza y la introspecci\u00f3n. No utiliza elementos t\u00edpicos del humor, como la iron\u00eda, el sarcasmo o situaciones absurdas, que son comunes en la poes\u00eda c\u00f3mica. Adem\u00e1s, el lenguaje empleado es serio y po\u00e9tico, enfocado en evocar emociones y paisajes m\u00e1s que en provocar risa o alegr\u00eda. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, los elementos presentes en el poema no sugieren que su intenci\u00f3n sea c\u00f3mica.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555082,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 160,
+    "prompt_tokens": 239,
+    "total_tokens": 399,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 175
+  }
+}

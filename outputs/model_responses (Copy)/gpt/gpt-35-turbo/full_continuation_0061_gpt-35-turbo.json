@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKp6EPqINaUUop1S3APxdn31UBCx",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo mezclar\u00e1s con gracia y desenfado, y con una breve pluma acurrucada t\u00f3mar\u00e1s despu\u00e9s el contenido, alz\u00e1ndote con paso decidido. Lo sorber\u00e1s poco a poco, casi con contemplaci\u00f3n, y sentir\u00e1s c\u00f3mo se extiende por tu cuerpo, llev\u00e1ndote a la embriaguez y a la pasi\u00f3n.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161864,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 115,
+    "total_tokens": 211
+  }
+}

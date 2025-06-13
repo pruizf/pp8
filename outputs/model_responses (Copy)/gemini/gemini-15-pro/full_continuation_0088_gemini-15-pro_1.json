@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"le quit\u00f3 las alas y le quit\u00f3 el arco,\\ny, despu\u00e9s, lo encerr\u00f3 en una jaula de oro.\\n\\nVolvi\u00f3 a salir el sol y Amor lloraba,\\nviendo que Nise se hab\u00eda ido. Grit\u00f3\\npor la ayuda de su madre, Venus,\\npara que lo liberara de su prisi\u00f3n dorada.\\n\\nVenus vino a rescatar a su hijo,\\npero la jaula era demasiado fuerte, incluso para una diosa.\\nAs\u00ed que le rog\u00f3 a Nise\\nque liberara a Amor de su prisi\u00f3n dorada.\\n\\nNise estuvo de acuerdo, pero con una condici\u00f3n:\\nque Cupido disparara una de sus flechas\\nal coraz\u00f3n de aquel que ella deseara.\\nCupido estuvo de acuerdo, y una vez libre,\\ndispar\u00f3 su flecha e hiri\u00f3 el coraz\u00f3n del joven.\\n\\nEl joven se enamor\u00f3 de Nise,\\ny Nise se enamor\u00f3 de \u00e9l a cambio.\\nY as\u00ed, Amor se veng\u00f3 de Nise,\\ny los dos vivieron felices para siempre.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.5598537268014899,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 237,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 237
+      }
+    ],
+    "prompt_token_count": 127,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 127
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 364,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "le quit\u00f3 las alas y le quit\u00f3 el arco,\ny, despu\u00e9s, lo encerr\u00f3 en una jaula de oro.\n\nVolvi\u00f3 a salir el sol y Amor lloraba,\nviendo que Nise se hab\u00eda ido. Grit\u00f3\npor la ayuda de su madre, Venus,\npara que lo liberara de su prisi\u00f3n dorada.\n\nVenus vino a rescatar a su hijo,\npero la jaula era demasiado fuerte, incluso para una diosa.\nAs\u00ed que le rog\u00f3 a Nise\nque liberara a Amor de su prisi\u00f3n dorada.\n\nNise estuvo de acuerdo, pero con una condici\u00f3n:\nque Cupido disparara una de sus flechas\nal coraz\u00f3n de aquel que ella deseara.\nCupido estuvo de acuerdo, y una vez libre,\ndispar\u00f3 su flecha e hiri\u00f3 el coraz\u00f3n del joven.\n\nEl joven se enamor\u00f3 de Nise,\ny Nise se enamor\u00f3 de \u00e9l a cambio.\nY as\u00ed, Amor se veng\u00f3 de Nise,\ny los dos vivieron felices para siempre."
+    }
+  ]
+}

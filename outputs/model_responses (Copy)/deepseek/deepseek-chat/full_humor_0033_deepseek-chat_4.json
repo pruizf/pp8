@@ -1,0 +1,36 @@
+{
+  "id": "29ee8f0b-92fc-42ca-9ac2-0c1bcf4a266c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado, aunque utiliza im\u00e1genes v\u00edvidas y personificaciones de la naturaleza para expresar emociones de amor y desamor, no parece tener la intenci\u00f3n principal de ser c\u00f3mico. La tem\u00e1tica central gira en torno a los sentimientos de amor no correspondido y la naturaleza como espejo de estas emociones, lo cual es m\u00e1s propio de la poes\u00eda l\u00edrica que de la comedia. El tono es m\u00e1s bien melanc\u00f3lico y reflexivo, centr\u00e1ndose en el contraste entre la vitalidad del amor en la naturaleza y la frialdad de Nise hacia el hablante l\u00edrico. Por lo tanto, aunque el poema puede contener elementos ingeniosos o ir\u00f3nicos, su prop\u00f3sito y efecto general no son predominantemente c\u00f3micos.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749565689,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 189,
+    "prompt_tokens": 260,
+    "total_tokens": 449,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 4
+  }
+}

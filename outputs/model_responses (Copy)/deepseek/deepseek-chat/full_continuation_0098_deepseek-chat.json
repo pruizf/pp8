@@ -1,0 +1,36 @@
+{
+  "id": "a46d779d-519e-4b0f-bcfa-f81931c247a4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"el horizonte, que a mis pies se ba\u00f1a\\nen luz de oro, y el sol que se despe\u00f1a\\npor el ocaso, en su postrer af\u00e1n.\\n\\nTodo es silencio en torno, y en el cielo\\nlas estrellas titilan, y en el suelo\\nla sombra se dilata sin cesar.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556767,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 128,
+    "total_tokens": 224,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 128
+  }
+}

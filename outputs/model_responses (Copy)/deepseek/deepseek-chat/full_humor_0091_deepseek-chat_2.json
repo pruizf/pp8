@@ -1,0 +1,36 @@
+{
+  "id": "8fa342eb-6cd5-4166-a88e-6cf774fba1b1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien refleja un tono melanc\u00f3lico y reflexivo sobre el amor y el sufrimiento emocional. El lenguaje utilizado es po\u00e9tico y serio, con referencias al dolor, la tristeza y la necesidad de protegerse del amor. Temas como 'el alma se enciende un nuevo fuego que me consume dulcemente el seno' y 'Huye a los ojos bellos, cierra el paso al vano desear y a mentirosas esperanzas, y c\u00e9rcate de hielo' sugieren una profundidad emocional y una seriedad que no se alinea con lo que t\u00edpicamente se considera c\u00f3mico. La comedia en la poes\u00eda a menudo se asocia con el uso de lenguaje ligero, situaciones absurdas o juegos de palabras, elementos que est\u00e1n ausentes en este poema. Por lo tanto, basado en el tono, el lenguaje y los temas tratados, el juicio es que el poema no es c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749558321,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 253,
+    "prompt_tokens": 245,
+    "total_tokens": 498,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 53
+  }
+}

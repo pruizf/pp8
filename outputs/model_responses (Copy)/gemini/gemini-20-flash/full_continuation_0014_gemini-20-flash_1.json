@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[\n  {\n    \"judgement\": \"s\u00ed\",\n    \"continuation\": \"Mas \u00a1ay! que mi osad\u00eda fue un mal rato,\\npues ella, cual leona repentina,\\nme ech\u00f3 un zapato, \u00a1v\u00e1lgame la Madrina!,\\ny hundi\u00f3 mi amor en f\u00fanebre barato.\\n\\nJur\u00f3 vengarme, y yo, cual vil cobarde,\\nhu\u00ed despavorido y con gran miedo,\\nno fuese a darme un golpe, \u00a1Dios me guarde!\\n\\nMas luego, arrepentido de mi enredo,\\nvolv\u00ed, y hall\u00e9 que, sin rencor que guarde,\\nme daba el otro zapato, \u00a1y ya qued\u00e9 enredo!\"\n  }\n]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.39664089460314417,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.0-flash",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 163,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 163
+      }
+    ],
+    "prompt_token_count": 114,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 114
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 277,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Mas \u00a1ay! que mi osad\u00eda fue un mal rato,\npues ella, cual leona repentina,\nme ech\u00f3 un zapato, \u00a1v\u00e1lgame la Madrina!,\ny hundi\u00f3 mi amor en f\u00fanebre barato.\n\nJur\u00f3 vengarme, y yo, cual vil cobarde,\nhu\u00ed despavorido y con gran miedo,\nno fuese a darme un golpe, \u00a1Dios me guarde!\n\nMas luego, arrepentido de mi enredo,\nvolv\u00ed, y hall\u00e9 que, sin rencor que guarde,\nme daba el otro zapato, \u00a1y ya qued\u00e9 enredo!"
+    }
+  ]
+}

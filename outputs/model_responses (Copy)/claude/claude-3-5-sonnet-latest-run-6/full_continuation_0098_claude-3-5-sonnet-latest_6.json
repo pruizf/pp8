@@ -1,0 +1,23 @@
+{
+  "id": "msg_01HAwz1JdHrTXSuCYZjV4Gdb",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"al sol poniente que la cima ba\u00f1a;\ncon profunda emoci\u00f3n, que no me enga\u00f1a,\ntiendo la vista al horizonte arcano.\n\u00a1Qu\u00e9 hermoso panorama! \u00a1Qu\u00e9 grandeza!\n\u00a1Qu\u00e9 variedad de luces y colores!\n\u00a1Qu\u00e9 espect\u00e1culo digno de los cielos!\n\u00a1Mas ay! que al contemplar tanta belleza\nsiento en mi coraz\u00f3n hondos dolores,\ny el alma triste inexplicables duelos.\"\n}\n\nEste soneto se titula \"En la cumbre\" y fue escrito por Antonio Fern\u00e1ndez Grilo (1845-1906), poeta espa\u00f1ol del Romanticismo.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 134,
+    "output_tokens": 192,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

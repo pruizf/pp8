@@ -1,0 +1,36 @@
+{
+  "id": "033d3e09-1242-4742-8fcc-ddbdcc483ee4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y en la noche sin luna, el viento agita\\nlas sombras de los \u00e1rboles, que gimen,\\nmientras las hojas secas, que se animan,\\nen un baile fantasmal se precipitan.\\nEl fr\u00edo se adue\u00f1a de la atm\u00f3sfera,\\ny en el coraz\u00f3n del viajero,\\nla nostalgia y el viento se confunden,\\nen un lamento largo y profundo.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559033,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 113,
+    "prompt_tokens": 125,
+    "total_tokens": 238,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 61
+  }
+}

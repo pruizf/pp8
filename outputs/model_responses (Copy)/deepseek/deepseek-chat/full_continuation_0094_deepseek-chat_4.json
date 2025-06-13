@@ -1,0 +1,36 @@
+{
+  "id": "f3b4ebed-c45e-4f4c-bd35-7d1f26c90080",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"buscaste el sol que en las alturas brilla,\\ny en su fulgor perdiste la pupila,\\ncomo la mariposa en los instantes\\nfinales de su vuelo, que se abrasa\\nen la llama que atrae su mirada.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567681,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 78,
+    "prompt_tokens": 123,
+    "total_tokens": 201,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 59
+  }
+}

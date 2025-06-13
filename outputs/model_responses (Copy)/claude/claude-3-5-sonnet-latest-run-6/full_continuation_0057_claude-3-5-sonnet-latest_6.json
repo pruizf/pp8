@@ -1,0 +1,23 @@
+{
+  "id": "msg_01JyU6CLzjjpiwHfAwwWjYrD",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Pues bien: as\u00ed tambi\u00e9n, envejecido,\\nSin fe, sin ilusi\u00f3n, sin un instante\\nDe dicha y paz, sucumbo vacilante\\nComo el cedro en los montes abatido.\\n\\nPero el \u00e1rbol al fin cuando le hiere\\nEl rayo destructor, solo en la selva\\nM\u00edsero y triste y olvidado muere.\\n\\nY yo, cuando el destino me sepulte,\\nMorir\u00e9 sin que nadie me devuelva\\nLa vida... \u00a1y sin que nadie me consulte!\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 120,
+    "output_tokens": 168,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

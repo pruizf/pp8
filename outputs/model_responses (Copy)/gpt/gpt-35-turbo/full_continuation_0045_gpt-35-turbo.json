@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKnZhW20N9Ob0rFGySGbw5Uxh2fb",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Riza en ondas de oro el \u00e1ureo cabello, estrella son sus ojos, su sonrisa de un sol; se dir\u00eda un poeta, un \u00e1ngel, un consuelo en aquel rostro p\u00e1lido, marchito y sin alma.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161769,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 111,
+    "total_tokens": 186
+  }
+}

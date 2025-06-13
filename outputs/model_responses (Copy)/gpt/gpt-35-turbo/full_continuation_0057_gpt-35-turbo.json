@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKoj0ZSVlRQXgBmh40h6QG4NPeMC",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mal de muchos, consuelo de tontos\\nLo repito, ya ver\u00e1s como, aplicando este refr\u00e1n, no te sientes m\u00e1s tonto\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161841,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 104,
+    "total_tokens": 156
+  }
+}

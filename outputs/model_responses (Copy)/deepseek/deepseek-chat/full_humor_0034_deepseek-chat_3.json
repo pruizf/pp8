@@ -1,0 +1,36 @@
+{
+  "id": "cd4210f7-a2be-49f5-a06d-e15d0c5bed57",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado es un soneto que expresa una profunda devoci\u00f3n y alabanza al amor, utilizando un lenguaje elevado y metaf\u00f3rico. No contiene elementos t\u00edpicos de la comedia, como el humor, la iron\u00eda o situaciones absurdas. Por el contrario, su tono es serio y reverencial, centr\u00e1ndose en la experiencia espiritual y emocional del amor. La estructura formal del soneto, con su m\u00e9trica y rima estrictas, tambi\u00e9n contribuye a su car\u00e1cter solemne m\u00e1s que c\u00f3mico. Por lo tanto, aunque el poema puede ser apreciado por su belleza y profundidad, no se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559891,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 231,
+    "total_tokens": 396,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 39
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico. Es un soneto tradicional que expresa un amor profundo y reverente. El hablante bendice al Amor y sus atributos: el nombre, la flecha, la venda y el fuego.  El nombre del amor le trae sosiego y reconocimiento. La flecha lo ha hecho obediente a su amada, por quien renuncia al mundo. La venda lo ha cegado a todo menos a ella. Y el fuego, que es un fuego espiritual, purifica su alma.  El tono es serio y elevado, utilizando un lenguaje po\u00e9tico cl\u00e1sico.  El tema es universal y atemporal: la experiencia transformadora del amor verdadero. No hay elementos de humor, iron\u00eda o s\u00e1tira que sugieran una intenci\u00f3n c\u00f3mica.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.12073486790512547,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico. Es un soneto tradicional que expresa un amor profundo y reverente. El hablante bendice al Amor y sus atributos: el nombre, la flecha, la venda y el fuego.  Estos elementos representan la fama que el amor le otorga, la sumisi\u00f3n a la amada, la ceguera ante sus defectos y la pasi\u00f3n abrasadora.  El poema utiliza un lenguaje elevado y formal, con referencias cl\u00e1sicas como la idea del amor plat\u00f3nico que afecta solo al alma, no al cuerpo.  El tono general es serio y solemne, propio de la poes\u00eda amorosa tradicional. No hay elementos de humor, iron\u00eda o sarcasmo que sugieran una intenci\u00f3n c\u00f3mica.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.20012750381078476,
+      "grounding_metadata": null,
+      "index": 1,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico. Es un soneto tradicional que expresa un amor profundo y espiritual. El tono es reverente y serio, alabando al Amor y sus efectos sobre el alma del poeta.  Utiliza im\u00e1genes cl\u00e1sicas del amor como la saeta, la venda y el fuego, pero no de una manera que busque la risa. La venda, por ejemplo, representa la ceguera del amor, no una torpeza f\u00edsica. El fuego simboliza la pasi\u00f3n, pero una pasi\u00f3n purificadora que afecta al alma, no al cuerpo. El lenguaje es elevado y formal, con un l\u00e9xico culto que refuerza la solemnidad del tema. La estructura del soneto, con su rima y m\u00e9trica precisa, tambi\u00e9n contribuye a la seriedad del poema. En resumen, el poema busca expresar la experiencia trascendental del amor, no provocar la risa.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.17741582748737741,
+      "grounding_metadata": null,
+      "index": 2,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico. Es un soneto tradicional que expresa un amor profundo y espiritual. El hablante bendice al Amor y sus atributos: su nombre, su flecha (que lo hiri\u00f3 e hizo obediente a su amada), su venda (que lo ceg\u00f3 a todo lo dem\u00e1s) y su fuego (que purifica su alma). El lenguaje es elevado y reverente, y el tono es serio y apasionado. No hay elementos de humor, iron\u00eda o s\u00e1tira que sugieran una intenci\u00f3n c\u00f3mica. Al contrario, el poema celebra la experiencia trascendental del amor.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.05774325399256464,
+      "grounding_metadata": null,
+      "index": 3,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico. Es un soneto tradicional que expresa un amor profundo y espiritual. El poeta bendice al Amor y sus atributos: su nombre, su flecha (que lo hiri\u00f3 y lo hizo obediente a su amada), su venda (que lo ceg\u00f3 a todo lo dem\u00e1s) y su fuego (que purifica su alma). El tono es reverente y sublime, y el lenguaje es elevado y po\u00e9tico. No hay elementos de humor, iron\u00eda o sarcasmo que sugieran una intenci\u00f3n c\u00f3mica. Al contrario, el poema transmite una sensaci\u00f3n de devoci\u00f3n y trascendencia.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.09299549526638455,
+      "grounding_metadata": null,
+      "index": 4,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 778,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 778
+      }
+    ],
+    "prompt_token_count": 234,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 234
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 1012,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "no",
+      "reason": "El poema no es c\u00f3mico. Es un soneto tradicional que expresa un amor profundo y reverente. El hablante bendice al Amor y sus atributos: el nombre, la flecha, la venda y el fuego.  El nombre del amor le trae sosiego y reconocimiento. La flecha lo ha hecho obediente a su amada, por quien renuncia al mundo. La venda lo ha cegado a todo menos a ella. Y el fuego, que es un fuego espiritual, purifica su alma.  El tono es serio y elevado, utilizando un lenguaje po\u00e9tico cl\u00e1sico.  El tema es universal y atemporal: la experiencia transformadora del amor verdadero. No hay elementos de humor, iron\u00eda o s\u00e1tira que sugieran una intenci\u00f3n c\u00f3mica."
+    }
+  ]
+}

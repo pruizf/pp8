@@ -1,0 +1,36 @@
+{
+  "id": "4ebc6348-1114-4d39-a6a3-7bf93442ba26",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Patria m\u00eda, en tu suelo me hundo,\\nentre tus sombras busco mi luz,\\ntu historia es mi canto, tu dolor mi cruz.\\nAunque el tiempo nos separe, en tu alma me fundo,\\nporque en cada latido, tu nombre pronuncio.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749564528,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 85,
+    "prompt_tokens": 117,
+    "total_tokens": 202,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 53
+  }
+}

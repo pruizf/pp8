@@ -1,0 +1,23 @@
+{
+  "id": "msg_012aaKCmZfywhCB3NGo2F5bu",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \" Del arte industrial y peregrino\\nla copa de cristal de Bohemia,\\ny el b\u00facaro que en M\u00e9jico se premia\\ny el caol\u00edn del S\u00e8vres superfino.\\n\\nM\u00e1s quiero en el verano, cuando abrasa\\nel sol candente en el agosto lento,\\nmi botijo de barro ceniciento\\nque est\u00e1 sudando a la entry de mi casa.\\n\\nPues no hay m\u00e1s eficaz ni mejor modo\\nde refrescar el agua que se bebe,\\nque el botijo espa\u00f1ol, que al fin y al cabo\\n\\nes barro nada m\u00e1s, es decir, todo;\\nporque del barro Dios form\u00f3 al que debe\\nser del mundo se\u00f1or y no su esclavo.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 122,
+    "output_tokens": 207,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

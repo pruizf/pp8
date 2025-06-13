@@ -1,0 +1,36 @@
+{
+  "id": "cff37b0e-09fd-4507-8cd3-d0c97e989b90",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Tempestades' describe una escena de caos y destrucci\u00f3n causada por una tormenta, utilizando un lenguaje v\u00edvido y dram\u00e1tico para transmitir la intensidad de la situaci\u00f3n. La elecci\u00f3n de palabras como 'horrible', 'desolaci\u00f3n', 'muerte', y 'veneno' sugiere un tono serio y sombr\u00edo, m\u00e1s que c\u00f3mico. Adem\u00e1s, la reflexi\u00f3n final sobre quien 'siente tempestades en el alma' introduce un elemento de introspecci\u00f3n y sufrimiento emocional, alej\u00e1ndose a\u00fan m\u00e1s de cualquier intento de humor. La estructura y el contenido del poema est\u00e1n dise\u00f1ados para evocar emociones fuertes y contemplativas, no para provocar risa o alegr\u00eda. Por lo tanto, no se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556487,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 194,
+    "prompt_tokens": 248,
+    "total_tokens": 442,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 56
+  }
+}

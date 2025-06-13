@@ -1,0 +1,23 @@
+{
+  "id": "msg_01SDkoyMGFwUrsf2eFP9qpVr",
+  "content": [
+    {
+      "citations": null,
+      "text": "```json\n{\n  \"author\": \"Jos\u00e9 Asunci\u00f3n Silva\",\n  \"century\": \"19\"\n}\n```",
+      "type": "text"
+    }
+  ],
+  "model": "claude-sonnet-4-20250514",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 295,
+    "output_tokens": 32,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

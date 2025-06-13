@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[\n  {\n    \"judgement\": \"s\u00ed\",\n    \"continuation\": \"Las hojas, cual monedas de oro, caen,\\n En danza triste sobre el mustio suelo.\\n El viento gime un lamento, un duelo,\\n Por el verano que jam\u00e1s volver\u00e1.\\n\\nEl cielo plomizo, sin color ni brillo,\\nRefleja el alma mustia del poeta,\\nQue busca en vano una rima secreta,\\nEn este noviembre fr\u00edo y sin cari\u00f1o.\"\n  }\n]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.3835285578932718,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.0-flash",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 107,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 107
+      }
+    ],
+    "prompt_token_count": 122,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 122
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 229,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Las hojas, cual monedas de oro, caen,\n En danza triste sobre el mustio suelo.\n El viento gime un lamento, un duelo,\n Por el verano que jam\u00e1s volver\u00e1.\n\nEl cielo plomizo, sin color ni brillo,\nRefleja el alma mustia del poeta,\nQue busca en vano una rima secreta,\nEn este noviembre fr\u00edo y sin cari\u00f1o."
+    }
+  ]
+}

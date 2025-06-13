@@ -1,0 +1,36 @@
+{
+  "id": "61ed611e-c377-45c5-adbb-43dbd3e152c7",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y aunque es su estilo algo atrevido,\\nno hay quien sus gracias y saltras abrazas,\\npues con ellas el vulgo se solazas,\\ny el discreto tambi\u00e9n queda divertido.\\n\\nSu ingenio, que a lo vivo retratado,\\nen sus escritos est\u00e1, claro muestra\\nque fue del cielo en gracia privilegiado.\\n\\nY aunque alguno su estilo censuresta,\\nno podr\u00e1 negar que ha conseguido\\nhacer re\u00edr al que m\u00e1s grave fuere.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749570903,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 120,
+    "total_tokens": 253,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 56
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "a58c91cf-14ba-4972-aea8-1b10924c3193",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas ella, al notar mi vano trato,\\ncon risa y desd\u00e9n me dijo: '\u00a1Adelina!',\\ny yo, m\u00e1s muerto que vivo en la esquina,\\nqued\u00e9, burlado en mi amor insensato.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749565002,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 113,
+    "total_tokens": 193,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 49
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "45786fd8-4131-4ed3-ba7a-e54db9bacc4b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'CARTA EN NOVIEMBRE' describe un paisaje oto\u00f1al con un tono melanc\u00f3lico y nost\u00e1lgico, centr\u00e1ndose en la fuerza destructiva del viento y la dureza de la infancia en una regi\u00f3n espec\u00edfica. No hay elementos t\u00edpicos de comedia, como juegos de palabras, situaciones absurdas o iron\u00eda, que puedan provocar risa o alegr\u00eda en el lector. Por el contrario, el lenguaje es po\u00e9tico y evocador, con un enfoque en la belleza triste y la crudeza de la naturaleza y las experiencias humanas. Por lo tanto, no se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559020,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 165,
+    "prompt_tokens": 256,
+    "total_tokens": 421,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 64
+  }
+}

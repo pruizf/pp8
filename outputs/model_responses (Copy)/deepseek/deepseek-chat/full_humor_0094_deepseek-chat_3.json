@@ -1,0 +1,36 @@
+{
+  "id": "43d96526-78e6-4b87-829b-39f330ecf04a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien de transmitir una emoci\u00f3n profunda y un momento de conexi\u00f3n humana significativa. La narrativa describe una escena de generosidad y compasi\u00f3n, donde un acto de bondad provoca una respuesta emocional intensa en el observador. El lenguaje utilizado es po\u00e9tico y emotivo, centr\u00e1ndose en la belleza del gesto y la nobleza del alma, m\u00e1s que en provocar risa o diversi\u00f3n. La estructura y el tono del poema est\u00e1n m\u00e1s alineados con la l\u00edrica rom\u00e1ntica o sentimental, que con la comedia o el humor. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, los elementos clave que definen lo c\u00f3mico (como la exageraci\u00f3n, la iron\u00eda o el absurdo) no est\u00e1n presentes en este texto.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561907,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 215,
+    "prompt_tokens": 242,
+    "total_tokens": 457,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 50
+  }
+}

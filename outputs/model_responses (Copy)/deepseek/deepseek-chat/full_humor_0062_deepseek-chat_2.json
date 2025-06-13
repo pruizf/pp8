@@ -1,0 +1,36 @@
+{
+  "id": "0eee45c5-2af3-4917-a815-eaacec75ac91",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un lenguaje exagerado y situaciones hiperb\u00f3licas para describir la recepci\u00f3n de una carta cr\u00edtica, lo que genera un efecto c\u00f3mico. El uso de frases como 'sabe Dios cu\u00e1ndo' y 'sabe Dios c\u00f3mo' introduce un tono de exasperaci\u00f3n rid\u00edcula desde el principio. Adem\u00e1s, la descripci\u00f3n del 'paliz\u00f3n de tomo y lomo' y los insultos creativos como 'romo, hip\u00f3crita, gandul y hasta nefando' exageran la reacci\u00f3n del hablante ante la cr\u00edtica, lo que es t\u00edpico de la s\u00e1tira y el humor. La petici\u00f3n final de no ser llamado 'ip\u00f3crita sin hache' es un juego de palabras ingenioso que refuerza el tono c\u00f3mico del poema, mostrando una cr\u00edtica ligera y autodespreciativa hacia el propio lenguaje y la ortograf\u00eda.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749557435,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 220,
+    "prompt_tokens": 260,
+    "total_tokens": 480,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 4
+  }
+}

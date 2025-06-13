@@ -1,0 +1,36 @@
+{
+  "id": "e6090f8e-edcb-4bdd-a3d6-c8d5b5455a7b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado tiene un tono melanc\u00f3lico y reflexivo, centr\u00e1ndose en temas como la p\u00e9rdida, el tiempo y la memoria. Utiliza un lenguaje po\u00e9tico y metaf\u00f3rico que invita a la contemplaci\u00f3n m\u00e1s que a la risa. La estructura y el contenido del poema no est\u00e1n dise\u00f1ados para ser c\u00f3micos, sino para evocar emociones profundas y pensamientos sobre la naturaleza ef\u00edmera de la vida y el legado. La ausencia de elementos t\u00edpicos del humor, como juegos de palabras, situaciones absurdas o iron\u00eda, refuerza la conclusi\u00f3n de que el poema no es c\u00f3mico. En cambio, su belleza reside en su capacidad para conmover y hacer reflexionar al lector sobre temas universales y atemporales.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749570435,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 193,
+    "prompt_tokens": 246,
+    "total_tokens": 439,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 54
+  }
+}

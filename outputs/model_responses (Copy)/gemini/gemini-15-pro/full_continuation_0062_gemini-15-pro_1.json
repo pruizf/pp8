@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Mas yo, cual viejo roble que ha sufrido\\nLos rigores de mil tormentas vanas,\\nNi me inmuto ante tus bravatas insanas,\\nNi doblo la cerviz como vencido.\\n\\nSigue escribiendo, pues, con furia loca,\\nQue mientras m\u00e1s me hieres con sa\u00f1a,\\nM\u00e1s fuerte se me vuelve el alma hura\u00f1a\\nY m\u00e1s se agranda en m\u00ed la llama poca.\\n\\nYo seguir\u00e9 mi senda imperturbable,\\nCantando lo que siento, lo que veo,\\nSin que me arredren tus amargos arreos\\nNi tus rid\u00edculos denuestos de amable.\\n\\nY si al final del d\u00eda, cuando muera,\\nDe mi obra no queda ni el recuerdo,\\nAl menos habr\u00e9 vivido sin freno,\\nCon la frente en alto, cual \u00e1guila altanera.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.3721247534057004,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 199,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 199
+      }
+    ],
+    "prompt_token_count": 121,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 121
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 320,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Mas yo, cual viejo roble que ha sufrido\nLos rigores de mil tormentas vanas,\nNi me inmuto ante tus bravatas insanas,\nNi doblo la cerviz como vencido.\n\nSigue escribiendo, pues, con furia loca,\nQue mientras m\u00e1s me hieres con sa\u00f1a,\nM\u00e1s fuerte se me vuelve el alma hura\u00f1a\nY m\u00e1s se agranda en m\u00ed la llama poca.\n\nYo seguir\u00e9 mi senda imperturbable,\nCantando lo que siento, lo que veo,\nSin que me arredren tus amargos arreos\nNi tus rid\u00edculos denuestos de amable.\n\nY si al final del d\u00eda, cuando muera,\nDe mi obra no queda ni el recuerdo,\nAl menos habr\u00e9 vivido sin freno,\nCon la frente en alto, cual \u00e1guila altanera."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "msg_01PigygZZJuR5henHkdgUMrg",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"El aire abrasa, el firmamento truena,\\nVan por el cielo nubes amarillas,\\nY lanzando el volc\u00e1n sus maravillas\\nDe horror sublime la comarca llena.\\n\\nComo gigante que doliente estalla\\nEn roncos ayes de mortal congoja,\\nAs\u00ed el monte gallardo se desmaya;\\n\\nY al fin gimiendo con fragor batalla,\\nY por su hermosa c\u00faspide que arroja,\\nTorrentes mil de ardiente lava explaya.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 121,
+    "output_tokens": 151,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "b49d4d95-b8a3-4cf0-a282-b5205f2019c9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien rom\u00e1ntico y melanc\u00f3lico. Describe una escena de boda con un tono emotivo y luego reflexiona sobre el paso del tiempo y la p\u00e9rdida de ilusiones, lo cual es un tema com\u00fan en la poes\u00eda l\u00edrica. La ausencia de elementos como la exageraci\u00f3n, la iron\u00eda o el juego de palabras, que son t\u00edpicos en la comedia, refuerza la idea de que el poema no est\u00e1 dise\u00f1ado para ser humor\u00edstico. Adem\u00e1s, el uso de un lenguaje po\u00e9tico y la estructura m\u00e9trica y rimada sugieren un prop\u00f3sito serio y art\u00edstico m\u00e1s que c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572605,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 250,
+    "total_tokens": 425,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 58
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "msg_0177XJuvGd4dZ2qB3eUUHfJA",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Manuel Guti\u00e9rrez N\u00e1jera\",\n  \"century\": \"19\"\n}\n\nEste poema es del escritor mexicano Manuel Guti\u00e9rrez N\u00e1jera (1859-1895), conocido tambi\u00e9n por el seud\u00f3nimo \"El Duque Job\". Fue un importante poeta modernista que vivi\u00f3 y escribi\u00f3 durante el siglo XIX.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 275,
+    "output_tokens": 93,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

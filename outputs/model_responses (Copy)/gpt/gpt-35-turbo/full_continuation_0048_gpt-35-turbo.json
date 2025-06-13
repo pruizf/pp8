@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKnpjWHCDEWXwHky7aLVXqObPNj9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \" Sus ojos me buscaron tiernamente, y misterioso bien placer sent\u00ed al colgarme de su cuello al beso, y al sentir de mi frente en su frente la presion dulce, apretado rizo: y me estrech\u00f3 en amoroso abrazo y me dijo palabras de ternura.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161785,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 106,
+    "total_tokens": 195
+  }
+}

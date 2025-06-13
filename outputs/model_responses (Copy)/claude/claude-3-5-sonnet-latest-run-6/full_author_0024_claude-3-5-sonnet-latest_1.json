@@ -1,0 +1,23 @@
+{
+  "id": "msg_01FH1iwPJ45ZiWRKvgmkYdoV",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Miguel de Unamuno\",\n  \"century\": \"19\"\n}\n\nEste poema es una composici\u00f3n metapo\u00e9tica de Miguel de Unamuno (1864-1936), en la que describe de manera humor\u00edstica el proceso de creaci\u00f3n de un soneto. Unamuno fue un escritor, poeta y fil\u00f3sofo espa\u00f1ol que vivi\u00f3 entre los siglos XIX y XX, aunque su obra principal se desarroll\u00f3 en el siglo XX. He indicado el siglo XIX por ser el de su nacimiento y formaci\u00f3n.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 267,
+    "output_tokens": 130,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

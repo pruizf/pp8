@@ -1,0 +1,23 @@
+{
+  "id": "msg_01S79s72JuJVmMfK6MC44bVU",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Versalles oto\u00f1al; una paloma arrulla\\nsobre un m\u00e1rmol cari\u00e1tide pompadour,\\ny en la fuente un trit\u00f3n adolescente mulla\\nla caracola perla de amoroso surtidor.\\n\\nYo fui por el jard\u00edn de Francia, habia una dama\\n\u2014toda Watteau\u2014, que daba a los cisnes pan;\\ny una romana antigua, que pusiera en un drama\\nd'Annunzio, sus cabellos desatados atr\u00e1s.\\n\\nY era un domingo triste; de Verlaine el si bemol...\\nY una far\u00e1ndula de mis viejos dolores\\npas\u00f3, adorable, r\u00edtmica y la autumnal voz\\n\\nde una cocotte mal sana que ensay\u00f3 sus primores\\ny que de pronto, al vernos, nos brind\u00f3 sonriente\\nun cuarto de hora de amor por un luis\u2014\u00bfsolamente?\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 147,
+    "output_tokens": 252,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "bc962325-a7aa-4347-98d4-9cfc6a9e6448",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas si en el nombre Justa, en obras no,\\n\u00bfqu\u00e9 har\u00e1 el pobre marido, qu\u00e9 dir\u00e1?\\nQue si en las obras Justa no est\u00e1,\\nmenos en el nombre Justa estar\u00e1.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572297,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 116,
+    "total_tokens": 185,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 52
+  }
+}

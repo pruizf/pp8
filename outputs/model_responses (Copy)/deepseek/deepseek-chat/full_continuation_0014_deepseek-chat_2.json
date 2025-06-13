@@ -1,0 +1,36 @@
+{
+  "id": "31f38e08-06a6-4f7d-b89a-dbb50a6894b3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas ella, con desd\u00e9n, me dijo: '\u00a1Basta!\\nNo turbes m\u00e1s mi soledad esquiva,\\nque no es para tu amor mi pecho cava.'\\nY yo, herido, me alej\u00e9 con fasta,\\nllorando mi amoroso error, que vivo\\nen pena y en desd\u00e9n, triste cautivo.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556097,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 113,
+    "total_tokens": 215,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 49
+  }
+}

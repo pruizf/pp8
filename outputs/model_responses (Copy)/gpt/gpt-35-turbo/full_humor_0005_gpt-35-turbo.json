@@ -1,0 +1,69 @@
+{
+  "id": "chatcmpl-9dKk8nkuQY38DhrsVotVQDqQdwZpd",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico debido al uso de juegos de palabras y rimas divertidas que exageran la situaci\u00f3n de los ratones en un tono humor\u00edstico. Las descripciones exageradas y la combinaci\u00f3n de palabras poco comunes le dan un tono absurdo y divertido al poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 1,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema utiliza un lenguaje humor\u00edstico al exagerar la importancia y caracter\u00edsticas de los ratones, as\u00ed como al jugar con las palabras y sonidos. Adem\u00e1s, la repetici\u00f3n de la letra R le da un tono c\u00f3mico y divertido al poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 2,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico debido a la exageraci\u00f3n en las palabras utilizadas para referirse a los ratones, como 'r\u00fasticos rumorcillos requirentes' y 'rebeldes reverentes'. Adem\u00e1s, el uso de aliteraciones y rimas exageradas contribuyen al tono humor\u00edstico del poema. Tambi\u00e9n, la imagen de ratones actuando como reformistas pol\u00edticos es absurda y a\u00f1ade humor a la composici\u00f3n.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 3,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"Este poema es c\u00f3mico por su uso de palabras que comienzan con la letra 'r', creando un juego de sonido y ritmo que resulta gracioso para el lector. Adem\u00e1s, la imagen de ratones que se comportan como seres humanos, con acciones como reprimir, resistir y reformar, a\u00f1ade un tono absurdo y humor\u00edstico a la composici\u00f3n. La exageraci\u00f3n en la descripci\u00f3n de las acciones de los ratones tambi\u00e9n contribuye a su car\u00e1cter c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 4,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico debido a su uso de la aliteraci\u00f3n exagerada y las palabras poco comunes que crean un tono humor\u00edstico. Adem\u00e1s, el juego de palabras con los ratones y su comportamiento es absurdo y caricaturesco, lo cual a\u00f1ade un elemento c\u00f3mico al poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161556,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 493,
+    "prompt_tokens": 229,
+    "total_tokens": 722
+  }
+}

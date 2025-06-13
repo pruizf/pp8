@@ -1,0 +1,36 @@
+{
+  "id": "647b55ec-fe93-4ada-8761-0886845569f0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado, 'Soneto Autumnal al Marqu\u00e9s de Bradom\u00edn', no parece tener la intenci\u00f3n de ser c\u00f3mico. Su tono es m\u00e1s bien melanc\u00f3lico y reflexivo, con referencias a la estaci\u00f3n del oto\u00f1o, un ambiente fr\u00edo y doliente, y elementos como un m\u00e1rmol desnudo y una paloma que pas\u00f3 de repente, que evocan una sensaci\u00f3n de nostalgia y pensamiento profundo. Adem\u00e1s, el lenguaje utilizado es po\u00e9tico y elevado, centrado en la belleza y la tristeza del oto\u00f1o, m\u00e1s que en provocar risa o alegr\u00eda. La menci\u00f3n de 'anteriores lecturas de tus sutiles prosas' y 'la reciente impresi\u00f3n de tus triunfos' sugiere un homenaje o una reflexi\u00f3n personal, m\u00e1s que un intento de humor. Por lo tanto, el juicio es que el poema no es c\u00f3mico, sino m\u00e1s bien l\u00edrico y emotivo.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555441,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 238,
+    "prompt_tokens": 297,
+    "total_tokens": 535,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 233
+  }
+}

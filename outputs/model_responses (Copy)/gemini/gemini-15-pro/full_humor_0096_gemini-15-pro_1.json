@@ -1,0 +1,183 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico. M\u00e1s bien, adopta un tono serio y elevado, utilizando un lenguaje formal y figuras ret\u00f3ricas para describir el vuelo de un \u00e1guila como una met\u00e1fora de la trascendencia espiritual. La comparaci\u00f3n con la mente de Santo Tom\u00e1s de Aquino refuerza la idea de una b\u00fasqueda intelectual y religiosa.  El poema se centra en temas de grandeza, exploraci\u00f3n y la b\u00fasqueda de lo divino, lo que contrasta con la intenci\u00f3n de un poema c\u00f3mico, que busca provocar la risa o el humor.  La estructura del soneto, con su rima y m\u00e9trica rigurosas, tambi\u00e9n contribuye a la solemnidad del poema. No hay elementos de sorpresa, absurdo o incongruencia que t\u00edpicamente se asocian con el humor. El lenguaje es elevado y las im\u00e1genes son majestuosas, creando una atm\u00f3sfera de reverencia y admiraci\u00f3n en lugar de humor.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.12960568478232937,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico.  Su lenguaje es elevado y serio, enfoc\u00e1ndose en temas de trascendencia y espiritualidad.  Describe el vuelo de un \u00e1guila como una met\u00e1fora de la b\u00fasqueda de lo divino, compar\u00e1ndolo con la mente de Santo Tom\u00e1s de Aquino.  Utiliza im\u00e1genes de grandeza, como \\\"universo alado peregrino\\\", \\\"portentoso vuelo\\\", \\\"infinito anhelo\\\" y \\\"esencia del Ser \u00danico y Trino\\\".  El tono es reverente y contemplativo,  propio de la poes\u00eda l\u00edrica y m\u00edstica, no del humor o la comedia. No hay elementos de s\u00e1tira, iron\u00eda, juegos de palabras, o situaciones absurdas que provoquen la risa.  En cambio, el poema busca inspirar asombro y reflexi\u00f3n sobre la naturaleza y lo espiritual.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.12625919404577035,
+      "grounding_metadata": null,
+      "index": 1,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico.  Se centra en temas serios y trascendentales, como la naturaleza del ser, la inmensidad del universo y la b\u00fasqueda de lo divino. El tono es elevado y reverente, utilizando un lenguaje po\u00e9tico cl\u00e1sico con im\u00e1genes de vuelo, alturas y profundidad.  El \u00e1guila se presenta como un s\u00edmbolo de la aspiraci\u00f3n espiritual, que se eleva hacia el cielo en busca de una comprensi\u00f3n m\u00e1s profunda de la realidad. No hay elementos de humor, iron\u00eda o juegos de palabras que sugieran una intenci\u00f3n c\u00f3mica.  La estructura del soneto, con su rima y m\u00e9trica rigurosas, refuerza la solemnidad del tema.  El poema busca inspirar asombro y reflexi\u00f3n, no provocar la risa.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.10185261232307158,
+      "grounding_metadata": null,
+      "index": 2,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico. Describe el vuelo de un \u00e1guila con un lenguaje elevado y serio, utilizando met\u00e1foras que lo comparan con la mente de Santo Tom\u00e1s de Aquino y su b\u00fasqueda de Dios. El tono es reverente y contemplativo, enfocado en la majestuosidad del \u00e1guila y la inmensidad de la creaci\u00f3n. No hay elementos de humor, iron\u00eda o absurdo que sugieran una intenci\u00f3n c\u00f3mica. Al contrario, el poema busca inspirar asombro y admiraci\u00f3n ante la naturaleza y lo divino. La elecci\u00f3n de palabras como \\\"portentoso\\\", \\\"infinito anhelo\\\", \\\"esencia del Ser \u00danico y Trino\\\", \\\"sosegados giros\\\", \\\"dilatados \u00e1mbitos\\\" y \\\"tenebrosos senes\\\" refuerza la solemnidad y la grandeza del tema.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.11905637498718599,
+      "grounding_metadata": null,
+      "index": 3,
+      "logprobs_result": null,
+      "safety_ratings": null
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"no\", \"reason\": \"El poema no es c\u00f3mico. Se centra en la majestuosidad y el simbolismo de un \u00e1guila en vuelo, compar\u00e1ndola con la mente de Santo Tom\u00e1s de Aquino y su b\u00fasqueda de la comprensi\u00f3n divina. El lenguaje es elevado y reverente, utilizando im\u00e1genes de vuelo, inmensidad y exploraci\u00f3n espiritual. No hay elementos de humor, s\u00e1tira o absurdo que sugieran una intenci\u00f3n c\u00f3mica. En cambio, el poema evoca una sensaci\u00f3n de asombro y contemplaci\u00f3n.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.10785460038618608,
+      "grounding_metadata": null,
+      "index": 4,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 830,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 830
+      }
+    ],
+    "prompt_token_count": 233,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 233
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 1063,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "no",
+      "reason": "El poema no es c\u00f3mico. M\u00e1s bien, adopta un tono serio y elevado, utilizando un lenguaje formal y figuras ret\u00f3ricas para describir el vuelo de un \u00e1guila como una met\u00e1fora de la trascendencia espiritual. La comparaci\u00f3n con la mente de Santo Tom\u00e1s de Aquino refuerza la idea de una b\u00fasqueda intelectual y religiosa.  El poema se centra en temas de grandeza, exploraci\u00f3n y la b\u00fasqueda de lo divino, lo que contrasta con la intenci\u00f3n de un poema c\u00f3mico, que busca provocar la risa o el humor.  La estructura del soneto, con su rima y m\u00e9trica rigurosas, tambi\u00e9n contribuye a la solemnidad del poema. No hay elementos de sorpresa, absurdo o incongruencia que t\u00edpicamente se asocian con el humor. El lenguaje es elevado y las im\u00e1genes son majestuosas, creando una atm\u00f3sfera de reverencia y admiraci\u00f3n en lugar de humor."
+    }
+  ]
+}

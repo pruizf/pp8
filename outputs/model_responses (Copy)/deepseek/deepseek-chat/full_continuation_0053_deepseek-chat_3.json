@@ -1,0 +1,36 @@
+{
+  "id": "da728195-33aa-4675-beec-a6e8cfdd0dae",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Por un beso, no digo una caricia,\\nPor un beso tan s\u00f3lo, yo te diera\\nNo s\u00f3lo el alma, d\u00e9jame que muera,\\nQue morir por morir es una dicha.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749560522,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 112,
+    "total_tokens": 182,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 48
+  }
+}

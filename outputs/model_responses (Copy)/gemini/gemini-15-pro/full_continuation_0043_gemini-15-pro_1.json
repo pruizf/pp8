@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"a la ceniza, de quien fue nacido,\\n\u00bfc\u00f3mo te admiro, si a ti mismo te admiras,\\ny te asombras de tu ingenio, y te retiras\\nconfuso al laberinto en que te has ido?\\n\\nSi el mismo Alcides, cuya ilustre fama\\nla envidia no ha podido oscurecer,\\nhubiera hoy tus escritos de leer,\\nla pluma te rindiera, y la clava y la fama.\\n\\nPorque t\u00fa a todos vences en ingenio,\\ny a Alcides vences s\u00f3lo en discreci\u00f3n,\\nque \u00e9l, por su gusto, se caus\u00f3 el vencimiento,\\ny t\u00fa, por tu prudencia, la prisi\u00f3n.\\n\\n\u00c9l, por seguir sus apetitos fieros,\\na la pira fue, llevado de su error,\\ny t\u00fa, de tus estudios verdaderos,\\nal cielo de la gloria, y al descanso, y honor.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.4629870460146949,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 210,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 210
+      }
+    ],
+    "prompt_token_count": 118,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 118
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 328,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "a la ceniza, de quien fue nacido,\n\u00bfc\u00f3mo te admiro, si a ti mismo te admiras,\ny te asombras de tu ingenio, y te retiras\nconfuso al laberinto en que te has ido?\n\nSi el mismo Alcides, cuya ilustre fama\nla envidia no ha podido oscurecer,\nhubiera hoy tus escritos de leer,\nla pluma te rindiera, y la clava y la fama.\n\nPorque t\u00fa a todos vences en ingenio,\ny a Alcides vences s\u00f3lo en discreci\u00f3n,\nque \u00e9l, por su gusto, se caus\u00f3 el vencimiento,\ny t\u00fa, por tu prudencia, la prisi\u00f3n.\n\n\u00c9l, por seguir sus apetitos fieros,\na la pira fue, llevado de su error,\ny t\u00fa, de tus estudios verdaderos,\nal cielo de la gloria, y al descanso, y honor."
+    }
+  ]
+}

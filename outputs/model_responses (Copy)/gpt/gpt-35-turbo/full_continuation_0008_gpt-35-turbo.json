@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKkP9LKGkYYmFMPWHDXPqbEsDPkz",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Va desgranando el viento su cancion de hojas secas\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161573,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 33,
+    "prompt_tokens": 116,
+    "total_tokens": 149
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "60f7cf6a-631e-4bfc-b3b9-2cbfa117a884",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema presenta un tono juguet\u00f3n y utiliza contrastes humor\u00edsticos, como la comparaci\u00f3n entre la majestuosidad de Roma y la simplicidad de la vida cotidiana del hablante, ofreciendo incluso intercambiar lugares con el amigo en Roma, lo cual es una propuesta absurda y, por tanto, c\u00f3mica. Adem\u00e1s, la menci\u00f3n de renunciar al garbanzo 'sin desdoro' y ofrecer una 'tarjeta del Congreso' como soluci\u00f3n al aburrimiento del Foro, son ejemplos de iron\u00eda y sarcasmo que contribuyen al car\u00e1cter c\u00f3mico del poema. Estos elementos, combinados con la ligereza del lenguaje y la situaci\u00f3n imaginada, hacen que el poema pueda ser considerado c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749566701,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 194,
+    "prompt_tokens": 248,
+    "total_tokens": 442,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 56
+  }
+}

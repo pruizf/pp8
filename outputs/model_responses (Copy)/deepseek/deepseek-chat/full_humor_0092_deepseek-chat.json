@@ -1,0 +1,36 @@
+{
+  "id": "92be7ffa-de59-4130-9890-f828a8d19286",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien rom\u00e1ntico y lleno de met\u00e1foras y juegos de palabras que exploran temas de amor, resistencia y cualidades materiales como el m\u00e1rmol, el fuego y el diamante. La estructura y el lenguaje utilizado son t\u00edpicos de la poes\u00eda l\u00edrica, que busca evocar emociones y reflexiones profundas en lugar de provocar risa. Adem\u00e1s, el tono del poema es serio y contemplativo, lo que refuerza la idea de que su prop\u00f3sito no es el humor. Por lo tanto, aunque la interpretaci\u00f3n de la comedia puede ser subjetiva, los elementos presentes en el poema sugieren que no fue escrito con la intenci\u00f3n de ser c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556599,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 193,
+    "prompt_tokens": 241,
+    "total_tokens": 434,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 177
+  }
+}

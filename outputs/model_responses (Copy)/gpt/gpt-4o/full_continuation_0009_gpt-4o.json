@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKu3x54G8cf0gEde0II08kxgvBKs",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"ant\u00edtesis del vino y un pu\u00f1ado de sal.\\nTorci\u00f3 por una esquina del Boulevard y, de repente,\\nun imposible grito de emergencia marcial,\\nalzando una bandera tricolor, se hizo presente.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162171,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 111,
+    "total_tokens": 173
+  }
+}

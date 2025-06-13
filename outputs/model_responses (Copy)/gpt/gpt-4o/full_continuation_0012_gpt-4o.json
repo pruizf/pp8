@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKuLg2nQmT0rS1fklxVV5PIuGTuN",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"inm\u00f3vil cuida muertos sus espejos, \\n\u00a1Ni una flor ha de darle a sus festejos, \\nni un lloro bajar yera su ca\u00edda! \\n\u00a1Ni una llama fatal ha de encenderse; \\nni or\u00e1culo azul que tras librarse anide \\nha de volver a resonar el arte; \\nni una sombra al fest\u00edn triste \u00f3yerse! \\nJam\u00e1s ha de llevarla luz al parque, \\nsino ser olvidada en el olvido.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162189,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 124,
+    "prompt_tokens": 100,
+    "total_tokens": 224
+  }
+}

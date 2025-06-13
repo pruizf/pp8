@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKyf9X2MRimMm3ToELHoSaAh3962",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Muda la lengua, el coraz\u00f3n lat\u00eda\\n\\rcomo el tambor en las marciales filas,\\n\\rlas espantadas \u00f3rbitas vac\u00edas\\n\\rllenas de fuego el encendido d\u00eda.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162457,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_888385ccad",
+  "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 95,
+    "total_tokens": 154
+  }
+}

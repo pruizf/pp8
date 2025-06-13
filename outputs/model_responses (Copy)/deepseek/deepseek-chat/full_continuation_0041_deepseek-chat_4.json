@@ -1,0 +1,36 @@
+{
+  "id": "3aa0bf41-1cd1-4563-895a-4f6e2061525c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Quiero en tus ojos, llenos de luz pura,\\nbeber el n\u00e9ctar de amor y ternura;\\ny en tu boca de fuego y de dulzura,\\nperder el alma en \u00e9xtasis sin fin.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749565951,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 115,
+    "total_tokens": 189,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 51
+  }
+}

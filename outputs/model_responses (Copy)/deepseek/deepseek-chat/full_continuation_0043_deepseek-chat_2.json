@@ -1,0 +1,36 @@
+{
+  "id": "e663f204-bc21-4cee-baf2-9f5423c8973e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"al mismo tiempo que de sepultura,\\nsiempre en sus llamas vive, y siempre ardiendo,\\nmuere, y renace de su muerte misma,\\nno menos que en las llamas de su hoguera,\\nque en las cenizas de su propia pira.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556902,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 83,
+    "prompt_tokens": 121,
+    "total_tokens": 204,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 57
+  }
+}

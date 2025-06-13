@@ -1,0 +1,36 @@
+{
+  "id": "c6c3d236-73f5-4185-8e96-3161eabc078e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y en la noche, el viento lleva\\nel llanto de los \u00e1rboles,\\nmientras la luna esconde\\nsu rostro tras las nubes.\\nEl coraz\u00f3n del monte\\ngime bajo el azote\\ndel aire, y en la sombra\\nse oye un suspiro roto.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749564704,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 125,
+    "total_tokens": 214,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 61
+  }
+}

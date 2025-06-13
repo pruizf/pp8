@@ -1,0 +1,23 @@
+{
+  "id": "msg_01SvHcAbZ383sYXyaU7sxLM4",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"contempla de los cielos la inmensidad vac\u00eda,\\ny siente que en su pecho renace la poes\u00eda,\\nm\u00e1s pura que el perfume de todos los vergeles.\\n\\nSu esp\u00edritu, ya libre de carnales prisiones,\\nva cruzando los aires en pos de otras regiones\\ndonde el dolor no existe, donde el amor no muere;\\n\\ny en medio del silencio solemne de la tarde,\\nel \u00faltimo destello que en el ocaso arde\\nle dice de una patria que nunca fenece.\"\n}\n\nEste es el soneto \"Crepuscular\" de Ricardo Mir\u00f3, poeta paname\u00f1o.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 142,
+    "output_tokens": 178,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

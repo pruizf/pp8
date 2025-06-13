@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKtPeCKI5cvx0pXmY9H2NXrhnGOZ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Luis de G\u00f3ngora y Argote\",\n  \"century\": \"17\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162131,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_9cb5d38cf7",
+  "usage": {
+    "completion_tokens": 24,
+    "prompt_tokens": 240,
+    "total_tokens": 264
+  }
+}

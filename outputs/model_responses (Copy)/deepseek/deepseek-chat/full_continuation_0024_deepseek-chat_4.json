@@ -1,0 +1,36 @@
+{
+  "id": "f242022d-bc38-4557-b05c-cf390346c163",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Despu\u00e9s, con arte y un poco de tino,\\nse tejen versos como fino hilo,\\nque al o\u00eddo suenen con buen estilo.\\nY as\u00ed, con gracia y un toque divino,\\nse logra el soneto, obra y destino,\\nde quien con palabras juega y delira,\\nen el arte que el tiempo no retira.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749565402,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 118,
+    "total_tokens": 219,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 54
+  }
+}

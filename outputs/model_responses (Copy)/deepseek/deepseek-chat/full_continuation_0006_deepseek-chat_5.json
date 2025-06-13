@@ -1,0 +1,36 @@
+{
+  "id": "88cb2afd-d8c2-4972-a863-4294b1b596c5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"era un reloj de sol mal encarado, \u00e9rase un elefante boca arriba, \u00e9rase una nariz say\u00f3n y escriba, un Ovidio Nas\u00f3n mal narigado.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749570269,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 65,
+    "prompt_tokens": 110,
+    "total_tokens": 175,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 46
+  }
+}

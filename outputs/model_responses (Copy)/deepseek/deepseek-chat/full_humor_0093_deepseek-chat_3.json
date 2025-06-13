@@ -1,0 +1,36 @@
+{
+  "id": "3f6d3e0e-f4a6-4aa5-8736-cc6cbdf30a1e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien de expresar sentimientos profundos y melanc\u00f3licos. El lenguaje utilizado es serio y emotivo, centr\u00e1ndose en temas como el amor no correspondido, el sufrimiento y la esperanza de un cambio en la fortuna. La estructura y el tono del poema son t\u00edpicos de la poes\u00eda l\u00edrica, que busca conmover al lector m\u00e1s que provocar risa. Adem\u00e1s, los elementos como 'suspiro caliente', 'pecho fr\u00edo', 'coraz\u00f3n de acero' y 'mis ojos, hechos r\u00edo' refuerzan la atm\u00f3sfera de dolor y desesperaci\u00f3n, lejos de cualquier intento de humor. Por lo tanto, la evaluaci\u00f3n es que el poema no es c\u00f3mico, sino una expresi\u00f3n seria de emociones intensas.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561866,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 214,
+    "prompt_tokens": 238,
+    "total_tokens": 452,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 46
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "5081b1bc-07a5-4136-bba2-1b97fbd570d0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Sus ojos, dos abismos de pasi\u00f3n y tristeza,\\nreflejan el tormento de un alma que no cesa\\nen su eterna lucha contra el destino cruel.\\nLa boca, que sonr\u00ede con amarga dulzura,\\nesconde entre sus pliegues la historia de amargura\\nde un coraz\u00f3n que late bajo un cielo de hiel.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749571436,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 121,
+    "total_tokens": 223,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 57
+  }
+}

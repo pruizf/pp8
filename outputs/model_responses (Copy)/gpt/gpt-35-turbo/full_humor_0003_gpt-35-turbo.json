@@ -1,0 +1,69 @@
+{
+  "id": "chatcmpl-9dKjxREuh0HpT1hkEduRl2vqPzN7G",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Patria m\u00eda' no es c\u00f3mico, ya que utiliza un tono melanc\u00f3lico y reflexivo, hablando de sentimientos como el desconsuelo, el rencor y el agradecimiento. El uso de palabras como tristes, feraz, rencor y desconsuelo no transmiten un tono humor\u00edstico, sino m\u00e1s bien emotivo y serio.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 1,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque juega con la idea de patriotismo de una manera exagerada y absurda. El uso de palabras como 'fatigando sus tristes espesuras' y 'y ofrend\u00e1ndole un canto inoportuno' crea un tono ir\u00f3nico y humor\u00edstico en el poema. Adem\u00e1s, la descripci\u00f3n de una 'mano de hielo' y la menci\u00f3n de 'Cantos de Lelo' son detalles surrealistas que aportan un toque de comedia a la composici\u00f3n. En resumen, la exageraci\u00f3n y los elementos surrealistas hacen que el poema sea c\u00f3mico y no debe ser tomado tan seriamente.\" \n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 2,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Patria m\u00eda' no es c\u00f3mico, ya que trata sobre sentimientos de pertenencia a la patria y reflexiones personales. No contiene elementos humor\u00edsticos o situaciones divertidas que puedan generar risa. La tem\u00e1tica seria y reflexiva del poema no est\u00e1 orientada hacia el humor, por lo que no se puede considerar como c\u00f3mico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 3,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"No es un poema c\u00f3mico, ya que trata sobre sentimientos de pertenencia a la patria, con un tono melanc\u00f3lico y reflexivo. El poema destaca la conexi\u00f3n emocional del poeta con su tierra y su pueblo, haciendo referencia a juramentos, paisajes y emociones profundas, lo cual no suele asociarse con el humor.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 4,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico porque juega con la idea de patriotismo de una manera exagerada y c\u00f3mica. El uso de palabras como 'fatigando', 'tristes espesuras' y 'c\u00e1ntico inoportuno' en un contexto de juramentos y ofrendas exageradas hacen que el poema tenga un tono humor\u00edstico. Adem\u00e1s, la imagen de una 'mano de hielo' y la menci\u00f3n de rencor y desconsuelo contrastan con la idea tradicional de patriotismo, agregando un toque ir\u00f3nico y gracioso al poema. La combinaci\u00f3n de elementos serios con situaciones extremas y algo absurdas hacen que este poema sea c\u00f3mico en su ejecuci\u00f3n.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161545,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 649,
+    "prompt_tokens": 256,
+    "total_tokens": 905
+  }
+}

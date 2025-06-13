@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dL0ELHdMrgqrXisRIuHhESieL3X0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Es la memoria humana en desuso,\\nSacando, a la existencia y de memoria,\\nPerfecci\u00f3n vana en su trabajo injusto,\\nQue s\u00f3lo sirve para dar alguna historia.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162554,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 55,
+    "prompt_tokens": 89,
+    "total_tokens": 144
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKlxl8O8AAbjVnWONhD8x28HspeF",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"En alas del amor vuela tu mente, hacia la paz eterna y el firmamento. En cada paso siente la armon\u00eda, del amor puro que gu\u00eda tu camino.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161669,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 56,
+    "prompt_tokens": 105,
+    "total_tokens": 161
+  }
+}

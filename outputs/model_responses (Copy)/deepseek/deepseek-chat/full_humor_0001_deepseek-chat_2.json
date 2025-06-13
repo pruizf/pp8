@@ -1,0 +1,36 @@
+{
+  "id": "ee9090fc-2d18-4099-832c-9d38c345b773",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema 'Soneto chino' presenta una serie de elementos que pueden ser considerados c\u00f3micos debido a su mezcla de referencias culturales, el uso de nombres ex\u00f3ticos y la combinaci\u00f3n inusual de actividades y objetos. La menci\u00f3n de t\u00e9 Houlong mezclado con gin-seng, seguida de la referencia a un mercader de Hong-Kong, establece un tono l\u00fadico y exagerado. Adem\u00e1s, la enumeraci\u00f3n de lugares chinos y la inclusi\u00f3n de t\u00e9rminos como 'Smocking', 'pipa de Kwant\u00fang', y 'Sk\u00e1ting-R\u00edng' a\u00f1aden una capa de humor absurdo al contrastar lo tradicional con lo moderno o extranjero. La rutina descrita, que termina con el personaje pregunt\u00e1ndose si 'a\u00fan vive el King' antes de pedir 'el sue\u00f1o a otra taza de Yu\u00e9n-S\u00fang', refuerza la sensaci\u00f3n de una parodia o juego ling\u00fc\u00edstico. Este juego de palabras y la construcci\u00f3n de una escena tan espec\u00edfica y peculiar son t\u00edpicos de la comedia, donde lo inesperado y lo exagerado generan risa.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749555719,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 272,
+    "prompt_tokens": 265,
+    "total_tokens": 537,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 256
+    },
+    "prompt_cache_hit_tokens": 256,
+    "prompt_cache_miss_tokens": 9
+  }
+}

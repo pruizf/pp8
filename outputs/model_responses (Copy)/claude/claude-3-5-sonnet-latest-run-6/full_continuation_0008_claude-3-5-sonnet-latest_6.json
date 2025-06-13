@@ -1,0 +1,23 @@
+{
+  "id": "msg_01EcGxqWuJaD5WTuoqdddNXU",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Despierta el gris rosal, silba en la barra\\ndel huerto, y al pasar, deja maltrecho\\nel verdor del laurel junto al barbecho\\ny en el bosque de robles se desgarra.\\n\\nUn silencio mortal cubre la altura.\\nLa soledad del monte me acompa\u00f1a.\\nY en tanto que la luz del d\u00eda dura,\\n\\nme voy por esta senda tan extra\u00f1a\\ndonde el agua del r\u00edo me murmura\\ntu nombre entre los juncos de monta\u00f1a.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 126,
+    "output_tokens": 157,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

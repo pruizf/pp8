@@ -1,0 +1,36 @@
+{
+  "id": "ebf6ca54-feb8-4199-89d7-47444f00a5b2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"incierto\",\n  \"reason\": \"El poema presenta un tono sat\u00edrico y cr\u00edtico, dirigido hacia una academia y sus miembros, utilizando un lenguaje que podr\u00eda interpretarse como c\u00f3mico para algunos lectores debido a su iron\u00eda y sarcasmo. Sin embargo, la comicidad no es universal y puede depender del contexto hist\u00f3rico, cultural y personal del lector. El poema juega con referencias religiosas y sociales que, en su \u00e9poca, podr\u00edan haber sido consideradas humor\u00edsticas o provocativas, pero para un lector moderno o sin el conocimiento espec\u00edfico del contexto, el humor puede no ser evidente. Por lo tanto, la comicidad del poema es incierta, ya que var\u00eda seg\u00fan la perspectiva del lector y su familiaridad con las referencias utilizadas.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749561121,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 255,
+    "total_tokens": 437,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 63
+  }
+}

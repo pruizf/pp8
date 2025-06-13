@@ -1,0 +1,23 @@
+{
+  "id": "msg_01EoHZs1iVDdnTekCXqgGjB8",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Delmira Agustini\",\n  \"century\": \"20\"\n}\n\nDelmira Agustini fue una poeta uruguaya que vivi\u00f3 entre 1886 y 1914. Este soneto forma parte de su obra po\u00e9tica, caracterizada por su intensidad emocional y su tratamiento del amor y el erotismo, temas que abord\u00f3 de manera revolucionaria para su \u00e9poca.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 238,
+    "output_tokens": 103,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

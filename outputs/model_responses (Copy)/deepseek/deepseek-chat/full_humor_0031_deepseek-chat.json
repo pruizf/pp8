@@ -1,0 +1,36 @@
+{
+  "id": "3b97353e-b881-4257-a1a5-7be2c54ad780",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado es un soneto que expresa sentimientos profundos de dolor, amor y consuelo, lejos de tener un tono c\u00f3mico. La estructura y el lenguaje utilizado son t\u00edpicos de la poes\u00eda l\u00edrica, centr\u00e1ndose en emociones intensas y experiencias personales. El uso de palabras como 'dolor', 'angustias', 'gemido', y 'aflicci\u00f3n' subraya un estado de sufrimiento y melancol\u00eda, no de humor. Adem\u00e1s, la referencia al amor como 'dulce enga\u00f1o' y la paradoja de encontrar consuelo en el sufrimiento por amor ('no siento morir si por vos muero') refuerzan la seriedad y profundidad emocional del poema, alej\u00e1ndolo de cualquier intento de comicidad. Por lo tanto, el juicio es que el poema no es c\u00f3mico, sino m\u00e1s bien una expresi\u00f3n seria y emotiva de los sentimientos del autor.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749554857,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 236,
+    "prompt_tokens": 244,
+    "total_tokens": 480,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 180
+  }
+}

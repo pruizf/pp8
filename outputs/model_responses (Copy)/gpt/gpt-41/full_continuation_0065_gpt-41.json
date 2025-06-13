@@ -1,0 +1,39 @@
+{
+  "id": "chatcmpl-BhJ0xPaBzDqy34qQ55j67BIpSubKq",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"En su amoroso yugo nos ponemos,\\nY en su misma prisi\u00f3n nos regalamos:\\nCautivos, por su bien nos alegramos,\\nY en su prisi\u00f3n dichosos nos hallamos.\\n\\nPrisi\u00f3n del alma, grave y rigurosa,\\nDonde el mayor placer nace del lloro,\\nEl mayor bien es mal que se padece.\\n\\n\u00a1Oh dura condici\u00f3n, dulce y penosa!\\n\u00a1Dulce por bien, y por dolor amoro!\\n\u00a1Que me dar consejo y no me apruebe!\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": [],
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749660895,
+  "model": "gpt-4.1-2025-04-14",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_b3f1157249",
+  "usage": {
+    "completion_tokens": 132,
+    "prompt_tokens": 107,
+    "total_tokens": 239,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    }
+  }
+}

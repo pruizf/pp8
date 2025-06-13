@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Sin pizca de verg\u00fcenza ni rubor,\\nped\u00eds un pitillo cada rato,\\ny no hay quien os soporte ni un minuto,\\n\u00a1oh turba infame y sin decoro!\\n\\nSi el tabaco a vos no os costara,\\nyo os juro por Dios y por la Virgen,\\nque en compa\u00f1\u00eda vuestra no estuviera,\\n\u00a1oh turba infame y sin decoro!\\n\\nAbundancia de moscas y mosquitos,\\nchinches y chinches por doquier,\\nalima\u00f1as que beber no os dejan,\\n\u00a1oh turba infame y sin decoro!\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.7483192988804408,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 140,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 140
+      }
+    ],
+    "prompt_token_count": 119,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 119
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 259,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Sin pizca de verg\u00fcenza ni rubor,\nped\u00eds un pitillo cada rato,\ny no hay quien os soporte ni un minuto,\n\u00a1oh turba infame y sin decoro!\n\nSi el tabaco a vos no os costara,\nyo os juro por Dios y por la Virgen,\nque en compa\u00f1\u00eda vuestra no estuviera,\n\u00a1oh turba infame y sin decoro!\n\nAbundancia de moscas y mosquitos,\nchinches y chinches por doquier,\nalima\u00f1as que beber no os dejan,\n\u00a1oh turba infame y sin decoro!"
+    }
+  ]
+}

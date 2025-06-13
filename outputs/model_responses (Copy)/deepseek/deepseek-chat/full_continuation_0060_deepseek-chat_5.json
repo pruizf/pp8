@@ -1,0 +1,36 @@
+{
+  "id": "685cae8c-1541-4904-b4a2-f250c001527b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Trabajo perdido es amar sin ser amado,\\nSo\u00f1ar con un amor que no ha llegado,\\nLuchar por un futuro ya olvidado,\\nY en el silencio, sentirte abandonado.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749571901,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 70,
+    "prompt_tokens": 115,
+    "total_tokens": 185,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 51
+  }
+}

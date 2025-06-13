@@ -1,0 +1,36 @@
+{
+  "id": "dcde5bd6-0c13-4a73-b458-3c41684d2564",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presenta una narrativa que involucra a Amor (Cupido) siendo capturado y despojado de sus plumas por Nise, lo que resulta en su incapacidad para volar y su posterior residencia en los brazos de la amada del poeta, desde donde dispara flechas de amor. Esta descripci\u00f3n no se alinea con los elementos t\u00edpicos de la comedia, como el humor, la iron\u00eda o la s\u00e1tira. En cambio, el poema tiene un tono m\u00e1s l\u00edrico y mitol\u00f3gico, centr\u00e1ndose en las consecuencias emocionales y simb\u00f3licas de las acciones de Nise. La situaci\u00f3n descrita es m\u00e1s tr\u00e1gica o melanc\u00f3lica que c\u00f3mica, ya que implica la p\u00e9rdida de libertad y poder de Amor, y el sufrimiento amoroso de aquellos que son flechados. Por lo tanto, no se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749572721,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 217,
+    "prompt_tokens": 250,
+    "total_tokens": 467,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 58
+  }
+}

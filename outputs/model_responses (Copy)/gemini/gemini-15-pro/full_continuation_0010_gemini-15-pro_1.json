@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"Aqueste mal, que a m\u00ed me ha derribado\\nY en tan bajo lugar me ha colocado,\\nEs un mal que se llama, \u00a1oh gran cuidado!, \\nMal de ausencia, y est\u00e1 muy extendido.\\n\\nPorque, si de su luz resplandeciente\\nMis sentidos no est\u00e1n siempre lucidos,\\nMe parece que estoy en noche obscura\\nDonde no hay claridad, ni luz, ni v\u00eda.\\n\\nAs\u00ed que, mientras est\u00e9 ausente,\\nEs como si estuviera muerto,\\nPues mis sentidos no est\u00e1n siempre encendidos.\\n\\nMas, cuando ella vuelve, vuelvo a la vida.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.7277957661946615,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 150,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 150
+      }
+    ],
+    "prompt_token_count": 114,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 114
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 264,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Aqueste mal, que a m\u00ed me ha derribado\nY en tan bajo lugar me ha colocado,\nEs un mal que se llama, \u00a1oh gran cuidado!, \nMal de ausencia, y est\u00e1 muy extendido.\n\nPorque, si de su luz resplandeciente\nMis sentidos no est\u00e1n siempre lucidos,\nMe parece que estoy en noche obscura\nDonde no hay claridad, ni luz, ni v\u00eda.\n\nAs\u00ed que, mientras est\u00e9 ausente,\nEs como si estuviera muerto,\nPues mis sentidos no est\u00e1n siempre encendidos.\n\nMas, cuando ella vuelve, vuelvo a la vida."
+    }
+  ]
+}

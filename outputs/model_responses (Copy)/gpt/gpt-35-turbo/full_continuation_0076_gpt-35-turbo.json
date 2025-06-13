@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKqbvowPIefNdq10bfvhMfXJWdVQ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Por ser tan h\u00e1bil con la llave en mano, Vergel controla con destreza el acceso al toril, donde los toros esperan su destino. Sus familiares y amigos conf\u00edan en \u00e9l y lo consideran como l\u00edder en la villa.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161957,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 112,
+    "total_tokens": 183
+  }
+}

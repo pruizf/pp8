@@ -1,0 +1,23 @@
+{
+  "id": "msg_01WXAb5E1EzXAtxa842aYh2U",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y ya tenemos listo el primer fiasco.\\nDespu\u00e9s se coge un t\u00e9rmino brusco,\\ny otro m\u00e1s, que bien puede ser etrusco,\\ny uno final: fresqu\u00edsimo o frasco.\\n\\nYa est\u00e1n los dos cuartetos; los tercetos\\nson m\u00e1s f\u00e1ciles; basta que sus versos\\ntengan los once acentos bien completos.\\n\\nNo importa que resulten algo tuersos;\\npues seg\u00fan los preceptos m\u00e1s concretos,\\nlos sonetos mejores son perversos.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 123,
+    "output_tokens": 152,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

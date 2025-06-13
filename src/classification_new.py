@@ -1,6 +1,7 @@
 from importlib import reload
 import json
 import os
+import re
 from types import ModuleType
 import sys
 
@@ -64,7 +65,7 @@ def collect_data(ddir: str, model_name: str, md: pd.DataFrame) -> pd.DataFrame:
   data = {"text": [], "model": [], "humorSys": [], "exampleNumber": [],
           "centuryBirth": [], "completionNumber": [], "humorGold": []}
   for fname in sorted(os.listdir(ddir)):
-    if fname.startswith("humor"):
+    if fname.startswith("humor") and re.search(rf"_\d\.json", fname):
       example_number = int(fname.split("_")[1])
       completion_number = int(fname.split("_")[3].split(".")[0])
       with open(os.path.join(ddir, fname), "r", encoding="utf-8") as f:
@@ -106,13 +107,16 @@ def pos_spacy(text: str) -> list:
   return [w.pos_ for w in doc]
 
 
-def plot_confusion_matrix(cm, classes, normalize=False, cmap='Blues'):
+def plot_confusion_matrix(cm, classes, out_fn, cmap='Greens'):
   title = 'Confusion matrix'
-  plt.figure(figsize=(11, 8))
+  fig, ax = plt.subplots(figsize=(11, 8))
   sns.heatmap(cm, annot=True, cmap=cmap, xticklabels=classes, yticklabels=classes)
   plt.title(title)
   plt.xlabel('pred')
   plt.ylabel('gold')
+  plt.xticks(rotation=45, ha='right')
+  plt.tight_layout()
+  plt.savefig(out_fn, dpi=300)
   plt.show()
 
 
@@ -147,7 +151,11 @@ if __name__ == "__main__":
   data_35 = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-35-turbo") , "gpt-3.5-turbo", mddf)
   data_4o = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-4o") , "gpt-4o", mddf)
   data_4o_mini = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-4o-mini") , "gpt-4o-mini", mddf)
-  data_all = {k: data_35[k] + data_4o[k] + data_4o_mini[k] for k in data_35.keys()}
+  data_haiku = collect_data(os.path.join(cf.response_dir, "claude" + os.sep + "claude-3-5-haiku-latest") , "claude-3-5-haiku-latest", mddf)
+  data_sonnet = collect_data(os.path.join(cf.response_dir, "claude" + os.sep + "claude-3-5-sonnet-latest") , "claude-3-5-sonnet-latest", mddf)
+  #data_35 = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-35-turbo") , "gpt-3.5", mddf)
+  data_all = {k: data_35[k] + data_4o[k] + data_4o_mini[k] + data_haiku[k] + data_sonnet[k]
+              for k in data_35.keys()}
   #data_all = {k: data_35[k] + data_4o[k] for k in data_35.keys()}
   df = pd.DataFrame(data_all)
 
@@ -226,3 +234,9 @@ if __name__ == "__main__":
       with open(out_fn, "a") as f:
         coeffs_df.loc[categ].sort_values(ascending=False).head(n_out_feats).to_csv(f, header=True, sep="\t")
         f.write("\n")
+    
+    # confusion matrix
+    cm = confusion_matrix(y_test, y_pred, labels=model.classes_, normalize="true")
+    out_cm_fn = os.path.join(cf.clf_plot_dir,
+      f"cm_{model_name}_{str.zfill(str(batch_name), 3)}.png")
+    plot_confusion_matrix(cm, model.classes_, out_cm_fn)

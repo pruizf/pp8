@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"frente a un mostrador mustio, como un gran simulacro,\\nmiraba extasiado los escaparates donde\\nun maniqu\u00ed lascivo, con un lunar y un lacra\\nmostraba a los transe\u00fantes sus muslos y sus senos...\\n\\nLejos, un tranv\u00eda, como un gusano inmenso,\\ncon su carga de obreros, cansados y hambrientos,\\ncon sus luces de incendio, rodaba truculento.\\n\\nY el bebedor miraba los senos y los muslos...\\n\\nLuego, como un borracho que busca entre la bruma\\nuna quimera vaga, el bebedor se aleja,\\ntarja en su boca seca una blasfemia aleja\\ny escupe, al pasar junto a la mujer desnuda.\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.6148434300576487,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 186,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 186
+      }
+    ],
+    "prompt_token_count": 133,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 133
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 319,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "frente a un mostrador mustio, como un gran simulacro,\nmiraba extasiado los escaparates donde\nun maniqu\u00ed lascivo, con un lunar y un lacra\nmostraba a los transe\u00fantes sus muslos y sus senos...\n\nLejos, un tranv\u00eda, como un gusano inmenso,\ncon su carga de obreros, cansados y hambrientos,\ncon sus luces de incendio, rodaba truculento.\n\nY el bebedor miraba los senos y los muslos...\n\nLuego, como un borracho que busca entre la bruma\nuna quimera vaga, el bebedor se aleja,\ntarja en su boca seca una blasfemia aleja\ny escupe, al pasar junto a la mujer desnuda."
+    }
+  ]
+}

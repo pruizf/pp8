@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKtd8W89T7POCPFYHDfjSxcAVNNZ",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Francisco de Quevedo y Villegas\",\n  \"century\": \"17\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162145,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 25,
+    "prompt_tokens": 208,
+    "total_tokens": 233
+  }
+}

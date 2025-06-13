@@ -1,0 +1,36 @@
+{
+  "id": "c1701cfd-ac35-4f19-b46c-40881160bbc2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mi fe es inquebrantable, mi amor es llano,\\nno temo al destino ni al tiempo ingrato,\\nporque en mi pecho late, fuerte y sano,\\nel coraz\u00f3n de un poeta y un gato.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749559195,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 71,
+    "prompt_tokens": 117,
+    "total_tokens": 188,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 53
+  }
+}

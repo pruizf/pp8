@@ -1,0 +1,36 @@
+{
+  "id": "cd8fe8c0-a9f0-4978-98c1-70ac6982ca67",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien l\u00edrico y emocional. Utiliza un lenguaje po\u00e9tico y metaf\u00f3rico para expresar sentimientos profundos y contrastes emocionales, como el amor y el dolor. Las im\u00e1genes creadas, como los r\u00edos deteni\u00e9ndose para escuchar, los montes corriendo, y el viento callando, sugieren un tono serio y no humor\u00edstico. Adem\u00e1s, el uso de contrastes como convertir las arenas en oro versus deshacer el tesoro llorando, y traer un verano eterno versus un helado invierno, refuerza la naturaleza emotiva y no c\u00f3mica del poema. Por lo tanto, la evaluaci\u00f3n es que el poema no es c\u00f3mico, sino que busca conmover al lector a trav\u00e9s de su belleza l\u00edrica y profundidad emocional.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567509,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 215,
+    "prompt_tokens": 251,
+    "total_tokens": 466,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 59
+  }
+}

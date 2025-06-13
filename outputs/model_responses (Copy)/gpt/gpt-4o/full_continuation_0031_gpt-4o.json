@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKwRnXrcee6iHtDccs9lSpdcZe0w",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"la memoria que en vano estoy siguiendo\\nacaece, y aun no tan desigual a\u00f1o,\\nal que viejas im\u00e1genes enga\u00f1o,\\nque amor en mis servicios no est\u00e1 viendo.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162319,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 52,
+    "prompt_tokens": 89,
+    "total_tokens": 141
+  }
+}

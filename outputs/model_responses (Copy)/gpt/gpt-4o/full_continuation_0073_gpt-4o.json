@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dL1gkUQ5RcI4Mqw2PJTGRtrkRqwM",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Esto pasa en el mundo, en cada hora;\\nque un Alejandro con su Ovidio ha sido\\nSu cal\u00edope a Venus ha invocado\\nY, de su musa, en la fuente ha bebido.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162644,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 95,
+    "total_tokens": 156
+  }
+}

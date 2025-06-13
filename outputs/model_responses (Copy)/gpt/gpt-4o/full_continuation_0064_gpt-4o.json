@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dL0OApcaa2Upl9vwUNOEfdIYzDVe",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Al posar honda la admiraci\u00f3n humana\\nTu planta peregrina;\\nSi alguna vez, all\u00e1 sobre la espl\u00e9ndida\\nRoma, hacia el ocaso vespertino,\\n\\nLa mente vaga, el coraz\u00f3n recuerda...\",\n  \"continuation\": \"Romanceosa historia de la reina\\nCuyo imperio sangriento hoy fulmina\\nSu decreto inflexible hasta el abismo\\nDe la gloria cantada por Virgilio,\\nMi epitafio letrando con labios divinos,\\n\\nEn las ruinas de oro, sobre hombros inclinados,\\nAc\u00e9rquese tu alma, como en m\u00ed inclina\\nEl alma sola hacia el idioma amigo.\\nLas noches son luctuosas; mas aqu\u00e9lla\\n\\nQue se levanta en la titan de Arc\u00e1ngelo\\nSuperior a la envidia y al desprecio,\\nFresca y joven al paso de la vida,\\nComo un lino florecido en primavera\u2026\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162564,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_3e7d703517",
+  "usage": {
+    "completion_tokens": 212,
+    "prompt_tokens": 97,
+    "total_tokens": 309
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "msg_011NBA7DAyJpGnGfmaTJ26RP",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"author\": \"Luis de G\u00f3ngora y Argote\",\n  \"century\": \"17\"\n}\n\nEste soneto es obra de Luis de G\u00f3ngora, uno de los m\u00e1ximos exponentes del Barroco espa\u00f1ol. El poema muestra las caracter\u00edsticas t\u00edpicas del estilo gongorino, con sus elaboradas met\u00e1foras y su lenguaje culto, especialmente en la forma en que aborda el tema de la luz y la oscuridad como met\u00e1foras de la vida y la muerte.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 259,
+    "output_tokens": 123,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

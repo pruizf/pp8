@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[{\"judgement\": \"s\u00ed\", \"continuation\": \"fresca belleza al prado delicado,\\nrefrescando las flores con roc\u00edo,\\nque a su vista y frescura el prado umbr\u00edo\\nfresco y suave verdor iba mostrando.\\n\\nYo, que el ardor sent\u00eda del est\u00edo,\\nfresco placer sent\u00ed al mirarla cuando\\nfresca rosa juntaba con su mano,\\nque a la fresca mejilla iba uniendo.\\n\\nDije, \u00bffresca beldad, permite, os ruego,\\nque goce de la fresca primavera,\\nque al miraros me da fresco sosiego\\nvuestra fresca belleza placentera.\\n\\nY ella me dijo: -\u00a1Oh, fresco caballero,\\nfresco es mi amor, mas no a vos os lo ofrezco!-\"}]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.4905103770169345,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-1.5-pro-002",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 176,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 176
+      }
+    ],
+    "prompt_token_count": 114,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 114
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 290,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "fresca belleza al prado delicado,\nrefrescando las flores con roc\u00edo,\nque a su vista y frescura el prado umbr\u00edo\nfresco y suave verdor iba mostrando.\n\nYo, que el ardor sent\u00eda del est\u00edo,\nfresco placer sent\u00ed al mirarla cuando\nfresca rosa juntaba con su mano,\nque a la fresca mejilla iba uniendo.\n\nDije, \u00bffresca beldad, permite, os ruego,\nque goce de la fresca primavera,\nque al miraros me da fresco sosiego\nvuestra fresca belleza placentera.\n\nY ella me dijo: -\u00a1Oh, fresco caballero,\nfresco es mi amor, mas no a vos os lo ofrezco!-"
+    }
+  ]
+}

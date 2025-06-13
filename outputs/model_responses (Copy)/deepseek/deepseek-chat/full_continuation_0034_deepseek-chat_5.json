@@ -1,0 +1,36 @@
+{
+  "id": "8033eb3b-a7fc-47f3-a1a0-ab309cf9dac8",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"tu saeta, que hiere tan de lleno\\nque no hay coraz\u00f3n duro ni sereno\\nque de tu fuerza no se sienta ardiente;\\n\\ntu venda, que los ojos m\u00e1s abiertos\\ncierra con tal dulzura y tal reposo\\nque el alma queda en paz y en luz cubiertos;\\n\\ntu fuego, que en el pecho m\u00e1s helado\\nenciende una llama tan ardiente\\nque todo lo transforma en amoroso.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749571113,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 110,
+    "total_tokens": 239,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 46
+  }
+}

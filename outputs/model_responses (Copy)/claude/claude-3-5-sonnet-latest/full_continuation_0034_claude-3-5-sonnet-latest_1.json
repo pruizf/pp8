@@ -1,0 +1,23 @@
+{
+  "id": "msg_01HsPp4ArnSy63sTU4q2eiHD",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"tu venda, que mis ojos ha vendado\\npara no ver del mundo el desconcierto;\\ntu fuego, que me tiene en \u00e9l despierto,\\ny en vivas llamas como F\u00e9nix ardo;\\n\\ntu flecha de oro, que me tiene herido,\\ny el alma y coraz\u00f3n atravesado;\\ntu paz, en quien mi guerra ha fenecido;\\n\\ntu guerra, en quien mi paz se ha confirmado;\\npor quien vivo muriendo entretenido,\\npor quien muero viviendo lastimado.\"\n}\n\nEste es el famoso soneto de Lope de Vega que comienza \"Bendito seas, Amor\" y es uno de sus poemas m\u00e1s conocidos sobre el amor.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 118,
+    "output_tokens": 195,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

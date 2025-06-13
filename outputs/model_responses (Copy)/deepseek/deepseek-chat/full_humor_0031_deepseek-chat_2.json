@@ -1,0 +1,36 @@
+{
+  "id": "5566e4db-fc1b-4479-9aff-7d81db505687",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado es un soneto que expresa sentimientos profundos de dolor, amor y consuelo, lejos de tener un tono c\u00f3mico. La estructura y el lenguaje utilizado son t\u00edpicos de la poes\u00eda l\u00edrica, centr\u00e1ndose en las emociones del hablante y su relaci\u00f3n con la 'se\u00f1ora'. Los temas de sufrimiento, esperanza y devoci\u00f3n amorosa no se prestan a la comedia, sino m\u00e1s bien a la reflexi\u00f3n y la expresi\u00f3n de sentimientos intensos. Adem\u00e1s, el uso de un lenguaje elevado y metaf\u00f3rico, como 'angustias feneciendo' y 'dulce enga\u00f1o', refuerza el car\u00e1cter serio y emotivo del poema, alej\u00e1ndolo de cualquier intenci\u00f3n humor\u00edstica o c\u00f3mica.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556581,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 197,
+    "prompt_tokens": 244,
+    "total_tokens": 441,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 52
+  }
+}

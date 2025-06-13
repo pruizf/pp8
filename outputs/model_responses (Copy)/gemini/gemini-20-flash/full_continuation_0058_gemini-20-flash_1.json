@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "video_metadata": null,
+            "thought": null,
+            "inline_data": null,
+            "file_data": null,
+            "thought_signature": null,
+            "code_execution_result": null,
+            "executable_code": null,
+            "function_call": null,
+            "function_response": null,
+            "text": "[\n  {\n    \"judgement\": \"s\u00ed\",\n    \"continuation\": \"Llegaron los barberos de la rueda,\\nLos m\u00e9dicos, sacristanes y abates,\\nY los que venden carnes y alpargates\\nY tienen trato con la otra rueda.\\n\\nVinieron las pla\u00f1ideras, cubiertas\\nCon luctuosos mantos carcomidos,\\nY los curiosos, h\u00e1biles o\u00eddos\\nA recoger palabras encubiertas.\\n\\nLleg\u00f3 la autoridad, con grave paso,\\nEl cura, el boticario, el escribano,\\nY todo el que no fue porque era llano,\\nO porque ya le hab\u00eda ocurrido el caso.\\n\\nLuego que vieron el cad\u00e1ver yerto,\\nY examinaron bien su vestidura,\\nUnos dijeron: \u00ab\u00a1Pobre criatura!\\n\u00a1Qu\u00e9 pronto nos la ha quitado Alberto!\u00bb\\n\\nOtros, m\u00e1s discretos, aseguraron\\nQue era forzoso que la Parca viniese,\\nY que el mundo es un valle donde trillese\\nEl dolor, y en pago nos mataron.\\n\\nDijeron despu\u00e9s que hab\u00eda vivido\\nMucho, y que ya era justo muriese;\\nQue al fin nadie del mundo se trajese\\nUn palmo m\u00e1s de lo que le ha cabido.\\n\\nY as\u00ed fueron pasando las cuadrillas\\nDe gente que ven\u00eda y que se iba,\\nCada cual con su cuento, que tra\u00eda,\\nY otras tantas mentiras y otras quillas.\\n\\nYo, que llegu\u00e9 all\u00ed por aventura,\\nSin conocer difunta ni parientes,\\nO\u00ed tantas razones diferentes,\\nQue march\u00e9me diciendo: \u00a1Sepultura!\\n\"\n  }\n]"
+          }
+        ],
+        "role": "model"
+      },
+      "citation_metadata": null,
+      "finish_message": null,
+      "token_count": null,
+      "finish_reason": "STOP",
+      "url_context_metadata": null,
+      "avg_logprobs": -0.5620481748838683,
+      "grounding_metadata": null,
+      "index": null,
+      "logprobs_result": null,
+      "safety_ratings": null
+    }
+  ],
+  "create_time": null,
+  "response_id": null,
+  "model_version": "gemini-2.0-flash",
+  "prompt_feedback": null,
+  "usage_metadata": {
+    "cache_tokens_details": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": 370,
+    "candidates_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 370
+      }
+    ],
+    "prompt_token_count": 115,
+    "prompt_tokens_details": [
+      {
+        "modality": "TEXT",
+        "token_count": 115
+      }
+    ],
+    "thoughts_token_count": null,
+    "tool_use_prompt_token_count": null,
+    "tool_use_prompt_tokens_details": null,
+    "total_token_count": 485,
+    "traffic_type": null
+  },
+  "automatic_function_calling_history": [],
+  "parsed": [
+    {
+      "judgement": "s\u00ed",
+      "continuation": "Llegaron los barberos de la rueda,\nLos m\u00e9dicos, sacristanes y abates,\nY los que venden carnes y alpargates\nY tienen trato con la otra rueda.\n\nVinieron las pla\u00f1ideras, cubiertas\nCon luctuosos mantos carcomidos,\nY los curiosos, h\u00e1biles o\u00eddos\nA recoger palabras encubiertas.\n\nLleg\u00f3 la autoridad, con grave paso,\nEl cura, el boticario, el escribano,\nY todo el que no fue porque era llano,\nO porque ya le hab\u00eda ocurrido el caso.\n\nLuego que vieron el cad\u00e1ver yerto,\nY examinaron bien su vestidura,\nUnos dijeron: \u00ab\u00a1Pobre criatura!\n\u00a1Qu\u00e9 pronto nos la ha quitado Alberto!\u00bb\n\nOtros, m\u00e1s discretos, aseguraron\nQue era forzoso que la Parca viniese,\nY que el mundo es un valle donde trillese\nEl dolor, y en pago nos mataron.\n\nDijeron despu\u00e9s que hab\u00eda vivido\nMucho, y que ya era justo muriese;\nQue al fin nadie del mundo se trajese\nUn palmo m\u00e1s de lo que le ha cabido.\n\nY as\u00ed fueron pasando las cuadrillas\nDe gente que ven\u00eda y que se iba,\nCada cual con su cuento, que tra\u00eda,\nY otras tantas mentiras y otras quillas.\n\nYo, que llegu\u00e9 all\u00ed por aventura,\nSin conocer difunta ni parientes,\nO\u00ed tantas razones diferentes,\nQue march\u00e9me diciendo: \u00a1Sepultura!\n"
+    }
+  ]
+}

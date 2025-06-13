@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKzwsPtEepBLUWPmTwzhaaJ6vA9Z",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Gozar y padecer, y emplear la vida\\nLuchando, en una incomprensible guerra,\\nTodo para morirse a manos de ella y\\nDejar tras de la muerte, sombra llena\\ndel hueco y de la queja de la vida.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719162536,
+  "model": "gpt-4o-2024-05-13",
+  "object": "chat.completion",
+  "system_fingerprint": "fp_5e6c71d4a8",
+  "usage": {
+    "completion_tokens": 74,
+    "prompt_tokens": 93,
+    "total_tokens": 167
+  }
+}

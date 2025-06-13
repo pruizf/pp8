@@ -1,0 +1,25 @@
+{
+  "id": "chatcmpl-9dKr3V6eNKHBgImrGY6bw2uuQwXso",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"author\": \"Sor Juana In\u00e9s de la Cruz\",\n  \"century\": \"siglo XVII\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161985,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 28,
+    "prompt_tokens": 230,
+    "total_tokens": 258
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "3044e66a-7f8a-43d1-aed1-4e8b3d8f7595",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado no parece tener la intenci\u00f3n de ser c\u00f3mico, sino m\u00e1s bien de transmitir un mensaje serio y reflexivo sobre la gloria y el poder. Su tono es elevado y solemne, centr\u00e1ndose en temas como la valent\u00eda, la santificaci\u00f3n de las leyes, y el legado de una figura hist\u00f3rica. La estructura y el lenguaje utilizado son propios de la poes\u00eda l\u00edrica o \u00e9pica, que busca conmover o inspirar al lector, m\u00e1s que provocar risa o diversi\u00f3n. Adem\u00e1s, la referencia a eventos hist\u00f3ricos y la menci\u00f3n de figuras como 'Lamar' sugieren un contexto serio y no humor\u00edstico. Por lo tanto, aunque la percepci\u00f3n del humor puede ser subjetiva, los elementos presentes en el poema apuntan hacia una intenci\u00f3n seria y no c\u00f3mica.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749567272,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 210,
+    "prompt_tokens": 247,
+    "total_tokens": 457,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 55
+  }
+}

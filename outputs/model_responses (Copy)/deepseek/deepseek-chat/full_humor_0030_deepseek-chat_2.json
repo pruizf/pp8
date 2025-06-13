@@ -1,0 +1,36 @@
+{
+  "id": "a7a64091-d51d-4138-8a97-5cd435c442de",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Las armas del amor' es una expresi\u00f3n de amor y admiraci\u00f3n hacia una mujer, utilizando met\u00e1foras y lenguaje po\u00e9tico para describir los sentimientos del autor. Aunque el poema contiene elementos que podr\u00edan ser interpretados como ligeros o juguetones, como la personificaci\u00f3n del amor y las descripciones exageradas de las caracter\u00edsticas f\u00edsicas de la mujer, el tono general es m\u00e1s rom\u00e1ntico y apasionado que c\u00f3mico. La intenci\u00f3n del autor parece ser la de expresar un profundo afecto y devoci\u00f3n, m\u00e1s que provocar risa o entretenimiento. Por lo tanto, no se considera c\u00f3mico, sino m\u00e1s bien una obra l\u00edrica que celebra el amor y la belleza.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749556551,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 182,
+    "prompt_tokens": 254,
+    "total_tokens": 436,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 62
+  }
+}

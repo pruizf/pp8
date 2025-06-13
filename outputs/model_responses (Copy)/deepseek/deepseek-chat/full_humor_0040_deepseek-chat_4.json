@@ -1,0 +1,36 @@
+{
+  "id": "a9d372d0-b424-4220-ab23-af08b8215f5b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado aborda temas profundos como la b\u00fasqueda del significado de la vida, la ceguera espiritual, y la s\u00faplica por iluminaci\u00f3n divina. Su tono es serio y reflexivo, centr\u00e1ndose en las luchas internas del hablante y su deseo de superar la oscuridad a trav\u00e9s de la fe. La estructura y el lenguaje utilizado son propios de la poes\u00eda l\u00edrica tradicional, que busca expresar sentimientos y pensamientos profundos m\u00e1s que provocar risa o alegr\u00eda. Por lo tanto, no se considera c\u00f3mico, sino m\u00e1s bien introspectivo y espiritual.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749565910,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 157,
+    "prompt_tokens": 246,
+    "total_tokens": 403,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 54
+  }
+}

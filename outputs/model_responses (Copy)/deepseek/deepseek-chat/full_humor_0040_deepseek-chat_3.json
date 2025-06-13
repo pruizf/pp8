@@ -1,0 +1,36 @@
+{
+  "id": "156c965a-9a9a-4e30-80ce-6a0e5bb6a79d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado tiene un tono profundo y reflexivo, centr\u00e1ndose en temas como la ceguera, la b\u00fasqueda de entendimiento y la fe. Su lenguaje es po\u00e9tico y serio, utilizando met\u00e1foras y im\u00e1genes que evocan un sentido de solemnidad y no de comedia. La estructura y el contenido del poema apuntan hacia una exploraci\u00f3n espiritual y existencial, lejos de los elementos t\u00edpicos asociados con la comedia, como el humor, la iron\u00eda o la s\u00e1tira. Por lo tanto, no se considera c\u00f3mico.\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749560084,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 146,
+    "prompt_tokens": 246,
+    "total_tokens": 392,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 192
+    },
+    "prompt_cache_hit_tokens": 192,
+    "prompt_cache_miss_tokens": 54
+  }
+}

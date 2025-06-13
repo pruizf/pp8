@@ -1,0 +1,69 @@
+{
+  "id": "chatcmpl-9dKl4K1wOSwAmJs0E6P0tefTbUXDO",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico por su tono sarc\u00e1stico y burlesco hacia los amigos que siempre piden tabaco prestado. Utiliza un lenguaje coloquial y exagerado para enfatizar la molestia del escritor hacia la situaci\u00f3n, lo cual puede resultar gracioso para el lector. Adem\u00e1s, el uso de rimas y la estructura del poema contribuyen a su car\u00e1cter humor\u00edstico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 1,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema puede ser considerado c\u00f3mico debido al tono sarc\u00e1stico y sat\u00edrico que utiliza. La forma en que el poeta se burla de sus 'amigos tronados' por pedirle tabaco de forma gratuita y c\u00f3mo responde de manera despectiva y exagerada, puede resultar gracioso para algunos lectores. Adem\u00e1s, el uso de jerga y lenguaje coloquial le da un toque humor\u00edstico a la composici\u00f3n. Sin embargo, el humor es subjetivo y puede no ser apreciado por todos los lectores, por lo que la respuesta es incierta en t\u00e9rminos generales.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 2,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"S\u00ed, el poema es c\u00f3mico debido a su tono sat\u00edrico y sarc\u00e1stico. El poeta se burla de sus amigos que constantemente le piden tabaco prestado, utilizando un lenguaje exagerado y humor\u00edstico para expresar su molestia. Las comparaciones con personajes y situaciones b\u00edblicas y la iron\u00eda en los versos finales a\u00f1aden un toque divertido a la composici\u00f3n. Adem\u00e1s, el uso de palabras coloquiales y vulgares contribuye a la naturaleza humor\u00edstica del poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 3,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico por su tono sarc\u00e1stico y burl\u00f3n. Utiliza un lenguaje muy coloquial y vulgar para expresar su molestia hacia aquellos que le piden tabaco prestado. La iron\u00eda y el humor negro presentes en el poema hacen que resulte c\u00f3mico para algunos lectores. Adem\u00e1s, el uso de rimas y la exageraci\u00f3n de la situaci\u00f3n contribuyen a su tono humor\u00edstico.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    },
+    {
+      "finish_reason": "stop",
+      "index": 4,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema es c\u00f3mico debido a la iron\u00eda y el tono sarc\u00e1stico que utiliza el poeta para reprender a sus amigos por pedirle tabaco prestado. La exageraci\u00f3n en la forma en que expresa su frustraci\u00f3n y la comparaci\u00f3n con situaciones c\u00f3micas como la de fumar heno o chuparse la punta del carajo le dan un tono humor\u00edstico al poema.\"\n}",
+        "role": "assistant",
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1719161614,
+  "model": "gpt-3.5-turbo-0125",
+  "object": "chat.completion",
+  "system_fingerprint": null,
+  "usage": {
+    "completion_tokens": 636,
+    "prompt_tokens": 254,
+    "total_tokens": 890
+  }
+}

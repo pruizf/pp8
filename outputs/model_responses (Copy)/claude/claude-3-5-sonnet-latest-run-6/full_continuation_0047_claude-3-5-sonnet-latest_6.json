@@ -1,0 +1,23 @@
+{
+  "id": "msg_0156rtVGT6SxsQqttSVBob6u",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Sigue tu marcha con la frente erguida,\\nque el can muerde la sombra que le aterra,\\ny el \u00e1guila en su vuelo no se encierra\\npor m\u00e1s que grazne el cuervo a su subida.\\n\\nDeja que te critique la ignorancia\\ny que te calumnie la soberbia vana:\\nque la perla, en el fondo, siempre gana\\ny el oro no desluce su elegancia.\\n\\nSi el odio te persigue y te denigra,\\nalza tu pensamiento a las estrellas,\\nque, a pesar de los perros, siempre bellas\\ncruzar\u00e1n por el cielo en paz tranquila.\"\n}",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 128,
+    "output_tokens": 198,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "msg_01E97kyfHfaL9mEA2rPvWqUb",
+  "content": [
+    {
+      "citations": null,
+      "text": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Como el ave que vuela sin raz\u00f3n,\\nComo el pez que no sabe por qu\u00e9 nada,\\nAs\u00ed baila sin alma, sin pasi\u00f3n,\\nY as\u00ed vive su vida, que es prestada.\\n\\nDa saltos prodigiosos sin sentir\\nDel arte verdadero la emoci\u00f3n;\\nY es que s\u00f3lo ha aprendido a repetir\\nLo que otros inventaron con pasi\u00f3n.\"\n}\n\nEste poema fue escrito por F\u00e9lix Mar\u00eda de Samaniego, poeta espa\u00f1ol del siglo XVIII.",
+      "type": "text"
+    }
+  ],
+  "model": "claude-3-5-sonnet-20241022",
+  "role": "assistant",
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "type": "message",
+  "usage": {
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 124,
+    "output_tokens": 154,
+    "server_tool_use": null,
+    "service_tier": "standard"
+  }
+}

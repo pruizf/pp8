@@ -1,0 +1,36 @@
+{
+  "id": "8bc9333e-f86e-4515-b182-878701c91286",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que en el jard\u00edn del mundo te perd\u00edas,\\nentre las flores m\u00e1s hermosas, fr\u00edas,\\nmas siempre viva, siempre en alegr\u00eda.\\n\\n\u00a1Oh, Rosa de mi amor, Rosa querida,\\nque en el coraz\u00f3n guardo tu fragancia,\\ny en cada sue\u00f1o tu presencia santa,\\ncomo un tesoro de eterna bonanza!\"\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null
+      }
+    }
+  ],
+  "created": 1749562127,
+  "model": "deepseek-chat",
+  "object": "chat.completion",
+  "service_tier": null,
+  "system_fingerprint": "fp_8802369eaa_prod0425fp8",
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 128,
+    "total_tokens": 231,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 64
+    },
+    "prompt_cache_hit_tokens": 64,
+    "prompt_cache_miss_tokens": 64
+  }
+}

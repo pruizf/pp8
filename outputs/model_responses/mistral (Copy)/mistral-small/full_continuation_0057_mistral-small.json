@@ -1,0 +1,23 @@
+{
+  "id": "483f88fcef80476289bde960bd88b584",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 77,
+    "total_tokens": 207
+  },
+  "created": 1749542249,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"O una oleada de mar embravecido\\nQue engulle playas y arrastra monta\u00f1as,\\nO un r\u00edo que de su cauce se escapa,\\nO un volc\u00e1n que vomita lava ardiente?\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

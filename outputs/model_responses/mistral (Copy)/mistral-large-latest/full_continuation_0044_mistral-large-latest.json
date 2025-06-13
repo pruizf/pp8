@@ -1,0 +1,23 @@
+{
+  "id": "ba0a0fcb76cc484fb547df156f236a35",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 112,
+    "total_tokens": 241
+  },
+  "created": 1749484572,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"de un mediod\u00eda de ocre a\u00f1il; y es un ensue\u00f1o\\nreverberar, bajo el sol, tu perfil,\\ncomo un esmalte en el ambiente trunco,\\ncomo una mancha en el tedio difuso,\\ncomo un espejismo en el desierto adusto,\\ny un desaf\u00edo en el arenal mustio.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "c9286ea5239c4c1e8ac7c985742b7d98",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 78,
+    "total_tokens": 215
+  },
+  "created": 1749483806,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y es que no hay vino en la ciudad de Cana\\ny en la ciudad de Cana no hay borrachos,\\nni tampoco hay un Cristo que en las bodas\\nconvierta el agua en vino para tanto.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

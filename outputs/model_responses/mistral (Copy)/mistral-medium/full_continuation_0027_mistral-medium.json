@@ -1,0 +1,23 @@
+{
+  "id": "04c9b579c721482e97504b6b4b6fe67e",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 146,
+    "total_tokens": 241
+  },
+  "created": 1749671066,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Con su vozarr\u00f3n y sus predicaciones,\\nque aunque no son muy doctas, son muy largas,\\nsobre los pecados y las culpas ajenas\\nhace re\u00edr a mozos y a mozas.\\n\\nY si acaso alg\u00fan fraile le contradice,\\ncon su bast\u00f3n le da tal repel\u00f3n,\\nque hasta el m\u00e1s sabio huye de sus sermones.\\n\\n\u00a1Oh, Fray Gerundio, gran orador!\\nque en lugar de santos, haces burlones,\\ny en vez de devotos, risas y canciones.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

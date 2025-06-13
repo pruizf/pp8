@@ -1,0 +1,23 @@
+{
+  "id": "a4baa0977b524a7d933b685a1af87e4b",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 88,
+    "total_tokens": 225
+  },
+  "created": 1749483702,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Cabalga la serran\u00eda de matorrales; la luz es p\u00e1lida, el viento fr\u00edo silba, la aldea se encoge, y se oye en el tejado de las casas, el constante rumor de las hojas secas.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

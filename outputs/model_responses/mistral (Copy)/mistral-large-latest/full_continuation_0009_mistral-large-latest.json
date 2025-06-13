@@ -1,0 +1,23 @@
+{
+  "id": "967bc5c74eaf4acca8976c1d5b2f663d",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 68,
+    "total_tokens": 213
+  },
+  "created": 1749483715,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"vino a hacerme compa\u00f1\u00eda.\\n\\nYo le dije: \u2014\u00bfNo lo ves?...\\nEs el globo del gas,\\na quien el sol hizo estallar.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

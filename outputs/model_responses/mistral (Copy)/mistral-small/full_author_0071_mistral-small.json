@@ -1,0 +1,23 @@
+{
+  "id": "d0d8a256a5cd471c804da2fb7e01349f",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 27,
+    "total_tokens": 317
+  },
+  "created": 1749542347,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Luis de G\u00f3ngora\",\n  \"century\": \"17\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "9f136657e36b4ad284327cff6f3aa683",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 230,
+    "total_tokens": 359
+  },
+  "created": 1749541341,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Por ser su fin la gloria mayor,\\nCondenado est\u00e1 al bien y al mal fuerte,\\nA padecer y a gozar en un punto,\\nY a ser, en definitiva, cosa incierta.\\nEn un mismo acto, su dicha y dolor,\\nSu ganancia y p\u00e9rdida, vida y muerte;\\nPues en su \u00e9xtasis, est\u00e1 su tormento,\\nY en su tormento, est\u00e1 su \u00e9xtasis fuerte.\\nTal es el estado del guerrero valiente,\\nQue vive y muere por honor y fe;\\nS\u00f3lo Dios conoce su sentir ardiente.\\nMas, \u00a1ay!, \u00a1cu\u00e1n poco el hombre le ve!\\nPor eso, \u00a1oh hombre!, en ti est\u00e1 la gloria,\\nNo en el vivir, sino en la breve historia.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

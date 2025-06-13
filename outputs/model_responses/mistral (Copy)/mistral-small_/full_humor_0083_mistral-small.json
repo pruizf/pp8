@@ -1,0 +1,23 @@
+{
+  "id": "312619ecb7d04982a14e94ffbe6b1c8d",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 294,
+    "completion_tokens": 140,
+    "total_tokens": 434
+  },
+  "created": 1740950915,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presenta un tono serio y reflexivo, con un lenguaje formal y figuras ret\u00f3ricas propias de la poes\u00eda cl\u00e1sica. Aunque contiene met\u00e1foras y personificaciones que pueden resultar ingeniosas, no est\u00e1 dise\u00f1ado para provocar risa o diversi\u00f3n, sino m\u00e1s bien para meditar sobre el paso del tiempo, la belleza y el placer. Por lo tanto, no se puede considerar c\u00f3mico en el sentido tradicional del t\u00e9rmino.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

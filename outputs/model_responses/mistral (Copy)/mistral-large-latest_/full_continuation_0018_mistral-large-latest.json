@@ -1,0 +1,23 @@
+{
+  "id": "ebd73a96d49846bc8111023fbb960804",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 129,
+    "total_tokens": 263
+  },
+  "created": 1740951550,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"fresco olor, y el viejo sol saliendo,\\nfrescos rayos de luz iba esparciendo,\\nfrescas aves cantaban, y el roc\u00edo\\nfresco y brillante el prado regalaba.\\nFresca la brisa soplaba suavemente,\\nfresca la flor su aroma difund\u00eda,\\nfresca la hierba bajo sus pies verdeaba,\\ny fresca la ma\u00f1ana sonre\u00eda.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "d3313034a8cd4cf3bc7edde6b0fcc1b5",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 81,
+    "total_tokens": 176
+  },
+  "created": 1749671691,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"con mi alma y mi vida, yace el desvelo,\\nque si en tu fuego el hielo se deshace,\\nmi coraz\u00f3n en llamas se hace hielo.\\nMas no temas, suspiro, que mi anhelo\\nno ha de turbar la paz de aquel consuelo.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

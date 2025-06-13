@@ -1,0 +1,23 @@
+{
+  "id": "046c6507487246eaac9a0830ce87277b",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 96,
+    "total_tokens": 233
+  },
+  "created": 1749542474,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"un final para este poema podr\u00eda ser:\\n\\nY logr\u00e9 despertar antes de sentir\\nla fiera rugir y a mi espanto acrecentar.\\nSo\u00f1\u00e9, s\u00f3lo so\u00f1\u00e9; en mi reposo no ir\u00e1\\nmi temor a parar donde acecha la fiera ya.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

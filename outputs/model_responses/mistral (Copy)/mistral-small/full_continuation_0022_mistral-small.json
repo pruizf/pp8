@@ -1,0 +1,23 @@
+{
+  "id": "a76801d8823442138bad1f6e17381dc5",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 84,
+    "total_tokens": 219
+  },
+  "created": 1749541426,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Es un cr\u00edtico severo y un sutil censor;\\nSabe trocar el estilo y es de picar y escribir;\\nEn romances castellanos cancionero divino,\\nNo hay quien le enmiende, ni le alcance a imitar.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

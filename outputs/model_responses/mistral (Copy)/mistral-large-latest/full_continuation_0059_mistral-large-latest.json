@@ -1,0 +1,23 @@
+{
+  "id": "f918618709e14d2a9c058398f81a8fdf",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 84,
+    "total_tokens": 219
+  },
+  "created": 1749484887,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"El hombre es s\u00f3lo polvo, sombra, nada; \\nGusanillo es su vida en este mundo; \\nAyer de un soplo form\u00f3 la rueda, \\nHoy vuela el soplo... y el gusano es tierra.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

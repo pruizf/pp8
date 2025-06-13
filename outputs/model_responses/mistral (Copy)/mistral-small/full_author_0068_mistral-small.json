@@ -1,0 +1,23 @@
+{
+  "id": "3724b3d08cbc471cac3278ac8068628c",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 292,
+    "completion_tokens": 26,
+    "total_tokens": 318
+  },
+  "created": 1749542322,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"F\u00e9lix Mar\u00eda Samaniego\",\n  \"century\": \" XVIII\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

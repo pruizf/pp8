@@ -1,0 +1,23 @@
+{
+  "id": "20210344431e4dce92c0a0203e4b2e17",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 70,
+    "total_tokens": 213
+  },
+  "created": 1749541358,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"No puedo continuar el poema, ya que no conozco su autor ni su contexto. Sin embargo, aqu\u00ed va un intento de continuaci\u00f3n que siga el estilo y el tono del soneto original:\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

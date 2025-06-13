@@ -1,0 +1,23 @@
+{
+  "id": "1af5d06bf99e4890be80ca37d8f907eb",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 51,
+    "total_tokens": 200
+  },
+  "created": 1749542490,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"but he found only empty air, for Love had flown, leaving behind only the fading beauty of the setting sun and the blooming flowers.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

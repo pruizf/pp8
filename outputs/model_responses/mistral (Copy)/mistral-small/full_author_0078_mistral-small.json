@@ -1,0 +1,23 @@
+{
+  "id": "cd132b2834eb44c799e899871b7ba6f0",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 346,
+    "completion_tokens": 26,
+    "total_tokens": 372
+  },
+  "created": 1749542414,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Jos\u00e9 de la Cruz\",\n  \"century\": \"19\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

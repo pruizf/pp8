@@ -1,0 +1,23 @@
+{
+  "id": "8760cd72a721409d8232a2ff0b192029",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 298,
+    "completion_tokens": 27,
+    "total_tokens": 325
+  },
+  "created": 1740950855,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Rafael Medina Villalpando\",\n  \"century\": \"XX\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

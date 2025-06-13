@@ -1,0 +1,23 @@
+{
+  "id": "38f4ba6ffc004a4d8d4e5c1ba249a0a0",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 102,
+    "completion_tokens": 122,
+    "total_tokens": 224
+  },
+  "created": 1749671048,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"T\u00fa de farol, yo manco de una sota, \\\\n t\u00fa rica en vitaminas, yo desnudo, \\\\n t\u00fa carne de gallina, yo de jota, \\\\n t\u00fa hu\u00e9rfana de novio, yo viudo. \\\\n \\\\n T\u00fa de trapo, yo de carne y hueso, \\\\n t\u00fa de luto, yo de fiesta y vino, \\\\n t\u00fa con miedo, yo con el peso, \\\\n t\u00fa sin rumbo, yo con mi destino.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

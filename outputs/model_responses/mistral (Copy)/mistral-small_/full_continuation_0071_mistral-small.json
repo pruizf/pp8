@@ -1,0 +1,23 @@
+{
+  "id": "853fd57c5212425da5310b04dd0fa860",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 150,
+    "completion_tokens": 145,
+    "total_tokens": 295
+  },
+  "created": 1740950873,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Respondi\u00f3 Apolo con sarcasmo amable:\\n\\\"\u00a1Qu\u00e9 admirable empresa! Ea, v\u00e1monos a Roma,\\nque all\u00ed nos recibir\u00e1 con gran pompa y afabilidad\\nuna academia que se haga entre tanto alboroto y foma.\\\"\\nY as\u00ed, con su lira en la mano, se fue.\\nAl verle partir, los asistentes a la academia,\\ncon cierto temor en sus rostros,\\nse preguntaban a s\u00ed mismos:\\n\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

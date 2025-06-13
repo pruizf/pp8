@@ -1,0 +1,23 @@
+{
+  "id": "5efa584cee0d4cfda6b801d491338f26",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 90,
+    "completion_tokens": 208,
+    "total_tokens": 298
+  },
+  "created": 1749671132,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"tu saeta, que en mi pecho se ha clavado;\\ntu venda, que mis ojos ha cubierto;\\ntu fuego, que en mi alma se ha encendido;\\ntu nombre, que en mi lengua ha sonado.\\n\\nBendito seas, Amor, que en tu tormento\\nme das la vida y el gozo verdadero,\\ny en tu dulce prisi\u00f3n, libre y contento,\\nno quiero m\u00e1s libertad que tu yugo fiero.\\n\\nBendito seas, Amor, que en tu presencia\\nmi coraz\u00f3n se inflama y se consume,\\ny en tu ausencia, mi alma en tu ausencia\\nsiente el vac\u00edo que tu amor resume.\\n\\nBendito seas, Amor, por siempre y siempre,\\nporque en tu luz mi sombra se ilumina,\\ny en tu eterno fuego mi alma se ci\u00f1e\\ncomo el sol que en el cielo se domina.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

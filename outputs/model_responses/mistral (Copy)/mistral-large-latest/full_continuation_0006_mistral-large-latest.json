@@ -1,0 +1,23 @@
+{
+  "id": "1d7123a019dc4b4a9a63cd490c48f6b1",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 123,
+    "completion_tokens": 72,
+    "total_tokens": 195
+  },
+  "created": 1749483674,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00e9rase un reloj de sol mal encarado, \u00e9rase una nariz say\u00f3n y escriba, \u00e9rase un elefante boca arriba, \u00e9rase una nariz de cal\u00edgrafo imperita.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

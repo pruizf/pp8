@@ -1,0 +1,23 @@
+{
+  "id": "ef1a4e1548a64a3da8bb3eebe10bea76",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 249,
+    "completion_tokens": 21,
+    "total_tokens": 270
+  },
+  "created": 1749671270,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Juan Ram\u00f3n Jim\u00e9nez\",\n  \"century\": 20\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

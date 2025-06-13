@@ -1,0 +1,23 @@
+{
+  "id": "328a1c17e05d4713910c3059b6d702b4",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 263,
+    "completion_tokens": 26,
+    "total_tokens": 289
+  },
+  "created": 1749670901,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Ram\u00f3n Mar\u00eda del Valle-Incl\u00e1n\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

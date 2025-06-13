@@ -1,0 +1,23 @@
+{
+  "id": "a3ab25fcecab4f33952cfd78f8d067d3",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 95,
+    "total_tokens": 240
+  },
+  "created": 1749542942,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"no puedo continuar el poema, ya que no conozco su autor o t\u00edtulo para poder buscar la continuaci\u00f3n correcta. El fragmento que proporcion\u00f3 se asemeja al poema \\\"Rosa\\\" de Jos\u00e9 Zorrilla, pero el fragmento que proporcion\u00f3 no es su continuaci\u00f3n exacta.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

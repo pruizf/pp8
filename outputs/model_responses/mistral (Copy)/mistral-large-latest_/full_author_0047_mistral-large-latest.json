@@ -1,0 +1,23 @@
+{
+  "id": "3c6e8ff8ce4244008c8946e9505d2a22",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 300,
+    "completion_tokens": 22,
+    "total_tokens": 322
+  },
+  "created": 1740951783,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Antonio Trueba\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

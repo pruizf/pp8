@@ -1,0 +1,23 @@
+{
+  "id": "291be6e9e44c408b875a3f1860ea0bee",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 288,
+    "completion_tokens": 31,
+    "total_tokens": 319
+  },
+  "created": 1749483703,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Jos\u00e9 \u00c1ngel Valente\"\n  ,\n  \"century\": \"20\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

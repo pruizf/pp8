@@ -1,0 +1,23 @@
+{
+  "id": "395bfda574b94654aa7dddf4e41b48c8",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 287,
+    "completion_tokens": 28,
+    "total_tokens": 315
+  },
+  "created": 1749542214,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Ram\u00f3n de Campoamor\",\n  \"century\": \"19\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

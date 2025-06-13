@@ -1,0 +1,23 @@
+{
+  "id": "d4e19aadf0754d489687aca2baa4247d",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 74,
+    "total_tokens": 208
+  },
+  "created": 1749485201,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Con esta llave queda el toro a sueldo, y no hay toro tan bravo ni tan fiero, que no le haga el Vergel, como un cordero, irse al matadero sin hacer duelo.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

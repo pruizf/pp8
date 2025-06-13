@@ -1,0 +1,23 @@
+{
+  "id": "0b4c263223c94f70a4413953fcbcfd2d",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 131,
+    "total_tokens": 260
+  },
+  "created": 1749484758,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Pas\u00f3 ya la estaci\u00f3n de los amores\\nY la edad de los sue\u00f1os placentera;\\nPas\u00f3 la deliciosa primavera,\\nY con ella los frutos y las flores.\\n\\nPas\u00f3 la edad en que esper\u00e9 lograr\\nLa esperanza que el alma me enga\u00f1aba;\\nPas\u00f3 la edad en que pude alcanzar\\nLa dicha que el amor me promet\u00eda.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

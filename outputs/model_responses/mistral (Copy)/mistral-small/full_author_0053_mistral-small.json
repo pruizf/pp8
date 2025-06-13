@@ -1,0 +1,23 @@
+{
+  "id": "8c776608a0364cc08871a048b5793ecc",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 288,
+    "completion_tokens": 30,
+    "total_tokens": 318
+  },
+  "created": 1749542224,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Gabriel M\u00e1rquez de la Plata\",\n  \"century\": \" XVI\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

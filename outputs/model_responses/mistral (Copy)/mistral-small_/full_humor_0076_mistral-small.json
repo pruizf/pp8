@@ -1,0 +1,23 @@
+{
+  "id": "e2e535478011478e977924c6e3c88494",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 297,
+    "completion_tokens": 125,
+    "total_tokens": 422
+  },
+  "created": 1740950889,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no est\u00e1 claramente destinado a ser c\u00f3mico, sino m\u00e1s bien una descripci\u00f3n heroica del personaje de Pedro Vergel y su habilidad con los toros. Aunque hay un verso ('un torillo, enemigo de su hermano, al suelo le arroj\u00f3 con fin siniestro') que podr\u00eda interpretarse como humor\u00edstico o ir\u00f3nico, el tono general del poema es m\u00e1s serio que c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

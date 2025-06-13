@@ -1,0 +1,23 @@
+{
+  "id": "2d2e817d72c14e60bfd03b581e0db58c",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 132,
+    "total_tokens": 267
+  },
+  "created": 1749542355,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"M\u00e1tame Rodrigo el de Narvaez,\\nque estoy de envidia de Torralba,\\nque ha muerto de noche y en su traici\u00f3n\\nno le dio tiempo a hacer testamento.\\nPorque no ha sido Urdiales, ni el de Cabrera,\\nquien ha muerto, sino el de Palencia.\\nMi hermano muere y yo no lo vengo,\\nm\u00e1tame, m\u00e1tame, quien me lo ha de dar.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

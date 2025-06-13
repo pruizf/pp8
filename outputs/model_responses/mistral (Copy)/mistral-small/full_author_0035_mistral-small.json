@@ -1,0 +1,23 @@
+{
+  "id": "d43785972c7643b08a931ab6ae3c8cda",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 279,
+    "completion_tokens": 27,
+    "total_tokens": 306
+  },
+  "created": 1749541528,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Jos\u00e9 de Diego\",\n  \"century\": \"XIX y XX\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

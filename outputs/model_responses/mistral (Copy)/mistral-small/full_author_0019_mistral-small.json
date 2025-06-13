@@ -1,0 +1,23 @@
+{
+  "id": "97c953a0244f456da87164ef1b94fe67",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 265,
+    "completion_tokens": 30,
+    "total_tokens": 295
+  },
+  "created": 1749541402,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Quino (apellido real: Jos\u00e9 Hern\u00e1ndez)\",\n  \"century\": \"XX\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

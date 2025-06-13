@@ -1,0 +1,23 @@
+{
+  "id": "e98a770d4224493c9b1f187689194385",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 252,
+    "total_tokens": 381
+  },
+  "created": 1749484732,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"La erupci\u00f3n\\n\\nHierve la sangre en las hinchadas venas,\\nFuego brotar parecen las mejillas,\\nSe doblan hac\u00eda el suelo las rodillas\\nY el hombre m\u00e1s audaz respira apenas.\\n\\nUna esperanza en el pecho anida,\\nUn af\u00e1n inquieto el alma enciende,\\nUn fuego abrasador la frente ofende,\\nY el coraz\u00f3n latir acelerado.\\n\\nEs el amor, que con su llama ardiente,\\nEnciende el alma, el coraz\u00f3n inflama,\\nY en su poder, todo lo domina,\\nNada resiste a su furor vehemente.\\n\\nEs el amor, que en su loco frenes\u00ed,\\nTodo lo arrasa, todo lo enga\u00f1a,\\nY en su delirio, todo lo alcanza,\\nNada escapa a su furor insensato.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

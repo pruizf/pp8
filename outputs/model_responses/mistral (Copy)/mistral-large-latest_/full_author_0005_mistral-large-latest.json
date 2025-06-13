@@ -1,0 +1,23 @@
+{
+  "id": "050c6627b871444f8788316e2efe3f9a",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 26,
+    "total_tokens": 329
+  },
+  "created": 1740951418,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Federico Garc\u00eda Lorca\",\n  \"century\": \"20\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

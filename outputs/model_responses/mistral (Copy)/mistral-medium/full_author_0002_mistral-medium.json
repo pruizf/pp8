@@ -1,0 +1,23 @@
+{
+  "id": "4b4ed98c1ab74ef281cf467197c0b514",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 239,
+    "completion_tokens": 20,
+    "total_tokens": 259
+  },
+  "created": 1749670844,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"An\u00f3nimo\",\n  \"century\": 16\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

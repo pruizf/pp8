@@ -1,0 +1,23 @@
+{
+  "id": "1f36bb3e38874a47828ad791f7a155fb",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 150,
+    "completion_tokens": 71,
+    "total_tokens": 221
+  },
+  "created": 1749484969,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Los m\u00e1s por desatino la queremos,\\nOdiamos y servimos a una vez,\\nEn su busca gastamos nuestro bien,\\nY en su amor nos gastamos a nosotros.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

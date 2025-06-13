@@ -1,0 +1,23 @@
+{
+  "id": "35794229b4a1485996ab003498947ab0",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 107,
+    "total_tokens": 198
+  },
+  "created": 1749671586,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Gloria fue tuya el levantar la frente\\nante el yugo que el mundo te impusiera,\\nser el rebelde que en la tierra entera\\ngrita su nombre con fuego en la corriente.\\n\\nNo fue tu gloria el doblegar la suerte,\\nni el oro ni el poder tu coraz\u00f3n moviera;\\ntu gloria fue ser luz cuando la noche era,\\nser voz cuando el silencio fue la muerte.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

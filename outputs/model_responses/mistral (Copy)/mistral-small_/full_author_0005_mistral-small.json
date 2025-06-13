@@ -1,0 +1,23 @@
+{
+  "id": "74d67856575641f58631548fd7e4a966",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 308,
+    "completion_tokens": 28,
+    "total_tokens": 336
+  },
+  "created": 1740950572,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Dionisio Gamallo Fierros\",\n  \"century\": \"20\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

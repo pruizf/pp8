@@ -1,0 +1,23 @@
+{
+  "id": "f3b7b69acbf84721ba4380326506acd1",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 83,
+    "total_tokens": 219
+  },
+  "created": 1749484179,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"De tus palabras dulces para rendirme, \\nla voz para encantarme y hacer mi gloria; \\nde tus lindas mejillas, la tinta rosada \\ncon que pint\u00f3 la paz de mi victoria.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

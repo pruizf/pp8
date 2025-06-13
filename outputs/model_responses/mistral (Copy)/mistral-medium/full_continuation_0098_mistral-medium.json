@@ -1,0 +1,23 @@
+{
+  "id": "c15c77269d4d4b8889c717d65792cfd8",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 114,
+    "total_tokens": 214
+  },
+  "created": 1749671755,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"el valle, y el r\u00edo que serpentea,\\ncomo un hilo de plata en el verdor,\\nmientras el sol, que en el cenit flamea,\\nderrama luz y vida y resplandor.\\n\\nMas \u00a1ay! que al contemplar tan gran belleza,\\nla voz del alma en mi pecho se alza,\\ny en lugar de alegr\u00eda, con tristeza,\\nun suspiro profundo me desgarra.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

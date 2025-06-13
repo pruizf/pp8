@@ -1,0 +1,23 @@
+{
+  "id": "0ea05710522240969d1a2848c19ca712",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 199,
+    "total_tokens": 328
+  },
+  "created": 1749483777,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Logr\u00e9 verla; mas, \u00a1oh, cu\u00e1nto me espanto! \u00a1Qu\u00e9 extra\u00f1o rostro vi!: \u00bfQu\u00e9 es lo que veo? \u00bfEs \u00e9sta la mujer a quien adoro? \u00bfEs \u00e9sta la beldad que el alma miro? \u00a1Ah! \u00a1No era sino un esqueleto horrendo! Su cabellera era un bosque de hebras de plata y oro, y su semblante p\u00e1lido, un cad\u00e1ver insepulto que asustaba a los ojos. \u00a1Cielos! \u00bfQu\u00e9 es esto? \u00bfEs \u00e9sta la misma que antes vi hermosa? \u00a1Ah! S\u00ed; que el amor es ciego y enga\u00f1oso.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

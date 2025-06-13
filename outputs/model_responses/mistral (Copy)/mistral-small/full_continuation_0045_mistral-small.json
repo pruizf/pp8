@@ -1,0 +1,23 @@
+{
+  "id": "504d274a469946568539f8723cfa6151",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 63,
+    "total_tokens": 205
+  },
+  "created": 1749541589,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"No puedo continuar el poema sin una fuente adicional de l\u00edneas. El fragmento que proporcion\u00f3 no tiene una continuaci\u00f3n directa en mi base de datos.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

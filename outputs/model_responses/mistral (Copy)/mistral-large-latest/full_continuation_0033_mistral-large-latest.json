@@ -1,0 +1,23 @@
+{
+  "id": "8943913c200644c89abb282f0c08c924",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 83,
+    "total_tokens": 219
+  },
+  "created": 1749484221,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y el ave, que en su canto se lamenta,\\n as\u00ed dice, triste, al aire sordo:\\n\\\"Por ti, cruel, la vida me atormenta,\\n y por ti, ingrato, el alma me devoro.\\\"\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

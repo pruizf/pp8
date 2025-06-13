@@ -1,0 +1,23 @@
+{
+  "id": "8235d2c0b1c643dcb30a9590f58eff68",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 159,
+    "completion_tokens": 112,
+    "total_tokens": 271
+  },
+  "created": 1749541385,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo siento, no puedo continuar este poema sin m\u00e1s informaci\u00f3n. Un soneto masonico es un tipo de soneto que utiliza rimas en esquemas espec\u00edficos, y el soneto proporcionado no parece seguir ninguno de esos esquemas. Adem\u00e1s, falta contexto y informaci\u00f3n para poder continuar el poema de manera significativa.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

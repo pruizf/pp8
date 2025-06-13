@@ -1,0 +1,23 @@
+{
+  "id": "10e8baf69a7043e39e111055c2173a02",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 113,
+    "total_tokens": 251
+  },
+  "created": 1740951903,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"A\u00f1ade al conjunto un poco de pena,\\nUn grano de amor, dos o tres de hiel\\nY, para refrescar, una gota de helado veneno.\\nB\u00e9belo de un sorbo, con alma serena,\\nY ver\u00e1s, oh, mortal, ese instante de bien\\nEn que el necio se cree un semidi\u00f3s terreno.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

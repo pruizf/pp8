@@ -1,0 +1,23 @@
+{
+  "id": "80eb126d35c54b10b1ac954e7f5cf426",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 78,
+    "total_tokens": 213
+  },
+  "created": 1749541604,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"yes\",\n  \"continuation\": \"all\u00ed la vi, y sin hablar palabra \\nme mir\u00f3, y en su mirar le\u00ed tan claro \\nque en mi sue\u00f1o aquel lago se turb\u00f3,\\npor un sollozo que encerraba tanto amor.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "0cfee397b76f4b938b88424c4a12ff56",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 325,
+    "completion_tokens": 288,
+    "total_tokens": 613
+  },
+  "created": 1740951868,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"reason\": \"El poema 'Oraci\u00f3n f\u00fanebre' es c\u00f3mico debido a su tono ir\u00f3nico y la manera en que presenta a los personajes en una situaci\u00f3n de duelo. El poema describe a varios individuos en una casa donde se est\u00e1 llevando a cabo un velorio, y hace comentarios sarc\u00e1sticos sobre cada uno de ellos. Por ejemplo, se refiere al viudo como 'aquel que llora', lo que sugiere una actitud superficial o exagerada. La cu\u00f1ada y la peinadora son mencionadas de manera despectiva, y el m\u00e9dico es retratado como alguien que pregunta '\u00bfC\u00f3mo va?' a todos los que entran, lo que sugiere una falta de sinceridad o empat\u00eda. Finalmente, el poema culmina con una referencia a un hombre que parece un 'majadero', insinuando que la difunta ten\u00eda una debilidad por alguien que no era muy inteligente o respetable. Este tipo de humor negro y la cr\u00edtica social impl\u00edcita hacen que el poema sea c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

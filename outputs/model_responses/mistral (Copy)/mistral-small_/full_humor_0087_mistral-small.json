@@ -1,0 +1,23 @@
+{
+  "id": "a0cd1f37d56943d29addd3db1c54c734",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 292,
+    "completion_tokens": 153,
+    "total_tokens": 445
+  },
+  "created": 1740950930,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"Este poema, aunque hermoso y con im\u00e1genes po\u00e9ticas muy cuidadas, no es c\u00f3mico en s\u00ed. La tem\u00e1tica y el tono son serios, y no presenta situaciones, lenguaje o elementos que provoquen risa o diversi\u00f3n, que son caracter\u00edsticas definitorias del humor o la comedia. En su lugar, el poema es una alabanza a la Virgen Mar\u00eda, y est\u00e1 escrito en un lenguaje simb\u00f3lico y metaf\u00f3rico, donde la perla representa a la Virgen y su pureza.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

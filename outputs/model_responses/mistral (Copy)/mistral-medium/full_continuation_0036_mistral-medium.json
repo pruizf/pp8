@@ -1,0 +1,23 @@
+{
+  "id": "f8cafc3a394c46c5aa920ac4eb290195",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 91,
+    "completion_tokens": 63,
+    "total_tokens": 154
+  },
+  "created": 1749671154,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas yo, con miedo y fuerza, me libraba,\\ncomo el alma que en sue\u00f1os se perd\u00eda,\\ny en la lucha despert\u00e9, y a\u00fan sent\u00eda\\nel fr\u00edo de la sombra que hu\u00eda.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "a3ae1161e95b4c9b8597abb4bd8d846f",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 271,
+    "completion_tokens": 33,
+    "total_tokens": 304
+  },
+  "created": 1749542943,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Gertrudis G\u00f3mez de Avellaneda\",\n  \"century\": \"19\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

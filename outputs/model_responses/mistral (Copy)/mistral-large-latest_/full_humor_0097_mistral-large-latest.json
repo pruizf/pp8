@@ -1,0 +1,23 @@
+{
+  "id": "fadbf6fc20b640b3987587877e8df0f2",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 296,
+    "completion_tokens": 195,
+    "total_tokens": 491
+  },
+  "created": 1740952190,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico porque su contenido y tono son predominantemente melanc\u00f3licos y reflexivos. La descripci\u00f3n de la tarde, el r\u00edo, el ave y la monta\u00f1a crean una atm\u00f3sfera serena y pensativa. La met\u00e1fora del ave que huye y el narrador que se compara con ella, dejando su nido atr\u00e1s, sugiere una sensaci\u00f3n de p\u00e9rdida y b\u00fasqueda interna. No hay elementos humor\u00edsticos ni situaciones que provoquen risa o diversi\u00f3n, lo cual es caracter\u00edstico de la poes\u00eda c\u00f3mica. En cambio, el poema invita a la introspecci\u00f3n y a la contemplaci\u00f3n de la naturaleza y la existencia.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

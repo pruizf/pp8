@@ -1,0 +1,23 @@
+{
+  "id": "382931694d1041cfae90ddb5d9efdb1f",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 156,
+    "completion_tokens": 86,
+    "total_tokens": 242
+  },
+  "created": 1749484716,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Yo ven\u00eda triste. Yo ven\u00eda doliente.\\nPor el oto\u00f1o y por el Pante\u00f3n.\\nHab\u00eda en el jard\u00edn un rumor de hojas secas,\\nY en el estanque yac\u00eda muerto un cisne.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

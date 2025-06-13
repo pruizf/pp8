@@ -1,0 +1,23 @@
+{
+  "id": "4c6d726d804444db9ab63d3ddd632670",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 99,
+    "total_tokens": 237
+  },
+  "created": 1749542908,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"yes\",\n  \"continuation\": \"la pobre fuente, como vieja, \\r\\nse resiste al fin y se agota y muere.\\r\\nNi un ruido en el aire,\\r\\npues ya el sol se oculta en la sierra.\\r\\nS\u00f3lo queda el recuerdo de su hermosura.\\r\\n\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

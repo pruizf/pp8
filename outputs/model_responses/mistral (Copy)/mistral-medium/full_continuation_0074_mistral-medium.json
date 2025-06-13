@@ -1,0 +1,23 @@
+{
+  "id": "f8b28338312c4f3bb3a2c51ce3a05b26",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 96,
+    "completion_tokens": 196,
+    "total_tokens": 292
+  },
+  "created": 1749671523,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00a1Oh, cu\u00e1nto m\u00e1s valiera que no viviera,\\nque no naciera al mundo este maldito,\\neste monstruo infernal, este bandido,\\neste lobo de Espa\u00f1a, que la altera!\\n\\nNo hay lengua que baste a su delito,\\nni pluma que le pueda describir,\\nni voz que le sepa maldecir,\\nni ingenio que alcance a su m\u00e9rito.\\n\\nEs un Judas traidor, un Ca\u00edn homicida,\\nun Ner\u00f3n en crueldad y en tiran\u00eda,\\nun Robo\u00e1n en soberbia y en orgullo.\\n\\nEs un fiero drag\u00f3n, una hidra fiera,\\nun basilisco, un \u00e1spid, una culebra,\\nun monstruo que espant\u00f3 al mismo infierno.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

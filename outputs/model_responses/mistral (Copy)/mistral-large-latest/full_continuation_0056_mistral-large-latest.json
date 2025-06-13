@@ -1,0 +1,23 @@
+{
+  "id": "76d94c2a56cd4256ae699da744d50eb3",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 127,
+    "completion_tokens": 193,
+    "total_tokens": 320
+  },
+  "created": 1749484830,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"All\u00ed donde las fuentes susurrantes\\nCuentan historias de amor y desd\u00e9n,\\nY las flores, mudas confidentes,\\nSon testigos de nuestro fiel querer.\\n\\nEn aquel sitio, que el sol acaricia,\\nDonde el aire es puro y el agua es clara,\\nNuestro amor se ha hecho una dulce herida\\nQue nos une para siempre en la dura.\\n\\nY aunque el tiempo pase y la vida siga,\\nSiempre en mi pecho tu recuerdo viva,\\nPues en aquel valle, donde el alma rige,\\nNuestro amor, Laura, eterno perdura.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

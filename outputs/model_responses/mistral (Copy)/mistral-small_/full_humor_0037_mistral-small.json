@@ -1,0 +1,23 @@
+{
+  "id": "2b6eea8d09e94f5b95d89a2f0af32c21",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 294,
+    "completion_tokens": 139,
+    "total_tokens": 433
+  },
+  "created": 1740950706,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado es un soneto, una forma po\u00e9tica tradicionalmente asociada con temas serios y rom\u00e1nticos. Aunque el contenido del poema podr\u00eda interpretarse como una reflexi\u00f3n sobre el placer y el dolor en el amor, no contiene elementos expl\u00edcitamente humor\u00edsticos como juegos de palabras, exageraciones c\u00f3micas o situaciones rid\u00edculas. Por lo tanto, no se puede considerar c\u00f3mico en el sentido tradicional de la palabra.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

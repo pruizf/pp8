@@ -1,0 +1,23 @@
+{
+  "id": "d7e073264d8549dfbcc6ef3754a22509",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 95,
+    "total_tokens": 192
+  },
+  "created": 1749671665,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que si el amor te llama, no le sigas,\\nque es dulce su veneno,\\npero amargo su fin y sus fatigas.\\n\\nNo es el amor, coraz\u00f3n, lo que imaginas:\\nno es dulce compa\u00f1\u00eda ni dulce trato,\\nsino af\u00e1n que se esconde tras los gratos\\nenga\u00f1adores nombres de las ruinas.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

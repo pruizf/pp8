@@ -1,0 +1,23 @@
+{
+  "id": "dbc2747404d44db2b4e498d7280dae22",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 23,
+    "total_tokens": 338
+  },
+  "created": 1740951580,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Manuel del Palacio\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

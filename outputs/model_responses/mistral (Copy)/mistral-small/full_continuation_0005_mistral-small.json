@@ -1,0 +1,23 @@
+{
+  "id": "cc40803b5df148f099f145dae54d3957",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 141,
+    "completion_tokens": 58,
+    "total_tokens": 199
+  },
+  "created": 1749541309,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo siento, no puedo continuar el poema, ya que no est\u00e1 completo ni existe un contexto adicional para hacer una continuaci\u00f3n adecuada.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

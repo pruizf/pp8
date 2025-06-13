@@ -1,0 +1,23 @@
+{
+  "id": "2116cd73ee8340149d343753b9f2f782",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 88,
+    "total_tokens": 225
+  },
+  "created": 1749541322,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo siento, no puedo continuar este poema, ya que no est\u00e1 completo. El poema que has proporcionado es un fragmento del poema 'El Busc\u00f3n' de Francisco de Quevedo, y no hay una continuaci\u00f3n directa para este fragmento espec\u00edfico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

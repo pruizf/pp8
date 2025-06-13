@@ -1,0 +1,23 @@
+{
+  "id": "72059892b9d84b6c8d97bafce60d727d",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 179,
+    "total_tokens": 316
+  },
+  "created": 1749485682,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"que ofreciendo vas b\u00e1lsamo de flores!\\n\u00a1Praderas deliciosas en que han llorado\\nDamoetas y Amarante sus dolores!\\n\u00a1Umbr\u00edo bosque, r\u00edo susurrante,\\ny alegres aves que en las ramas moras!\\n\u00a1Qu\u00e9 bien vuestra beldad corresponde\\na lo que de vosotros se cuenta!\\n\u00a1Oh, si pudiese con vosotros holgarme\\nun rato, y en el c\u00e9sped tenderme,\\ny a la sombra de un \u00e1rbol reposarme,\\nlibre de penas que me hacen morirme!\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

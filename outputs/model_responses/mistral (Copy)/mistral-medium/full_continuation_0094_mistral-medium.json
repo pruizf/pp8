@@ -1,0 +1,23 @@
+{
+  "id": "46f42de1f7b14273b443a64b8510c271",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 98,
+    "completion_tokens": 92,
+    "total_tokens": 190
+  },
+  "created": 1749671699,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"la luna de tu frente se oscurec\u00eda,\\ncomo un sol que en la tarde se desmaya,\\ncomo un rayo de luz que se desvanece,\\ncomo un sue\u00f1o que huye y que se aleja,\\ncomo un beso que en el aire se deshace,\\ncomo un suspiro que en el viento muere.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

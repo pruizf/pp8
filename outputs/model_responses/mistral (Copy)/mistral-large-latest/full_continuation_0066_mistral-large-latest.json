@@ -1,0 +1,23 @@
+{
+  "id": "c0f869d76cd54e0f99b1c7d09d9cd5f3",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 85,
+    "total_tokens": 216
+  },
+  "created": 1749484993,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Aunque en su forma el ave no te inquieta,\\nEn su vida inmortal sue\u00f1a un tesoro,\\nY en el deseo que en su pecho mora,\\n\u00a1Cu\u00e1nto m\u00e1s que plumas su pasi\u00f3n sujeta!\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "16d314c618614d379c0ad36705f4c7f8",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 142,
+    "completion_tokens": 150,
+    "total_tokens": 292
+  },
+  "created": 1749541379,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"A vuestras bocas plegadas est\u00e1n\\nlas hojas amarillas del oto\u00f1o; \\ncon tal placer vais al dolor del humo,\\nque ya en las tabernas de Egipto sumo\\nseme aplac\u00f3 el genio de mi mal.\\nAvaros, avaros, que Dios os condene,\\ny el fuego eterno os abrase sin tregua,\\nalimentando vuestro insaciable hambre,\\nde ceniza y humo vuestras entra\u00f1as.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

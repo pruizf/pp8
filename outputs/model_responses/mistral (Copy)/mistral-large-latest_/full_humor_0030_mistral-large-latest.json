@@ -1,0 +1,23 @@
+{
+  "id": "16780d858d304d86a1875ebc5a6628dd",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 315,
+    "completion_tokens": 234,
+    "total_tokens": 549
+  },
+  "created": 1740951646,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Las armas del amor' no es c\u00f3mico. El tono y el lenguaje utilizados sugieren una tem\u00e1tica amorosa y rom\u00e1ntica, llena de met\u00e1foras y figuras ret\u00f3ricas que exaltan la belleza y el poder de la amada sobre el poeta. Las im\u00e1genes de 'doradas hebras', 'lindos ojuelos', 'dulce boca' y 'albo seno' evocan una admiraci\u00f3n profunda y un deseo apasionado, mientras que las referencias a 'lazos para asirme', 'flechas y la llama abrasadora' y 'prisionero' indican una rendici\u00f3n total ante el amor. La elegancia y la solemnidad del lenguaje, as\u00ed como la intensidad emocional del poema, lo alejan de cualquier intenci\u00f3n c\u00f3mica.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

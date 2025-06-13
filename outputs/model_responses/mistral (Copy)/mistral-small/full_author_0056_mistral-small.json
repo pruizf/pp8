@@ -1,0 +1,23 @@
+{
+  "id": "c2b3e19c44794960a1560c78455aa2bb",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 296,
+    "completion_tokens": 29,
+    "total_tokens": 325
+  },
+  "created": 1749542245,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Gustavo Adolfo B\u00e9cquer\",\n  \"century\": \"XIX\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

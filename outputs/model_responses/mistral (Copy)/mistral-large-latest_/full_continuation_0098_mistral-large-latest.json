@@ -1,0 +1,23 @@
+{
+  "id": "b858f79b7a804946b18fa170f6c914d0",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 64,
+    "total_tokens": 202
+  },
+  "created": 1740952200,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"el cielo, y se abrazan con el suelo,\\nverde el mar, blancas las espumas,\\ny el sol rojo de un crep\u00fasculo bello.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2c260a8d0ac44c44a05c9eb239d03cd7",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 324,
+    "completion_tokens": 25,
+    "total_tokens": 349
+  },
+  "created": 1740950603,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Melchor de Palau\",\n  \"century\": \"XIX\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "15e0cdaae5d04b54a8fef640af2cd81d",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 296,
+    "completion_tokens": 28,
+    "total_tokens": 324
+  },
+  "created": 1740951486,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Miguel de Cervantes Saavedra\",\n  \"century\": 16\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

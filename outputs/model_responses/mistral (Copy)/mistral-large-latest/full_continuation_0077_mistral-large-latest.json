@@ -1,0 +1,23 @@
+{
+  "id": "2860db472af24285ad184bd0b9a5ad57",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 151,
+    "completion_tokens": 90,
+    "total_tokens": 241
+  },
+  "created": 1749485215,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"mi alma huye y busca un m\u00edstico retiro, \\nun descanso de paz en el amor de Dios, \\ndonde todo es quietud, sombra, perfume y canto, \\ndonde todo es armon\u00eda, dulzura y sonrisa.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

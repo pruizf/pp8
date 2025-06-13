@@ -1,0 +1,23 @@
+{
+  "id": "1ab37f35ff60408cb8f7eee4dded98af",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 97,
+    "completion_tokens": 62,
+    "total_tokens": 159
+  },
+  "created": 1749671379,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas no por eso he de dejar el rumbo,\\nni cambiar mi estilo ni mi camino;\\nque el que a la cr\u00edtica da su destino,\\nno es m\u00e1s que un pobre diablo sin rumbo.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

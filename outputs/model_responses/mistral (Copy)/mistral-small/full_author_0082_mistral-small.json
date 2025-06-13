@@ -1,0 +1,23 @@
+{
+  "id": "8a1e8aa49cf749b98fc7afd5ba0fffff",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 282,
+    "completion_tokens": 24,
+    "total_tokens": 306
+  },
+  "created": 1749542447,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Gerardo Diego\",\n  \"century\": \"20\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "6777376a5dc542e197bca2c47199e27c",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 80,
+    "total_tokens": 214
+  },
+  "created": 1749483840,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"fresco roc\u00edo en la hierba tendida,\\nFresca la brisa soplaba murmurando,\\nY yo, con fresca voz, le dije amada,\\nQue en su frescura mi alma florec\u00eda.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

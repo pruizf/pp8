@@ -1,0 +1,23 @@
+{
+  "id": "1a0edce7e76b409c8939df10bda9263c",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 99,
+    "total_tokens": 230
+  },
+  "created": 1749485399,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"a seguir el camino empezado,\\nmas la fortuna tiembla con mudan\u00e7a\\nde mar en bonan\u00e7a, de calma en estado\\ntormentoso, de pr\u00f3spero en trabajo,\\ncu\u00e1l vemos que devenir acae\u00e7e\\nque se torna lo dul\u00e7e en amargo.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

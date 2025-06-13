@@ -1,0 +1,23 @@
+{
+  "id": "d0a856aff95d4c858b3f9920271ba184",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 191,
+    "total_tokens": 322
+  },
+  "created": 1740951747,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"a la cuna de su hijo la convida,\\n\u00bfqu\u00e9 va a nacer de que yo nazca muerto,\\ny de que muera a mi nacimiento unido,\\nun nuevo F\u00e9nix, un nuevo ingenio, un Lope,\\nun agradable ingenio, un dulce due\u00f1o\\nde las que a Apolo favorece el vuelo,\\nuna sirena que en el mar peque\u00f1o\\nde unas blancas hojas nos da su canto,\\nuna dulce Filomena, que en el llanto\\nde las hojas de plata nos endulzamos,\\n\u00bfqu\u00e9 va a nacer de que yo nazca muerto,\\ny de que muera a mi nacimiento unido?\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

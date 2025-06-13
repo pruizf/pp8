@@ -1,0 +1,23 @@
+{
+  "id": "fbcd2a8cc2c847b8b41a191ecf9699ff",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 61,
+    "total_tokens": 192
+  },
+  "created": 1749485322,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"a lo m\u00e1s arduo de las leyes humanas, y el dar t\u00fa solo, en medio a las tiranas, el grito de la libertad a los hombres.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "4e7d082f478e4aea911fc8b608be25e1",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 147,
+    "completion_tokens": 68,
+    "total_tokens": 215
+  },
+  "created": 1740950556,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"yes\",\n  \"continuation\": \"Y all\u00ed, en Alfalarache,\\nMatamos un turco y tomamos un saco;\\nY volvimos a Larache,\\nY en Larache nos pusimos a jugar al taco.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

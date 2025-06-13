@@ -1,0 +1,23 @@
+{
+  "id": "0f39f4a7b23b492c8dc25ef28af74e04",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 162,
+    "total_tokens": 288
+  },
+  "created": 1749484271,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y desesperada; la sangre hierve\\ncomo un volc\u00e1n ardiente en mi pecho,\\nmi coraz\u00f3n late con fuerza, como un eco\\nque resuena en el vac\u00edo de mi ser.\\n\\nEn cada suspiro, en cada mirada,\\nencuentro el reflejo de tu alma clara,\\nun universo entero en tus ojos brilla.\\n\\nNo hay muros ni barreras que impidan\\neste sentir profundo que me invade,\\nporque en ti, mujer, he encontrado mi gu\u00eda.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

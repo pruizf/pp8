@@ -1,0 +1,23 @@
+{
+  "id": "24d0899cfadf48d7807b11b1ef097a02",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 296,
+    "completion_tokens": 27,
+    "total_tokens": 323
+  },
+  "created": 1749542291,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Rosal\u00eda de Castro\",\n  \"century\": \"XIX\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

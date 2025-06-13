@@ -1,0 +1,23 @@
+{
+  "id": "21358150e6194c83958f2be29750096f",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 292,
+    "completion_tokens": 28,
+    "total_tokens": 320
+  },
+  "created": 1749485455,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Sor Juana In\u00e9s de la Cruz\",\n  \"century\": 17\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

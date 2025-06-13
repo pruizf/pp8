@@ -1,0 +1,23 @@
+{
+  "id": "5f240ae16be64fad88449a727508826d",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 291,
+    "completion_tokens": 25,
+    "total_tokens": 316
+  },
+  "created": 1749484943,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Ricardo Palma\",\n  \"century\": \"19\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

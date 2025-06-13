@@ -1,0 +1,23 @@
+{
+  "id": "3ddf608137864d56bc7186bf0de90023",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 107,
+    "total_tokens": 239
+  },
+  "created": 1749485233,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"El elemento m\u00e1s embravecido,\\ncuando la voz del rey se lee, asombrado,\\nse mansa y se reduce, y se le humilla;\\nsuena el nombre de Raimundo, y el olvido\\ndel pasado furor, el mar airado\\nle deja manso, y el abismo se anilla.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

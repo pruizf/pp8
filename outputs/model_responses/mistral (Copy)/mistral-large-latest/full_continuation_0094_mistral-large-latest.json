@@ -1,0 +1,23 @@
+{
+  "id": "dfefcdf324374640861db3e449691e27",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 35,
+    "total_tokens": 168
+  },
+  "created": 1749485623,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"mi sombra te busc\u00f3 por entre las plantes\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

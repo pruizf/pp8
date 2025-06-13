@@ -1,0 +1,23 @@
+{
+  "id": "8545efd4f55e4139a5c4451aad07c783",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 127,
+    "completion_tokens": 73,
+    "total_tokens": 200
+  },
+  "created": 1749484190,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"No me culp\u00e9is, pues, en m\u00ed no cabiendo, por un descuido, por un error extra\u00f1o, hacer el amor a quien yo amo tanto y espero a\u00fan de sus ojos muriendo.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

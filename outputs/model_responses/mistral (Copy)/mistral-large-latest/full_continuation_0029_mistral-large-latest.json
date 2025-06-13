@@ -1,0 +1,23 @@
+{
+  "id": "b69ab6da6553466cbb02bde5b37f73d0",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 124,
+    "completion_tokens": 188,
+    "total_tokens": 312
+  },
+  "created": 1749484158,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"as\u00ed las horas que hoy me han lastimado\\nvan a un mar de sombra donde yo, confundidas,\\noh dejar\u00e9 de verlas o acaso olvidado\\nlas ver\u00e9 sumergirse en olas de olvido.\\n\\nComo va la nave lejos del derrotero\\na la tierra de nadie, perdida en las aguas,\\ncomo va la canci\u00f3n que en el viento muere,\\ncomo va el ave errante que en el mar no anida,\\n\\ncomo va el ave ciega\\nque atraviesa el poniente\\ncomo va el viajero\\nque a la nada se entrega...\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

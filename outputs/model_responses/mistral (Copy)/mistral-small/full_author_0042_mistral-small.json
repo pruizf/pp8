@@ -1,0 +1,23 @@
+{
+  "id": "67b861ee1bde43b2b6b5d26f22782f3e",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 336,
+    "completion_tokens": 25,
+    "total_tokens": 361
+  },
+  "created": 1749541570,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Gabriel Celaya\",\n  \"century\": \"20\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

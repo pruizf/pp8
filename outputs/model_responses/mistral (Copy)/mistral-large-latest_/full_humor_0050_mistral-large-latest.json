@@ -1,0 +1,23 @@
+{
+  "id": "6d4ef8df48174753b741b858fab4c95e",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 340,
+    "completion_tokens": 286,
+    "total_tokens": 626
+  },
+  "created": 1740951801,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Soneto Autumnal al Marqu\u00e9s de Bradom\u00edn' no es c\u00f3mico. La raz\u00f3n principal es su tono solemne y reflexivo. El poema describe un escenario oto\u00f1al en Versalles, donde el poeta se encuentra pensativo y melanc\u00f3lico. La menci\u00f3n de elementos como el m\u00e1rmol desnudo, la paloma que pasa de repente y el chorro de agua mudo de Verlaine, evocan una atm\u00f3sfera de tristeza y nostalgia. Adem\u00e1s, el poema hace referencia a lecturas previas y a los triunfos del Marqu\u00e9s, lo que a\u00f1ade una capa de respeto y admiraci\u00f3n. La elecci\u00f3n de palabras como 'doliente', 'vulgar gente' y 'municipal y espeso' refuerzan el tono serio y meditativo del poema. En resumen, el poema no busca provocar risa, sino que se centra en evocar emociones profundas y reflexivas, lo que lo aleja del \u00e1mbito c\u00f3mico.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

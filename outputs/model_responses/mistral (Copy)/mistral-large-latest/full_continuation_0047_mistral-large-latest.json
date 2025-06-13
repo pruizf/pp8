@@ -1,0 +1,23 @@
+{
+  "id": "a580d015547d42979db7e5aba00d8370",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 51,
+    "total_tokens": 186
+  },
+  "created": 1749484683,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00a1Ladra a la luna! \u00a1Ladra a la luna! \u00a1Ladra a la luna!\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

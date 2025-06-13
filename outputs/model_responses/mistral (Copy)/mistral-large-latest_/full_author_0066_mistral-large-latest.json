@@ -1,0 +1,23 @@
+{
+  "id": "1b0d5111d25446d19ca50c6f5e1524f6",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 293,
+    "completion_tokens": 23,
+    "total_tokens": 316
+  },
+  "created": 1740951943,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Manuel Acu\u00f1a\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

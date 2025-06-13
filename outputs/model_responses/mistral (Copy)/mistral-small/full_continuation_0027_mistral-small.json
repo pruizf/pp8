@@ -1,0 +1,23 @@
+{
+  "id": "b5f12eeb86544d388b9c9c43fbf256f3",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 84,
+    "total_tokens": 222
+  },
+  "created": 1749541469,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"No hay otro, en verdad, que con m\u00e1s br\u00edo,\\nProclame en el p\u00falpito la verdad;\\nNi ha habido otro, en la verdad juzgado,\\nQue en dos cuartos de teolog\u00eda haya sido abrasado.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "6406fd66b6514d15ae99b1b8f6f58919",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 305,
+    "completion_tokens": 176,
+    "total_tokens": 481
+  },
+  "created": 1740950786,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema describe una situaci\u00f3n c\u00f3mica en la que un hombre sobreact\u00faa dram\u00e1ticamente ante una peque\u00f1a erupci\u00f3n en la piel, pero la propia poes\u00eda no est\u00e1 escrita de manera c\u00f3mica. La poes\u00eda utiliza un lenguaje serio y po\u00e9tico, con versos y rima, lo que puede sugerir una intenci\u00f3n m\u00e1s seria que c\u00f3mica. Adem\u00e1s, el tema de la erupci\u00f3n y la reacci\u00f3n exagerada del hombre pueden ser interpretados como una met\u00e1fora o una alegor\u00eda sobre temas m\u00e1s profundos, lo que tambi\u00e9n sugiere una intenci\u00f3n m\u00e1s all\u00e1 del humor simple.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

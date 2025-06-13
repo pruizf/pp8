@@ -1,0 +1,23 @@
+{
+  "id": "8b843988ef9f439c90fceee49af196fb",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 135,
+    "total_tokens": 269
+  },
+  "created": 1749542228,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Ser rey por un d\u00eda, vivir una hora en la estufa,\\r\\nCenar cuanto te plazca y no engordar,\\r\\nVer sin ser visto y o\u00edr sin o\u00edr;\\r\\n\u00c9stas son las cosas m\u00e1s dolorosas.\\r\\n\\r\\n--Antonio Machado, 'El mayor dolor', proverbios y cantares XXIX, Soledades, Galer\u00edas y otros poemas, 1907\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

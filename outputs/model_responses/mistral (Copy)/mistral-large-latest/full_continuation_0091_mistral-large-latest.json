@@ -1,0 +1,23 @@
+{
+  "id": "b49ceaa590cd46c0a2ee654688949f4a",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 51,
+    "total_tokens": 183
+  },
+  "created": 1749485515,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"a tu deseo,\\nno a m\u00ed, que en triste vida\\nme sostengo a duras penas.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

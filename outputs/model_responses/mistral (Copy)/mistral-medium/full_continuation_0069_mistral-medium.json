@@ -1,0 +1,23 @@
+{
+  "id": "7d1ffc7955b849d9a36ee912332e976a",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 194,
+    "total_tokens": 298
+  },
+  "created": 1749671475,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mire que el honor es la mejor prenda,\\nque el tiempo huella y la virtud defiende;\\nno sea que el gusto, que al principio enciende,\\nal fin se vuelva en amarga ofensa.\\n\\nMire que el mundo, con su boca inmensa,\\nno perdona a quien su honor no atiende;\\nque el que en la honra su valor suspende,\\npierde el respeto y gana la ofensa.\\n\\nNo sea que el tiempo, que todo lo alcanza,\\nle muestre un d\u00eda, con dura ense\u00f1anza,\\nque el placer breve es dolor que dura.\\n\\nMire, Josefa, que la honra es pura,\\ny quien la mancha, con loca mudanza,\\npierde el decoro y gana la amargura.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

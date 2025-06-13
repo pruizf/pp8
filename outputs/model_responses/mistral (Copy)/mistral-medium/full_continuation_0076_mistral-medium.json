@@ -1,0 +1,23 @@
+{
+  "id": "f1fc428e1fb34343aeb0d48d0e4b55bf",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 64,
+    "total_tokens": 164
+  },
+  "created": 1749671539,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Mas no por eso deja de ser fiero,\\nni menos temerario en el peligro,\\nque en la lid de los toros es el primero,\\ncomo en el arte de matarlos, el sigro.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

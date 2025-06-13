@@ -1,0 +1,23 @@
+{
+  "id": "5186e248dc0148d881dcf1c6d80c4fd8",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 406,
+    "total_tokens": 543
+  },
+  "created": 1740951440,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"En el jard\u00edn, los rojos crisantemos\\nse desploman a tierra,\\ny los \u00e1rboles del paseo\\nse desnudan,\\ny en el lecho del r\u00edo\\nlas hojas se amontonan,\\ncomo cuerpos de muertos.\\n\\nViene el invierno fr\u00edo,\\ny tras \u00e9l,\\nsol de enero.\\n\\n\u00a1Oh, cielo de Pamplona\\ncon su a\u00f1il!\\n\u00a1Oh, nieve de los Pirineos\\ny matinales cencelladas!\\n\\nEn el alero\\nhan puesto su nido\\nlas negras golondrinas,\\ny en el alf\u00e9izar\\nel gato se acurruca,\\nfeliz.\\n\\nPero el viento\\nno cesa,\\ny el fr\u00edo\\nse hace m\u00e1s intenso.\\n\\nEn la chimenea\\narde el fuego,\\ny en la mesa\\nel vino tinto\\ncalienta el alma.\\n\\nEs noviembre,\\ny el tiempo\\npasa lento.\\n\\nPero la vida\\nsigue,\\ny el amor\\nperdura.\\n\\nEn la quietud\\nde la noche,\\nen el silencio\\nde la casa,\\nel calor\\nde los abrazos,\\nen la paz\\nde los corazones\\nenamorados.\\n\\nEs noviembre,\\ny el mundo\\nsigue girando.\\n\\nPero aqu\u00ed,\\nen este rinc\u00f3n\\nde paz,\\nen este nido\\nde amor,\\nsolo importa\\nel presente,\\nel ahora,\\nel nosotros.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

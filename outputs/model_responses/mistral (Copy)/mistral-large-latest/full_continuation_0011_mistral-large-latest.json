@@ -1,0 +1,23 @@
+{
+  "id": "bbf24b7899784b1f94b937bd0d344d94",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 144,
+    "completion_tokens": 118,
+    "total_tokens": 262
+  },
+  "created": 1749483732,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"mi alma en la infancia se consol\u00f3.\\n\\nSeco ya para el amor, de la vida\\nme dej\u00e9 llevar como de un r\u00edo,\\ncon la barca cargada de vac\u00edo\\ny el viento en la sien, que me dec\u00eda:\\n\\n\\\"Ciudad enemistada con su alfoz,\\nnac\u00ed al arrimo de tu amor falaz.\\\"\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

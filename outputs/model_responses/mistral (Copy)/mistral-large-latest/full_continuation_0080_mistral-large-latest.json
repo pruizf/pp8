@@ -1,0 +1,23 @@
+{
+  "id": "26212140044946b48fa69ccfd1641227",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 76,
+    "total_tokens": 209
+  },
+  "created": 1749485295,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"resplandece m\u00e1s su esplendorosa\\ncondici\u00f3n de ave nova, pura y dulce,\\nque en su vuelo alcanza lo m\u00e1s profundo\\nall\u00ed donde el sol se encuentra con el musgo.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

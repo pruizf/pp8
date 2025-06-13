@@ -1,0 +1,23 @@
+{
+  "id": "a532d41c2c5243c98f2fc3549f0ea332",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 336,
+    "completion_tokens": 179,
+    "total_tokens": 515
+  },
+  "created": 1740950585,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema presentado, titulado 'LASTICO-SEXUAL', no es c\u00f3mico en s\u00ed mismo. Aunque contiene im\u00e1genes sorprendentes y surrealistas, como una luna que act\u00faa como una hacha de plata o una comparaci\u00f3n de narices y orejas con signos musicales, no est\u00e1n presentes los elementos esenciales del humor, como la s\u00e1tira, la exageraci\u00f3n intencionada o el juego de palabras. En su lugar, el poema parece m\u00e1s una exploraci\u00f3n surrealista y po\u00e9tica de las emociones y las observaciones del hablante, con un tono m\u00e1s serio y reflexivo.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

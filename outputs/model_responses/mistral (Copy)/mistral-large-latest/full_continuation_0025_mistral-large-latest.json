@@ -1,0 +1,23 @@
+{
+  "id": "404191b377e943faa9bafb4936b884e8",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 137,
+    "completion_tokens": 125,
+    "total_tokens": 262
+  },
+  "created": 1749484063,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"T\u00fa en tus trece, yo en mis cabales,\\nt\u00fa con tu dote, yo con mi viuda,\\nt\u00fa en tus glorias, yo en mis umbrales,\\nt\u00fa en tu orilla, yo en mi barquilla,\\nt\u00fa en tu ronda, yo en mi centinela,\\nt\u00fa en tu pecera, yo en mi barquilla.\\nTal para cual, t\u00fa y yo en nuestra estrella.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

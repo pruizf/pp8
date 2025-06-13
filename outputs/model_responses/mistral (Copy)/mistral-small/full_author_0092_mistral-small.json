@@ -1,0 +1,23 @@
+{
+  "id": "775dd8cf114c4951b8aed7c53823b224",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 279,
+    "completion_tokens": 25,
+    "total_tokens": 304
+  },
+  "created": 1749542900,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Lope de Vega\",\n  \"century\": \"16\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "a162719250364e11a6bd593af7967589",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 327,
+    "completion_tokens": 30,
+    "total_tokens": 357
+  },
+  "created": 1749541336,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Guillermo Carbrera-S\u00fasler\",\n  \"century\": \"20\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

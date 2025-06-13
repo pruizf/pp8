@@ -1,0 +1,23 @@
+{
+  "id": "8a6eb4c02b6a43379c1a1a2e7bc1b6f0",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 57,
+    "total_tokens": 193
+  },
+  "created": 1749542305,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"No puedo continuar el poema, ya que no conozco su continuaci\u00f3n. El fragmento que proporcionaste es todo lo que tengo.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

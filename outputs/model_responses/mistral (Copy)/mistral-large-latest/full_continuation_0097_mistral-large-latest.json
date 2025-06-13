@@ -1,0 +1,23 @@
+{
+  "id": "0f5e13e21bae4e43befdf4c613defe9e",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 149,
+    "completion_tokens": 30,
+    "total_tokens": 179
+  },
+  "created": 1749485656,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"en la mano del remero.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

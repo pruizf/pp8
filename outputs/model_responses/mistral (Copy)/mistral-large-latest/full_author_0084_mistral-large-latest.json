@@ -1,0 +1,23 @@
+{
+  "id": "de3f6661de864d099a85962250342792",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 284,
+    "completion_tokens": 24,
+    "total_tokens": 308
+  },
+  "created": 1749485344,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Amado Nervo\",\n  \"century\": 19\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

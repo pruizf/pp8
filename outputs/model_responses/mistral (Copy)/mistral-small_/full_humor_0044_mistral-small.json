@@ -1,0 +1,23 @@
+{
+  "id": "22017688666c4405bbc97e15f907094c",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 295,
+    "completion_tokens": 163,
+    "total_tokens": 458
+  },
+  "created": 1740950729,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema 'Idilio salvaje \u2013 IV' pertenece al g\u00e9nero de la poes\u00eda rom\u00e1ntica y descriptiva, donde se hace \u00e9nfasis en las im\u00e1genes sensoriales y emocionales. Aunque el poema puede evocar cierta melancol\u00eda o nostalgia, no contiene elementos expl\u00edcitos de comedia, como el uso de lenguaje humor\u00edstico, situaciones rid\u00edculas o bromas. M\u00e1s bien, el tono es serio y evocador, con un \u00e9nfasis en las emociones intensas y el paisaje natural.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

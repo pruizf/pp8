@@ -1,0 +1,23 @@
+{
+  "id": "03edf2726f0b44bf90d4184a47d3470c",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 323,
+    "completion_tokens": 148,
+    "total_tokens": 471
+  },
+  "created": 1740950594,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El tono general del poema es serio y reflexivo, con temas como la enemistad, la guerra, la memoria y la muerte. Aunque hay algunos giros po\u00e9ticos y met\u00e1foras creativas, no hay suficientes elementos c\u00f3micos como para considerarlo un poema gracioso. La rima y el ritmo tambi\u00e9n son regulares y no tienen un tono humor\u00edstico. En general, el poema parece ser una exploraci\u00f3n seria y po\u00e9tica de las relaciones humanas y la existencia.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "4a2305feb332450d82c8c0ad01346467",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 133,
+    "completion_tokens": 112,
+    "total_tokens": 245
+  },
+  "created": 1749485560,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Lograste del vivir el mayor fr\u00edo\\nCon ardiente alma, que en esto estero\\nEn esto de amor el m\u00e1s fiel gu\u00eda,\\nPorque el amor, que en m\u00ed siempre conf\u00edo,\\nMi vida entrega y mi alma enajenada,\\nA ti, se\u00f1or, que eres mi alegr\u00eda.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

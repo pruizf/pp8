@@ -1,0 +1,23 @@
+{
+  "id": "576242282f8a41e0b1f2ab39c614661a",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 67,
+    "total_tokens": 205
+  },
+  "created": 1749542431,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"yes\",\n  \"continuation\": \"en la mano es un lirio blando,\\nen el aire un ala de colibr\u00ed.\\nSu vuelo es vida y es aventura,\\nes libertad lo que dentro encierra.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

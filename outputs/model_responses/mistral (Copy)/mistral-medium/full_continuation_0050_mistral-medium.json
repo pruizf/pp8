@@ -1,0 +1,23 @@
+{
+  "id": "88b47d9897ca472fbc8f213681360c52",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 114,
+    "completion_tokens": 189,
+    "total_tokens": 303
+  },
+  "created": 1749671275,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Las hojas secas giraban en el viento,\\ncomo un vals de oro y de melancol\u00eda.\\nEl parque era un sue\u00f1o de la aristocracia\\nque el tiempo, cruel, borraba lentamente.\\n\\nTus ojos, marqu\u00e9s, guardaban la elegancia\\nde un crep\u00fasculo de amor y de poes\u00eda.\\nY en el espejo del lago, la agon\u00eda\\nde un cisne era tu eterna penitencia.\\n\\nOh Bradom\u00edn, fantasma de otro tiempo,\\n\u00bfd\u00f3nde est\u00e1 tu espada, tu pasi\u00f3n, tu emblema?\\nEl mundo es hoy un sal\u00f3n sin espejos.\\n\\nSolo queda el rumor de un verso antiguo,\\nel eco de un beso y el perfume de un lema\\nque el viento se llev\u00f3 entre sus reflejos.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

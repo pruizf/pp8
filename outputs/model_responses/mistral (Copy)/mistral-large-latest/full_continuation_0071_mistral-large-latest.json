@@ -1,0 +1,23 @@
+{
+  "id": "06b6e135e9ef40ed804441899e000e26",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 145,
+    "completion_tokens": 72,
+    "total_tokens": 217
+  },
+  "created": 1749485100,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Si se hicieron para damas versos, fama es que se escribieron; que yo los vi en sus originales, que andan en coplas y en romances y que los llevaron a Malinas.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "0115655261084efd9e621ddc11dfa1e5",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 216,
+    "total_tokens": 359
+  },
+  "created": 1749483967,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Si es que eres ilusi\u00f3n de mis ideas,   ser\u00e1 la m\u00e1s gentil que ha tenido el hombre;   pero si eres verdad, y no sombra o nombre,   ya puedo decir que el bien m\u00edo veas.   Mas, sean verdad o sean fantas\u00edas,   \u00e1ngel o forma, realidad o sombra,   ya que de los sentidos el hombre asombra,   en bienes y en placeres semejantes,   gozar quiero mi bien, y si se pasa   tras \u00e9l mi vida, ser\u00e1 el gozar corto,   aunque el sufrir en \u00e9l siempre me abrasa.   Ni soy el primero ni el postrero,   ni el mundo ha de acabarse en mi sufrir,   aunque todo lo acabe mi misterio.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

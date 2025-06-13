@@ -1,0 +1,23 @@
+{
+  "id": "e5c9543b38b74f50b5858e7cccc350bb",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 154,
+    "total_tokens": 292
+  },
+  "created": 1749484919,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Aguarda un poco, \\ncoge el jugo de una pasi\u00f3n triste, \\ny una esencia que destile altruismo, \\nvierte y espera que el conjunto se vista \\nde un matiz de idealismo, \\nde un perfume de imposible, \\nde un color de puro ensue\u00f1o, \\ny antes de que el alba cierre con un beso \\nla noche enamorada, bebe; \\nla embriaguez de los dioses tendr\u00e1s en peso, \\ny en tu sangre una eterna madrugada.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

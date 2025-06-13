@@ -1,0 +1,23 @@
+{
+  "id": "a49502b7dd6d44279425eac22d465c09",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 129,
+    "completion_tokens": 100,
+    "total_tokens": 229
+  },
+  "created": 1749484866,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y todos de la difunta en derredor,\\nLloran y dicen: \u00a1Cu\u00e1nto val\u00eda!\\nY el que menos, dice: \u00a1Qu\u00e9 prudencia!\\n\u00a1Qu\u00e9 juicio, qu\u00e9 talento, qu\u00e9 cordura!\\n\u00a1Qu\u00e9 virtud, qu\u00e9 bondad, qu\u00e9 dulzura!\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

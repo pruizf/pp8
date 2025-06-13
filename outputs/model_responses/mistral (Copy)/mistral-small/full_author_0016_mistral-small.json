@@ -1,0 +1,23 @@
+{
+  "id": "b8ec1b7787e24aba95d718d2df48d149",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 316,
+    "completion_tokens": 27,
+    "total_tokens": 343
+  },
+  "created": 1749541380,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Gabriel de Yepes\",\n  \"century\": \"16\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

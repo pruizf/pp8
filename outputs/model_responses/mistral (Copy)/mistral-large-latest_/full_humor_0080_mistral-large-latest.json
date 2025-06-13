@@ -1,0 +1,23 @@
+{
+  "id": "27b7a38d059c439fb4599a71c0ed1d70",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 281,
+    "completion_tokens": 254,
+    "total_tokens": 535
+  },
+  "created": 1740952049,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"reason\": \"El poema no es c\u00f3mico porque carece de elementos humor\u00edsticos o l\u00fadicos que caracterizan a la comedia. En su lugar, utiliza un lenguaje sofisticado y metaf\u00f3rico para describir la belleza y majestuosidad de un \u00e1guila. La estructura y el tono del poema son m\u00e1s bien serios y contemplativos, evocando im\u00e1genes po\u00e9ticas y profundas reflexiones sobre la naturaleza y el cosmos. La descripci\u00f3n del \u00e1guila en el cielo y su interacci\u00f3n con el Sol y el espacio crean una atm\u00f3sfera de asombro y admiraci\u00f3n, lejos de cualquier intento de provocar risa o diversi\u00f3n. Adem\u00e1s, la utilizaci\u00f3n de t\u00e9rminos como 'prodigiosa', 'gentilismo', 'portento' y 'deidad' sugieren una intenci\u00f3n de exaltar y enaltecer, m\u00e1s que de entretener de manera c\u00f3mica.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

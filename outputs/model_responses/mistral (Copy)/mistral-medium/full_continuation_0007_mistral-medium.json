@@ -1,0 +1,23 @@
+{
+  "id": "0308fc54596d4e40b4cf1e4444dcc4d9",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 94,
+    "completion_tokens": 68,
+    "total_tokens": 162
+  },
+  "created": 1749670882,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y en el viaje, \u00a1oh desdicha!, una ballena\\nlo trag\u00f3 con su espada y su verduguillo,\\nmas no le hizo da\u00f1o, porque en su tripa\\ntuvo lugar el maestro para un castillo.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

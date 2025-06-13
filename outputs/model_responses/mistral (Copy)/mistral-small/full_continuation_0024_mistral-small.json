@@ -1,0 +1,23 @@
+{
+  "id": "dbb2893bc0ac458cb00feceb151f00ae",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 80,
+    "total_tokens": 218
+  },
+  "created": 1749541441,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"yes\",\n  \"continuation\": \"Constr\u00fayase, con gran cuidado y tino,\\rCon esos ingredientes, un primer verso.\\rOtra palabra luego, por ejemplo, zaino,\\rY as\u00ed vayan encaden\u00e1ndose, sin reparo.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

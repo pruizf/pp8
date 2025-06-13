@@ -1,0 +1,23 @@
+{
+  "id": "44914abd9ecd4b628c09b8d4400df3e2",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 126,
+    "completion_tokens": 134,
+    "total_tokens": 260
+  },
+  "created": 1749484798,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"El sol desgarraba las tinieblas m\u00edas; Las ondas del Manzanares corr\u00edan Poblando el silencio con armon\u00edas, Y sus reflejos de oro parec\u00edan Hilos de luz sobre sus aguas fr\u00edas. La brisa matutina soplaba suave, Y en el aire se sent\u00eda el dulce olor De las flores que el campo embellecen, A la par que el canto del ruise\u00f1or.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

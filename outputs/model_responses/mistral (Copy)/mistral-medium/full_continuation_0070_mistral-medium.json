@@ -1,0 +1,23 @@
+{
+  "id": "94e646069ce14fa2bb6bd89cfd1da15c",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 100,
+    "completion_tokens": 67,
+    "total_tokens": 167
+  },
+  "created": 1749671487,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"No temas, pues, que el tiempo vuela y pasa,\\nque aunque la vida es breve y enga\u00f1osa,\\nla fama que tu ingenio hoy amasa\\nser\u00e1 eterna como el sol que arde en rosa.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

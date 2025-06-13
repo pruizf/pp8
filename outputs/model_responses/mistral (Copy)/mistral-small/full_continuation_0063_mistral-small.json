@@ -1,0 +1,23 @@
+{
+  "id": "a692769d6b9f4b18bca50045cebc7192",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 135,
+    "completion_tokens": 76,
+    "total_tokens": 211
+  },
+  "created": 1749542288,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Con gracia y don, con vivas palmas,\\nBaila y gusta, y cobra fama.\\nDespu\u00e9s, a su rama se encarama,\\nY all\u00ed se queda, tranquila y calma.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

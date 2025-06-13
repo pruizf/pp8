@@ -1,0 +1,23 @@
+{
+  "id": "b68eb1b300ac48a48f88b9a6b4e64170",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 78,
+    "total_tokens": 208
+  },
+  "created": 1740950821,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"O una oleada de mar embravecido,\\nQue arrebata de ra\u00edz al \u00e1rbol florido,\\nO un volc\u00e1n que en erupci\u00f3n se haya,\\nO un terremoto que en silencio est\u00e9.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

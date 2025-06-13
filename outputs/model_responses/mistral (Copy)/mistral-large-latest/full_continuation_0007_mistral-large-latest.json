@@ -1,0 +1,23 @@
+{
+  "id": "debb232e9f07476282b9bb4a5b2af8c7",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 128,
+    "total_tokens": 260
+  },
+  "created": 1749483687,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"y en una noche tempestuosa de la mar,  \\npic\u00f3 con un bajel de Inglaterra,  \\nque de corsario iba por la mar salada;  \\n\u00a1Oh, qu\u00e9 de dineros hurt\u00f3 al ingl\u00e9s  \\ny cu\u00e1ntas ricas joyas y perlas finas!  \\nPor esto fue Maese Campuzano  \\nconocido en las Indias y en Espa\u00f1a.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

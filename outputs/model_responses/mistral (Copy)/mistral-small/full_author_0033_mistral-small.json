@@ -1,0 +1,23 @@
+{
+  "id": "97ea8576ef51485287d16e48fe8ec92c",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 301,
+    "completion_tokens": 30,
+    "total_tokens": 331
+  },
+  "created": 1749541515,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Pedro Calder\u00f3n de la Barca\",\n  \"century\": \"17\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

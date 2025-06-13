@@ -1,0 +1,23 @@
+{
+  "id": "bfe2b2be6da24051b457b60bb1f1b562",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 167,
+    "total_tokens": 299
+  },
+  "created": 1740952045,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"el fuego, el aire, agua, la tierra olvido,\\npor \u00e9l quieta y mansa se revuelve.\\n\u00c9l es el que a su alteza as\u00ed se atreve,\\nque al cielo sube, y no se muda en vidro.\\nTiempla el rigor de la adversa estrella,\\nteniendo en el gobierno de su mano\\nla rienda de la voluntad humana.\\n\u00c9l es se\u00f1or de la ligera vela,\\ncon quien a su albedr\u00edo, sin enga\u00f1o,\\nla furia del furioso mar ahuyenta.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

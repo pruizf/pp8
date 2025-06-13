@@ -1,0 +1,23 @@
+{
+  "id": "264d109074c24feca2856805b7e92033",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 281,
+    "completion_tokens": 30,
+    "total_tokens": 311
+  },
+  "created": 1749541427,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Vicente Antonio Garc\u00eda de la Huerta\",\n  \"century\": \"18\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2cab7c7b226e420c8f1ea64cfae0cb7e",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 37,
+    "total_tokens": 177
+  },
+  "created": 1749485543,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"tus llamas consolarme, ni han sabido\\n\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

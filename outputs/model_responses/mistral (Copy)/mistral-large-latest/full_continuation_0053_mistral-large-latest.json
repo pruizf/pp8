@@ -1,0 +1,23 @@
+{
+  "id": "fef5a4450f6b44728692b938620951eb",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 127,
+    "completion_tokens": 81,
+    "total_tokens": 208
+  },
+  "created": 1749484772,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Yo no s\u00e9 si me amas, pero s\u00e9 que te adoro,\\nY que al verte una vez me volver\u00e9 loco,\\nY que al verte feliz me volver\u00e9 loco,\\nY que al verte feliz diera mi vida.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

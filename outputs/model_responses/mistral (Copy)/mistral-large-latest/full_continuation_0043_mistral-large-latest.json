@@ -1,0 +1,23 @@
+{
+  "id": "adc7d7fa6c1b4c9b9140fa59253ac36c",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 131,
+    "completion_tokens": 80,
+    "total_tokens": 211
+  },
+  "created": 1749484423,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"a las cenizas de su propio ser vivo,\\n\u00bfqu\u00e9 mucho el mundo, en su crep\u00fasculo dorado,\\ncon el mismo calor lucir ardido,\\ncon el mismo calor renacer ba\u00f1ado?\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

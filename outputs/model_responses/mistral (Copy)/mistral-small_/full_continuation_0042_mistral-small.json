@@ -1,0 +1,23 @@
+{
+  "id": "ed7bf3e95965447fa8f00bec7edd4e95",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 155,
+    "completion_tokens": 59,
+    "total_tokens": 214
+  },
+  "created": 1740950724,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"No puedo continuar el poema, ya que no tengo suficiente contexto o informaci\u00f3n sobre el estilo, el autor u otros versos del poema.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

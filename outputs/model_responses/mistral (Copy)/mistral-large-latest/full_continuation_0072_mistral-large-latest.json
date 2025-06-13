@@ -1,0 +1,23 @@
+{
+  "id": "5a8b2affcc484a16b7610c8620a66713",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 47,
+    "total_tokens": 177
+  },
+  "created": 1749485130,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"C\u00e1nsame el de Arag\u00f3n con su mula, ac\u00e1bame, en resumen, la regla.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

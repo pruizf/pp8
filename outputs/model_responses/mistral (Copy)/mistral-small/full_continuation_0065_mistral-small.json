@@ -1,0 +1,23 @@
+{
+  "id": "ae48d8d93eda4691b851a762652e6f22",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 155,
+    "completion_tokens": 84,
+    "total_tokens": 239
+  },
+  "created": 1749542300,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Es la mujer reja donde recreamos, \\r\\nY al paso de los a\u00f1os m\u00e1s amamos; \\r\\nEs la mujer cama de donde nacemos, \\r\\nY a que volvemos, cansados, a reposar.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

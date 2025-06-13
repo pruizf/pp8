@@ -1,0 +1,23 @@
+{
+  "id": "38f8565879c64961997970d143a73e29",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 134,
+    "completion_tokens": 80,
+    "total_tokens": 214
+  },
+  "created": 1749542255,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"All\u00ed se habl\u00f3 de su vida y doctrina,\\r\\nSe recordaron mil an\u00e9cdotas,\\r\\nY al fin, despajados recuerdos,\\r\\nSe robaron las cenizas las violetas.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

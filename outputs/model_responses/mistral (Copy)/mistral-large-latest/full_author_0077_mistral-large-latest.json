@@ -1,0 +1,23 @@
+{
+  "id": "93c7c97cfc0a483c8f5d023bf986d45e",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 328,
+    "completion_tokens": 27,
+    "total_tokens": 355
+  },
+  "created": 1749485216,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Jos\u00e9 Asunci\u00f3n Silva\",\n  \"century\": \"19\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

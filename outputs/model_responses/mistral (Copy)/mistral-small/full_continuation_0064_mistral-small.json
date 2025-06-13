@@ -1,0 +1,23 @@
+{
+  "id": "e35a7a1bb0f64581958e68614bbfb6fc",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 74,
+    "total_tokens": 210
+  },
+  "created": 1749542296,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"murmura tu nombre, y en mi mente\\nse forma un lazo que el mar y el tiempo\\nno lograr\u00e1n romper, eternamente\\noh, amigo m\u00edo, aqu\u00ed va mi coraz\u00f3n.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

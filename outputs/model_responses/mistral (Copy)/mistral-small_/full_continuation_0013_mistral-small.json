@@ -1,0 +1,23 @@
+{
+  "id": "22daffb0ce8446ceb234ef0a9ffd41e0",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 93,
+    "total_tokens": 236
+  },
+  "created": 1740950602,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo siento, no puedo continuar este poema, ya que no est\u00e1 completo y no hay una continuaci\u00f3n establecida. El poema proporcionado parece ser un fragmento de un soneto con rima ABAB, pero sin m\u00e1s versos, no puedo predecir c\u00f3mo continuar\u00e1.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "309f08f548b74881bcfad99cbaad2764",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 287,
+    "completion_tokens": 24,
+    "total_tokens": 311
+  },
+  "created": 1740950685,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Diego Heredia\",\n  \"century\": \"16\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

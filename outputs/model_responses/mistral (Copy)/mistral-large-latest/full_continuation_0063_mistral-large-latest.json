@@ -1,0 +1,23 @@
+{
+  "id": "902c81fa7e1f44b594a6615149f3159a",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 130,
+    "completion_tokens": 48,
+    "total_tokens": 178
+  },
+  "created": 1749484942,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Y es, en fin, un animal acr\u00f3bata,\\r\\nQue a los dem\u00e1s animales imita.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

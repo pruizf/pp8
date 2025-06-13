@@ -1,0 +1,23 @@
+{
+  "id": "3b61b4e4c24846b28a391c3f4799d3f9",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 128,
+    "completion_tokens": 340,
+    "total_tokens": 468
+  },
+  "created": 1749484334,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Fuego, que el hondo pecho devoraba,                                                                                                                                                                                                                     En las venas, estigma de mi pena                                                                                                                                                                                                                                     Abrasaba, y el alma, que anhelaba                                                                                                                                                                                                                                     Ver la luz, en la sombra se ahogaba.                                                                                                                                                                                                                                     Tus ojos vi, y alegre contemplaba                                                                                                                                                                                                                                     De tus ojos el rayo sereno,                                                                                                                                                                                                                                     Que apacible mi vida iluminaba,                                                                                                                                                                                                                                     Y en la sombra dej\u00e9 al fin mi cadeno.                                                                                                                                                                                                                                     Y al mirarme en tu rostro, \u00a1oh, mi bien!                                                                                                                                                                                                                                     No sent\u00ed que en m\u00ed mismo te ve\u00eda,                                                                                                                                                                                                                                     Sino que en tus ojos vi lo que en m\u00ed                                                                                                                                                                                                                                     De gozo y de tormento hab\u00eda un d\u00eda.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

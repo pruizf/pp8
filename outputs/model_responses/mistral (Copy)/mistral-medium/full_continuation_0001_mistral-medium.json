@@ -1,0 +1,23 @@
+{
+  "id": "15f7b926ebd84aa6bb151ff914f259a0",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 93,
+    "completion_tokens": 104,
+    "total_tokens": 197
+  },
+  "created": 1749670834,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"no\",\n  \"continuation\": \"Lo siento, no conozco la continuaci\u00f3n exacta de este poema. Sin embargo, si deseas una posible continuaci\u00f3n en el estilo del poema, podr\u00eda ser algo como:\\n\\n\\\"Y en tazas de porcelana, fino y claro,\\nse alza el vapor como un sue\u00f1o ligero,\\nmientras el sol en el jard\u00edn postrero\\nbesa los lotos de un estanque amaro.\\\"\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

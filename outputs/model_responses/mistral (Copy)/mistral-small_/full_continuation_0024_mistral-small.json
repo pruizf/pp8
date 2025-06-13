@@ -1,0 +1,23 @@
+{
+  "id": "cb6bbbc95c8b4305a751e9493f466abd",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 138,
+    "completion_tokens": 78,
+    "total_tokens": 216
+  },
+  "created": 1740950653,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"yes\",\n  \"continuation\": \"Constr\u00fayase, con esfuerzo y tino,\\nUna asonante al segundo, como cuelgo;\\nAl tercero, luego, una rima aguda,\\nY as\u00ed, seguir, hasta el verso und\u00e9cimo.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

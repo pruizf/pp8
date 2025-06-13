@@ -1,0 +1,23 @@
+{
+  "id": "a0d41756cea34de09d0fa78ff00738e2",
+  "object": "chat.completion",
+  "model": "mistral-small",
+  "usage": {
+    "prompt_tokens": 136,
+    "completion_tokens": 71,
+    "total_tokens": 207
+  },
+  "created": 1740950912,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"yes\",\n  \"continuation\": \"ante adversario formidable,\\nmostrando a los hombres las iberas venas\\nde un le\u00f3n sobre los campos andaluces,\\ncuando en Jerez florecieron tus laures.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

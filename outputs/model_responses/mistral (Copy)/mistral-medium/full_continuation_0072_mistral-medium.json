@@ -1,0 +1,23 @@
+{
+  "id": "dfe219b3ba03425591cbc3d6a9daf9cc",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 99,
+    "completion_tokens": 68,
+    "total_tokens": 167
+  },
+  "created": 1749671508,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00a1Oh, cu\u00e1nto m\u00e1s me cumpla la suerte! / Que en la vida me d\u00e9 la muerte / y en la muerte me d\u00e9 la vida, / y en la suerte me d\u00e9 la suerte / que me d\u00e9 la muerte en vida.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

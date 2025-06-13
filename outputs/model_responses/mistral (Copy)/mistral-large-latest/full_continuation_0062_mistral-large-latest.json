@@ -1,0 +1,23 @@
+{
+  "id": "7fa8712570cd4f29ba76270f68a43bcb",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 140,
+    "completion_tokens": 63,
+    "total_tokens": 203
+  },
+  "created": 1749484935,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"\u00a1Yo soy un pobre gato que ma\u00falla en el tejado,\\nY ahora t\u00fa, por ser gato, me vienes ara\u00f1ando!\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

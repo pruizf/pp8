@@ -1,0 +1,23 @@
+{
+  "id": "947004f485854c6a9d2040592a06dc09",
+  "object": "chat.completion",
+  "model": "mistral-medium",
+  "usage": {
+    "prompt_tokens": 98,
+    "completion_tokens": 62,
+    "total_tokens": 160
+  },
+  "created": 1749671580,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"de los coros celestes, que en lo alto\\ncon dulce armon\u00eda alaban al Santo,\\ncuya vida en la tierra fue un milagro\\nde fe, trabajo y amor al campo amado.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

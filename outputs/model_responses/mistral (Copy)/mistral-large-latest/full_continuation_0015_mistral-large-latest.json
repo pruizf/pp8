@@ -1,0 +1,23 @@
+{
+  "id": "3fcba60ffb17495696a8b25f16ae9694",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 144,
+    "completion_tokens": 56,
+    "total_tokens": 200
+  },
+  "created": 1749483795,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"judgement\": \"s\u00ed\",\n  \"continuation\": \"Yo, avergonzado, le dije: \u00abSe\u00f1ora,\\nmejor lo dejo, y ya volver\u00e9 ma\u00f1ana\u00bb.\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

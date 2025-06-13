@@ -1,0 +1,23 @@
+{
+  "id": "d9169a2044c147c6a2fb1fa245ecc994",
+  "object": "chat.completion",
+  "model": "mistral-large-latest",
+  "usage": {
+    "prompt_tokens": 282,
+    "completion_tokens": 29,
+    "total_tokens": 311
+  },
+  "created": 1749484760,
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "content": "{\n  \"author\": \"Jos\u00e9 de Espronceda\",\n  \"century\": \"19\"\n}",
+        "tool_calls": null,
+        "prefix": false,
+        "role": "assistant"
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

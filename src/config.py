@@ -26,9 +26,10 @@ call_types = {"humor": "humor", "continuation": "continuation", "author": "autho
 
 model_list = ["gpt-4o-mini"]#, "mistral-small", "mistral-large-latest_", "gpt-3.5-turbo", "gpt-4o"]
 model_list_for_clf = ["gpt-4o-mini",
-                      "mistral-small", "mistral-large-latest_",
+                      "mistral-small", "mistral-large-latest",
                       "gpt-3.5-turbo", "gpt-4o", "gpt-3.5",
-                      "claude-3-5-haiku-latest", "claude-3-5-sonnet-latest"]
+                      "claude-3-5-haiku-latest", "claude-3-5-sonnet-latest",
+                      "deepseek-chat", "gpt-41"]
 model_list_for_postpro = ["gpt-4o-mini"]
 
 

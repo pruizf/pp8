@@ -326,6 +326,27 @@ def postprocess_full_into_individual_responses(cf, dir_to_postpro, model, model_
       resp_fn = os.path.join(cf.response_dir + os.sep + model_type, model.replace(".", ""), resp_fn)
       with open(resp_fn, "w") as f:
         json.dump(out_json, f, indent=2, ensure_ascii=False)
+    elif "deepseek" in model:
+      jresp = json.loads(clean_up_json_response(full_resp["choices"][0]["message"]["content"]))
+      judgement_orig = jresp["judgement"].lower().strip()
+      judgement = normalize_judgement(judgement_orig)
+      assert judgement in cf.judgements_orig, f"Judgement {judgement} not in possible original judgements."
+      reason = jresp["reason"].strip()
+      out_json = {}
+      out_json["judgement"] = judgement
+      out_json["reason"] = reason
+      choice_number_re = re.search(r"full_humor_\d{4}_.+_(\d)\.json", fn)
+      #breakpoint()
+      if choice_number_re is None:
+        choice_number = 1
+      else:
+        #breakpoint()
+        choice_number = int(choice_number_re.group(1))
+      resp_fn = cf.response_filename_tpl_js.format(
+        poem_id=txt_for_resp.replace(".txt", ""), model=model.replace(".", ""), choiceNbr=choice_number)
+      resp_fn = os.path.join(cf.response_dir + os.sep + model_type, model.replace(".", ""), resp_fn)
+      with open(resp_fn, "w") as f:
+        json.dump(out_json, f, indent=2, ensure_ascii=False)
     else:
       for idx, resp in enumerate(full_resp["choices"]):
         # extract content to write to individual response files
@@ -337,9 +358,9 @@ def postprocess_full_into_individual_responses(cf, dir_to_postpro, model, model_
         out_json = {}
         out_json["judgement"] = judgement
         out_json["reason"] = reason
-      # write out
-      resp_fn = cf.response_filename_tpl_js.format(
-        poem_id=txt_for_resp.replace(".txt", ""), model=model.replace(".", ""), choiceNbr=idx+1)
-      resp_fn = os.path.join(cf.response_dir + os.sep + model_type, model.replace(".", ""), resp_fn)
-      with open(resp_fn, "w") as f:
-        json.dump(out_json, f, indent=2, ensure_ascii=False)
+        # write out
+        resp_fn = cf.response_filename_tpl_js.format(
+          poem_id=txt_for_resp.replace(".txt", ""), model=model.replace(".", ""), choiceNbr=idx+1)
+        resp_fn = os.path.join(cf.response_dir + os.sep + model_type, model.replace(".", ""), resp_fn)
+        with open(resp_fn, "w") as f:
+          json.dump(out_json, f, indent=2, ensure_ascii=False)

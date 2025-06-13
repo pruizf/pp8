@@ -151,10 +151,15 @@ if __name__ == "__main__":
   data_35 = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-35-turbo") , "gpt-3.5-turbo", mddf)
   data_4o = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-4o") , "gpt-4o", mddf)
   data_4o_mini = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-4o-mini") , "gpt-4o-mini", mddf)
+  data_41 = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-41") , "gpt-41", mddf)
   data_haiku = collect_data(os.path.join(cf.response_dir, "claude" + os.sep + "claude-3-5-haiku-latest") , "claude-3-5-haiku-latest", mddf)
   data_sonnet = collect_data(os.path.join(cf.response_dir, "claude" + os.sep + "claude-3-5-sonnet-latest") , "claude-3-5-sonnet-latest", mddf)
+  data_mistral_s = collect_data(os.path.join(cf.response_dir, "mistral" + os.sep + "mistral-small") , "mistral-small", mddf)
+  data_mistral_l = collect_data(os.path.join(cf.response_dir, "mistral" + os.sep + "mistral-large-latest") , "mistral-large-latest", mddf)
+  data_deepseek = collect_data(os.path.join(cf.response_dir, "deepseek" + os.sep + "deepseek-chat") , "deepseek-chat", mddf)
   #data_35 = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-35-turbo") , "gpt-3.5", mddf)
-  data_all = {k: data_35[k] + data_4o[k] + data_4o_mini[k] + data_haiku[k] + data_sonnet[k]
+  data_all = {k: data_35[k] + data_4o[k] + data_4o_mini[k] + data_haiku[k] + data_sonnet[k] +
+              data_mistral_s[k] + data_mistral_l[k] + data_deepseek[k] + data_41[k]
               for k in data_35.keys()}
   #data_all = {k: data_35[k] + data_4o[k] for k in data_35.keys()}
   df = pd.DataFrame(data_all)

@@ -301,7 +301,7 @@ def postprocess_full_into_individual_responses(cf, dir_to_postpro, model, model_
     # get the related txt name (poem ID from the original filename)
     # needed for code that writes individual responses
     example_number= re.search(r"_(\d{2,})_", fn).group(1)
-    assert len(example_number) > 0    
+    assert len(example_number) > 0
     txt_for_resp = [x for x in os.listdir(cf.corpus_dir) if re.search(rf"{example_number}.txt", x)][0]  
 
     # write individual responses
@@ -347,6 +347,25 @@ def postprocess_full_into_individual_responses(cf, dir_to_postpro, model, model_
       resp_fn = os.path.join(cf.response_dir + os.sep + model_type, model.replace(".", ""), resp_fn)
       with open(resp_fn, "w") as f:
         json.dump(out_json, f, indent=2, ensure_ascii=False)
+    elif "gemini" in model:
+      #[cand.content.parts[0].text for cand in completion.candidates]
+      #jresp = json.loads(resp)
+      for cidx, cand in enumerate(full_resp["candidates"]):
+        jresp = json.loads(cand["content"]["parts"][0]["text"])[0]
+        judgement_orig = jresp["judgement"].lower().strip()
+        judgement = normalize_judgement(judgement_orig)
+        assert judgement in cf.judgements_orig, f"Judgement {judgement} not in possible original judgements."
+        reason = jresp["reason"].strip()
+        out_json = {}
+        out_json["judgement"] = judgement
+        out_json["reason"] = reason
+        # write out
+        resp_fn = cf.response_filename_tpl_js.format(
+          poem_id=txt_for_resp.replace(".txt", ""), model=model.replace(".", ""), choiceNbr=cidx+1)
+        resp_fn = os.path.join(cf.response_dir + os.sep + model_type, model.replace(".", ""), resp_fn)
+        with open(resp_fn, "w") as f:
+          json.dump(out_json, f, indent=2, ensure_ascii=False)
+      pass
     else:
       for idx, resp in enumerate(full_resp["choices"]):
         # extract content to write to individual response files

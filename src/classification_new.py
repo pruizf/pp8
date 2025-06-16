@@ -95,7 +95,10 @@ def split_into_tokens_spacy(text: str, no_punct=False) -> list:
     list: List of tokens
   """
   doc = spacy_pipeline(text)
-  doc = [w.text for w in doc]
+  if no_punct:
+    doc = [w.text for w in doc if not w.is_punct and not w.is_space]
+  else:
+    doc = [w.text for w in doc]
   return doc
 
 
@@ -123,7 +126,10 @@ def pos_spacy(text: str, no_punct=False) -> list:
     list: List of tokens
   """
   doc = spacy_pipeline(text)
-  doc = [w.pos_ for w in doc]
+  if no_punct:
+    doc = [w.pos_ for w in doc if not w.is_punct and not w.is_space]
+  else:
+    doc = [w.pos_ for w in doc]
   return doc
 
 
@@ -190,7 +196,6 @@ if __name__ == "__main__":
   args = parse_args()
 
   batch_name = args.batch_name
-  remove_punct = args.remove_punct
   
   mpl.rcParams['font.family'] = cf.plot_font_family
 
@@ -233,14 +238,15 @@ if __name__ == "__main__":
   stopwords = nltk.corpus.stopwords.words("spanish")
 
   # corpus vectorizers
-  chosen_tokenizer = split_into_tokens_spacy if not remove_punct else split_into_tokens_spacy_no_punct
+  #chosen_tokenizer = split_into_tokens_spacy if not remove_punct else split_into_tokens_spacy_no_punct
   tok_vectorizer = TfidfVectorizer(lowercase=True,
-                                   tokenizer=chosen_tokenizer,
+                                   #tokenizer=chosen_tokenizer,
+                                   tokenizer=partial(split_into_tokens_spacy, no_punct=args.remove_punct),
                                    stop_words=stopwords,
                                    min_df=0.01)
-  chosen_pos_tagging = pos_spacy if not remove_punct else pos_spacy_no_punct
+  #chosen_pos_tagging = pos_spacy if not remove_punct else pos_spacy_no_punct
   pos_vectorizer = TfidfVectorizer(lowercase=True,
-                                   tokenizer=chosen_pos_tagging,
+                                   tokenizer=partial(pos_spacy, no_punct=args.remove_punct),
                                    stop_words=stopwords,
                                    min_df=0.01)
 

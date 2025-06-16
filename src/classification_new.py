@@ -147,10 +147,17 @@ def pos_spacy_no_punct(text: str) -> list:
   return doc
 
 
-def plot_confusion_matrix(cm, classes, out_fn, cmap='Greens'):
+def plot_confusion_matrix(cm, classes, out_fn, hl_low=False, cmap='Greens'):
   title = 'Confusion matrix'
   fig, ax = plt.subplots(figsize=(11, 8))
-  sns.heatmap(cm, annot=True, cmap=cmap, xticklabels=classes, yticklabels=classes)
+  if hl_low:
+    # Apply gamma correction with gamma < 1 to highlight low values
+    gamma = 0.5
+    cm_hl = np.power(cm, gamma)    
+    #sns.heatmap(cm_gamma, annot=cm, cmap=cmap, xticklabels=classes, yticklabels=classes)
+  else:
+    cm_hl = cm
+    sns.heatmap(cm_hl, annot=True, cmap=cmap, xticklabels=classes, yticklabels=classes)
   plt.title(title)
   plt.xlabel('pred')
   plt.ylabel('gold')

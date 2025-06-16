@@ -25,7 +25,12 @@ if __name__ == '__main__':
   False and ut.postprocess_full_into_individual_responses(
     cf,"../outputs/model_responses/gpt/gpt-41", "gpt-41",
   model_type="gpt")
-  ut.postprocess_full_into_individual_responses(
+  False and ut.postprocess_full_into_individual_responses(
     cf,"../outputs/model_responses/gemini/gemini-15-pro", "gemini-15-pro",
   model_type="gemini")
-
+  False and ut.postprocess_full_into_individual_responses(
+    cf,"../outputs/model_responses/gemini/gemini-20-flash", "gemini-20-flash",
+  model_type="gemini")
+  ut.postprocess_full_into_individual_responses(
+    cf,"../outputs/model_responses/mistral/mistral-medium", "mistral-medium",
+  model_type="mistral")

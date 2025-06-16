@@ -1,0 +1,18 @@
+                          precision    recall  f1-score   support
+
+ claude-3-5-haiku-latest     0.9412    0.9600    0.9505       100
+claude-3-5-sonnet-latest     0.9307    0.9400    0.9353       100
+           deepseek-chat     0.9348    0.8600    0.8958       100
+           gemini-15-pro     0.7826    0.9000    0.8372       100
+         gemini-20-flash     0.8641    0.8900    0.8768       100
+            gpt-35-turbo     0.8400    0.8400    0.8400       100
+                  gpt-41     0.9091    0.9000    0.9045       100
+                  gpt-4o     0.7662    0.5900    0.6667       100
+             gpt-4o-mini     0.9515    0.9800    0.9655       100
+    mistral-large-latest     0.8200    0.8200    0.8200       100
+          mistral-medium     0.9126    0.9400    0.9261       100
+           mistral-small     0.8667    0.9100    0.8878       100
+
+                accuracy                         0.8775      1200
+               macro avg     0.8766    0.8775    0.8755      1200
+            weighted avg     0.8766    0.8775    0.8755      1200

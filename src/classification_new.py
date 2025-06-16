@@ -1,3 +1,5 @@
+import argparse
+from functools import partial
 from importlib import reload
 import json
 import os
@@ -17,6 +19,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
+from sklearn.svm import LinearSVC
+from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import SGDClassifier, RidgeClassifier
 from sklearn.metrics import classification_report, f1_score, accuracy_score, confusion_matrix
 from sklearn.model_selection import train_test_split
@@ -81,7 +85,7 @@ def collect_data(ddir: str, model_name: str, md: pd.DataFrame) -> pd.DataFrame:
   return data
 
 
-def split_into_tokens_spacy(text: str) -> list:
+def split_into_tokens_spacy(text: str, no_punct=False) -> list:
   """
     Split text into tokens using spacy.
   Args:
@@ -91,10 +95,11 @@ def split_into_tokens_spacy(text: str) -> list:
     list: List of tokens
   """
   doc = spacy_pipeline(text)
-  return [w.text for w in doc]
+  doc = [w.text for w in doc]
+  return doc
 
 
-def pos_spacy(text: str) -> list:
+def split_into_tokens_spacy_no_punct(text: str) -> list:
   """
     Split text into tokens using spacy.
   Args:
@@ -104,7 +109,36 @@ def pos_spacy(text: str) -> list:
     list: List of tokens
   """
   doc = spacy_pipeline(text)
-  return [w.pos_ for w in doc]
+  doc = [w.text for w in doc if not w.is_punct and not w.is_space]
+  return doc
+
+
+def pos_spacy(text: str, no_punct=False) -> list:
+  """
+    Split text into tokens using spacy.
+  Args:
+    text: Text to tokenize
+
+  Returns:
+    list: List of tokens
+  """
+  doc = spacy_pipeline(text)
+  doc = [w.pos_ for w in doc]
+  return doc
+
+
+def pos_spacy_no_punct(text: str) -> list:
+  """
+    Split text into tokens using spacy.
+  Args:
+    text: Text to tokenize
+
+  Returns:
+    list: List of tokens
+  """
+  doc = spacy_pipeline(text)
+  doc = [w.pos_ for w in doc if not w.is_punct and not w.is_space]
+  return doc
 
 
 def plot_confusion_matrix(cm, classes, out_fn, cmap='Greens'):
@@ -136,17 +170,33 @@ def plot_top_features(coef_df, out_fn, categ, n=20, save_format='png'):
     plt.savefig(out_fn, format='png', dpi=300)
   else:
     plt.savefig(out_fn)
-  plt.show()
+  plt.clf()
+  #plt.show()
+
+def parse_args():
+  """
+  Parse command line arguments.
+  """
+  parser = argparse.ArgumentParser(description="Classification experiments.")
+  parser.add_argument("batch_name", type=str)
+  parser.add_argument("--remove_punct", "-r", action="store_true")
+  return parser.parse_args()
 
 
 if __name__ == "__main__":
   for modu in cf, ut:
     reload(modu)
+    
+  args = parse_args()
 
-  batch_name = sys.argv[1]
+  batch_name = args.batch_name
+  remove_punct = args.remove_punct
+  
   mpl.rcParams['font.family'] = cf.plot_font_family
 
   print(f"# Start [{ut.get_current_date_hms()}]")
+  if args.remove_punct:
+    print("  - Removing punctuation from tokens")
   mddf = read_metadata(cf)
   data_35 = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-35-turbo") , "gpt-3.5-turbo", mddf)
   data_4o = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-4o") , "gpt-4o", mddf)
@@ -156,10 +206,15 @@ if __name__ == "__main__":
   data_sonnet = collect_data(os.path.join(cf.response_dir, "claude" + os.sep + "claude-3-5-sonnet-latest") , "claude-3-5-sonnet-latest", mddf)
   data_mistral_s = collect_data(os.path.join(cf.response_dir, "mistral" + os.sep + "mistral-small") , "mistral-small", mddf)
   data_mistral_l = collect_data(os.path.join(cf.response_dir, "mistral" + os.sep + "mistral-large-latest") , "mistral-large-latest", mddf)
+  data_mistral_m = collect_data(os.path.join(cf.response_dir, "mistral" + os.sep + "mistral-medium") , "mistral-medium", mddf)
   data_deepseek = collect_data(os.path.join(cf.response_dir, "deepseek" + os.sep + "deepseek-chat") , "deepseek-chat", mddf)
+  data_gemini_15 = collect_data(os.path.join(cf.response_dir, "gemini" + os.sep + "gemini-15-pro") , "gemini-15-pro", mddf)
+  data_gemini_20 = collect_data(os.path.join(cf.response_dir, "gemini" + os.sep + "gemini-20-flash") , "gemini-20-flash", mddf)
   #data_35 = collect_data(os.path.join(cf.response_dir, "gpt" + os.sep + "gpt-35-turbo") , "gpt-3.5", mddf)
   data_all = {k: data_35[k] + data_4o[k] + data_4o_mini[k] + data_haiku[k] + data_sonnet[k] +
-              data_mistral_s[k] + data_mistral_l[k] + data_deepseek[k] + data_41[k]
+              data_mistral_s[k] + data_mistral_l[k] + data_mistral_m[k] +
+              data_deepseek[k] + data_41[k] +
+              data_gemini_15[k] + data_gemini_20[k] 
               for k in data_35.keys()}
   #data_all = {k: data_35[k] + data_4o[k] for k in data_35.keys()}
   df = pd.DataFrame(data_all)
@@ -178,12 +233,14 @@ if __name__ == "__main__":
   stopwords = nltk.corpus.stopwords.words("spanish")
 
   # corpus vectorizers
+  chosen_tokenizer = split_into_tokens_spacy if not remove_punct else split_into_tokens_spacy_no_punct
   tok_vectorizer = TfidfVectorizer(lowercase=True,
-                                   tokenizer=split_into_tokens_spacy,
+                                   tokenizer=chosen_tokenizer,
                                    stop_words=stopwords,
                                    min_df=0.01)
+  chosen_pos_tagging = pos_spacy if not remove_punct else pos_spacy_no_punct
   pos_vectorizer = TfidfVectorizer(lowercase=True,
-                                   tokenizer=pos_spacy,
+                                   tokenizer=chosen_pos_tagging,
                                    stop_words=stopwords,
                                    min_df=0.01)
 
@@ -204,10 +261,12 @@ if __name__ == "__main__":
   y_test = df_test[labelCol]
 
   scores = []
-  model_names = ["LR"]
+  model_names = ["LR", "SVC", "NB"]
   scoring = "Macro F1"
 
-  models = [('LR', LogisticRegression())]
+  models = [('LR', LogisticRegression()),
+            ('SVC', LinearSVC()),
+            ('NB', MultinomialNB()),]
 
   for model_name, model in models:
     print(f"  - Training {model_name} [{ut.get_current_date_hms()}]")
@@ -223,7 +282,10 @@ if __name__ == "__main__":
     pos_feature_names = clf_pipeline.named_steps["columntransformer"].named_transformers_['pos'].get_feature_names_out()
     
     feature_names = tok_feature_names.tolist() + pos_feature_names.tolist()
-    coeffs = clf_pipeline.named_steps['logisticregression'].coef_
+    if model_name == "LR":
+      coeffs = clf_pipeline.named_steps['logisticregression'].coef_
+    elif model_name == "SVC":
+      coeffs = clf_pipeline.named_steps['linearsvc'].coef_
     coeffs_df = pd.DataFrame(coeffs, columns=feature_names, index=model.classes_)
     
     n_out_feats = 30
@@ -242,6 +304,14 @@ if __name__ == "__main__":
     
     # confusion matrix
     cm = confusion_matrix(y_test, y_pred, labels=model.classes_, normalize="true")
+    out_cm_text = os.path.join(cf.clf_plot_dir,
+      f"cm_{model_name}_{str.zfill(str(batch_name), 3)}.txt")
+    out_cr_text = os.path.join(cf.clf_plot_dir,
+      f"cr_{model_name}_{str.zfill(str(batch_name), 3)}.txt")
+    with open(out_cm_text, "w") as cmf:
+      cmf.write(str(cm))
+    with open(out_cr_text, "w") as crf:
+      crf.write(str(classification_report(y_test, y_pred, digits=4)))
     out_cm_fn = os.path.join(cf.clf_plot_dir,
       f"cm_{model_name}_{str.zfill(str(batch_name), 3)}.png")
     plot_confusion_matrix(cm, model.classes_, out_cm_fn)

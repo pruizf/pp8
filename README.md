@@ -2,7 +2,7 @@
 
 Work for the following presentation:
 
-> Pablo Ruiz Fabo (2025). Aspects of comic verse salient to non-specialized large language models. Presented at Plotting Poetry 8. Prague, June 16-18, 2025. https://www.plottingpoetry.org/conference/2025prague/programme
+> Pablo Ruiz Fabo (2025). Aspects of comic verse salient to non-specialized large language models: Says who? Presented at Plotting Poetry 8. Prague, June 16-18, 2025. https://www.plottingpoetry.org/conference/2025prague/programme
 
 ## Repository structure
 

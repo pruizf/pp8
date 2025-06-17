@@ -8,10 +8,10 @@ Work for the following presentation:
 
 - The corpus is at [`corpus`](./corpus); metadata are at [`corpus/metadata.tsv`](./corpus/metadata.tsv)
 - Scripts are at [`src`](./src)
-  - The LLM clients are there besides, evaluation scripts for the binary classification task humorous/not
+  - The LLM clients are there, besides evaluation scripts for the binary classification task humorous/not
   - The model identification task based on model outputs is run with  `src/classsification.py`
-- LLM outputs are at [`outputs`](./outputs), in turn this is divided into:
+- LLM outputs are at [`outputs`](./outputs), together with some analysis results:
   - `model_responses`: responses from the LLMs
-  - `plots`: for the different runs of the model classification task (confusion matrices, feature importances, etc.)
+  - `plots`: confusion matrices, feature importances and classification reports for the different runs of the model identification task
 - Textometric analyses are at [`ana`](./ana)
 - The [wk](./wk) directory contains corpus creation stuff
